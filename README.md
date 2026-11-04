@@ -2,10 +2,6 @@
 
 Apian sakinleri ve yeni taşınacak öğrenciler için Türkçe bilgi ve sıkça sorulan sorular projesi.
 
-## Durum
-
-4 Kasım 2026: Proje deposu oluşturuldu. Başlangıç çalışması, 5 Ağustos–4 Kasım 2026 dönemindeki yazışmaların analizinden hazırlanan 55 soruluk FAQ'dır. FAQ'nın tam metni henüz bu depoya aktarılmadı; mevcut sohbet içinde bulunuyor.
-
 Uygulama geliştirme başlamadı. Teknoloji, tasarım ve yayımlama yöntemi henüz belirlenmedi. Çalıştırılabilir bir uygulama veya kurulum adımı yoktur.
 
 ## İçerik kapsamı
