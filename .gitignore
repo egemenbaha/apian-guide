@@ -1,0 +1,26 @@
+# Local files
+.DS_Store
+work/
+*.log
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Private source material
+private/
+raw/
+_chat*.txt
+WhatsApp Chat*/
+
+# Common generated files
+node_modules/
+dist/
+build/
+.next/
+coverage/
+__pycache__/
+.venv/
