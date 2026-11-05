@@ -110,7 +110,7 @@ Sakinlerin paylaşımlarına göre Apian 1’de çalışma odası ikinci, müzik
 
 ### 24. Bisikletimi nereye koyabilirim? Kayıt gerekiyor mu?
 
-Bisiklet park alanlarını kullanabilirsin. Kayıt için bisikletinle ofise gidip etiket al. **Ekim 2026** için kayıt işlemi ücretsizdi; kayıt sırasında güncel uygulamayı teyit et.
+Bisiklet park alanlarını kullanabilirsin. **Apian 2 binalarının altında ve arkasında da bisiklet park yerleri bulunuyor.** Kayıt için bisikletinle ofise gidip etiket al. **Ekim 2026** için kayıt işlemi ücretsizdi; kayıt sırasında güncel uygulamayı teyit et.
 
 **Apian 2’de arazi içinde bisiklete binilmez; bisikletini yollarda elinde iterek götür.** Bisiklet evine bırakacağın bisiklet için ofisten bisiklet etiketi al.
 
