@@ -302,6 +302,32 @@ Bu numaralar Almanya’da kullanım içindir. **Hayati tehlike, ağır kaza veya
 
 Aramada **tam adresini, bina numarasını, katı ve ne olduğunu** açıkça belirt. Görevlinin sorularını yanıtla ve görüşmeyi bitirmesini bekle. Bilgiler **5 Kasım 2026** tarihinde resmî kaynaklardan kontrol edildi.
 
+### 64. Feringasee’de hangi sosyal aktiviteler var?
+
+**Feringasee**, Unterföhring’de yüzmek, arkadaşlarla piknik yapmak ve göl çevresinde yürümek için bir seçenek. [Konum ve yol tarifi](https://www.google.com/maps/search/?api=1&query=Feringasee%2C%20Unterf%C3%B6hring)
+
+**Spor ve açık hava:** İki sahalı **beach voleybol alanı**, güneşlenme çayırları ve su kenarında kumluk alanlar var. Gölün bir bölümü sörf için ayrılmış. Kuzey kıyısında doğal yaşam alanı bulunuyor. [Göl ve tesis bilgileri](https://www.landkreis-muenchen.de/themen/freizeit-kultur-sport/badeseen-und-badegewaesser/feringasee/)
+
+**Açık havada mangal:** Yalnızca tabelalarla işaretlenmiş **Grillzone** alanlarında, küçük taşınabilir mangallarla yapılabiliyor. Yerde mangal yakmak ve kamp ateşi yasak. Alanın yerini gitmeden resmî sayfadaki **Grillzone Feringasee** planından kontrol edebilirsin.
+
+**Ayrı FKK bölgesi:** Yarımadada, çıplak güneşlenme ve yüzme için ayrılmış bir **FKK alanı** var; gölün tamamı FKK bölgesi değil.
+
+**Yeme içme:** FERINGAS restoranı, Seegarten/Biergarten, Beach Club ve büfeler bulunuyor. İşletmenin **5 Kasım 2026** tarihinde kontrol edilen duyurusuna göre restoran **4 Ekim 2026’dan itibaren kış arasında**; Seegarten güzel havalarda hafta sonları açılıyor. Gitmeden sezon ve hava durumuna bağlı açılış bilgisini kontrol et. [FERINGAS güncel duyuruları ve menüler](https://feringa-see.de/)
+
+Göl çevresinde tuvaletler de var. Tesis ve aktivite bilgileri **5 Kasım 2026** tarihinde kontrol edildi.
+
+### 65. Dream-Bowl Palace’ta neler yapılabilir?
+
+**Dream-Bowl Palace**, **Apianstraße 9, 85774 Unterföhring** adresinde. Arkadaşlarla kapalı alanda vakit geçirmek için bowling, bilardo ve minigolf seçenekleri var. [Konum ve yol tarifi](https://www.google.com/maps/search/?api=1&query=Dream-Bowl%20Palace%2C%20Apianstra%C3%9Fe%209%2C%20Unterf%C3%B6hring)
+
+**Oyunlar:** 52 bowling pisti, 11 Amerikan bilardo masası ve **18 delikli kapalı Moonlight minigolf** alanı bulunuyor. Ayrıca dart, langırt ve diğer oyun makineleri var. Spor yayınları da yapılıyor; bistro ve lounge bölümünde yemek veya içecek molası verebilirsin. [Aktiviteler ve tesis bilgileri](https://www.dreambowl.de/dream-bowl-palace-unterfoehring-muenchen/dream-bowl-palace/)
+
+**Planlama:** Bowling için işletmenin sitesindeki **Bowling buchen** bağlantısından rezervasyon yapabilirsin. Güncel fiyat listesini ve açılış saatlerini gitmeden kontrol et. [Bowling ve güncel bilgiler](https://www.dreambowl.de/dream-bowl-palace-unterfoehring-muenchen/bowling/)
+
+**Ulaşım:** İşletme, **Fritz-Meyer-Weg** ve **Unterföhring, Apianstraße** duraklarını yakın seçenekler olarak gösteriyor. [İşletmenin ulaşım bilgileri](https://www.dreambowl.de/dream-bowl-palace-unterfoehring-muenchen/anfahrt/)
+
+Bilgiler **5 Kasım 2026** tarihinde işletmenin resmî sitesinden kontrol edildi.
+
 <a id="acik-sorular"></a>
 
 ## Açık kalan sorular
