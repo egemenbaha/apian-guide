@@ -72,7 +72,7 @@ test('every correction draft names the right canonical question and stays on Git
     const url = new URL(correctionUrl(topic.id, question));
     assert.equal(url.origin, 'https://github.com');
     assert.equal(url.pathname, '/egemenbaha/apian-guide/issues/new');
-    assert.ok(url.searchParams.get('body').includes(`https://apian-guide.vercel.app/#${topic.id}/soru-${id}`));
+    assert.ok(url.searchParams.get('body').includes(`https://apianwiki.space/#${topic.id}/soru-${id}`));
     assert.ok(url.searchParams.get('title').startsWith('[Bilgi düzeltmesi] '));
     assert.ok(url.href.length < 4000);
   }

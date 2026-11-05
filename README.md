@@ -2,19 +2,25 @@
 
 Apian sakinleri ve yeni taşınacak Türk öğrenciler için bilgi rehberi.
 
+**Rehberi aç: [apianwiki.space](https://apianwiki.space/)**
+
+Ana alan adı `apianwiki.space`, Vercel’deki `ApianS / apian-guide` projesinin Production ortamına bağlıdır. Rehber içi bağlantılar, GitHub bilgi düzeltme taslakları ve sayfanın canonical/Open Graph adresi bu alan adını kullanır. Alan adı ayarları Vercel proje panelinden yönetilir; DNS veya sertifika bilgileri kaynak kodda tutulmaz.
+
+`www.apianwiki.space` ve önceki `apian-guide.vercel.app` adresi, Vercel üzerinden **308 kalıcı yönlendirmeyle** ana domaine gider. Eski soru ve bölüm bağlantıları aynı hash rotalarını kullanmaya devam eder.
+
 [Proje açıklaması ve 131 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
 Arda’nın Wikipedia tarzı düzeni korunarak 131 soruluk FAQ, kaynak bağlantıları ve açık sorular 23 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
 
-[Yakındaki dm şubeleri](https://apian-guide.vercel.app/#alisveris/soru-131), alışveriş bölümünde Feringastraße 4 ile Maria-Nindl-Platz 2’yi adres, saat ve yol tarifleriyle karşılaştırır. Maria-Nindl-Platz şubesi, [para çekme yanıtında](https://apian-guide.vercel.app/#bankalar/soru-92) da Feringastraße’ye alternatif olarak gösterilir.
+[Yakındaki dm şubeleri](https://apianwiki.space/#alisveris/soru-131), alışveriş bölümünde Feringastraße 4 ile Maria-Nindl-Platz 2’yi adres, saat ve yol tarifleriyle karşılaştırır. Maria-Nindl-Platz şubesi, [para çekme yanıtında](https://apianwiki.space/#bankalar/soru-92) da Feringastraße’ye alternatif olarak gösterilir.
 
-[Türk Konsolosluğu, Eğitim Ataşeliği ve askerlik](https://apian-guide.vercel.app/#resmi-islemler/bolum-7) bölümünde iletişim/ulaşım, yurt dışı adres beyanı, özel öğrenci dosyası belgeleri ve tecil takibi bulunur. Randevusuz işlem paylaşımı sakin aktarımı olarak ayrılır; adres beyanına ilişkin eski duyuru ile güncel genel randevu açıklaması birlikte gösterilir. Öğrenci fişi, tamamlanmış askerlik ertelemesi olarak sunulmaz.
+[Türk Konsolosluğu, Eğitim Ataşeliği ve askerlik](https://apianwiki.space/#resmi-islemler/bolum-7) bölümünde iletişim/ulaşım, yurt dışı adres beyanı, özel öğrenci dosyası belgeleri ve tecil takibi bulunur. Randevusuz işlem paylaşımı sakin aktarımı olarak ayrılır; adres beyanına ilişkin eski duyuru ile güncel genel randevu açıklaması birlikte gösterilir. Öğrenci fişi, tamamlanmış askerlik ertelemesi olarak sunulmaz.
 
-[Fotokopi, çıktı ve tarama](https://apian-guide.vercel.app/#resmi-islemler/soru-126), Feringastraße 4 ve Maria-Nindl-Platz 2’deki dm şubelerini, dosya hazırlığını, A4 ücretlerini ve Feringastraße şubesinin ciltleme seçeneğini anlatır. İki şube [biyometrik fotoğraf yanıtında](https://apian-guide.vercel.app/#resmi-islemler/soru-50) da bulunur. Ausländerbehörde’de fotoğraf çekimi sakin aktarımı olarak belirtilir; randevu öncesinde dijital fotoğraf kodunu hazırlama önerisi ve Landkreis München’in dijital fotoğraf koşulları eklenmiştir.
+[Fotokopi, çıktı ve tarama](https://apianwiki.space/#resmi-islemler/soru-126), Feringastraße 4 ve Maria-Nindl-Platz 2’deki dm şubelerini, dosya hazırlığını, A4 ücretlerini ve Feringastraße şubesinin ciltleme seçeneğini anlatır. İki şube [biyometrik fotoğraf yanıtında](https://apianwiki.space/#resmi-islemler/soru-50) da bulunur. Ausländerbehörde’de fotoğraf çekimi sakin aktarımı olarak belirtilir; randevu öncesinde dijital fotoğraf kodunu hazırlama önerisi ve Landkreis München’in dijital fotoğraf koşulları eklenmiştir.
 
-[Üyelikler ve abonelikler](https://apian-guide.vercel.app/#abonelikler), Deutschlandticket’in standart/öğrenci tarifelerini ve iptal adımlarını; Clever fit, Cosimawellenbad, ZHS, Scheck Club ve belediyenin spor seçeneklerini içerir. Fiyatlar ve koşullar ilgili yanıtın resmî kaynak bağlantılarıyla birlikte tutulur. ZHS dönemlik katkı payı ile kurs ücreti, havuz girişi ile sauna bileti ayrı anlatılır. Fiyat değişikliklerinin yürürlük tarihleri içerikte korunur.
+[Üyelikler ve abonelikler](https://apianwiki.space/#abonelikler), Deutschlandticket’in standart/öğrenci tarifelerini ve iptal adımlarını; Clever fit, Cosimawellenbad, ZHS, Scheck Club ve belediyenin spor seçeneklerini içerir. Fiyatlar ve koşullar ilgili yanıtın resmî kaynak bağlantılarıyla birlikte tutulur. ZHS dönemlik katkı payı ile kurs ücreti, havuz girişi ile sauna bileti ayrı anlatılır. Fiyat değişikliklerinin yürürlük tarihleri içerikte korunur.
 
-Apian 2’de ölçülüp paylaşılan sineklik, mutfak, mobilya, banyo, kapı, kalorifer ve perde ölçüleri “Odada neler var?” bölümündedir. [Apian 2 oda ölçüleri](https://apian-guide.vercel.app/#apian-2-oda-olculeri) sayfası bunları 7 priz bilgisiyle birlikte tek tabloda toplar. Apian 1’de henüz ölçüm yapılmadığı açıkça belirtilir. Perde takılacak alanın eni, tek bir perdenin kumaş eni olarak yorumlanmaz.
+Apian 2’de ölçülüp paylaşılan sineklik, mutfak, mobilya, banyo, kapı, kalorifer ve perde ölçüleri “Odada neler var?” bölümündedir. [Apian 2 oda ölçüleri](https://apianwiki.space/#apian-2-oda-olculeri) sayfası bunları 7 priz bilgisiyle birlikte tek tabloda toplar. Apian 1’de henüz ölçüm yapılmadığı açıkça belirtilir. Perde takılacak alanın eni, tek bir perdenin kumaş eni olarak yorumlanmaz.
 
 Resmî tatiller bölümünde 2026 sonundaki kapanışlar ve 2027 takvimi yer alır. Marketlerin pazar/tatil saatleri ve Unterföhring’in güncel nöbetçi eczane listesine bağlantı ilgili konulardadır; değişen nöbet listeleri siteye sabit olarak kopyalanmaz. Tamir için odaya giriş, sakin gözlemi ile genel kurallar ayrılarak bakım bölümünde anlatılır.
 
@@ -22,7 +28,7 @@ Açık/koyu mod düğmesi üst çubukta masaüstü ve telefonda görünür. Tema
 
 ## Taşınma listesi ve bilgi düzeltmeleri
 
-[Yanımda ne getireyim?](https://apian-guide.vercel.app/#tasinma-listesi) sayfasında “Yanında getir”, “Odada bulunanlar” ve “Yerleştikten sonra al” grupları bulunur. Liste maddeleri FAQ 113–115 içindeki Markdown `- [ ]` satırlarından üretilir. İşaretler yalnızca ziyaretçinin tarayıcısında saklanır; depolama engellenirse aynı oturumda çalışır ve durum açıkça belirtilir. Kimlikler soru numarası ve madde metninden oluşur; madde metni değişirse o maddenin işareti sıfırlanır. “İşaretleri temizle” mevcut listeyi sıfırlar.
+[Yanımda ne getireyim?](https://apianwiki.space/#tasinma-listesi) sayfasında “Yanında getir”, “Odada bulunanlar” ve “Yerleştikten sonra al” grupları bulunur. Liste maddeleri FAQ 113–115 içindeki Markdown `- [ ]` satırlarından üretilir. İşaretler yalnızca ziyaretçinin tarayıcısında saklanır; depolama engellenirse aynı oturumda çalışır ve durum açıkça belirtilir. Kimlikler soru numarası ve madde metninden oluşur; madde metni değişirse o maddenin işareti sıfırlanır. “İşaretleri temizle” mevcut listeyi sıfırlar.
 
 Her FAQ yanıtındaki **Düzeltme öner** alanı, ilgili sorunun bağlantısını ve başlığını içeren bir GitHub öneri taslağı açar. Ziyaretçi GitHub hesabıyla giriş yapıp açıklamasını kendisi gönderir. Öneriler herkese açıktır ve Egemen veya Arda tarafından incelenip içerik düzenlenerek rehbere alınır; otomatik içerik değişikliği veya otomatik gönderim yapılmaz. Gönderiler [deponun Issues bölümünde](https://github.com/egemenbaha/apian-guide/issues) takip edilir. Bu akış forumu etkinleştirmez ve sunucuda gizli anahtar gerektirmez.
 

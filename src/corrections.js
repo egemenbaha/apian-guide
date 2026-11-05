@@ -6,7 +6,7 @@ export function correctionUrl(topicId, question) {
     throw new Error('Invalid correction destination.');
   }
   const url = new URL('https://github.com/egemenbaha/apian-guide/issues/new');
-  const guideUrl = `https://apian-guide.vercel.app/#${topicId}/soru-${question.id}`;
+  const guideUrl = `https://apianwiki.space/#${topicId}/soru-${question.id}`;
   url.searchParams.set('title', `[Bilgi düzeltmesi] ${question.question.slice(0, 120)}`);
   url.searchParams.set('body', `### İlgili yanıt\n${guideUrl}\n\n### Ne değişmeli?\n\n\n### Önerdiğin doğru bilgi\n\n\n### Kaynak veya açıklama\nVarsa bağlantı ekleyebilirsin.\n`);
   return url.href;

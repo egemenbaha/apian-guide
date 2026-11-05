@@ -252,7 +252,7 @@ Bu belgeler farklı işler görüyor. **AT11**, şartları sağladığında Tür
 
 **“Öğrenci fişi aldım, askerlik de otomatik ertelendi” diye düşünme.** Erteleme, öğrenim düzeyin, yaşın ve mevcut askerlik durumuna göre değerlendirilir. Başvurudan sonra **e-Devlet → Millî Savunma Bakanlığı → Askerliğim → Askerlik Durum Belgesi Sorgulama** yolundan tecil bitiş tarihini kontrol et. Sonuç işlenmemişse Ataşeliğe dosyanı sor. [MSB öğrenci erteleme koşulları](https://www.msb.gov.tr/Askeralma/icerik/ogrenci-erteleme-islemleri) · [e-Devlet sorgulama adımları](https://www.turkiye.gov.tr/iletisim?hizli=CozumMerkeziV2&nodeId=146)
 
-KYK burs/kredi işlemlerinde ilgili dönemin duyurusundaki belge teslim sürelerini ayrıca takip et. [Öğrenci dosyası için hazırlayacağın belgeler](https://apian-guide.vercel.app/#resmi-islemler/soru-129)
+KYK burs/kredi işlemlerinde ilgili dönemin duyurusundaki belge teslim sürelerini ayrıca takip et. [Öğrenci dosyası için hazırlayacağın belgeler](https://apianwiki.space/#resmi-islemler/soru-129)
 
 ### 55. Steuer-ID ile Sozialversicherungsnummer aynı mı? Nereden bulabilirim?
 
@@ -266,7 +266,7 @@ Sözleşmendeki bitiş ve bildirim süresini kontrol edip işletmecinin resmî i
 
 **Bütçe odaklı temel alışveriş için ALDI Süd ve Lidl**, **ürün çeşitliliği için EDEKA ve REWE** ile başlayabilirsin. Bu, alışverişi kolaylaştıran bir öneri; aynı sepetin her hafta hangi markette daha ucuz olduğu kampanyalara göre değişir. Dördü de Feringastraße üzerinde: ALDI 15, Lidl 5, EDEKA 16, REWE 6 numarada. EDEKA ile SaniPlus aynı adreste olduğu için market ve eczane işini birleştirmek de pratik. [ALDI şubesi](https://www.aldi-sued.de/filialen/l/unterfoehring/feringastrasse-15/bn98) · [Lidl şubesi](https://www.lidl.de/s/de-DE/filialen/unterfoehring/feringastrasse-5/) · [EDEKA şubesi](https://www.edeka.de/maerkte/030604/) · [REWE şubesi](https://www.rewe.de/marktseite/unterfoehring/320970/rewe-markt-feringastr-6)
 
-**Temizlik ve kişisel bakım alışverişinde dm’ye de bakabilirsin.** Feringastraße 4’teki şubenin yakın alternatifi, **Prinz-Eugen-Park’taki Maria-Nindl-Platz 2, 81927 München** şubesi. [İki dm’nin adresleri, saatleri ve yol tarifleri](https://apian-guide.vercel.app/#alisveris/soru-131)
+**Temizlik ve kişisel bakım alışverişinde dm’ye de bakabilirsin.** Feringastraße 4’teki şubenin yakın alternatifi, **Prinz-Eugen-Park’taki Maria-Nindl-Platz 2, 81927 München** şubesi. [İki dm’nin adresleri, saatleri ve yol tarifleri](https://apianwiki.space/#alisveris/soru-131)
 
 ### 58. ALDI Süd nerede, ne için tercih edebilirim?
 
@@ -344,7 +344,7 @@ Aynı tesiste **bilardo, kapalı alanda Moonlight-Minigolf, dart ve langırt** s
 
 ### 75. Nakit için önce ATM’ye mi, markete mi bakayım?
 
-**dm’de en az bir ürün alarak kasadan 200 €’ya kadar nakit çekebilirsin; minimum alışveriş tutarı yok.** Kart seçeneklerini ve adımları [dm’den para çekme yanıtında](https://apian-guide.vercel.app/#bankalar/soru-92) bulabilirsin.
+**dm’de en az bir ürün alarak kasadan 200 €’ya kadar nakit çekebilirsin; minimum alışveriş tutarı yok.** Kart seçeneklerini ve adımları [dm’den para çekme yanıtında](https://apianwiki.space/#bankalar/soru-92) bulabilirsin.
 
 Yakında **Feringastraße 4’teki dm** var; **Maria-Nindl-Platz 2, 81927 München’deki dm (Prinz-Eugen-Park)** de kasadan para çekmek için alternatifin. [Maria-Nindl-Platz şubesi ve kasa hizmetleri](https://www.dm.de/store/d539/muenchen/maria-nindl-platz-2)
 
@@ -370,7 +370,7 @@ Yakında **Feringastraße 4’teki dm** var; **Maria-Nindl-Platz 2, 81927 Münch
 
 ### 80. Deutsche Bank müşterisiyim. Para çekme ve yatırma seçeneklerim neler?
 
-**TEB/CEPTETEB kartın varsa Deutsche Bank ATM iş birliğinden de yararlanabilirsin.** Bunun kart ve ücret koşulları [ayrı TEB yanıtında](https://apian-guide.vercel.app/#bankalar/soru-93) yer alıyor.
+**TEB/CEPTETEB kartın varsa Deutsche Bank ATM iş birliğinden de yararlanabilirsin.** Bunun kart ve ücret koşulları [ayrı TEB yanıtında](https://apianwiki.space/#bankalar/soru-93) yer alıyor.
 
 **Para çekme:** girocard ile Cash Group ATM’lerini kullanabilirsin. Bölgede bakılabilecek şube **München-Arabellapark, Arabellastraße 11, 81925 München**. **Para yatırma:** banknot için Deutsche Bank’ın yatırma ATM’sini veya kasalı şubesini; madeni para için kasalı şubeyi seç. Gitmeden şube bulucusunda ilgili hizmeti kontrol et. Uygulamadaki **Bargeld-Code** ile katılımcı mağazalarda çekme/yatırma da mümkün; ücret ve katılımcı mağaza bilgisi işlem öncesinde kontrol edilmeli. [Arabellapark şubesi](https://www.deutsche-bank.de/pk/filialen/sued/muenchen/muenchen-arabellapark.html) · [Adres teyidi](https://www.db-finanzberatung.de/sandra.padberg.html) · [Para çekme](https://www.deutsche-bank.de/pk/service-und-kontakt/services/fragen-antworten/konto-und-debitkarten/wo-kann-ich-in-deutschland-kostenlos-bargeld-abheben.html) · [Para yatırma](https://www.deutsche-bank.de/pk/service-und-kontakt/services/fragen-antworten/konto-und-debitkarten/wie-kann-ich-geld-einzahlen.html) · [Apian’dan rota](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Deutsche+Bank+Arabellastrasse+11+81925+Muenchen&travelmode=transit)
 
@@ -424,7 +424,7 @@ Bankanda **Münzrollenautomat** varsa rulo madeni para da alabilirsin. Örneğin
 
 Evet. Almanya’daki **dm mağazalarında en az bir ürün alarak kasadan 200 €’ya kadar nakit çekebilirsin**. Alışveriş tutarı için alt sınır yok; dm bu hizmet için ek ücret almıyor. **girocard ile Visa veya Mastercard banka/kredi kartları** destekleniyor. Ödeme başlamadan kasiyere çekmek istediğin tutarı söyle; alışverişle nakit tutarı kartından birlikte tahsil edilir, nakdi kasadan alırsın. Örneğin **“Ich würde gern 100 Euro abheben.”** diyebilirsin.
 
-**Feringastraße’ye alternatif:** **Maria-Nindl-Platz 2, 81927 München’deki dm (Prinz-Eugen-Park)** de bu hizmeti sunuyor. Normal saatleri **pazartesi–cumartesi 07.00–20.00**, pazar kapalı. Yolun bu tarafa düşüyorsa alışverişini ve para çekme işini burada birlikte halledebilirsin. [Şube ve kasa hizmetleri](https://www.dm.de/store/d539/muenchen/maria-nindl-platz-2) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=dm+Maria-Nindl-Platz+2+81927+Muenchen&travelmode=walking) · [İki yakın dm şubesi](https://apian-guide.vercel.app/#alisveris/soru-131)
+**Feringastraße’ye alternatif:** **Maria-Nindl-Platz 2, 81927 München’deki dm (Prinz-Eugen-Park)** de bu hizmeti sunuyor. Normal saatleri **pazartesi–cumartesi 07.00–20.00**, pazar kapalı. Yolun bu tarafa düşüyorsa alışverişini ve para çekme işini burada birlikte halledebilirsin. [Şube ve kasa hizmetleri](https://www.dm.de/store/d539/muenchen/maria-nindl-platz-2) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=dm+Maria-Nindl-Platz+2+81927+Muenchen&travelmode=walking) · [İki yakın dm şubesi](https://apianwiki.space/#alisveris/soru-131)
 
 dm’nin ücretsiz hizmeti, kartını veren bankanın varsa kur veya kart işlem ücretini ortadan kaldırmaz. Başka marketlerde de kasadan çekim seçeneği olabilir; onların minimum alışveriş ve kart şartları farklıdır. [dm güncel nakit hizmeti](https://www.dm.de/services/services-im-markt/bezahlmethoden-3628894) · [dm’nin desteklediği kartlar](https://newsroom.dm.de/pressreleases/jetzt-auch-mit-visa-kostenlos-bargeld-abheben-bei-dm-3132766)
 
@@ -440,7 +440,7 @@ Euro hesabından çekmek istiyorsan önce CEPTETEB Mobil veya İnternet Şubesi�
 
 **24 Aralık tam gün resmî tatil değil**, ama pazartesi–cumartesiye denk geldiğinde normal mağazalar **en geç 14.00’te** kapanır; şube daha erken de kapatabilir. **31 Aralık da resmî tatil değil**; marketin yılbaşı için ilan ettiği özel saatlere bak. Bu iki günü 25–26 Aralık ve 1 Ocak’taki tam gün kapanışlarla karıştırma. [Resmî tatil listesi](https://www.stmi.bayern.de/staat-und-verfassung/feiertage/) · [24 Aralık kapanış saati](https://www.gesetze-bayern.de/Content/Document/BayLadSchlG-2)
 
-Tarihleri [resmî tatiller bölümünde](https://apian-guide.vercel.app/#tatiller), ilaç gerektiğinde açık yerleri [güncel nöbetçi eczane listesinde](https://apian-guide.vercel.app/#eczaneler/soru-64) bulabilirsin.
+Tarihleri [resmî tatiller bölümünde](https://apianwiki.space/#tatiller), ilaç gerektiğinde açık yerleri [güncel nöbetçi eczane listesinde](https://apianwiki.space/#eczaneler/soru-64) bulabilirsin.
 
 ### 95. 2026’nın sonunda alışveriş için hangi günlere dikkat edeyim?
 
@@ -622,7 +622,7 @@ Yastık, yorgan, çarşaf ve nevresim kiralamaya dahil değil. İlk gece için b
 - [ ] Havlu ve kişisel bakım eşyaları
 - [ ] Telefon ve bilgisayar şarj cihazları
 
-[Yatak ve tekstil bilgileri](https://apian-guide.vercel.app/#oda-donanimi/soru-6)
+[Yatak ve tekstil bilgileri](https://apianwiki.space/#oda-donanimi/soru-6)
 
 ### 114. Hangi eşyalar odada bulunuyor?
 
@@ -634,7 +634,7 @@ Yeni eşya almadan önce odadakilere bak; kontrol ettiklerini işaretleyebilirsi
 - [ ] **Apian 2 mobilyaları:** Gardırop, küçük masa, büyük masa ve komodin.
 - [ ] **Apian 2 perdeleri:** İki ayrı perde veriliyor.
 
-[Odada neler var?](https://apian-guide.vercel.app/#oda-donanimi) · [Apian 2 oda ölçüleri](https://apian-guide.vercel.app/#apian-2-oda-olculeri)
+[Odada neler var?](https://apianwiki.space/#oda-donanimi) · [Apian 2 oda ölçüleri](https://apianwiki.space/#apian-2-oda-olculeri)
 
 ### 115. Hangi alışverişleri yerleştikten sonra yapayım?
 
@@ -647,7 +647,7 @@ Yeni eşya almadan önce odadakilere bak; kontrol ettiklerini işaretleyebilirsi
 - [ ] Temizlik malzemeleri
 - [ ] Askı ve düzenleyiciler
 
-[Sineklik bilgileri](https://apian-guide.vercel.app/#oda-donanimi/soru-8) · [Apian 2 oda ölçüleri](https://apian-guide.vercel.app/#apian-2-oda-olculeri) · [Yakındaki marketler](https://apian-guide.vercel.app/#marketler)
+[Sineklik bilgileri](https://apianwiki.space/#oda-donanimi/soru-8) · [Apian 2 oda ölçüleri](https://apianwiki.space/#apian-2-oda-olculeri) · [Yakındaki marketler](https://apianwiki.space/#marketler)
 
 ### 116. Deutschlandticket ne işe yarıyor, öğrenci olarak ne kadar öderim?
 
@@ -770,7 +770,7 @@ Almanya’da kendi imkânlarıyla örgün yükseköğrenim gören T.C. vatandaş
 | Güncel öğrenci belgesi | Immatrikulationsbescheinigung |
 | Özel Öğrenci Bilgi Formu | Doldurulmuş ve imzalanmış form |
 
-Belgeleri okunaklı çıktılarla **poşet dosyada** hazırla. **Lisans tecil başvurusunda ayrıca Tebliğ-Tebellüğ Belgesi** isteniyor; askerlik sayfasındaki formu da al. Yatay geçiş veya memuriyetten ayrılma gibi durumlarda aynı sayfada ek belgeler belirtiliyor. [Öğrenci Bilgi Formu](https://munih.meb.gov.tr/meb_iys_dosyalar/2022_05/18133104_ozel_oYrenci_formu.pdf) · [Tecil belgeleri ve ek formlar](https://munih.meb.gov.tr/www/askerlik-islemleri/icerik/541) · [Yakında çıktı ve fotokopi: dm](https://apian-guide.vercel.app/#resmi-islemler/soru-126)
+Belgeleri okunaklı çıktılarla **poşet dosyada** hazırla. **Lisans tecil başvurusunda ayrıca Tebliğ-Tebellüğ Belgesi** isteniyor; askerlik sayfasındaki formu da al. Yatay geçiş veya memuriyetten ayrılma gibi durumlarda aynı sayfada ek belgeler belirtiliyor. [Öğrenci Bilgi Formu](https://munih.meb.gov.tr/meb_iys_dosyalar/2022_05/18133104_ozel_oYrenci_formu.pdf) · [Tecil belgeleri ve ek formlar](https://munih.meb.gov.tr/www/askerlik-islemleri/icerik/541) · [Yakında çıktı ve fotokopi: dm](https://apianwiki.space/#resmi-islemler/soru-126)
 
 ### 130. Adres beyanı ve Eğitim Ataşeliği için randevusuz gidebilir miyim?
 
@@ -789,9 +789,9 @@ Grupta yoğunluk nedeniyle erken gitme önerisi de var. Kabul saatini öğrendik
 | Feringastraße | Feringastraße 4, 85774 Unterföhring | [Şube bilgileri](https://www.dm.de/store/d0kl/unterfoehring/feringastrasse-4) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=dm+Feringastrasse+4+85774+Unterfoehring&travelmode=walking) |
 | Prinz-Eugen-Park — Feringastraße’ye alternatif | Maria-Nindl-Platz 2, 81927 München | [Şube bilgileri](https://www.dm.de/store/d539/muenchen/maria-nindl-platz-2) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=dm+Maria-Nindl-Platz+2+81927+Muenchen&travelmode=walking) |
 
-**İkisinde de alışveriş sırasında kasadan para çekebilirsin:** En az bir ürün alarak **200 €’ya kadar**, minimum alışveriş tutarı olmadan. [Kartlar ve para çekme adımları](https://apian-guide.vercel.app/#bankalar/soru-92) · [dm nakit hizmeti](https://www.dm.de/services/services-im-markt/bezahlmethoden-3628894)
+**İkisinde de alışveriş sırasında kasadan para çekebilirsin:** En az bir ürün alarak **200 €’ya kadar**, minimum alışveriş tutarı olmadan. [Kartlar ve para çekme adımları](https://apianwiki.space/#bankalar/soru-92) · [dm nakit hizmeti](https://www.dm.de/services/services-im-markt/bezahlmethoden-3628894)
 
-Fotoğraf veya evrak işin de varsa iki şubede de **biyometrik fotoğraf ve fotokopi hizmeti** bulunuyor. [Fotoğraf bilgileri](https://apian-guide.vercel.app/#resmi-islemler/soru-50) · [Çıktı, fotokopi ve tarama](https://apian-guide.vercel.app/#resmi-islemler/soru-126)
+Fotoğraf veya evrak işin de varsa iki şubede de **biyometrik fotoğraf ve fotokopi hizmeti** bulunuyor. [Fotoğraf bilgileri](https://apianwiki.space/#resmi-islemler/soru-50) · [Çıktı, fotokopi ve tarama](https://apianwiki.space/#resmi-islemler/soru-126)
 
 <a id="acik-sorular"></a>
 
