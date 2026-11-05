@@ -34,7 +34,7 @@ Rehberdeki yatak ölçüsü **90 × 200 cm**. Şilte her odada teslimata dahil o
 
 ### 6. Yastık, yorgan, nevresim ve duş perdesi getirmeli miyim?
 
-Yastık, yorgan, çarşaf ve nevresimini kendin getir; yatak tekstili kiralamaya dahil değil. Duş perdesi odada bulunabiliyor. Eksikse odayı gördükten sonra al. [Apian oda donanımı](https://www.apian-aparthaus.de/apartments)
+Yastık, yorgan, çarşaf ve nevresimini kendin getir; yatak tekstili kiralamaya dahil değil. **Duş perdesini Apian veriyor; ayrıca almana gerek yok.** [Apian oda donanımı](https://www.apian-aparthaus.de/apartments)
 
 ### 7. Ocak indüksiyonlu mu? Nasıl tencere almalıyım?
 
@@ -615,6 +615,7 @@ Yastık, yorgan, çarşaf ve nevresim kiralamaya dahil değil. İlk gece için b
 Yeni eşya almadan önce odadakilere bak; kontrol ettiklerini işaretleyebilirsin.
 
 - [ ] **Seramik ocak:** Apian 1 ve Apian 2’nin oda donanımında yer alıyor.
+- [ ] **Duş perdesi:** Apian veriyor; ayrıca almana gerek yok.
 - [ ] **Modem:** Yeni cihaz almadan önce odandaki modemin bağlantılarını ve çalışmasını kontrol et.
 - [ ] **Apian 2 mobilyaları:** Gardırop, küçük masa, büyük masa ve komodin.
 - [ ] **Apian 2 perdeleri:** İki ayrı perde veriliyor.
@@ -626,8 +627,7 @@ Yeni eşya almadan önce odadakilere bak; kontrol ettiklerini işaretleyebilirsi
 Önce odana bakıp eksiklerini belirle. İhtiyacını karşıladığın veya almana gerek kalmayan kalemleri işaretleyebilirsin.
 
 - [ ] **Şilte:** Teslimatta bulunup bulunmadığını ofisten öğren; eksikse yatak ölçüsüne göre al.
-- [ ] **Duş perdesi:** Odada yoksa al.
-- [ ] **Sineklik:** Apian 2’de ölçülen sineklik 120 × 110 cm. Apian 1 için ilgili sineklik yanıtına bak.
+- [ ] **Sineklik:** Apian 1’in üst katlarındaki uzun pencereler için referans ölçü **90 × 210 cm**; Apian 2’de ölçülen sineklik **120 × 110 cm**.
 - [ ] **Tencere ve tava:** Seramik/elektrikli ocakla uyumlu olanları seç.
 - [ ] Tabak, bardak ve çatal-kaşık
 - [ ] Temizlik malzemeleri
