@@ -708,6 +708,21 @@ Gym pazartesi–cuma **06.30–22.00**, hafta sonu ve resmî tatillerde **08.00�
 
 **Ücretsiz açık hava sporu:** **Park am Etzweg**’de fitness parkuru, **Feringasee’de Wasserwacht binasının arkasında** açık hava egzersiz aletleri var. Jahnstraße’deki streetball ve plaj voleybolu alanları da herkese açık. Salon sözleşmesi yapmadan hareket etmek için bunlarla başlayabilirsin. [Ücretsiz spor alanları](https://www.unterfoehring.de/freizeit-kultur/freizeit/sportangebote.html)
 
+### 126. Yakında nerede fotokopi çektirebilir, çıktı alabilir veya belge taratabilirim?
+
+Başvuru formu, kira evrakı veya ders notu için **Feringastraße 4, 85774 Unterföhring** adresindeki **dm** pratik bir seçenek. Bu şubede **Copy-Station** var; çıktı alabilir, fotokopi çekebilir ve belge taratabilirsin. Normal açılış saatleri **pazartesi–cumartesi 07.00–20.00**, pazar kapalı. [Şube ve hizmetleri](https://www.dm.de/store/d0kl/unterfoehring/feringastrasse-4) · [Apian’dan yürüyüş rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=dm+Feringastrasse+4+85774+Unterfoehring&travelmode=walking)
+
+**Çıktı almak için:** Dosyanı **PDF veya JPG** olarak telefonuna ya da USB belleğe koy. Mağazadaki fotoğraf terminalinde **Copyservice** seçeneğini aç, dosyanı aktar; renkli/siyah-beyaz, tek/çift taraf ve kopya sayısını seç. Word belgen varsa önce PDF’ye çevirmen işini kolaylaştırır.
+
+**Fotokopi veya tarama için:** Kâğıt belgeni yanında götür ve Copy-Station’ın tarayıcısını kullan. İlk kez yapıyorsan görevliye **“Ich möchte etwas ausdrucken / kopieren / scannen.”** diyebilirsin.
+
+| A4 çıktı veya fotokopi | Tek taraflı | Çift taraflı |
+| --- | --- | --- |
+| Siyah-beyaz | 0,10 € | 0,15 € |
+| Renkli | 0,55 € | 1,00 € |
+
+Baskılar **beyaz A4 kâğıda** yapılıyor. Feringastraße şubesinde **ciltleme** de var; ders notlarını veya ödevini ciltletmek istersen görevliye sor. Ciltleme ayrıca ücretli ve yalnızca dm’de bastığın sayfalara uygulanıyor. [dm çıktı, fotokopi, tarama ve ciltleme bilgileri](https://www.dm.de/services/services-im-markt/fotoservice/copyshop-scanservice-50518)
+
 <a id="acik-sorular"></a>
 
 ## Açık kalan sorular

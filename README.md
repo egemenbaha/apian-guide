@@ -2,9 +2,11 @@
 
 Apian sakinleri ve yeni taşınacak Türk öğrenciler için bilgi rehberi.
 
-[Proje açıklaması ve 125 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
+[Proje açıklaması ve 126 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
-Arda’nın Wikipedia tarzı düzeni korunarak 125 soruluk FAQ, kaynak bağlantıları ve açık sorular 23 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+Arda’nın Wikipedia tarzı düzeni korunarak 126 soruluk FAQ, kaynak bağlantıları ve açık sorular 23 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+
+[Fotokopi, çıktı ve tarama](https://apian-guide.vercel.app/#resmi-islemler/soru-126), Resmî işlemler bölümünde Feringastraße’deki dm’nin Copy-Station hizmetini, dosya hazırlığını, A4 ücretlerini ve ciltleme seçeneğini anlatır.
 
 [Üyelikler ve abonelikler](https://apian-guide.vercel.app/#abonelikler), Deutschlandticket’in standart/öğrenci tarifelerini ve iptal adımlarını; Clever fit, Cosimawellenbad, ZHS, Scheck Club ve belediyenin spor seçeneklerini içerir. Fiyatlar ve koşullar ilgili yanıtın resmî kaynak bağlantılarıyla birlikte tutulur. ZHS dönemlik katkı payı ile kurs ücreti, havuz girişi ile sauna bileti ayrı anlatılır. Fiyat değişikliklerinin yürürlük tarihleri içerikte korunur.
 
