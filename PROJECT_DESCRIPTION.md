@@ -222,6 +222,8 @@ Belgenin üzerinde hangi madde yazdığına bakman gerekiyor. **§81 Abs. 4** ka
 
 dm’de resmî işlemlere uygun dijital biyometrik fotoğraf hizmeti var. Çekimden sonra fotoğrafın kurum tarafından alınmasını sağlayan bir kod veriliyor. Giderken fotoğrafın **oturum kartı için** olduğunu söyle; sıradan fotoğraf baskısı yaptırmakla karıştırma. [dm fotoğraf hizmeti](https://www.dm.de/services/services-im-markt/fotoservice/passbild-service-51462)
 
+En yakın dm, **Feringastraße 4, 85774 Unterföhring** adresinde. [Konum ve yol tarifi](https://www.google.com/maps/dir//dm-drogerie+markt,+Feringastra%C3%9Fe+4,+85774+Unterf%C3%B6hring/@48.1792733,11.63264,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x479e74e557008bed:0xa9df1b3acf9df6!2m2!1d11.632828!2d48.1788542)
+
 ### 51. Oturum uzatırken yeniden bloke hesap gerekiyor mu?
 
 Geçimini nasıl sağladığını yeniden belgelemen istenebilir; kullanılabilecek belgeler senin durumuna ve kurumun talebine bağlı. Bloke hesap, burs veya çalışma geliri gibi seçeneklerden hangisinin kabul edileceğini dosyan için netleştir. Sana gönderilen belge listesine göre ilerlemek, gereksiz hesap açma veya para aktarma işlemlerini önler. [Landratsamt oturum bilgileri](https://www.landkreis-muenchen.de/buergerservice/dienstleistung/aufenthaltstitel-fuer-nicht-eu-buerger/)
