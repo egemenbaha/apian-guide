@@ -60,5 +60,5 @@ class Handler(SimpleHTTPRequestHandler):
     do_POST = handle_request
 
 if __name__ == '__main__':
-    print('Apian Guide: http://127.0.0.1:5173', flush=True)
+    print('Apian Wiki: http://127.0.0.1:5173', flush=True)
     ThreadingHTTPServer(('127.0.0.1', 5173), Handler).serve_forever()

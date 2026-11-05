@@ -1,4 +1,4 @@
-# Apian Guide: repository navigation
+# Apian Wiki: repository navigation
 
 ## Scope
 

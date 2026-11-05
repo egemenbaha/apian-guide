@@ -1,6 +1,6 @@
 # Katkıda bulunma
 
-Apian Guide'a katkıların hoş geldi! Hata bildirmek, bir cevabı güncellemek veya kod önermek için [issue](https://github.com/egemenbaha/apian-guide/issues) ya da pull request açabilirsin.
+Apian Wiki’ye katkıların hoş geldi! Hata bildirmek, bir cevabı güncellemek veya kod önermek için [issue](https://github.com/egemenbaha/apian-guide/issues) ya da pull request açabilirsin.
 
 ## Değişiklik gönderme
 

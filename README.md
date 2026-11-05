@@ -1,4 +1,4 @@
-# Apian Guide
+# Apian Wiki
 
 Apian sakinleri ve yeni taşınacak Türk öğrenciler için bilgi rehberi.
 
@@ -8,9 +8,11 @@ Ana alan adı `apianwiki.space`, Vercel’deki `ApianS / apian-guide` projesinin
 
 `www.apianwiki.space` ve önceki `apian-guide.vercel.app` adresi, Vercel üzerinden **308 kalıcı yönlendirmeyle** ana domaine gider. Eski soru ve bölüm bağlantıları aynı hash rotalarını kullanmaya devam eder.
 
-[Proje açıklaması ve 131 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
+[Proje açıklaması ve 133 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
-Arda’nın Wikipedia tarzı düzeni korunarak 131 soruluk FAQ, kaynak bağlantıları ve açık sorular 23 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+Arda’nın Wikipedia tarzı düzeni korunarak 133 soruluk FAQ, kaynak bağlantıları ve açık sorular 23 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+
+[Orterer içecek marketi](https://apianwiki.space/#alisveris/soru-132) ve [Kistenpfennig fırını](https://apianwiki.space/#alisveris/soru-133), “Eczane, market ve fırın” bölümünde adres, açılış saatleri, telefon ve yürüyüş rotasıyla yer alır. Kistenpfennig’in pazar saatleri, pazar alışverişi yanıtlarında da gösterilir.
 
 [Yakındaki dm şubeleri](https://apianwiki.space/#alisveris/soru-131), alışveriş bölümünde Feringastraße 4 ile Maria-Nindl-Platz 2’yi adres, saat ve yol tarifleriyle karşılaştırır. Maria-Nindl-Platz şubesi, [para çekme yanıtında](https://apianwiki.space/#bankalar/soru-92) da Feringastraße’ye alternatif olarak gösterilir.
 
@@ -128,6 +130,6 @@ Proje açıklamasındaki dört açık soru grubu, kullanıcının yanıtları ge
 
 ## Açık kaynak ve katkı
 
-Apian Guide [MIT lisansı](LICENSE) altında açık kaynaktır. `@egemenbaha` ve `@ardatas` değişiklikleri doğrudan `main` dalına gönderir; PR açma ve inceleme onayı zorunluluğu yoktur. Otomatik inceleme talepleri kaldırıldı. `Test and build` her gönderimde çalışır, gönderimi engellemez. Yazma yetkisi olmayan katkıcılar fork ve PR üzerinden değişiklik önerebilir.
+Apian Wiki [MIT lisansı](LICENSE) altında açık kaynaktır. `@egemenbaha` ve `@ardatas` değişiklikleri doğrudan `main` dalına gönderir; PR açma ve inceleme onayı zorunluluğu yoktur. Otomatik inceleme talepleri kaldırıldı. `Test and build` her gönderimde çalışır, gönderimi engellemez. Yazma yetkisi olmayan katkıcılar fork ve PR üzerinden değişiklik önerebilir.
 
 Katkı adımları, içerik ilkeleri ve ana dal kuralları için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasına bak. Dış kaynak bağlantıları, kaynakların kendi lisans ve kullanım koşullarını değiştirmez.

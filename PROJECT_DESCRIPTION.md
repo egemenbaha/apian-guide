@@ -1,8 +1,8 @@
-# Apian Guide — Proje açıklaması ve FAQ
+# Apian Wiki — Proje açıklaması ve FAQ
 
 Son güncelleme: **5 Kasım 2026**
 
-Apian Guide, Apian sakinlerinin ve yeni taşınacak Türk öğrencilerin günlük yaşam sorularına samimi, anlaşılır Türkçeyle cevap veren bir bilgi rehberi projesidir. Aşağıdaki FAQ, Wikipedia tarzındaki rehberin içerik kaynağıdır. Çevre rehberi Apianstraße, 85774 Unterföhring başlangıç alınarak hazırlanmıştır; öneriler kullanım amacına göre seçilmiştir.
+Apian Wiki, Apian sakinlerinin ve yeni taşınacak Türk öğrencilerin günlük yaşam sorularına samimi, anlaşılır Türkçeyle cevap veren bir bilgi rehberi projesidir. Aşağıdaki FAQ, Wikipedia tarzındaki rehberin içerik kaynağıdır. Çevre rehberi Apianstraße, 85774 Unterföhring başlangıç alınarak hazırlanmıştır; öneriler kullanım amacına göre seçilmiştir.
 
 ## Apian’da yaşam: Sık sorulan sorular
 
@@ -268,6 +268,8 @@ Sözleşmendeki bitiş ve bildirim süresini kontrol edip işletmecinin resmî i
 
 **Temizlik ve kişisel bakım alışverişinde dm’ye de bakabilirsin.** Feringastraße 4’teki şubenin yakın alternatifi, **Prinz-Eugen-Park’taki Maria-Nindl-Platz 2, 81927 München** şubesi. [İki dm’nin adresleri, saatleri ve yol tarifleri](https://apianwiki.space/#alisveris/soru-131)
 
+**İçecek alışverişi için** Küfnerstraße 3’teki [Orterer içecek marketine](https://apianwiki.space/#alisveris/soru-132), **ekmek ve kahvaltılık için** Fritz-Meyer-Weg 46’daki [Kistenpfennig fırınına](https://apianwiki.space/#alisveris/soru-133) da bakabilirsin. Fırın pazar günü de açık.
+
 ### 58. ALDI Süd nerede, ne için tercih edebilirim?
 
 **Feringastraße 15, 85774 Unterföhring.** Temel gıda ve haftalık alışveriş için bütçe odaklı başlangıç seçeneklerinden biri. Şubenin fırın ürünleri bölümü de var. Sabah çok erken gideceksen açılış saatini şube sayfasından kontrol et; sayfadaki saat tablosuyla erken açılış duyurusu farklı saatler gösteriyor. [Resmî şube bilgisi](https://www.aldi-sued.de/filialen/l/unterfoehring/feringastrasse-15/bn98) · [Apian’dan yürüyüş rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=ALDI+Sued+Feringastrasse+15+85774+Unterfoehring&travelmode=walking)
@@ -442,6 +444,8 @@ Euro hesabından çekmek istiyorsan önce CEPTETEB Mobil veya İnternet Şubesi�
 
 Tarihleri [resmî tatiller bölümünde](https://apianwiki.space/#tatiller), ilaç gerektiğinde açık yerleri [güncel nöbetçi eczane listesinde](https://apianwiki.space/#eczaneler/soru-64) bulabilirsin.
 
+**Pazar günü ekmek veya kahvaltılık gerekiyorsa** Fritz-Meyer-Weg 46’daki **Kistenpfennig fırını 07.30–17.30** açık. Bu saat fırının normal pazar saatidir; resmî tatil saatini şubeden kontrol et. [Fırının adresi, saatleri ve yol tarifi](https://apianwiki.space/#alisveris/soru-133)
+
 ### 95. 2026’nın sonunda alışveriş için hangi günlere dikkat edeyim?
 
 **Noel alışverişini son güne bırakma:** 24 Aralık Perşembe normal marketler en geç 14.00’te kapanır. Ardından **25 Aralık Cuma ve 26 Aralık Cumartesi Noel tatili**, **27 Aralık ise pazar**; normal marketler üç gün üst üste kapalı olur.
@@ -502,9 +506,11 @@ Asansörleri özenli kullan.
 
 Apian’a yakın bir spor salonu arıyorsan **Clever fit Unterföhring**, **Feringastraße 14, 85774 Unterföhring** adresinde. **Her gün 06.00–00.00** açık. Görevliyle üyelik veya antrenman planı konuşmak için pazartesi–cuma **08.00–22.00**, cumartesi–pazar **08.00–20.00** arasında git. Ağırlık, fonksiyonel antrenman ve grup dersleri sunuyor. [Salon ve saatler](https://www.clever-fit.com/de/fitnessstudio/unterfoehring/) · [Apian’dan yürüyüş rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Clever+fit+Feringastrasse+14+85774+Unterfoehring&travelmode=walking)
 
-### 101. Münih’te pazar günü hangi marketler açık?
+### 101. Pazar günü nereden alışveriş yapabilirim? Hangi yerler açık?
 
-Pazar günü şehir içinde alışveriş için şu marketleri kullanabilirsin.
+Pazar günü **ekmek ve kahvaltılık için yakındaki fırına**, **daha geniş market alışverişi için tren istasyonlarındaki marketlere** bakabilirsin. Normal pazar saatleri şöyle:
+
+**Sadece ekmek veya kahvaltılık arıyorsan daha yakındaki seçenek:** **Kistenpfennig, Fritz-Meyer-Weg 46, 81925 München**. Pazar **07.30–17.30** açık. [Fırının bilgileri ve Apian’dan yol tarifi](https://apianwiki.space/#alisveris/soru-133)
 
 **EDEKA Ernst — Hauptbahnhof:** Pazar **08.00–23.00**. Adres: **Arnulfstraße 2, 80335 München**, Hauptbahnhof’un S-Bahn alt katında. [Mağaza bilgileri](https://www.edeka.de/maerkte/030285/)
 
@@ -515,6 +521,8 @@ Pazar günü şehir içinde alışveriş için şu marketleri kullanabilirsin.
 **REWE — Munich Airport Center (MAC):** Pazar **05.30–23.00**. Adres: **Terminalstraße Mitte 18, 85356 München-Flughafen**, MAC, Ebene 03. [Mağaza bilgileri](https://www.rewe.de/marktseite/muenchen-flughafen/250497/rewe-markt-terminalstr-mitte-18/)
 
 **EDEKA — Terminal 2:** Pazar **06.00–22.00**. Konum: **Terminal 2, Ebene 03**, güvenlik kontrolünden önce. [Mağaza bilgileri](https://www.munich-airport.de/edeka-478043)
+
+**Pazar günü kapalı olan yakın seçenekler:** Feringastraße ve Maria-Nindl-Platz’taki dm şubeleri ile Küfnerstraße’deki Orterer. Bu alışverişleri pazar öncesinde tamamlayabilirsin. Pazar günü açık eczane arıyorsan [güncel nöbetçi eczane listesine](https://apianwiki.space/#eczaneler/soru-64) bak.
 
 ### 102. Fritz-Meyer-Weg’deki EDEKA nerede, hangi saatlerde açık?
 
@@ -792,6 +800,24 @@ Grupta yoğunluk nedeniyle erken gitme önerisi de var. Kabul saatini öğrendik
 **İkisinde de alışveriş sırasında kasadan para çekebilirsin:** En az bir ürün alarak **200 €’ya kadar**, minimum alışveriş tutarı olmadan. [Kartlar ve para çekme adımları](https://apianwiki.space/#bankalar/soru-92) · [dm nakit hizmeti](https://www.dm.de/services/services-im-markt/bezahlmethoden-3628894)
 
 Fotoğraf veya evrak işin de varsa iki şubede de **biyometrik fotoğraf ve fotokopi hizmeti** bulunuyor. [Fotoğraf bilgileri](https://apianwiki.space/#resmi-islemler/soru-50) · [Çıktı, fotokopi ve tarama](https://apianwiki.space/#resmi-islemler/soru-126)
+
+### 132. Yakında içecek marketi (Getränkemarkt) var mı?
+
+Evet: **Orterer Getränkemarkt, Küfnerstraße 3, 81927 München**. Su, meyve suyu, gazlı içecek veya kasayla içecek alışverişi için yakındaki bir seçenek. **Pazartesi–cuma 09.00–19.00**, **cumartesi 08.00–16.00** açık; pazar kapalı. [Orterer resmî mağaza bulucu](https://www.orterer.de/markt-finden) · [Apian’dan yürüyüş rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Orterer+Kuefnerstrasse+3+81927+Muenchen&travelmode=walking)
+
+**Kasa alırken etiketteki Pfand tutarına da bak:** Şişe ve kasa depozitosu ürün fiyatına eklenebilir. Orterer, tekrar doldurulabilir boş şişe/kasa (**Mehrweg-Leergut**) kabul ediyor. Elindeki şişe türünden emin değilsen götürmeden sorabilirsin: [089 90939670](tel:+498990939670). Ağır bir kasa için alışveriş arabası veya taşıma çantası işini kolaylaştırır. [Ürünler ve boş şişe/kasa iadesi](https://www.orterer.de/#service)
+
+### 133. Yakındaki Kistenpfennig fırını nerede? Pazar günü açık mı?
+
+**Familienbäckerei Kistenpfennig, Fritz-Meyer-Weg 46, 81925 München (Oberföhring)**. Ekmek, küçük ekmek (**Brötchen/Semmel**) ve kahvaltılık hamur işi almak için uğrayabilirsin. Şube günlük öğle yemeği seçeneği de listeliyor. [Kistenpfennig resmî şube listesi](https://www.kistenpfennig.net/fachgeschaefte) · [Apian’dan yürüyüş rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Kistenpfennig+Fritz-Meyer-Weg+46+81925+Muenchen&travelmode=walking)
+
+| Gün | Açılış saatleri |
+| --- | --- |
+| Pazartesi–cuma | 06.30–18.00 |
+| Cumartesi | 07.00–17.30 |
+| Pazar | 07.30–17.30 |
+
+**Evet, pazar günü de açık.** Yakındaki süpermarketler kapalıyken ekmek ve kahvaltılık için pratik bir seçenek. Resmî tatilde gideceksen özel açılış saatini şubeden sorabilirsin: [089 99629580](tel:+498999629580).
 
 <a id="acik-sorular"></a>
 
