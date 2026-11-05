@@ -2,11 +2,11 @@
 
 Apian sakinleri ve yeni taşınacak öğrenciler için Türkçe bilgi ve sıkça sorulan sorular projesi.
 
-[Proje açıklaması ve 110 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
+[Proje açıklaması ve 112 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
-Arda’nın Wikipedia tarzı düzeni korunarak 110 soruluk FAQ, kaynak bağlantıları ve açık sorular 21 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+Arda’nın Wikipedia tarzı düzeni korunarak 112 soruluk FAQ, kaynak bağlantıları ve açık sorular 22 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
 
-Apian 2’de ölçülüp paylaşılan sineklik, mutfak, mobilya, banyo, kapı, kalorifer ve perde ölçüleri “Odada neler var?” bölümündedir. Ölçüm dipnotları bina kapsamını ve odalar arasında farklılık olabileceğini belirtir. Perde takılacak alanın eni, tek bir perdenin kumaş eni olarak yorumlanmaz.
+Apian 2’de ölçülüp paylaşılan sineklik, mutfak, mobilya, banyo, kapı, kalorifer ve perde ölçüleri “Odada neler var?” bölümündedir. [Apian 2 oda ölçüleri](https://apian-guide.vercel.app/#apian-2-oda-olculeri) sayfası bunları 7 priz bilgisiyle birlikte tek tabloda toplar. Apian 1’de henüz ölçüm yapılmadığı açıkça belirtilir. Ölçüm dipnotları bina kapsamını ve odalar arasında farklılık olabileceğini belirtir. Perde takılacak alanın eni, tek bir perdenin kumaş eni olarak yorumlanmaz.
 
 Resmî tatiller bölümünde 2026 sonundaki kapanışlar ve 2027 takvimi yer alır. Marketlerin pazar/tatil saatleri ve Unterföhring’in güncel nöbetçi eczane listesine bağlantı ilgili konulardadır; değişen nöbet listeleri siteye sabit olarak kopyalanmaz. Tamir için odaya giriş, sakin gözlemi ile genel kurallar ayrılarak bakım bölümünde anlatılır.
 
@@ -33,6 +33,8 @@ npm run build
 `npm run dev` ve `npm run build`, Markdown kaynağından `src/faq-data.js` dosyasını otomatik üretir. Üretilen dosya Git'e eklenmez. İçerik değişikliğinden sonra çalışan önizlemeyi yeniden başlat veya `node scripts/generate-faq.mjs` çalıştırıp sayfayı yenile.
 
 Yeni soruları numara sırasını koruyarak ekle ve `src/topics.js` içindeki `questionIds` eşlemesine yerleştir. Her soru tam olarak bir bölüme atanmalıdır. Açık başlıklar tamamlandığında Markdown listesindeki kutuyu işaretle; cevapları ve güncelleme tarihini de aynı dosyada düzenle. Site yalnızca işaretlenmemiş açık başlıkları gösterir.
+
+Ölçü tablosu da Markdown kaynağında tutulur; ölçü değişirse ilgili tekil cevabı ve tablo satırını birlikte güncelle. Tabloların her satırı `|` ile başlar ve biter; başlıktan sonraki ayırıcı satırda her sütun için `---` kullanılır. Tabloyu önceki ve sonraki paragraflardan boş satırla ayır. Hücrelerde kalın/italik yazı ve güvenli bağlantılar desteklenir; ham HTML çalıştırılmaz.
 
 ```sh
 npm test

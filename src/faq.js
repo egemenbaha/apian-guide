@@ -40,8 +40,20 @@ export function renderMapLink(paragraph) {
   </aside>`;
 }
 
+// Tables use pipe-delimited rows with a header and a separator; cells stay escaped.
+function renderTable(paragraph) {
+  const lines = paragraph.trim().split('\n').map(line => line.trim());
+  if (lines.length < 3 || lines.some(line => !line.startsWith('|') || !line.endsWith('|'))) return null;
+  const rows = lines.map(line => line.slice(1, -1).split('|').map(cell => cell.trim()));
+  const [headings, separator, ...body] = rows;
+  if (headings.length < 2 || rows.some(row => row.length !== headings.length) || separator.some(cell => !/^-{3,}$/.test(cell))) return null;
+  const header = headings.map(heading => `<th scope="col">${renderInline(heading)}</th>`).join('');
+  const content = body.map(row => `<tr><th scope="row">${renderInline(row[0])}</th>${row.slice(1).map(cell => `<td>${renderInline(cell)}</td>`).join('')}</tr>`).join('');
+  return `<table class="faq-table"><thead><tr>${header}</tr></thead><tbody>${content}</tbody></table>`;
+}
+
 export function renderAnswer(answer) {
-  return answer.split(/\n\s*\n/).map(paragraph => renderMapLink(paragraph) ?? `<p>${renderInline(paragraph)}</p>`).join('');
+  return answer.split(/\n\s*\n/).map(paragraph => renderTable(paragraph) ?? renderMapLink(paragraph) ?? `<p>${renderInline(paragraph)}</p>`).join('');
 }
 
 export function normalize(text) {

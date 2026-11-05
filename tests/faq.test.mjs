@@ -9,7 +9,7 @@ const source = await readFile(new URL('../PROJECT_DESCRIPTION.md', import.meta.u
 const faq = parseFaq(source);
 
 test('all reviewed questions, sources and pending items survive the Markdown import', () => {
-  assert.equal(faq.questions.length, 110);
+  assert.equal(faq.questions.length, 112);
   assert.equal(faq.openQuestions.length, 4);
   assert.equal(faq.updatedAt, '5 Kasım 2026');
   assert.match(faq.questions[36].answer, /açık bırakıldı/);
@@ -45,6 +45,22 @@ test('Markdown formatting preserves sources without allowing raw HTML or unsafe 
   assert.ok(!html.includes('<script>'));
   assert.ok(!html.includes('href="javascript:'));
   assert.equal((html.match(/<p>/g) || []).length, 2);
+});
+
+test('tables keep column and row headings, inline formatting and escaped cell content', () => {
+  const html = renderAnswer('Ölçüler\n\n| Eşya | Ölçü |\n| --- | --- |\n| <img src=x onerror=alert(1)> | **7 adet** |\n| Perde | [Kaynak](https://example.com) [x](javascript:alert(1)) |\n\nSon not.');
+  assert.match(html, /<th scope="col">Eşya<\/th>/);
+  assert.match(html, /<th scope="row">&lt;img src=x onerror=alert\(1\)&gt;<\/th>/);
+  assert.match(html, /<td><strong>7 adet<\/strong><\/td>/);
+  assert.match(html, /href="https:\/\/example.com"/);
+  assert.doesNotMatch(html, /<img|href="javascript:/);
+  assert.equal((html.match(/<p>/g) || []).length, 2);
+  for (const invalid of [
+    '| Eşya | Ölçü |\n| yanlış | --- |\n| Masa | 70 × 80 cm |',
+    '| Eşya | Ölçü |\n| --- | --- |\n| Masa |',
+    '| Eşya | Ölçü |\n| --- | --- |',
+    'Eşya | Ölçü\nMasa | 70 × 80 cm'
+  ]) assert.doesNotMatch(renderAnswer(invalid), /<table/);
 });
 
 // Duty hours do not establish the building-door or laundry opening hours.

@@ -576,6 +576,39 @@ Apian 2’de **iki ayrı perde veriliyor**.
 
 *Ölçüm notu: Bu ölçüler Apian 2’de ölçülüp 5 Kasım 2026’da rehber için paylaşıldı. Odana göre farklılık gösterebilir.*
 
+### 111. Apian 2’deki ölçülerin hepsini bir arada görebilir miyim?
+
+Tabii, eşya alırken veya yerleşirken bakman kolay olsun diye ölçüleri aşağıda topladık. **Apian 1’de henüz ölçüm yapmadık; bu tablo Apian 2’ye ait.**
+
+| Eşya / alan | Ölçü / adet |
+| --- | --- |
+| Sineklik | 120 × 110 cm |
+| Perde boyu | 215 cm |
+| Perde takılacak alan | Toplam en: 240 cm |
+| Verilen perde | 2 ayrı perde |
+| Mutfak genişliği | 90 cm |
+| Açık mutfak rafı | 45 × 37 cm; derinlik: 37 cm |
+| Gardırop | 120 × 200 cm |
+| Küçük masa | 70 × 80 cm |
+| Büyük masa | 120 × 60 cm |
+| Komodin | 40 × 40 cm |
+| Banyo camı | 90 × 60 cm |
+| Banyo aynası | 60 × 150 cm |
+| Giriş kapısı | 90 × 210 cm |
+| Tuvalet kapısı | 60 × 210 cm |
+| Kalorifer | 70 × 96 cm |
+| Priz sayısı | **7 adet** |
+
+**Perde için küçük bir not:** 240 cm, perde takılacak yerin toplam eni; tek bir perdenin kumaş eni değil. Apian 2’de iki ayrı perde veriliyor.
+
+*Ölçüm notu: Bu ölçüler ve 7 priz bilgisi Apian 2’de ölçülüp sayılarak 5 Kasım 2026’da rehber için paylaşıldı. Odana göre farklılık gösterebilir; alışverişten önce kendi odanda da kontrol et.*
+
+### 112. Apian 2’de odada kaç priz var?
+
+**Ölçüm yapılan Apian 2 odasında 7 priz var.** Yerleşirken cihazlarını buna göre planlayabilirsin.
+
+*Not: Priz sayısı 5 Kasım 2026’da Apian 2 için paylaşıldı. Apian 1’de henüz ölçüm ve sayım yapmadık.*
+
 <a id="acik-sorular"></a>
 
 ## Açık kalan sorular
