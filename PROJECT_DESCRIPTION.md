@@ -6,9 +6,9 @@ Apian Guide, Apian sakinlerinin ve yeni taşınacak öğrencilerin günlük yaş
 
 ## Apian’da yaşam: Sık sorulan sorular
 
-Yeni taşınıyorsan ya da bir şeyin nasıl işlediğini merak ediyorsan buradan başlayabilirsin. Bu rehber, Temmuz 2025–Kasım 2026 dönemine ait bilgiler, sakin deneyimleri ve resmî açıklamalarla hazırlandı. Yanıtlar bu dönemdeki bilgileri doğrudan anlatır; uygulama değiştikçe güncellenir. Binaya veya odana bağlı konularda kendi sözleşmeni ve yönetimin sana gönderdiği güncel bilgileri esas al.
+Yeni taşınıyorsan ya da bir şeyin nasıl işlediğini merak ediyorsan buradan başlayabilirsin. Rehber, Temmuz 2025–Kasım 2026 dönemindeki uygulamaları kapsıyor ve değişiklik oldukça güncelleniyor. Binaya veya odana bağlı konularda kendi sözleşmeni ve yönetimin sana gönderdiği güncel bilgileri esas al.
 
-Bu proje yurt yönetiminin resmî yayını değildir. Sakin deneyimleri ve tarihli ücret örnekleri güncel yönetim kuralı veya sabit tarife olarak değerlendirilmemeli. Ham sohbet dökümü ve kişisel bilgiler bu depoda yayımlanmıyor.
+Bu proje yurt yönetiminin resmî yayını değildir. Tarihli ücretler ve işlem süreleri planlama içindir; güncel tutar ve koşulları işlem öncesinde kontrol et.
 
 ### 1. Ofis hangi saatlerde açık?
 
@@ -30,7 +30,7 @@ Gelmeden önce ofisle e-posta üzerinden gün ve saat belirle. Özellikle uçak 
 
 ### 5. Yatak ölçüsü ne? Şilte de veriliyor mu?
 
-Rehberdeki yatak ölçüsü **90 × 200 cm**. Şilte her odada teslimata dahil olmayabiliyor. Alışverişten önce kendi odandaki yatak ölçüsünü ve şiltenin bulunup bulunmadığını ofisten teyit et.
+Yatak için şimdilik **90 × 200 cm** ölçüsünü esas al. Şilte her odada teslimata dahil olmayabiliyor. Alışverişten önce kendi odandaki yatak ölçüsünü ve şiltenin bulunup bulunmadığını ofisten teyit et.
 
 ### 6. Yastık, yorgan, nevresim ve duş perdesi getirmeli miyim?
 
@@ -38,11 +38,11 @@ Yastık, yorgan, çarşaf ve nevresimini kendin getir; yatak tekstili kiralamaya
 
 ### 7. Ocak indüksiyonlu mu? Nasıl tencere almalıyım?
 
-İki bina için de resmî oda donanımında **seramik ocak** yer alıyor. Apian 1 için mevcut kullanım bilgisi de elektrikli, indüksiyonsuz ocak yönünde. Seramik/elektrikli ocakla uyumlu tencere seç; alışverişten önce odandaki cihazın modelini kontrol et. [Apian 1](https://www.apian-aparthaus.de/kopie-von-apartments) · [Apian 2](https://www.apian-aparthaus.de/apartments)
+İki bina için de resmî oda donanımında **seramik ocak** yer alıyor. Apian 1’de ocak elektrikli ve indüksiyonsuz. Seramik/elektrikli ocakla uyumlu tencere seç; alışverişten önce odandaki cihazın modelini kontrol et. [Apian 1](https://www.apian-aparthaus.de/kopie-von-apartments) · [Apian 2](https://www.apian-aparthaus.de/apartments)
 
 ### 8. Sineklik için hangi ölçüyü almalıyım?
 
-Apian 1’in üst katlarındaki uzun pencereler için rehberdeki referans ölçü **90 × 210 cm**. Sipariş vermeden kendi pencereni ölç. Bu ölçüyü zemin kattaki odalar veya Apian 2 için doğrudan esas alma.
+Apian 1’in üst katlarındaki uzun pencerelerde sineklik için şimdilik **90 × 210 cm** ölçüsünü referans al. Sipariş vermeden kendi pencereni ölç. Bu ölçüyü zemin kattaki odalar veya Apian 2 için doğrudan esas alma.
 
 ### 9. Odadaki mobilyaları çıkarabilir miyim?
 
@@ -66,11 +66,11 @@ Odandaki kablolu modemin güç bağlantısını ve duvardaki uygun internet/TV �
 
 ### 14. Hangi telefon operatörü daha iyi çekiyor?
 
-Çekim gücü bina, kat ve odanın konumuna göre değişebiliyor. En işe yarayan karşılaştırma, senin katında yaşayanların deneyimi olur. Uzun süreli sözleşme yapmadan önce düşündüğün hattı odanda deneme şansın varsa değerlendir.
+Çekim gücü bina, kat ve odanın konumuna göre değişiyor; şimdilik bütün odalar için tek bir operatör önermek mümkün değil. Uzun süreli sözleşme yapmadan önce düşündüğün hattı mümkünse kendi odanda dene.
 
 ### 15. Çamaşırhane nerede?
 
-Apian 1’de çamaşırhaneye ofisin yanından dış/arka bölüme geçerek ulaşılıyor. Apian 2’de çamaşırhane **7B binasının birinci katında**. Rehberdeki mevcut ödeme bilgisine göre Apian 1’de madeni para, Apian 2’de Airwallet kullanılıyor.
+Apian 1’de çamaşırhaneye ofisin yanından dış/arka bölüme geçerek ulaşılıyor. Apian 2’de çamaşırhane **7B binasının birinci katında**. Şimdilik Apian 1’de madeni para, Apian 2’de Airwallet kullanılıyor.
 
 ### 16. Çamaşır yıkama ve kurutma ne kadar?
 
@@ -82,7 +82,7 @@ Hayır, rezervasyon isteğe bağlı. Uygulamada uygun görünen boş bir makiney
 
 ### 18. Çamaşırhaneyi gece kullanabilir miyim?
 
-Apian 1 için gece de erişilebildiğini söyleyen sakinler var. Apian 2’de ise dış kapının kilitlenmesi erişimi etkileyebiliyor. **Apian 2’nin kesin kapanış ve açılış saatleri açık bırakıldı; yanıtı eklenecek.**
+Apian 1’de çamaşırhane şimdilik gece de kullanılabiliyor. Apian 2’de ise dış kapının kilitlenmesi erişimi etkileyebiliyor. **Apian 2’nin kesin kapanış ve açılış saatleri açık bırakıldı; yanıtı eklenecek.**
 
 ### 19. Ödeme yaptım ama makine çalışmadı. Ne yapayım?
 
@@ -102,11 +102,11 @@ Anahtar kaybını hemen ofise bildir. Kayıp anahtar işlemi **300 €’ya ula�
 
 ### 22. Odama misafir gelebilir mi?
 
-Kısa süreli misafir kabul edilebiliyor. Rehberdeki mevcut uygulamaya göre **üç günü aşan konaklamalarda yönetime haber vermen gerekiyor**. Misafirinin kalacağı tarihleri önceden paylaş ve kendi sözleşmendeki koşulları kontrol et.
+Kısa süreli misafir kabul edilebiliyor. Şimdilik **üç günü aşan konaklamalarda yönetime haber vermen gerekiyor**. Misafirinin kalacağı tarihleri önceden paylaş ve kendi sözleşmendeki koşulları kontrol et.
 
 ### 23. Çalışma ve müzik odası var mı?
 
-Sakinlerin paylaşımlarına göre Apian 1’de çalışma odası ikinci, müzik odası üçüncü katta; müzik odasında piyano da bulunuyor. Anahtar ofisten alınıyor. **Anahtarın alınabileceği son saat ve hafta sonu kullanım koşulları açık bırakıldı.**
+Apian 1’de çalışma odası ikinci, müzik odası üçüncü katta; müzik odasında piyano da bulunuyor. Anahtar ofisten alınıyor. **Anahtarın alınabileceği son saat ve hafta sonu kullanım koşulları açık bırakıldı.**
 
 ### 24. Bisikletimi nereye koyabilirim? Kayıt gerekiyor mu?
 
@@ -116,7 +116,7 @@ Bisiklet park alanlarını kullanabilirsin. **Apian 2 binalarının altında ve 
 
 ### 25. Kargo adresimi nasıl yazmalıyım?
 
-Ad-soyadının yanında sözleşmendeki **doğru bina adresini ve oda/apartman numaranı** mutlaka yaz. Apian 1’in adresi Apianstraße 7; Apian 2, 7a ve 7b binalarını kapsıyor. Rehberdeki yönetim e-postasına göre posta kutusuna isim eklemek yerine gönderilerde apartman/posta kutusu numarası kullanılmalı. [Apian 1 adresi](https://www.apian-aparthaus.de/kopie-von-apartments) · [Apian 2 adresleri](https://www.apian-aparthaus.de/apartments)
+Ad-soyadının yanında sözleşmendeki **doğru bina adresini ve oda/apartman numaranı** mutlaka yaz. Apian 1’in adresi Apianstraße 7; Apian 2, 7a ve 7b binalarını kapsıyor. Posta kutusuna isim ekleme; gönderilerde apartman/posta kutusu numaranı kullan. [Apian 1 adresi](https://www.apian-aparthaus.de/kopie-von-apartments) · [Apian 2 adresleri](https://www.apian-aparthaus.de/apartments)
 
 En yakın DHL Packstation, **Packstation 166**. Kargonu buradan almak için internetten sipariş verirken teslimat adresi olarak bu Packstation’ı seçebilirsin. Sipariş sonrasında da uygun gönderileri **Post & DHL** uygulamasından Packstation 166’ya yönlendirebilirsin.
 
@@ -146,7 +146,7 @@ Nerede ve ne zaman ortaya çıktığını fotoğraflarla kaydet. Yiyecekleri kap
 
 ### 32. Büyük eşyaları ve eski şilteyi normal çöpe atabilir miyim?
 
-Büyük eşyaları normal konteynerlere veya koridorlara bırakma; yönetimin rehberdeki duyurusu bu şekilde. Unterföhring’deki **Wertstoffhof, Birkenhofstraße 12** adresinde. Eşyayı götürmeden kabul koşullarını ve çalışma saatlerini kontrol et. [Belediyenin atık rehberi](https://www.unterfoehring.de/mobilitaet-umwelt/ver-und-entsorgung/abfallentsorgung.html)
+Büyük eşyaları normal konteynerlere veya koridorlara bırakma. Unterföhring’deki **Wertstoffhof, Birkenhofstraße 12** adresinde. Eşyayı götürmeden kabul koşullarını ve çalışma saatlerini kontrol et. [Belediyenin atık rehberi](https://www.unterfoehring.de/mobilitaet-umwelt/ver-und-entsorgung/abfallentsorgung.html)
 
 ### 33. Vorabnahme nedir? Anahtar teslimiyle aynı şey mi?
 
@@ -170,7 +170,7 @@ Boya almadan önce ön kontrolde hangi alanların düzeltilmesinin istendiğini 
 
 ### 38. Depozitom ne zaman geri gelir?
 
-Rehberdeki iade süreleri **6–8 hafta**, bazı işlemlerde yaklaşık **2,5 ay**. Bunlar garanti edilmiş süreler değil; bütçeni depozitonun hemen yatacağı varsayımıyla kurma. Çıkışta ödeme yapılacak hesabı teyit et ve kendi işlemin için tahmini iade tarihini sor. Belirtilen süre geçerse yazılı takip yap.
+Depozito iadesi için şimdilik **6–8 hafta**, daha uzun işlemlerde yaklaşık **2,5 ay** beklemeyi planla. İade tarihi işlemine göre değişebilir; bütçeni depozitonun hemen yatacağı varsayımıyla kurma. Çıkışta ödeme yapılacak hesabı teyit et ve kendi işlemin için tahmini iade tarihini sor. Belirtilen süre geçerse yazılı takip yap.
 
 ### 39. Depozitodan neler kesilebiliyor?
 
@@ -212,7 +212,7 @@ Unterföhring’de oturuyorsan ilgili kurum **Landratsamt München**. Başvuru, 
 
 ### 48. Oturum başvuruma ne kadar sürede cevap gelir?
 
-Gruptaki süreler oldukça farklı; birinin hızlı cevap alması senin başvurunun da aynı sürede tamamlanacağı anlamına gelmiyor. Başvuru teyidini ve dosya numaranı sakla. Mevcut izninin bitişi yaklaşıyorsa bunu belirterek kurumun iletişim formundan durumunu sor; yalnızca randevu bekleyerek süreyi geçirme. [Landratsamt iletişim formu](https://www.landkreis-muenchen.de/kontakt/kontakt-auslaenderrecht-integration/)
+Oturum başvurularında yanıt süresi dosyaya göre değişiyor; şimdilik kesin bir tamamlanma süresi vermek mümkün değil. Başvuru teyidini ve dosya numaranı sakla. Mevcut izninin bitişi yaklaşıyorsa bunu belirterek kurumun iletişim formundan durumunu sor; yalnızca randevu bekleyerek süreyi geçirme. [Landratsamt iletişim formu](https://www.landkreis-muenchen.de/kontakt/kontakt-auslaenderrecht-integration/)
 
 ### 49. Fiktionsbescheinigung ile Türkiye’ye gidip dönebilir miyim?
 
@@ -312,7 +312,7 @@ Aramada **tam adresini, bina numarasını, katı ve ne olduğunu** açıkça bel
 
 **Ayrı FKK bölgesi:** Yarımadada, çıplak güneşlenme ve yüzme için ayrılmış bir **FKK alanı** var; gölün tamamı FKK bölgesi değil.
 
-**Yeme içme:** FERINGAS restoranı, Seegarten/Biergarten, Beach Club ve büfeler bulunuyor. İşletmenin **5 Kasım 2026** tarihinde kontrol edilen duyurusuna göre restoran **4 Ekim 2026’dan itibaren kış arasında**; Seegarten güzel havalarda hafta sonları açılıyor. Gitmeden sezon ve hava durumuna bağlı açılış bilgisini kontrol et. [FERINGAS güncel duyuruları ve menüler](https://feringa-see.de/)
+**Yeme içme:** FERINGAS restoranı, Seegarten/Biergarten, Beach Club ve büfeler bulunuyor. Restoran **4 Ekim 2026’dan itibaren kış arasında** (**5 Kasım 2026** durumu); Seegarten güzel havalarda hafta sonları açılıyor. Gitmeden sezon ve hava durumuna bağlı açılış bilgisini kontrol et. [FERINGAS güncel duyuruları ve menüler](https://feringa-see.de/)
 
 Göl çevresinde tuvaletler de var. Tesis ve aktivite bilgileri **5 Kasım 2026** tarihinde kontrol edildi.
 
@@ -324,7 +324,7 @@ Göl çevresinde tuvaletler de var. Tesis ve aktivite bilgileri **5 Kasım 2026*
 
 **Planlama:** Bowling için işletmenin sitesindeki **Bowling buchen** bağlantısından rezervasyon yapabilirsin. Güncel fiyat listesini ve açılış saatlerini gitmeden kontrol et. [Bowling ve güncel bilgiler](https://www.dreambowl.de/dream-bowl-palace-unterfoehring-muenchen/bowling/)
 
-**Ulaşım:** İşletme, **Fritz-Meyer-Weg** ve **Unterföhring, Apianstraße** duraklarını yakın seçenekler olarak gösteriyor. [İşletmenin ulaşım bilgileri](https://www.dreambowl.de/dream-bowl-palace-unterfoehring-muenchen/anfahrt/)
+**Ulaşım:** Yakındaki duraklar **Fritz-Meyer-Weg** ve **Unterföhring, Apianstraße**. [İşletmenin ulaşım bilgileri](https://www.dreambowl.de/dream-bowl-palace-unterfoehring-muenchen/anfahrt/)
 
 Bilgiler **5 Kasım 2026** tarihinde işletmenin resmî sitesinden kontrol edildi.
 
@@ -332,7 +332,7 @@ Bilgiler **5 Kasım 2026** tarihinde işletmenin resmî sitesinden kontrol edild
 
 ## Açık kalan sorular
 
-Bu dört başlık, kullanıcının isteğiyle yanıtları gelene kadar açık bırakıldı. Yanıtlar geldiğinde ilgili FAQ maddeleri güncellenecek.
+Bu dört başlık henüz netleşmedi. Bilgiler tamamlandığında ilgili yanıtlar güncellenecek.
 
 - [ ] **Boya:** Apian 1 ve Apian 2’de kullanılan beyaz/gri boyanın marka ve renk kodları nedir?
 - [ ] **Gece erişimi:** Apian 2’nin dış kapısı kaçta kapanıp açılıyor?
