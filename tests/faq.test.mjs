@@ -111,3 +111,12 @@ test('emergency contacts are discoverable and render safe dial links', () => {
   const unsafe = renderAnswer('[x](tel:112;ext=123) [x](tel:112"onclick="alert) [x](javascript:alert(1))');
   assert.ok(!unsafe.includes('<a '));
 });
+
+
+test('published guide copy has no chat or resident-attribution phrasing', async () => {
+  const app = await readFile(new URL('../src/app.js', import.meta.url), 'utf8');
+  const indirectAttribution = /sakinlerin paylaşımlarına göre|söyleyen sakinler|gruptaki süreler|grupta .*paylaşım|sakin aktarımı|ham sohbet dökümü|rehberdeki mevcut/i;
+  assert.doesNotMatch(source, indirectAttribution);
+  assert.doesNotMatch(app, indirectAttribution);
+  assert.match(faq.questions.find(question => question.id === 18).answer, /Apian 1’de çamaşırhane şimdilik gece de kullanılabiliyor/);
+});
