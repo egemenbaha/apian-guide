@@ -226,6 +226,10 @@ dm’de resmî işlemlere uygun dijital biyometrik fotoğraf hizmeti var. Çekim
 
 En yakın dm, **Feringastraße 4, 85774 Unterföhring** adresinde. [Konum ve yol tarifi](https://www.google.com/maps/dir//dm-drogerie+markt,+Feringastra%C3%9Fe+4,+85774+Unterf%C3%B6hring/@48.1792733,11.63264,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x479e74e557008bed:0xa9df1b3acf9df6!2m2!1d11.632828!2d48.1788542)
 
+Feringastraße dışında yakındaki bir seçenek de **Prinz-Eugen-Park’taki dm: Maria-Nindl-Platz 2, 81927 München**. Burada da **biyometrik fotoğraf hizmeti** var. Normal saatleri **pazartesi–cumartesi 07.00–20.00**, pazar kapalı. [Şube ve fotoğraf hizmeti](https://www.dm.de/store/d539/muenchen/maria-nindl-platz-2) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=dm+Maria-Nindl-Platz+2+81927+Muenchen&travelmode=walking)
+
+**Küçük bir not:** Sakinlerin paylaştığı bilgiye göre Ausländerbehörde’de de fotoğraf çekilebiliyor. Yine de “orada hallederim” diye yalnızca bu hizmete güvenme; randevudan önce dijital biyometrik fotoğrafını çektirip kodunu yanında götürmen daha güvenli. Apian’ın bağlı olduğu **Landkreis München**, oturum işlemlerinde **basılı fotoğraf kabul etmiyor**. [Landkreis München fotoğraf koşulları](https://www.landkreis-muenchen.de/themen/auslaenderrecht-integration/fragen-antworten/)
+
 ### 51. Oturum uzatırken yeniden bloke hesap gerekiyor mu?
 
 Geçimini nasıl sağladığını yeniden belgelemen istenebilir; kullanılabilecek belgeler senin durumuna ve kurumun talebine bağlı. Bloke hesap, burs veya çalışma geliri gibi seçeneklerden hangisinin kabul edileceğini dosyan için netleştir. Sana gönderilen belge listesine göre ilerlemek, gereksiz hesap açma veya para aktarma işlemlerini önler. [Landratsamt oturum bilgileri](https://www.landkreis-muenchen.de/buergerservice/dienstleistung/aufenthaltstitel-fuer-nicht-eu-buerger/)
@@ -715,6 +719,8 @@ Gym pazartesi–cuma **06.30–22.00**, hafta sonu ve resmî tatillerde **08.00�
 ### 126. Yakında nerede fotokopi çektirebilir, çıktı alabilir veya belge taratabilirim?
 
 Başvuru formu, kira evrakı veya ders notu için **Feringastraße 4, 85774 Unterföhring** adresindeki **dm** pratik bir seçenek. Bu şubede **Copy-Station** var; çıktı alabilir, fotokopi çekebilir ve belge taratabilirsin. Normal açılış saatleri **pazartesi–cumartesi 07.00–20.00**, pazar kapalı. [Şube ve hizmetleri](https://www.dm.de/store/d0kl/unterfoehring/feringastrasse-4) · [Apian’dan yürüyüş rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=dm+Feringastrasse+4+85774+Unterfoehring&travelmode=walking)
+
+**Diğer yakın seçenek: Maria-Nindl-Platz 2, 81927 München’deki dm (Prinz-Eugen-Park).** Bu şubede de **Copyservice** var; çıktı, fotokopi ve tarama işlerini burada da halledebilirsin. Normal saatleri **pazartesi–cumartesi 07.00–20.00**, pazar kapalı. Biyometrik fotoğraf da çektirebildiğin için evrak işlerini tek seferde toparlamak pratik olabilir. [Şube ve hizmetleri](https://www.dm.de/store/d539/muenchen/maria-nindl-platz-2) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=dm+Maria-Nindl-Platz+2+81927+Muenchen&travelmode=walking)
 
 **Çıktı almak için:** Dosyanı **PDF veya JPG** olarak telefonuna ya da USB belleğe koy. Mağazadaki fotoğraf terminalinde **Copyservice** seçeneğini aç, dosyanı aktar; renkli/siyah-beyaz, tek/çift taraf ve kopya sayısını seç. Word belgen varsa önce PDF’ye çevirmen işini kolaylaştırır.
 

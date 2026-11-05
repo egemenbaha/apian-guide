@@ -8,7 +8,7 @@ Arda’nın Wikipedia tarzı düzeni korunarak 130 soruluk FAQ, kaynak bağlant�
 
 [Türk Konsolosluğu, Eğitim Ataşeliği ve askerlik](https://apian-guide.vercel.app/#resmi-islemler/bolum-7) bölümünde iletişim/ulaşım, yurt dışı adres beyanı, özel öğrenci dosyası belgeleri ve tecil takibi bulunur. Randevusuz işlem paylaşımı sakin aktarımı olarak ayrılır; adres beyanına ilişkin eski duyuru ile güncel genel randevu açıklaması birlikte gösterilir. Öğrenci fişi, tamamlanmış askerlik ertelemesi olarak sunulmaz.
 
-[Fotokopi, çıktı ve tarama](https://apian-guide.vercel.app/#resmi-islemler/soru-126), Resmî işlemler bölümünde Feringastraße’deki dm’nin Copy-Station hizmetini, dosya hazırlığını, A4 ücretlerini ve ciltleme seçeneğini anlatır.
+[Fotokopi, çıktı ve tarama](https://apian-guide.vercel.app/#resmi-islemler/soru-126), Feringastraße 4 ve Maria-Nindl-Platz 2’deki dm şubelerini, dosya hazırlığını, A4 ücretlerini ve Feringastraße şubesinin ciltleme seçeneğini anlatır. İki şube [biyometrik fotoğraf yanıtında](https://apian-guide.vercel.app/#resmi-islemler/soru-50) da bulunur. Ausländerbehörde’de fotoğraf çekimi sakin aktarımı olarak belirtilir; randevu öncesinde dijital fotoğraf kodunu hazırlama önerisi ve Landkreis München’in dijital fotoğraf koşulları eklenmiştir.
 
 [Üyelikler ve abonelikler](https://apian-guide.vercel.app/#abonelikler), Deutschlandticket’in standart/öğrenci tarifelerini ve iptal adımlarını; Clever fit, Cosimawellenbad, ZHS, Scheck Club ve belediyenin spor seçeneklerini içerir. Fiyatlar ve koşullar ilgili yanıtın resmî kaynak bağlantılarıyla birlikte tutulur. ZHS dönemlik katkı payı ile kurs ücreti, havuz girişi ile sauna bileti ayrı anlatılır. Fiyat değişikliklerinin yürürlük tarihleri içerikte korunur.
 
