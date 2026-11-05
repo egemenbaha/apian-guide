@@ -118,6 +118,8 @@ Bisiklet park alanlarını kullanabilirsin. **Apian 2 binalarının altında ve 
 
 Ad-soyadının yanında sözleşmendeki **doğru bina adresini ve oda/apartman numaranı** mutlaka yaz. Apian 1’in adresi Apianstraße 7; Apian 2, 7a ve 7b binalarını kapsıyor. Rehberdeki yönetim e-postasına göre posta kutusuna isim eklemek yerine gönderilerde apartman/posta kutusu numarası kullanılmalı. [Apian 1 adresi](https://www.apian-aparthaus.de/kopie-von-apartments) · [Apian 2 adresleri](https://www.apian-aparthaus.de/apartments)
 
+En yakın DHL Packstation, **Packstation 166**. Kargonu buradan almak için internetten sipariş verirken teslimat adresi olarak bu Packstation’ı seçebilirsin. Sipariş sonrasında da uygun gönderileri **Post & DHL** uygulamasından Packstation 166’ya yönlendirebilirsin.
+
 ### 26. DHL teslim alma kodu gelmedi. Ne yapabilirim?
 
 Önce takip sayfasındaki teslim yerini kontrol et. Posta kutuna ve kutuların üzerine bırakılmış teslim bildirimlerine de bak. Kod gelmediyse gönderi numaranla DHL desteğe veya chatbot’a başvur.
