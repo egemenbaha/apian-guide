@@ -63,6 +63,6 @@ Proje açıklamasındaki dört açık soru grubu, kullanıcının yanıtları ge
 
 ## Açık kaynak ve katkı
 
-Apian Guide [MIT lisansı](LICENSE) altında açık kaynaktır. Herkes fork oluşturup değişiklik önerebilir. Katkıcılar `main` için pull request açar; birleştirme `@egemenbaha` onayı ve başarılı `Test and build` kontrolü gerektirir. Repo sahibi gerektiğinde doğrudan gönderebilir.
+Apian Guide [MIT lisansı](LICENSE) altında açık kaynaktır. Herkes fork oluşturup değişiklik önerebilir. `@egemenbaha` ve `@ardatas` doğrudan push ve merge yapabilir; iki hesap ana dal kurallarından muaftır. Diğer katkıcılar `main` için pull request açar; birleştirme bu iki proje sorumlusundan birinin onayını ve başarılı `Test and build` kontrolünü gerektirir.
 
 Katkı adımları, içerik ilkeleri ve ana dal kuralları için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasına bak. Dış kaynak bağlantıları, kaynakların kendi lisans ve kullanım koşullarını değiştirmez.

@@ -8,17 +8,21 @@ Apian Guide'a katkıların hoş geldi! Hata bildirmek, bir cevabı güncellemek 
 2. Değişikliğini bu dalda yap. Mevcut Wikipedia tarzı tasarımı ve Apian 1/2 ayrımını koru.
 3. `npm test` ve `npm run build` komutlarını çalıştır.
 4. Dalını gönderip `main` hedefli bir pull request aç. Sorunu, yaptığın değişikliği ve kontrol sonucunu kısaca anlat. Görsel değişikliklerde ekran görüntüsü ekle.
-5. `@egemenbaha` incelemesini bekle. Geri bildirim varsa aynı dala yeni commit gönder.
+5. `@egemenbaha` veya `@ardatas` incelemesini bekle. Geri bildirim varsa aynı dala yeni commit gönder.
 
 ## Ana dalın korunması
 
-- Katkıcılar, `main` dalına doğrudan göndermez; PR üzerinden ilerler.
-- Tüm dosyaların kod sahibi `@egemenbaha`dır. Birleştirme için onun onayı gerekir.
+- `@egemenbaha` ve `@ardatas` güvenilen proje sorumlularıdır. Kullanıcıya özel `always` muafiyetiyle doğrudan `main` dalına push yapabilir ve PR'ları onay/test kapısına takılmadan birleştirebilirler.
+- Diğer katkıcılar PR üzerinden ilerler. Tüm dosyaların kod sahipleri `@egemenbaha` ve `@ardatas`tır; bu iki kişiden birinin onayı gerekir.
 - Yeni değişiklik gönderilirse önceki onay geçersiz olur ve yeniden inceleme gerekir.
 - `Test and build` kontrolü başarılı olmalı, dal güncel `main` ile uyumlu olmalı ve inceleme konuşmaları çözülmelidir.
-- Force push ve dal silme kapalıdır.
+- Force push ve dal silme diğer katkıcılara kapalıdır. İki proje sorumlusunun muafiyeti bu kuralları da kapsar.
 
-Bu kurallar GitHub dal korumasıyla uygulanır; `CODEOWNERS` dosyası tek başına birleştirmeyi engellemez. İleride başka birine yönetici yetkisi verilirse yönetici istisnasının kapsamı yeniden değerlendirilmelidir.
+Onay, test ve konuşma çözümleme zorunlulukları muafiyet tanınan iki hesap dışındaki katkıcılar için geçerlidir. Testler proje sorumlularının push'larında da çalışır; başarılı olmaları önerilir, gönderimi engellemez.
+
+Bu kurallar [GitHub ruleset](https://github.com/egemenbaha/apian-guide/rules/26578031) üzerinden uygulanır. Muafiyet yalnızca bu iki kullanıcı hesabına tanımlıdır; ileride eklenen katkıcılara otomatik aktarılmaz. `CODEOWNERS` dosyası tek başına birleştirmeyi engellemez.
+
+Repo kişisel hesaba aittir. GitHub bu tür depolarda ayrı bir admin rolünü başka bir kullanıcıya vermediği için repo ayarları ve sahiplik işlemleri `@egemenbaha`da kalır; `@ardatas`ın collaborator yazma/birleştirme erişimi ve yukarıdaki muafiyeti vardır.
 
 ## FAQ içeriği
 
