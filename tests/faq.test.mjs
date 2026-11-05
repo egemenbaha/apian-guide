@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { parseFaq, validateTopics } from '../scripts/generate-faq.mjs';
-import { topics } from '../src/topics.js';
+import { topics, sectionQuestionIds } from '../src/topics.js';
 import { renderAnswer } from '../src/faq.js';
 import { createSearchIndex, findMatches } from '../src/search.js';
 
@@ -94,6 +94,9 @@ test('pharmacy comes first in the shopping topic without mixing Sunday market ho
   const shopping = topics.find(topic => topic.id === 'alisveris');
   assert.equal(shopping.sections[0], 'En yakın eczane');
   assert.deepEqual(shopping.questionIds[0], [103]);
+  const pharmacies = topics.find(topic => topic.id === 'eczaneler');
+  assert.deepEqual(sectionQuestionIds(pharmacies, 0), [103, 62]);
+  assert.deepEqual(sectionQuestionIds(pharmacies, 2), [64]);
   assert.match(faq.questions[102].answer, /Pharao Apotheke/);
   assert.match(faq.questions[102].answer, /pazar günü kapalı/);
   assert.ok(findMatches('eczane', searchIndex).some(match => match.href === '#alisveris/soru-103'));

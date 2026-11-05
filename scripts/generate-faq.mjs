@@ -18,7 +18,12 @@ export function parseFaq(markdown) {
 export function validateTopics(questions, topicList) {
   const ids = topicList.flatMap(topic => {
     if (topic.sections.length !== topic.questionIds.length) throw new Error(`Section mapping mismatch: ${topic.id}`);
-    return topic.questionIds.flat();
+    const assigned = topic.questionIds.flat();
+    if (topic.introQuestionId != null &&
+        (!questions.some(question => question.id === topic.introQuestionId) || assigned.includes(topic.introQuestionId))) {
+      throw new Error(`Invalid intro question for ${topic.id}`);
+    }
+    return assigned;
   });
   if (ids.length !== questions.length || new Set(ids).size !== ids.length ||
       questions.some(question => !ids.includes(question.id))) {

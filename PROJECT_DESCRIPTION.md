@@ -296,13 +296,13 @@ Sözleşmendeki bitiş ve bildirim süresini kontrol edip işletmecinin resmî i
 
 ### 63. Unterföhring merkezinde başka hangi eczaneyi kullanabilirim?
 
-**Feringa-Apotheke, Föhringer Allee 6, 85774 Unterföhring.** Merkezde işin varsa değerlendirebileceğin bir alternatif. Normal saatleri **pazartesi–cuma 08.00–18.30**, **cumartesi 08.00–13.00**. Telefonu **089 95001313**. Sırf eczane için Apian’dan çıkıyorsan önce SaniPlus’a; merkezdeysen Feringa’ya bakmak makul bir başlangıç olur. [Feringa-Apotheke](https://www.apo-ufg.de/apotheken/rpod/) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Feringa+Apotheke+Foehringer+Allee+6+85774+Unterfoehring&travelmode=transit)
+**Feringa-Apotheke, Föhringer Allee 6, 85774 Unterföhring.** Merkezde işin varsa değerlendirebileceğin bir alternatif. Normal saatleri **pazartesi–cuma 08.00–18.30**, **cumartesi 08.00–13.00**. Telefonu **089 95001313**. [Feringa-Apotheke](https://www.apo-ufg.de/apotheken/rpod/) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Feringa+Apotheke+Foehringer+Allee+6+85774+Unterfoehring&travelmode=transit)
 
 ### 64. Unterföhring’de güncel nöbetçi eczane listesini nereden açabilirim?
 
 [Unterföhring için güncel nöbetçi eczane listesini aç](https://www.aponet.de/notdienstsuche/85774-Unterf%C3%B6hring). Posta kodu hazır: **85774 Unterföhring**. Listede çevredeki nöbetçi eczanelerin adı, adresi, telefonu ve nöbetin başlangıç–bitiş saati yer alıyor. aponet, Bundesapothekerkammer’ın resmî nöbet verilerini kullanıyor.
 
-**Gece, pazar ve resmî tatillerde bu listeye bakabilirsin.** Nöbet sırası değiştiği için SaniPlus veya Feringa’nın her zaman açık olduğunu düşünme. Gitmeden önce listedeki tarih ve saat aralığını kontrol et, eczaneyi arayıp ihtiyacın olan ürünün stokta olduğunu sor. Haritadaki mesafeler kuş uçuşu; yol süresini ayrıca kontrol et.
+**Gece, pazar ve resmî tatillerde bu listeye bakabilirsin.** Gitmeden önce listedeki tarih ve saat aralığını kontrol et, eczaneyi arayıp ihtiyacın olan ürünün stokta olduğunu sor. Haritadaki mesafeler kuş uçuşu; yol süresini ayrıca kontrol et.
 
 Başka bir gün için **“Erweiterte Suche”** bölümünden tarih seçebilirsin; arama iki hafta ilerisine kadar plan gösterebiliyor. Alternatif resmî arama için **Bayerische Landesapothekerkammer** sayfasında **85774** veya **Unterföhring** yaz. [Bavyera Eczacılar Odası nöbet araması](https://www.blak.de/notdienstsuche/)
 
@@ -536,7 +536,7 @@ Pazar günü **ekmek ve kahvaltılık için yakındaki fırına**, **daha geniş
 
 Apian’a en yakın eczane **Pharao Apotheke**, **Fritz-Meyer-Weg 55, 81925 München** adresinde. EDEKA Häfner ile aynı adreste. [Konum ve yol tarifi](https://maps.app.goo.gl/WKKg1MSwJ9LecCB56)
 
-**Pazartesi–cuma 08.30–18.30**, **cumartesi 08.30–12.30** açık; **pazar günü kapalı**. Telefon: **089 95 51 07**. [Eczane bilgileri](https://eugenapotheke.de/)
+**Pazartesi–cuma 08.30–18.30**, **cumartesi 08.30–12.30** açık. Normal çalışma düzeninde **pazar günü kapalı**. [089 95 51 07](tel:+4989955107) · [Eczane bilgileri](https://eugenapotheke.de/)
 
 ### 104. Acil durumda hangi numarayı aramalıyım?
 

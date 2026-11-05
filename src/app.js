@@ -1,7 +1,7 @@
 // One shared switch controls forum navigation and the local server route.
 const { forumEnabled = false } = await fetch(new URL('./features.json', import.meta.url)).then(response => response.json()).catch(() => ({}));
 document.querySelector('.forum-link').hidden = forumEnabled !== true;
-import { topics } from './topics.js';
+import { topics, sectionQuestionIds } from './topics.js';
 import { faq } from './faq-data.js';
 import { escapeHtml, renderInline, renderAnswer } from './faq.js';
 import { checklistToolbar, mountChecklist } from './checklist.js';
@@ -82,7 +82,7 @@ document.querySelectorAll('.appearance input').forEach(input => input.addEventLi
   document.documentElement.dataset[input.name.replace('-size', 'Size')] = input.value;
 }));
 function renderSection(topic, sectionIndex) {
-  const ids = topic.questionIds[sectionIndex];
+  const ids = sectionQuestionIds(topic, sectionIndex);
   if (!ids.length) return '<p>İptal başvurunu ve üyeliğinin sona ereceği tarihi gösteren yazılı teyidi sakla. <a href="#abonelikler/soru-56">Üyelik iptali yanıtına git.</a></p>';
   const answers = ids.map(id => {
     const question = questionsById.get(id);

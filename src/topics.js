@@ -16,7 +16,7 @@ export const topics = [
   { id: 'resmi-islemler', title: 'Resmî işlemler', group: 'Taşınma ve işlemler', sections: ['Anmeldung ve Abmeldung', 'Oturum ve randevular', 'Fiktionsbescheinigung', 'Biyometrik fotoğraf', 'Geçim belgeleri ve bloke hesap', 'Sağlık sigortası, AT11 ve M10', 'Türk Konsolosluğu, Eğitim Ataşeliği ve askerlik', 'Vergi ve sosyal güvenlik numaraları', 'Fotokopi, çıktı ve tarama'], questionIds: [[44, 45, 46], [47, 48], [49], [50], [51], [53], [127, 128, 129, 54, 130], [55], [126]] },
   { id: 'abonelikler', title: 'Üyelikler ve abonelikler', group: 'Taşınma ve işlemler', sections: ['Clever fit: spor salonu üyeliği', 'İptal ve yazılı teyit', 'Deutschlandticket', 'Cosimawellenbad: yüzme ve sauna', 'ZHS: üniversite sporları', 'Diğer spor seçenekleri'], questionIds: [[100, 118], [56], [116, 117], [119, 120, 121], [122, 123], [124, 125]] },
   { id: 'marketler', title: 'Yakındaki marketler', group: 'Çevre rehberi', sections: ['Hangi marketi seçeyim?', 'ALDI Süd', 'Lidl', 'EDEKA Die Frischnachbarn', 'REWE', 'Pazar ve tatil günlerinde alışveriş'], questionIds: [[57], [58], [59], [60], [61], [94]] },
-  { id: 'eczaneler', title: 'Eczaneler ve nöbetçi eczane', group: 'Çevre rehberi', sections: ['SaniPlus Föhring', 'Feringa-Apotheke', 'Güncel nöbetçi eczane listesi'], questionIds: [[62], [63], [64]] },
+  { id: 'eczaneler', title: 'Eczaneler ve nöbetçi eczane', group: 'Çevre rehberi', sections: ['Pharao Apotheke ve SaniPlus Föhring', 'Feringa-Apotheke', 'Güncel nöbetçi eczane listesi'], introQuestionId: 103, questionIds: [[62], [63], [64]] },
   { id: 'doktor-randevusu', title: 'İlk doktor randevusu', group: 'Çevre rehberi', sections: ['Randevu alırken', 'Unterföhring’de aile ve diş hekimleri', 'Türkçe muayene ve dil desteği', 'Yanına ne almalısın?'], questionIds: [[137], [138], [139], [140]] },
   { id: 'ulasim', title: 'Duraklar ve toplu taşıma', group: 'Çevre rehberi', sections: ['Apianstraße: 233 ve X205', 'Feringastraße ve Feringastraße Ost', 'Tramvay ve canlı seferler'], questionIds: [[67], [68], [69]] },
   { id: 'universiteler', title: 'TUM ve LMU ulaşımı', group: 'Çevre rehberi', sections: ['TUM Garching', 'TUM Stammgelände', 'LMU Universität'], questionIds: [[70], [71], [72]] },
@@ -25,3 +25,10 @@ export const topics = [
   { id: 'bozuk-para', title: 'Çamaşırhane için bozuk para', group: 'Çevre rehberi', sections: ['Dream-Bowl Palace’ta bozuk para makinesi', 'Az miktarda bozuk para ve alternatifler'], questionIds: [[90], [91]] },
   { id: 'tatiller', title: 'Resmî tatiller', group: 'Çevre rehberi', sections: ['2026 sonu: Noel ve yılbaşı', '2027 resmî tatil takvimi'], questionIds: [[95], [96]] }
 ];
+
+// A topic can also open with an existing answer from another topic.
+export function sectionQuestionIds(topic, sectionIndex) {
+  const ids = topic.questionIds[sectionIndex];
+  if (sectionIndex === 0 && topic.introQuestionId != null) return [topic.introQuestionId, ...ids];
+  return ids;
+}
