@@ -424,7 +424,7 @@ Kartın yurt dışı kullanıma açıksa ve ATM ilgili **Visa/Mastercard ağın�
 
 Alışveriş yaparken kasiyere **“Könnten Sie mir das Wechselgeld bitte in 50-Cent-Münzen geben?”** diyebilirsin: “Para üstünü 50 centlik verebilir misiniz?” Bu küçük bir rica; kasanın bozuk para durumuna bağlı, garanti bir hizmet değil. Makinenin hangi kupürü istediğine önce bak, gereksiz yere farklı madeni para toplama.
 
-Bankanda **Münzrollenautomat** varsa rulo madeni para da alabilirsin. Örneğin Stadtsparkasse München, **Kurfürstenplatz** dahil belirli şubelerde bu cihazları listeliyor; gitmeden müşteri şartını ve ücreti sor. Normal banknot ATM’siyle veya marketten hesaptan para çekmeyle aynı işlem değil. Çamaşırhanendeki makine Airwallet kabul ediyorsa uygulamayla ödeme seçeneğini de değerlendirebilirsin. [Stadtsparkasse madeni para cihazları](https://www.sskm.de/fi/home/services-und-kontakt/online-services/alle-services/automaten.html)
+Çamaşırhanendeki makine Airwallet kabul ediyorsa uygulamayla da ödeyebilirsin.
 
 ### 92. dm’den 200 €’ya kadar para çekebilir miyim? Nasıl yapılıyor?
 
