@@ -234,7 +234,13 @@ Geçimini nasıl sağladığını yeniden belgelemen istenebilir; kullanılabile
 
 ### 52. Öğrenciyim ve yurtta kalıyorum. Rundfunkbeitrag ödeyecek miyim?
 
-Öğrenci olmak tek başına muafiyet sağlamıyor. Genel koridora ayrı kapıyla açılan yurt odaları, bu sistemde ayrı konut sayılabiliyor; bu yüzden yan odadaki arkadaşının ödüyor olması seni otomatik olarak kapsamıyor. BAföG gibi belirli durumlarda muafiyet başvurusu yapılabiliyor. Gelen yazıyı bekletmeden kendi durumuna uygun işlem yap. [Öğrenciler için resmî açıklama](https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/informationen/informationen-fuer-studierende)
+**Evet, Apian 1’de de Apian 2’de de Rundfunkbeitrag ödeniyor. Apian’da kalmaya bağlı genel bir muafiyet yok.** Öğrenci olmak da tek başına muafiyet sağlamıyor. Genel koridora ayrı kapıyla açılan yurt odaları ayrı konut sayıldığı için yan odadaki arkadaşının ödeme yapması senin odanı kapsamıyor. BAföG gibi yasal muafiyet koşullarını sağlıyorsan ayrıca başvuru yapabilirsin. [Öğrenciler için resmî açıklama](https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/informationen/informationen-fuer-studierende)
+
+**Standart ödeme düzeni 3 ayda bir:** Aylık tutar **18,36 €**, üç aylık toplam **55,08 €**. Yasal ödeme düzeninde ödeme, üç aylık dönemin ortasında yapılır; sana bildirilen ödeme tarihini takip et. [Ödeme tutarı ve dönemleri](https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/informationen/zahlung)
+
+**Üç aylık ödeme düzeninde SEPA otomatik ödeme talimatı verdiysen, tutar 3 ayda bir hesabından otomatik çekilir.** Talimat vermediysen ödemeyi kendin yapman gerekir. Gelen yazıyı bekletmeden kaydını ve ödeme yöntemini kontrol et; her ödeme için yeni bir hatırlatma gelmesini bekleme. [Otomatik ödeme ve havale bilgileri](https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/informationen/zahlung)
+
+*Apian 1 ve Apian 2’de ödeme yapıldığı bilgisi sakin aktarımına dayanır. Genel kurallar, tutar ve ödeme koşulları 5 Kasım 2026’da resmî kaynaklardan kontrol edildi.*
 
 ### 53. AT11, M10 ve Alman sağlık sigortası aynı şey mi?
 
