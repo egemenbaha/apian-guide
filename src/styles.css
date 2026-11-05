@@ -57,3 +57,16 @@ main{min-width:0}h1,h2{font-family:'Linux Libertine',Georgia,'Times New Roman',s
 .correction[open]{border-left:3px solid var(--subtle);padding-left:12px}
 .correction p{max-width:65ch;font-size:13px}.correction-link{display:inline-block}
 .packing-list input:focus-visible,.checklist-reset:focus-visible,.correction summary:focus-visible,.correction-link:focus-visible{outline:2px solid var(--link);outline-offset:3px}
+#search-results{overscroll-behavior:contain;overflow-wrap:anywhere}
+#search-results .search-summary{font-size:12px;font-weight:600;color:var(--muted);padding:10px 14px;border-bottom:1px solid var(--subtle)}
+#search-results .search-hint{font-size:12px;color:var(--muted);padding:8px 14px;background:var(--panel)}
+#search-results .search-result{padding:12px 14px;border-bottom:1px solid var(--subtle);line-height:1.45}
+#search-results .search-result:hover,#search-results .search-result:focus-visible{background:var(--panel);text-decoration:none;outline:2px solid var(--link);outline-offset:-2px}
+.search-context,.search-title,.search-excerpt{display:block}
+.search-context{font-size:11px;color:var(--muted);margin-bottom:4px}
+.search-title{font-size:14px;font-weight:600}
+.search-excerpt{font-size:13px;color:var(--ink);margin-top:5px}
+#search-results mark{background:#fef6c0;color:inherit;border-radius:2px}
+:root[data-color="dark"] #search-results mark{background:#544b1f}
+.search-more{display:block;width:100%;min-height:44px;border:0;background:var(--panel);color:var(--link);font-size:13px;font-weight:600;padding:10px 14px}
+.search-more:focus-visible{outline-offset:-3px}

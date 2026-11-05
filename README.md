@@ -12,6 +12,10 @@ Ana alan adı `apianwiki.space`, Vercel’deki `ApianS / apian-guide` projesinin
 
 Arda’nın Wikipedia tarzı düzeni korunarak 133 soruluk FAQ, kaynak bağlantıları ve açık sorular 23 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
 
+Arama soru, cevap ve bölüm başlıklarını ilgililiğe göre sıralar; Türkçe karakterleri, bazı Türkçe ekleri, yaygın Türkçe/Almanca/İngilizce karşılıkları ve küçük yazım hatalarını destekler. Örneğin `wifi çalışmıyor`, `pazar günü nereler açık`, `Apian2 sineklik`, `Kaution` veya `sineklki` yazabilirsin. Sonuçlarda bölüm adı, cevaptan kısa alıntı ve eşleşen kelimeler görünür. İlk sekiz sonuçtan sonra tümünü açabilirsin; ↑/↓ ile gezin, Enter ile aç, Escape ile kapat. Aramalar kaydedilmez veya bir servise gönderilmez; yeni cevap üretilmez, rehberdeki metinler aranır.
+
+Arama mantığı ve sözcük karşılıkları `src/search.js`, arayüzü `src/search-ui.js` içindedir. Dizin sayfa yüklenirken bir kez hazırlanır. Kısa banka adları ve sayılar yaklaşık eşleştirilmez; yazım toleransı yalnızca doğrudan eşleşme bulunmayan kelimelerde uygulanır. Davranış ve sıralama örnekleri `tests/search.test.mjs` ile kontrol edilir.
+
 [Orterer içecek marketi](https://apianwiki.space/#alisveris/soru-132) ve [Kistenpfennig fırını](https://apianwiki.space/#alisveris/soru-133), “Eczane, market ve fırın” bölümünde adres, açılış saatleri, telefon ve yürüyüş rotasıyla yer alır. Kistenpfennig’in pazar saatleri, pazar alışverişi yanıtlarında da gösterilir.
 
 [Yakındaki dm şubeleri](https://apianwiki.space/#alisveris/soru-131), alışveriş bölümünde Feringastraße 4 ile Maria-Nindl-Platz 2’yi adres, saat ve yol tarifleriyle karşılaştırır. Maria-Nindl-Platz şubesi, [para çekme yanıtında](https://apianwiki.space/#bankalar/soru-92) da Feringastraße’ye alternatif olarak gösterilir.

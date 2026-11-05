@@ -66,21 +66,3 @@ function renderChecklist(paragraph, prefix) {
 export function renderAnswer(answer, { checklistPrefix = '' } = {}) {
   return answer.split(/\n\s*\n/).map(paragraph => renderChecklist(paragraph, checklistPrefix) ?? renderTable(paragraph) ?? renderMapLink(paragraph) ?? `<p>${renderInline(paragraph)}</p>`).join('');
 }
-
-export function normalize(text) {
-  return text.toLocaleLowerCase('tr').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ı/g, 'i');
-}
-
-export function findMatches(query, topics, questions) {
-  const terms = normalize(query.trim()).split(/\s+/).filter(Boolean);
-  if (!terms.length) return [];
-  const matches = text => terms.every(term => normalize(text).includes(term));
-  const topicMatches = topics.filter(topic => matches([topic.title, ...topic.sections].join(' ')))
-    .map(topic => ({ href: `#${topic.id}`, title: topic.title }));
-  const questionMatches = questions.filter(question => matches(`${question.question} ${question.answer}`))
-    .map(question => {
-      const topic = topics.find(item => item.questionIds.flat().includes(question.id));
-      return { href: `#${topic.id}/soru-${question.id}`, title: question.question };
-    });
-  return [...topicMatches, ...questionMatches];
-}

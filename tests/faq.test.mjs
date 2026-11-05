@@ -3,10 +3,12 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { parseFaq, validateTopics } from '../scripts/generate-faq.mjs';
 import { topics } from '../src/topics.js';
-import { renderAnswer, findMatches } from '../src/faq.js';
+import { renderAnswer } from '../src/faq.js';
+import { createSearchIndex, findMatches } from '../src/search.js';
 
 const source = await readFile(new URL('../PROJECT_DESCRIPTION.md', import.meta.url), 'utf8');
 const faq = parseFaq(source);
+const searchIndex = createSearchIndex(topics, faq.questions);
 
 test('all reviewed questions, sources and pending items survive the Markdown import', () => {
   assert.equal(faq.questions.length, 133);
@@ -27,14 +29,14 @@ test('missing or duplicated question assignments fail before publishing', () => 
 });
 
 test('search handles Turkish letters, answers, whitespace and exact question destinations', () => {
-  assert.ok(findMatches('SİNEKLİK', topics, faq.questions).some(match => match.href === '#oda-donanimi/soru-8'));
-  assert.ok(findMatches('koaksiyel', topics, faq.questions).some(match => match.href === '#internet/soru-11'));
-  assert.ok(findMatches('  AIRWALLET   rezervasyon ', topics, faq.questions).some(match => match.href === '#camasirhane/soru-17'));
-  assert.ok(findMatches('BEYAZ KARTON', topics, faq.questions).some(match => match.href === '#bakim/soru-98'));
-  assert.ok(findMatches('acil merdiven', topics, faq.questions).some(match => match.href === '#ortak-alanlar/soru-99'));
-  assert.ok(findMatches('pazar market', topics, faq.questions).some(match => match.href === '#alisveris/soru-101'));
-  assert.deepEqual(findMatches('   ', topics, faq.questions), []);
-  assert.deepEqual(findMatches('zzzzzz', topics, faq.questions), []);
+  assert.ok(findMatches('SİNEKLİK', searchIndex).some(match => match.href === '#oda-donanimi/soru-8'));
+  assert.ok(findMatches('koaksiyel', searchIndex).some(match => match.href === '#internet/soru-11'));
+  assert.ok(findMatches('  AIRWALLET   rezervasyon ', searchIndex).some(match => match.href === '#camasirhane/soru-17'));
+  assert.ok(findMatches('BEYAZ KARTON', searchIndex).some(match => match.href === '#bakim/soru-98'));
+  assert.ok(findMatches('acil merdiven', searchIndex).some(match => match.href === '#ortak-alanlar/soru-99'));
+  assert.ok(findMatches('pazar market', searchIndex).some(match => match.href === '#alisveris/soru-101'));
+  assert.deepEqual(findMatches('   ', searchIndex), []);
+  assert.deepEqual(findMatches('zzzzzz', searchIndex), []);
 });
 
 test('Markdown formatting preserves sources without allowing raw HTML or unsafe URLs', () => {
@@ -94,13 +96,13 @@ test('pharmacy comes first in the shopping topic without mixing Sunday market ho
   assert.deepEqual(shopping.questionIds[0], [103]);
   assert.match(faq.questions[102].answer, /Pharao Apotheke/);
   assert.match(faq.questions[102].answer, /pazar günü kapalı/);
-  assert.ok(findMatches('eczane', topics, faq.questions).some(match => match.href === '#alisveris/soru-103'));
+  assert.ok(findMatches('eczane', searchIndex).some(match => match.href === '#alisveris/soru-103'));
 });
 
 test('emergency contacts are discoverable and render safe dial links', () => {
   const emergency = faq.questions.find(question => question.id === 104);
   assert.equal(topics[0].id, 'acil-yardim');
-  assert.ok(findMatches('116117', topics, faq.questions).some(match => match.href === '#acil-yardim/soru-104'));
+  assert.ok(findMatches('116117', searchIndex).some(match => match.href === '#acil-yardim/soru-104'));
   const html = renderAnswer(emergency.answer);
   for (const number of ['112', '110', '116117', '+498919240']) {
     assert.ok(html.includes(`href="tel:${number}"`));

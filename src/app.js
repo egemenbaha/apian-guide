@@ -3,9 +3,10 @@ const { forumEnabled = false } = await fetch(new URL('./features.json', import.m
 document.querySelector('.forum-link').hidden = forumEnabled !== true;
 import { topics } from './topics.js';
 import { faq } from './faq-data.js';
-import { escapeHtml, renderInline, renderAnswer, findMatches } from './faq.js';
+import { escapeHtml, renderInline, renderAnswer } from './faq.js';
 import { checklistToolbar, mountChecklist } from './checklist.js';
 import { renderCorrection } from './corrections.js';
+import { mountSearch } from './search-ui.js';
 const questionsById = new Map(faq.questions.map(question => [question.id, question]));
 const content = document.querySelector('#page-content');
 const nav = document.querySelector('#topic-nav');
@@ -38,36 +39,13 @@ function home() {
   ${forumEnabled === true ? '<section id="topluluk" class="about"><h2>Topluluk forumu</h2><p>Rehbere katkı sunmak, bilgi paylaşmak veya bir konuyu birlikte değerlendirmek için <a href="/forum/index.php?title=Talk:Forum">Apian Wiki forumuna katıl</a>. Konu açmak ve yanıt yazmak için giriş yapman gerekiyor.</p></section>' : ''}
   <section id="hakkinda" class="about"><h2>Rehber hakkında</h2><p>Apian’da yerleşme, günlük yaşam ve resmî işlemlere yönelik bağımsız bir bilgi rehberidir. Konulara soldaki içindekiler bölümünden veya arama alanından ulaşabilirsin.</p><p>Apian 1 ve Apian 2 bilgileri ayrı tutulur; kaynak bağlantıları ilgili yanıtların yanında yer alır. Bu proje yurt yönetiminin resmî yayını değildir.</p></section><section id="acik-sorular" class="about"><h2>Açık kalan sorular</h2><p>${faq.openQuestions.length ? "Bu başlıklar, yanıtlar netleştiğinde tamamlanacak." : "Açık kalan soru bulunmuyor."}</p><ul>${faq.openQuestions.map(question => `<li>${renderInline(question)}</li>`).join('')}</ul></section><div class="category-box"><span>Konular:</span> Apian 1 <span class="category-divider">|</span> Apian 2 <span class="category-divider">|</span> Öğrenci yaşamı</div>`;
 }
-const search = document.querySelector('#topic-search');
-const results = document.querySelector('#search-results');
-function searchTopics() {
-  const query = search.value.trim();
-  results.replaceChildren();
-  results.hidden = !query;
-  const matches = findMatches(query, topics, faq.questions);
-  for (const match of matches) {
-    const link = document.createElement('a');
-    link.href = match.href;
-    link.textContent = match.title;
-    link.addEventListener('click', () => { results.hidden = true; });
-    results.append(link);
-  }
-  if (query && !matches.length) {
-    const message = document.createElement('p');
-    message.textContent = 'Başka bir kelimeyle deneyebilirsin; örneğin anahtar, depozito veya Anmeldung.';
-    results.append(message);
-  }
-  document.querySelector('#search-status').textContent = query ? `${matches.length} sonuç bulundu.` : '';
-}
-search.addEventListener('input', searchTopics);
-search.addEventListener('focus', () => { if (search.value.trim()) searchTopics(); });
-search.addEventListener('keydown', event => { if (event.key === 'Escape') results.hidden = true; });
-document.querySelector('#search-form').addEventListener('submit', event => {
-  event.preventDefault();
-  searchTopics();
-  results.querySelector('a')?.focus();
+const guideSearch = mountSearch({
+  root: document.querySelector('.global-search'), topics, questions: faq.questions,
+  onSelect: match => {
+    if (location.hash === match.href) render();
+    document.querySelector('main').focus({ preventScroll: true });
+  },
 });
-document.addEventListener('click', event => { if (!event.target.closest('.global-search')) results.hidden = true; });
 const themeToggle = document.querySelector('.theme-toggle');
 function setColorTheme(color, save = true) {
   const dark = color === 'dark';
@@ -132,7 +110,7 @@ function render() {
     else link.removeAttribute('aria-current');
   });
   if (!desktopMenu.matches) resetMenu();
-  results.hidden = true;
+  guideSearch.close();
   if (!id) window.scrollTo(0, 0);
   if (sectionId && /^(bolum|soru)-\d+$/.test(sectionId)) document.getElementById(sectionId)?.scrollIntoView();
   if (['konular', 'hakkinda', 'acik-sorular'].includes(id)) document.getElementById(id)?.scrollIntoView();

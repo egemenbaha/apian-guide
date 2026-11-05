@@ -19,14 +19,15 @@ Always commit and push completed repository changes after the relevant checks pa
 | Topic titles, groups, subheadings, and stable topic IDs | `src/topics.js` |
 | Landing page and topic-page markup | `home()`, `article()`, `tabs()`, `card()` in `src/app.js` |
 | Hash routing, scrolling, active navigation, page titles | `render()` in `src/app.js` |
-| Turkish title search and result links | `normalize()`, `searchTopics()` in `src/app.js` |
+| Ranked text search, aliases, typo matching and excerpts | `src/search.js`, `tests/search.test.mjs` |
+| Search preview, highlights and keyboard navigation | `src/search-ui.js`, mounted in `src/app.js` |
 | Responsive menu behavior | `desktopMenu`, `resetMenu()`, toggle listener in `src/app.js` |
 | Appearance behavior | `.appearance input` change listener in `src/app.js` |
 | Wiki layout, typography, responsive rules, light/dark colors | `src/styles.css` |
 | Header book/check logo and animation | `index.html`, `.brand-*` rules in `src/styles.css` |
 | Shared favicon / optional forum logo and third-party notices | `src/forum-logo.svg`, `src/icon-licenses.txt` |
 | FAQ generation and topic mapping validation | `scripts/generate-faq.mjs` |
-| Markdown rendering and question search | `src/faq.js` |
+| Safe Markdown rendering | `src/faq.js` |
 | Packing checklist storage, progress and reset | `src/checklist.js` |
 | Per-answer GitHub correction draft links | `src/corrections.js` |
 | Generated FAQ data (ignored; regenerate from Markdown) | `src/faq-data.js` |
@@ -56,6 +57,8 @@ Always commit and push completed repository changes after the relevant checks pa
 Keep topic IDs stable because sidebar, search, and pagination links share them. Changing section order also changes numbered section links. Topic groups and their ordering come from `topics`; headings are rendered into HTML from this trusted repository data. Use DOM text APIs or escaping if content later comes from users or external sources.
 
 FAQ search includes questions and answers; `#<topic-id>/soru-<n>` opens a question. Edit the Markdown source and the `questionIds` mapping when changing content. The dev and build commands generate FAQ data automatically.
+
+Search builds a local index once and ranks titles above answer/context matches. Preserve exact numbers and short bank names; typo matching must not substitute emergency numbers or building numbers. Search results quote existing content, never generated answers. Keep highlights as DOM text/mark nodes and omit source URLs from the searchable text. When changing search, verify spelling errors, aliases, ranking, arrow/Enter/Escape and Tab navigation, all-results expansion, empty queries and mobile overflow.
 
 Appearance controls set `data-text-size`, `data-width`, and `data-color` on the root element. The theme is also controlled from the header and persisted in the browser; preserve synchronization with appearance controls. Menu behavior switches at 901px; the appearance sidebar hides at 1200px and below.
 
