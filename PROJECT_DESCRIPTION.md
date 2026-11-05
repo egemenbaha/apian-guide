@@ -486,7 +486,7 @@ Asansörleri özenli kullan.
 
 ### 100. Clever fit hangi saatlerde açık?
 
-**Feringastraße 14, 85774 Unterföhring** adresindeki Clever fit, **haftanın her günü 06.00–00.00** arasında açık. Pazartesi–pazar aynı saatler geçerli.
+Apian’a yakın bir spor salonu arıyorsan **Clever fit Unterföhring**, **Feringastraße 14, 85774 Unterföhring** adresinde. **Her gün 06.00–00.00** açık. Görevliyle üyelik veya antrenman planı konuşmak için pazartesi–cuma **08.00–22.00**, cumartesi–pazar **08.00–20.00** arasında git. Ağırlık, fonksiyonel antrenman ve grup dersleri sunuyor. [Salon ve saatler](https://www.clever-fit.com/de/fitnessstudio/unterfoehring/) · [Apian’dan yürüyüş rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Clever+fit+Feringastrasse+14+85774+Unterfoehring&travelmode=walking)
 
 ### 101. Münih’te pazar günü hangi marketler açık?
 
@@ -634,6 +634,79 @@ Yeni eşya almadan önce odadakilere bak; kontrol ettiklerini işaretleyebilirsi
 - [ ] Askı ve düzenleyiciler
 
 [Sineklik bilgileri](https://apian-guide.vercel.app/#oda-donanimi/soru-8) · [Apian 2 oda ölçüleri](https://apian-guide.vercel.app/#apian-2-oda-olculeri) · [Yakındaki marketler](https://apian-guide.vercel.app/#marketler)
+
+### 116. Deutschlandticket ne işe yarıyor, öğrenci olarak ne kadar öderim?
+
+Üniversiteye düzenli gidiyorsan **Deutschlandticket** ile başlayabilirsin. Almanya genelinde otobüs, tramvay, U-Bahn, S-Bahn ve bölgesel trenlerin **2. sınıfında** geçerli. Apian’dan TUM Garching, TUM Stammgelände ve LMU’ya toplu taşımayla giderken de kullanabilirsin. **ICE, IC ve EC gibi uzun mesafe trenleri genel olarak kapsam dışında.** [Geçerli ulaşım araçları](https://www.mvg.de/mvg/abos-tickets/abos/deutschlandticket/hilfe-deutschlandticket/deutschlandticket-gueltigkeit)
+
+| Aylık bilet | 2026 sonuna kadar | 1 Ocak 2027’den itibaren |
+| --- | --- | --- |
+| Standart Deutschlandticket | 63 € | 66,80 € |
+| Bavyera öğrenci tarifesi — Ermäßigungsticket | 43 € | 46,80 € |
+
+**TUM, LMU veya Hochschule München’de okuyorsan Bavyera öğrenci tarifesine başvurabilirsin.** Öğrenim yerinin Bavyera’da olması ve öğrenci durumunu belgelemen gerekiyor. Bilet kişiye özel; arkadaşına devredemezsin. [MVG öğrenci tarifesi](https://www.mvg.de/abos-tickets/abos/ermaessigungsticket.html) · [Standart bilet fiyatı](https://www.bahn.de/angebot/regio/deutschland-ticket)
+
+### 117. Öğrenci Deutschlandticket’ini nasıl alırım, yenileme ve iptal nasıl oluyor?
+
+**MVG Kundenportal** üzerinden **Ermäßigungsticket** seç. Üniversite hesabınla doğrulama yapabilir veya en fazla iki ay önce düzenlenmiş **Immatrikulationsbescheinigung** yükleyebilirsin; öğrenci kartı tek başına yeterli değil. Telefon bileti seçersen **MVGO** uygulamasında kullanırsın; çipli kart seçeneği de var. [Başvuru ve belge koşulları](https://www.mvg.de/abos-tickets/abos/ermaessigungsticket.html)
+
+Öğrenci aboneliğinde bilet altı aylık hak süresi içinde her ay otomatik sağlanır. **Altı ayın sonunda güncel öğrenci belgenle yeniden sipariş vermen gerekir**; portalda görünen sözleşme bitiş tarihini takip et. [MVG abonelik bilgileri](https://www.mvg.de/abos-tickets/abos/ermaessigungsticket.html)
+
+**O ayın sonunda bırakmak istiyorsan en geç ayın 10’unda iptal et.** Örneğin kasım sonunda bırakmak için 10 Kasım’a kadar işlem yap. MVG portalında sözleşmeni açıp **Mein Vertrag → kündigen** yolunu izle; onay e-postasını sakla. Başka bir sağlayıcıdan aldıysan iptali oradan yap. MVGO’yu telefondan silmek aboneliği bitirmez. [MVG iptal adımları](https://www.mvg.de/kundenportal/hilfe-kundenportal/verwaltung-kuendigung.html)
+
+### 118. Clever fit’e öğrenci olarak nasıl üye olayım?
+
+Önce **deneme antrenmanı randevusu** al, salonu gör; öğrenci belgeni götürüp **öğrenciye özel tarifeyi** iste. Unterföhring şubesi bu avantajı doğrudan salonda sunuyor. Aylık ücretin yanında başlangıç bedelini, dönemsel ek ücretleri, minimum sözleşme süresini ve iptal tarihini de birlikte sor; toplam maliyet böyle daha net olur. [Deneme antrenmanı](https://www.clever-fit.com/de/probetraining/cf-unterfoehring/) · [Öğrenci üyeliği ve iletişim](https://www.clever-fit.com/de/fitnessstudio/unterfoehring/)
+
+**Wellhub, Urban Sports Club, EGYM Wellpass veya Epassi üyeliğin varsa** yeni sözleşme yapmadan önce kendi paketinin bu salona giriş hakkını kontrol et; salon bu ağlarla çalışıyor. [Salonun anlaşmalı üyelikleri](https://www.clever-fit.com/de/fitnessstudio/unterfoehring/)
+
+### 119. Cosimabad’da yüzebilir miyim, giriş ne kadar?
+
+Evet. **Cosimawellenbad (Cosimabad), Cosimastraße 5, 81925 München** adresinde; havuz **her gün 07.30–23.00** açık. Dalga havuzu ve sıcak açık havuz var. Normal yüzme girişi **6,90 €**. **1,5 saatlik giriş 5 €**: pazartesi–cumartesi resmî tatiller dışında gün boyunca, pazar ve resmî tatillerde ise yalnızca kapanıştan önceki son 1,5 saatte kullanılabiliyor. [Havuz, bilet ve saatler](https://www.swm.de/baeder/cosimawellenbad)
+
+Kesintisiz yüzmek istiyorsan dalga saatleri dışını seç. Normal haftalarda pazartesi–perşembe dalga çalışmıyor; okul tatillerinde farklı program var. Kasa **22.30’da**, havuz kullanımı **22.45’te** bitiyor. [Apian’dan ulaşım](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Cosimawellenbad+Cosimastrasse+5+81925+Muenchen&travelmode=transit)
+
+### 120. Cosimabad saunasına nasıl gidebilirim, havuz da dahil mi?
+
+Sauna **her gün 09.00–23.00** açık. **4 saatlik sauna bileti 23 € ve havuz kullanımı dahil.** Akşam **19.45’ten sonra 17,50 €**. Dört saatlik bileti aşarsan başlayan her ek saat için **5,50 €**, en fazla günlük bilet tutarına kadar fark alınır. **1 Mayıs–31 Ağustos arasında dört saat sınırı uygulanmıyor.**
+
+**Pazartesi kadınlara özel**, diğer günler karma kullanım var. Resmî tatiller, 24 ve 31 Aralık ile Faschingsdienstag’da kadınlar günü uygulanmıyor. Kasa **22.30’da**, sauna kullanımı **22.45’te** bitiyor. [Cosimawellenbad sauna bilgileri](https://www.swm.de/baeder/cosimawellenbad)
+
+### 121. Cosimabad’a sık gidersem abonelik veya öğrenci indirimi var mı?
+
+**Öğrenci olmak tek başına indirim sağlamıyor.** Düzenli gideceksen **M‑Bäderkarte** işine yarayabilir: bu, aylık sınırsız abonelik yerine bakiye yüklenen bir kart; havuz ve sauna girişlerinde **%10 indirim** sağlıyor. Kartla ödediğinde normal 6,90 € yüzme girişi **6,21 €**, 23 € sauna girişi **20,70 €** oluyor. [SWM indirim ve kart açıklamaları](https://www.swm.de/baeder/info/faqs)
+
+Cosimawellenbad’da yeni M‑Bäderkarte kullanılıyor; kasadan fiziksel veya SWM mağazasından dijital kart alabilirsin. Eski kartındaki bakiyeyi kasada yeni karta aktarabiliyorsun. [Kart ve çevrim içi bilet](https://www.swm.de/baeder/cosimawellenbad)
+
+### 122. ZHS nedir, kimler katılabilir ve ne kadar tutar?
+
+**ZHS — Zentraler Hochschulsport**, üniversitelerin ortak spor programı. **TUM, LMU ve Hochschule München öğrencileri katılabiliyor.** Farklı sporları denemek ve başka öğrencilerle tanışmak istiyorsan iyi bir başlangıç. [Katılım koşulları](https://www.zhs-muenchen.de/zhs/faqs/teilnahmeberechtigung/)
+
+Öğrenciler için **dönemlik temel katkı payı 12 €**. İlk kursunu alırken sepete otomatik ekleniyor; aynı dönem tekrar ödemiyorsun. **Seçtiğin kursun ücreti ayrıca eklenir**; 12 € bütün kurslara sınırsız giriş anlamına gelmiyor. Katkı payı dönem sonunda sona erer. [Dönemlik katkı payı](https://www.zhs-muenchen.de/zhs/semestergrundbeitrag/) · [Kurs ücretleri](https://www.zhs-muenchen.de/zhs/faqs/alle-infos-rund-um-die-sportkurse/)
+
+Tırmanış/bouldering, tenis, plaj voleybolu, yüzme ve su sporları gibi seçenekler var. Ana merkez **TUM Campus im Olympiapark**; bütün kurslar aynı yerde yapılmıyor. Seçtiğin kursun salonunu ve saatini kayıt ekranından kontrol et. [Spor alanları ve ulaşım](https://www.zhs-muenchen.de/zhs/oeffnungszeiten-standorte/tum-campus-im-olympiapark/) · [Apian’dan ana merkeze rota](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=TUM+Campus+im+Olympiapark+Muenchen&travelmode=transit)
+
+### 123. ZHS kurslarına nasıl kayıt olurum?
+
+**1.** ZHS’nin **UniNow kurs portalını** aç, konum olarak **München** seç ve üniversite hesabınla giriş yap. İlk girişte hesabın oluşturuluyor. Doğrudan üniversite girişi sunulmuyorsa ZHS’nin başvuru adımlarını izle. [Kursları aç](https://kurse.zhs-muenchen.de/)
+
+**2.** Spor dalını, seviyeyi, yeri ve saatini seç. Başlangıç için **Einstieg** seviyesine bak. Kursu sepete koyup ödeme adımını tamamla; **sepete eklemek tek başına kayıt değil**. Onayını ve derslerini hesabındaki panelden görebilirsin.
+
+**3.** Kurs doluysa **bekleme listesine** yazıl. Yer açılınca haber geliyor. Ücretsiz olanlar dahil katılacağın her kurs için kayıt gerekiyor.
+
+Planın değişirse standart kurslarda başlangıçtan en az **7 gün**, özel organizasyonlu kurslarda **4 hafta** önce UniNow üzerinden iptal edebilirsin. Ücretli kursların zamanında iptalinde **15 € işlem bedeli** kesiliyor; dönemlik katkı payı iade edilmiyor. [ZHS kayıt, bekleme listesi ve iptal rehberi](https://www.zhs-muenchen.de/zhs/faqs/alle-infos-rund-um-die-sportkurse/)
+
+### 124. Clever fit dışında yakında hangi spor salonuna bakabilirim?
+
+**Scheck Club**, **Münchner Straße 15, 85774 Unterföhring** adresinde başka bir seçenek. Fitness, grup dersleri, tenis/padel ve sauna olanakları var. **29 €’luk günlük gym bileti**, salonla birlikte belirli ders ve wellness seçeneklerini içeriyor; sonrasında üye olursan bu tutar üyeliğe sayılıyor. Üyelik teklifini tesisi gezerek alabilirsin.
+
+Gym pazartesi–cuma **06.30–22.00**, hafta sonu ve resmî tatillerde **08.00–21.00** açık. Sauna ve spor salonunu bir arada arıyorsan değerlendirebilirsin. **Açık havuzu yalnızca yaz sezonunda** kullanılıyor. [Scheck Club seçenekleri ve ücretler](https://scheckclub.de/faq/) · [Apian’dan yürüyüş rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Scheck+Club+Muenchner+Strasse+15+85774+Unterfoehring&travelmode=walking)
+
+### 125. Üyelik yapmadan sauna veya ücretsiz spor için başka nerelere gidebilirim?
+
+**Belediyenin sauna ve buhar banyosu:** **Sportzentrum, Jahnstraße 5** içindeki bio-sauna ve buhar banyosu belirli saatlerde Unterföhring sakinlerine açık. Ekim–nisan salı–perşembe **15.00–22.00**, cumartesi **10.00–16.00**; mayıs ve eylülde çarşamba **15.00–22.00**. Tek giriş veya 10 girişlik bileti tesisten alabilirsin. [Belediyenin sauna bilgileri](https://www.unterfoehring.de/freizeit-kultur/freizeit/sportangebote.html) · [Apian’dan rota](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Sportzentrum+Jahnstrasse+5+85774+Unterfoehring&travelmode=transit)
+
+**Ücretsiz açık hava sporu:** **Park am Etzweg**’de fitness parkuru, **Feringasee’de Wasserwacht binasının arkasında** açık hava egzersiz aletleri var. Jahnstraße’deki streetball ve plaj voleybolu alanları da herkese açık. Salon sözleşmesi yapmadan hareket etmek için bunlarla başlayabilirsin. [Ücretsiz spor alanları](https://www.unterfoehring.de/freizeit-kultur/freizeit/sportangebote.html)
 
 <a id="acik-sorular"></a>
 

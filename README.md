@@ -2,9 +2,11 @@
 
 Apian sakinleri ve yeni taşınacak Türk öğrenciler için bilgi rehberi.
 
-[Proje açıklaması ve 115 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
+[Proje açıklaması ve 125 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
-Arda’nın Wikipedia tarzı düzeni korunarak 115 soruluk FAQ, kaynak bağlantıları ve açık sorular 23 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+Arda’nın Wikipedia tarzı düzeni korunarak 125 soruluk FAQ, kaynak bağlantıları ve açık sorular 23 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+
+[Üyelikler ve abonelikler](https://apian-guide.vercel.app/#abonelikler), Deutschlandticket’in standart/öğrenci tarifelerini ve iptal adımlarını; Clever fit, Cosimawellenbad, ZHS, Scheck Club ve belediyenin spor seçeneklerini içerir. Fiyatlar ve koşullar ilgili yanıtın resmî kaynak bağlantılarıyla birlikte tutulur. ZHS dönemlik katkı payı ile kurs ücreti, havuz girişi ile sauna bileti ayrı anlatılır. Fiyat değişikliklerinin yürürlük tarihleri içerikte korunur.
 
 Apian 2’de ölçülüp paylaşılan sineklik, mutfak, mobilya, banyo, kapı, kalorifer ve perde ölçüleri “Odada neler var?” bölümündedir. [Apian 2 oda ölçüleri](https://apian-guide.vercel.app/#apian-2-oda-olculeri) sayfası bunları 7 priz bilgisiyle birlikte tek tabloda toplar. Apian 1’de henüz ölçüm yapılmadığı açıkça belirtilir. Perde takılacak alanın eni, tek bir perdenin kumaş eni olarak yorumlanmaz.
 
