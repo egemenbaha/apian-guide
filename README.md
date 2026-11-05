@@ -130,6 +130,8 @@ Proje açıklamasındaki dört açık soru grubu, kullanıcının yanıtları ge
 
 ## Açık kaynak ve katkı
 
+Kitap ve onay işaretli logo, [AnimateIcons](https://github.com/Avijit07x/animateicons) / Avijit Dey’in Book Open Check animasyonundan ve [Lucide](https://github.com/lucide-icons/lucide) ikonundan uyarlanmıştır. Başlıktaki SVG, CSS ile üzerine gelindiğinde veya klavyeyle odaklandığında bir kez oynar; hareket azaltma ayarında sabit kalır. Ek çalışma zamanı bağımlılığı gerektirmez. Sekme simgesi ve isteğe bağlı forum aynı statik SVG’yi kullanır. MIT/ISC atıfları ve lisans metinleri [src/icon-licenses.txt](src/icon-licenses.txt) içinde, yayın çıktısına da dahil edilir.
+
 Apian Wiki [MIT lisansı](LICENSE) altında açık kaynaktır. `@egemenbaha` ve `@ardatas` değişiklikleri doğrudan `main` dalına gönderir; PR açma ve inceleme onayı zorunluluğu yoktur. Otomatik inceleme talepleri kaldırıldı. `Test and build` her gönderimde çalışır, gönderimi engellemez. Yazma yetkisi olmayan katkıcılar fork ve PR üzerinden değişiklik önerebilir.
 
 Katkı adımları, içerik ilkeleri ve ana dal kuralları için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasına bak. Dış kaynak bağlantıları, kaynakların kendi lisans ve kullanım koşullarını değiştirmez.

@@ -23,7 +23,8 @@ Always commit and push completed repository changes after the relevant checks pa
 | Responsive menu behavior | `desktopMenu`, `resetMenu()`, toggle listener in `src/app.js` |
 | Appearance behavior | `.appearance input` change listener in `src/app.js` |
 | Wiki layout, typography, responsive rules, light/dark colors | `src/styles.css` |
-| Shared forum logo asset | `src/forum-logo.svg` |
+| Header book/check logo and animation | `index.html`, `.brand-*` rules in `src/styles.css` |
+| Shared favicon / optional forum logo and third-party notices | `src/forum-logo.svg`, `src/icon-licenses.txt` |
 | FAQ generation and topic mapping validation | `scripts/generate-faq.mjs` |
 | Markdown rendering and question search | `src/faq.js` |
 | Packing checklist storage, progress and reset | `src/checklist.js` |

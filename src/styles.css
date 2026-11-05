@@ -9,6 +9,28 @@ main{min-width:0}h1,h2{font-family:'Linux Libertine',Georgia,'Times New Roman',s
 @media(max-width:900px){.site-header{flex-wrap:wrap;padding:15px 22px;gap:15px}.brand strong{font-size:23px}.brand-mark{width:40px;height:40px}.global-search{flex:1;margin-left:12px}.header-note{display:none}.layout,:root[data-width="wide"] .layout{display:block;padding:20px 28px 0}.sidebar{display:none;position:static;max-height:none;margin-bottom:25px}.sidebar.is-open{display:block}.portal-grid{gap:12px}.site-subtitle{margin-bottom:20px}}
 @media(max-width:600px){.site-header{padding:14px 18px;gap:12px}.brand small{font-size:11px}.global-search{flex-basis:100%;margin:0}.layout{padding:10px 18px 0}h1{font-size:27px}.portal-grid{grid-template-columns:1fr}.topic-group:nth-child(3){grid-column:auto}.topic-group:nth-child(3) ul{columns:1}.welcome{padding:20px 12px}.welcome h2{font-size:24px}.page-tabs{gap:16px}.page-tabs .language{display:none}.article-pagination{font-size:12px}.notice{padding:10px 12px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+/* AnimateIcons Book Open Check, adapted to CSS; see icon-licenses.txt. */
+.brand-mark{color:var(--ink);flex-shrink:0;overflow:visible;transform-origin:center}
+.brand-book{transform-box:view-box;transform-origin:center}
+.brand-spine,.brand-check{stroke-dasharray:1;stroke-dashoffset:0}
+.brand-check{stroke:var(--link)}
+@media(prefers-reduced-motion:no-preference){
+  .brand:is(:hover,:focus-visible) .brand-mark{animation:brand-tilt .9s ease-in-out}
+  .brand:is(:hover,:focus-visible) .brand-spine{animation:brand-draw .6s ease-in-out both}
+  .brand:is(:hover,:focus-visible) .brand-book{animation:brand-open .8s ease-out .15s both}
+  .brand:is(:hover,:focus-visible) .brand-check{animation:brand-draw .7s ease-out .25s both}
+}
+@keyframes brand-tilt{
+  0%,100%{transform:scale(1) rotate(0)}
+  33%{transform:scale(1.06) rotate(-2deg)}
+  66%{transform:scale(.97) rotate(2deg)}
+}
+@keyframes brand-open{
+  0%,100%{transform:scale(1)}
+  33%{transform:scale(1.05)}
+  66%{transform:scale(.98)}
+}
+@keyframes brand-draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
 .faq-answer{scroll-margin-top:20px;overflow-wrap:anywhere}.faq-answer h3{margin-top:24px}#search-results{max-height:60dvh;overflow-y:auto}
 .faq-table{width:100%;table-layout:fixed;border-collapse:collapse;margin:20px 0;border:1px solid var(--border);font-variant-numeric:tabular-nums;line-height:1.55}
 .faq-table th,.faq-table td{padding:12px 16px;text-align:left;vertical-align:top;border-bottom:1px solid var(--subtle)}
