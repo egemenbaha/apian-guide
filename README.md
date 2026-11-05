@@ -68,7 +68,7 @@ Forum entegrasyonunu doğrulamak için `python3 scripts/check-forum.py` çalış
 
 ## İçerik kapsamı
 
-- Yerleşme ve oda donanımı
+- Yerleşme ve odadaki eşyalar
 - İnternet ve çamaşırhane
 - Anahtar, ortak alanlar ve kargo
 - Arızalar ve günlük yaşam

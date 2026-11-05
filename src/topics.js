@@ -1,7 +1,7 @@
 // Question numbers refer to PROJECT_DESCRIPTION.md; keep each answer in one section.
 export const topics = [
   { id: 'yerlesme', title: 'Yerleşme ve teslim', group: 'Başlangıç', sections: ['Ofis ve iletişim', 'Anahtar teslimi', 'Sözleşme ve öğrenci belgeleri', 'Oda teslim tutanağı'], questionIds: [[1], [2], [3, 4], [10]] },
-  { id: 'oda-donanimi', title: 'Oda donanımı', group: 'Başlangıç', sections: ['Yatak ve tekstil', 'Mutfak ve ocak', 'Pencereler ve sineklik', 'Mobilyalar'], questionIds: [[5, 6], [7], [8], [9]] },
+  { id: 'oda-donanimi', title: 'Odada neler var?', group: 'Başlangıç', sections: ['Yatak ve tekstil', 'Mutfak ve ocak', 'Pencereler ve sineklik', 'Mobilyalar'], questionIds: [[5, 6], [7], [8], [9]] },
   { id: 'internet', title: 'İnternet ve telefon', group: 'Günlük yaşam', sections: ['Modem ve bağlantı', 'Wi-Fi', 'Bağlantı sorunları', 'Mobil operatörler'], questionIds: [[11], [12], [13], [14]] },
   { id: 'camasirhane', title: 'Çamaşırhane', group: 'Günlük yaşam', sections: ['Konum ve erişim', 'Yıkama ve kurutma', 'Airwallet ve rezervasyon', 'Ödeme ve makine sorunları'], questionIds: [[15, 18], [16], [17], [19]] },
   { id: 'ortak-alanlar', title: 'Anahtar ve ortak alanlar', group: 'Günlük yaşam', sections: ['Anahtar ve kapı erişimi', 'Misafirler', 'Çalışma ve müzik odaları', 'Bisiklet parkı ve kayıt'], questionIds: [[20, 21], [22], [23], [24]] },
