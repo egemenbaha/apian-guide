@@ -2,13 +2,21 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Apian sakinleri ve yeni taşınacak öğrenciler için Türkçe yaşam rehberi. Yerleşme, günlük yaşam ve resmî işlemler için konu başlıkları.">
-<meta name="theme-color" content="#245c66"><title>Apian Guide — Apian’da yaşam rehberi</title>
+<meta name="description" content="Apian sakinleri ve yeni taşınacak öğrenciler için Türkçe yaşam rehberi.">
+<meta name="theme-color" content="#ffffff"><title>Apian Guide — Apian’da yaşam rehberi</title>
 <link rel="stylesheet" href="./src/styles.css"><script type="module" src="./src/app.js"></script>
 </head>
 <body>
 <a class="skip-link" href="#main">İçeriğe geç</a>
-<header class="site-header"><a class="brand" href="#" aria-label="Apian Guide ana sayfa"><span class="brand-mark" aria-hidden="true">a<span>.</span></span><span><strong>Apian Guide</strong><small>Sakinlerin bilgi rehberi</small></span></a><span class="header-note">Apian 1 &amp; Apian 2 <span> / </span> Türkçe</span><button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" hidden>Menü</button></header>
-<div class="layout"><nav id="site-nav" class="sidebar" aria-label="Rehber gezinmesi"><a class="home-link" href="#">Ana sayfa <span aria-hidden="true">↗</span></a><p class="nav-label">Rehber konuları</p><div id="topic-nav"></div><div class="sidebar-note"><span class="status-dot" aria-hidden="true"></span>Birlikte büyüyen bir rehber<p>Konu başlıkları hazır. Sık sorulan sorular zamanla eklenecek.</p></div></nav>
-<main id="main" tabindex="-1"><div id="page-content"></div><noscript><h1>Apian Guide</h1><p>Apian sakinleri için Türkçe bilgi rehberi. Konu gezinmesini kullanmak için JavaScript’i etkinleştir.</p></noscript><footer>Apian Guide <span>Yurt yönetiminin resmî yayını değildir.</span></footer></main></div>
+<header class="site-header">
+<button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Ana menüyü aç" hidden>☰</button>
+<a class="brand" href="#" aria-label="Apian Guide ana sayfa"><svg class="brand-mark" viewBox="0 0 56 56" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="28" cy="28" r="25" fill="#f8f9fa"/><ellipse cx="28" cy="28" rx="12" ry="25"/><path d="M4 20h48M4 36h48M28 3v50"/><path d="M11 10c10 8 24 8 34 0M11 46c10-8 24-8 34 0"/></svg><span><strong>Apian Guide</strong><small>Apian’da yaşam rehberi</small></span></a>
+<div class="global-search"><form role="search" id="search-form"><label class="sr-only" for="topic-search">Apian Guide içinde ara</label><span aria-hidden="true">⌕</span><input id="topic-search" type="search" placeholder="Apian Guide içinde ara" autocomplete="off" aria-controls="search-results"><button type="submit">Ara</button></form><div id="search-results" hidden></div><span id="search-status" class="sr-only" role="status"></span></div>
+<span class="header-note">Türkçe</span>
+</header>
+<div class="layout">
+<nav id="site-nav" class="sidebar" aria-label="Rehber gezinmesi"><div class="sidebar-heading">İçindekiler</div><a class="home-link" href="#">Ana sayfa</a><div id="topic-nav"></div></nav>
+<main id="main" tabindex="-1"><div id="page-content"></div><noscript><h1>Apian Guide</h1><p>Konu gezinmesini kullanmak için JavaScript’i etkinleştir.</p></noscript><footer><p>Bu proje yurt yönetiminin resmî yayını değildir.</p><a href="#hakkinda">Apian Guide hakkında</a></footer></main>
+<aside class="appearance" aria-label="Görünüm ayarları"><div class="sidebar-heading">Görünüm</div><fieldset><legend>Metin</legend><label><input type="radio" name="text-size" value="small"> Küçük</label><label><input type="radio" name="text-size" value="standard" checked> Standart</label><label><input type="radio" name="text-size" value="large"> Büyük</label></fieldset><fieldset><legend>Genişlik</legend><label><input type="radio" name="width" value="standard" checked> Standart</label><label><input type="radio" name="width" value="wide"> Geniş</label></fieldset><fieldset><legend>Renk</legend><label><input type="radio" name="color" value="light" checked> Açık</label><label><input type="radio" name="color" value="dark"> Koyu</label></fieldset></aside>
+</div>
 </body></html>
