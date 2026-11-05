@@ -9,7 +9,7 @@ const source = await readFile(new URL('../PROJECT_DESCRIPTION.md', import.meta.u
 const faq = parseFaq(source);
 
 test('all reviewed questions, sources and pending items survive the Markdown import', () => {
-  assert.equal(faq.questions.length, 59);
+  assert.equal(faq.questions.length, 60);
   assert.equal(faq.openQuestions.length, 4);
   assert.equal(faq.updatedAt, '5 Kasım 2026');
   assert.match(faq.questions[36].answer, /açık bırakıldı/);
@@ -32,6 +32,7 @@ test('search handles Turkish letters, answers, whitespace and exact question des
   assert.ok(findMatches('  AIRWALLET   rezervasyon ', topics, faq.questions).some(match => match.href === '#camasirhane/soru-17'));
   assert.ok(findMatches('BEYAZ KARTON', topics, faq.questions).some(match => match.href === '#bakim/soru-57'));
   assert.ok(findMatches('acil merdiven', topics, faq.questions).some(match => match.href === '#ortak-alanlar/soru-58'));
+  assert.ok(findMatches('pazar market', topics, faq.questions).some(match => match.href === '#alisveris/soru-60'));
   assert.deepEqual(findMatches('   ', topics, faq.questions), []);
   assert.deepEqual(findMatches('zzzzzz', topics, faq.questions), []);
 });

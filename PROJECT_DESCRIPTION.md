@@ -264,6 +264,20 @@ Asansörleri özenli kullan.
 
 **Feringastraße 14, 85774 Unterföhring** adresindeki Clever fit, **haftanın her günü 06.00–00.00** arasında açık. Pazartesi–pazar aynı saatler geçerli. Saat bilgisi: **5 Kasım 2026**.
 
+### 60. Münih’te pazar günü hangi marketler açık?
+
+Pazar günü şehir içinde alışveriş için şu marketleri kullanabilirsin. Saatler **5 Kasım 2026** tarihinde kontrol edildi; gitmeden önce mağazanın güncel saatlerine bak.
+
+**EDEKA Ernst — Hauptbahnhof:** Pazar **08.00–23.00**. Adres: **Arnulfstraße 2, 80335 München**, Hauptbahnhof’un S-Bahn alt katında. [Mağaza bilgileri](https://www.edeka.de/maerkte/030285/)
+
+**EDEKA Ernst — Ostbahnhof:** Pazar **08.00–23.00**. Adres: **Orleansplatz 10–12, 81667 München**. [Mağaza bilgileri](https://www.edeka-ernst.de/)
+
+**Havalimanındaki alternatifler:** Aşağıdaki iki market Münih şehir merkezinin dışında, havalimanında. İkisi de güvenlik kontrolünden önceki halka açık alanda; alışveriş için uçuş bileti gerekmiyor.
+
+**REWE — Munich Airport Center (MAC):** Pazar **05.30–23.00**. Adres: **Terminalstraße Mitte 18, 85356 München-Flughafen**, MAC, Ebene 03. [Mağaza bilgileri](https://www.rewe.de/marktseite/muenchen-flughafen/250497/rewe-markt-terminalstr-mitte-18/)
+
+**EDEKA — Terminal 2:** Pazar **06.00–22.00**. Konum: **Terminal 2, Ebene 03**, güvenlik kontrolünden önce. [Mağaza bilgileri](https://www.munich-airport.de/edeka-478043)
+
 <a id="acik-sorular"></a>
 
 ## Açık kalan sorular
