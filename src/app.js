@@ -1,3 +1,6 @@
+// One shared switch controls forum navigation and the local server route.
+const { forumEnabled = false } = await fetch(new URL('./features.json', import.meta.url)).then(response => response.json()).catch(() => ({}));
+document.querySelector('.forum-link').hidden = forumEnabled !== true;
 import { topics } from './topics.js';
 import { faq } from './faq-data.js';
 import { escapeHtml, renderInline, renderAnswer, findMatches } from './faq.js';
@@ -23,7 +26,7 @@ toggle.addEventListener('click', () => {
   document.querySelector('.sidebar').classList.toggle('is-open', !desktopMenu.matches && expanded);
   document.querySelector('.sidebar').classList.toggle('is-collapsed', desktopMenu.matches && !expanded);
 });
-const tabs = (title) => `<div class="page-tabs"><span class="tab-current">${title}</span><a href="/forum/index.php?title=Talk:Forum">Tartışma</a><a href="#hakkinda">Rehber hakkında</a><span class="read-tab">Oku</span><span class="language">Türkçe</span></div>`;
+const tabs = (title) => `<div class="page-tabs"><span class="tab-current">${title}</span>${forumEnabled === true ? '<a href="/forum/index.php?title=Talk:Forum">Tartışma</a>' : ''}<a href="#hakkinda">Rehber hakkında</a><span class="read-tab">Oku</span><span class="language">Türkçe</span></div>`;
 const card = topic => `<li class="topic-card"><a href="#${topic.id}">${topic.title}</a><span class="card-sections">${topic.sections.slice(0, 3).join(' · ')}</span></li>`;
 function home() {
   document.title = 'Apian Guide — Apian’da yaşam rehberi';
@@ -31,7 +34,7 @@ function home() {
   <section class="welcome" aria-labelledby="welcome-title"><h2 id="welcome-title"><strong>Apian Guide</strong>’a hoş geldiniz</h2><p>Apian sakinleri ve yeni taşınacak öğrenciler için Türkçe bilgi rehberi.</p><p class="welcome-meta">Apian 1 · Apian 2 · <a href="#konular">${topics.length} konu başlığı</a></p></section>
   <aside class="notice"><strong>${faq.questions.length} soruluk yaşam rehberi.</strong> Son güncelleme: ${escapeHtml(faq.updatedAt)}. Sakin deneyimleri ve resmî kaynaklar bir arada. <a href="#acik-sorular">Açık kalan ${faq.openQuestions.length} başlık</a> daha sonra tamamlanacak.</aside>
   <section id="konular" class="directory"><h2>Rehber konuları</h2><div class="portal-grid">${groups.map(group => `<section class="topic-group"><h3>${group}</h3><ul>${topics.filter(topic => topic.group === group).map(card).join('')}</ul></section>`).join('')}</div></section>
-  <section id="topluluk" class="about"><h2>Topluluk forumu</h2><p>Rehbere katkı sunmak, bilgi paylaşmak veya bir konuyu birlikte değerlendirmek için <a href="/forum/index.php?title=Talk:Forum">Apian Guide forumuna katıl</a>. Konu açmak ve yanıt yazmak için giriş yapman gerekiyor.</p></section>
+  ${forumEnabled === true ? '<section id="topluluk" class="about"><h2>Topluluk forumu</h2><p>Rehbere katkı sunmak, bilgi paylaşmak veya bir konuyu birlikte değerlendirmek için <a href="/forum/index.php?title=Talk:Forum">Apian Guide forumuna katıl</a>. Konu açmak ve yanıt yazmak için giriş yapman gerekiyor.</p></section>' : ''}
   <section id="hakkinda" class="about"><h2>Rehber hakkında</h2><p>Apian’da yerleşme, günlük yaşam ve resmî işlemlere yönelik bağımsız bir bilgi rehberidir. Konulara soldaki içindekiler bölümünden veya arama alanından ulaşabilirsin.</p><p>Apian 1 ve Apian 2 bilgileri ayrı tutulur; kaynak bağlantıları ilgili yanıtların yanında yer alır. Tarihli deneyimleri güncel fiyat veya kesin kural olarak değerlendirmeden önce kontrol et. Bu proje yurt yönetiminin resmî yayını değildir.</p></section><section id="acik-sorular" class="about"><h2>Açık kalan sorular</h2><p>${faq.openQuestions.length ? "Bu başlıklar, yanıtlar netleştiğinde tamamlanacak." : "Açık kalan soru bulunmuyor."}</p><ul>${faq.openQuestions.map(question => `<li>${renderInline(question)}</li>`).join('')}</ul></section><div class="category-box"><span>Konular:</span> Apian 1 <span class="category-divider">|</span> Apian 2 <span class="category-divider">|</span> Öğrenci yaşamı</div>`;
 }
 const search = document.querySelector('#topic-search');

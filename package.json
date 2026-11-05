@@ -9,7 +9,7 @@
     "build": "node scripts/build.mjs",
     "test": "node --test",
     "forum:setup": "node scripts/forum-setup.mjs",
-    "forum:up": "npm run forum:setup && docker compose up -d",
+    "forum:up": "npm run forum:setup && docker compose --profile forum up -d",
     "forum:down": "docker compose stop forum"
   },
   "engines": {

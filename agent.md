@@ -2,7 +2,7 @@
 
 ## Scope
 
-Turkish informational guide for Apian residents and incoming students. The guide is a dependency-free static site with a Wikipedia / Vector 2022 inspired design. The integrated community forum runs MediaWiki with DiscussionTools in Docker. The current guide renders reviewed FAQ content generated from PROJECT_DESCRIPTION.md. Preserve the integrated content and source links when changing the interface.
+Turkish informational guide for Apian residents and incoming students. The guide is a dependency-free static site with a Wikipedia / Vector 2022 inspired design. The optional community forum uses MediaWiki with DiscussionTools in Docker and is currently disabled. The current guide renders reviewed FAQ content generated from PROJECT_DESCRIPTION.md. Preserve the integrated content and source links when changing the interface.
 
 ## Commit and push
 
@@ -12,6 +12,7 @@ Always commit and push completed repository changes after the relevant checks pa
 
 | Task | Entry point |
 | --- | --- |
+| Forum enable/disable switch (currently disabled) | `src/features.json` |
 | Understand the project, source FAQ, and unresolved questions | `PROJECT_DESCRIPTION.md` |
 | Setup and content policy | `README.md` |
 | Shared page shell, header, search form, sidebar, appearance controls, footer | `index.html` |
@@ -47,7 +48,7 @@ Always commit and push completed repository changes after the relevant checks pa
 - `#<topic-id>/bolum-<n>` opens a topic and scrolls to a section; section numbers follow the array order, starting at 1.
 - `#konular` and `#hakkinda` open landing-page anchors.
 - `#main` focuses the content skip-link target without changing the current topic.
-- `/forum/index.php?title=Talk:Forum` opens the MediaWiki discussion page. It is a server route, not a hash route. MediaWiki manages its own accounts, search, and discussion data.
+- When enabled, `/forum/index.php?title=Talk:Forum` opens the MediaWiki discussion page. It is a server route, not a hash route. MediaWiki manages its own accounts, search, and discussion data.
 
 Keep topic IDs stable because sidebar, search, and pagination links share them. Changing section order also changes numbered section links. Topic groups and their ordering come from `topics`; headings are rendered into HTML from this trusted repository data. Use DOM text APIs or escaping if content later comes from users or external sources.
 
@@ -63,6 +64,6 @@ Preserve the wiki design direction and Turkish interface. Consult `README.md` be
 
 Use the commands in `package.json`; the requirements and local URL are documented in `README.md`. The build recreates `dist/` and copies only `index.html` and `src/`. Edit source files, not generated output. Root Markdown documents, forum configuration, and credentials are not included in the static build. A static host alone cannot serve forum routes.
 
-For forum changes, read the forum section of `README.md`. `npm run forum:up` initializes local credentials and starts Docker; `npm run dev` serves both the guide and forum proxy. Generated MediaWiki settings and SQLite data live in the named Docker volume. Preserve that volume and the ignored `.env`; setup preserves existing credentials. Configuration is copied into the container on startup, so restart the service after changing `forum/LocalSettings.php`. The service is bound to loopback for local use. Production requires separate server configuration and backups.
+For forum changes, read the forum section of `README.md`. The shared `src/features.json` switch must explicitly enable the forum before `npm run forum:up` can initialize credentials and start Docker. While disabled, the guide hides forum links and the local server returns 404 for `/forum/`. To re-enable later, change `forumEnabled` to true, run `npm run forum:up`, and restart `npm run dev`. Preserve credentials and the data volume. Generated MediaWiki settings and SQLite data live in the named Docker volume. Preserve that volume and the ignored `.env`; setup preserves existing credentials. Configuration is copied into the container on startup, so restart the service after changing `forum/LocalSettings.php`. The service is bound to loopback for local use. Production requires separate server configuration and backups.
 
 For UI changes, run `node --check src/app.js`, `npm test`, `npm run build`, and `git diff --check`. Verify the affected behavior in the local browser: landing page, topic route, section link, Turkish search (e.g. `camasir`), or responsive menu / appearance controls as appropriate. For forum behavior, run `python3 scripts/check-forum.py` against the running local services; it creates and deletes a unique test page. `vercel.json` configures the static guide; the MediaWiki service needs separate production hosting. A successful build or local preview is not a deployment.

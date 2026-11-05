@@ -1,10 +1,12 @@
 """Local static guide and same-origin reverse proxy for the MediaWiki forum."""
 import http.client
+import json
 from pathlib import Path
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlsplit, unquote
 
 ROOT = Path(__file__).resolve().parent.parent
+FORUM_ENABLED = json.loads((ROOT / 'src/features.json').read_text()).get('forumEnabled') is True
 HOP_HEADERS = {'connection', 'keep-alive', 'transfer-encoding', 'te', 'trailer', 'upgrade', 'proxy-authenticate', 'proxy-authorization'}
 
 class Handler(SimpleHTTPRequestHandler):
@@ -14,6 +16,8 @@ class Handler(SimpleHTTPRequestHandler):
     def handle_request(self):
         path = unquote(urlsplit(self.path).path)
         if path == '/forum' or path.startswith('/forum/'):
+            if not FORUM_ENABLED:
+                return self.send_error(404, 'Forum is disabled')
             return self.proxy_forum()
         # Serve public assets only; .env and repository documents are private.
         if path != '/' and path != '/index.html' and not path.startswith('/src/'):

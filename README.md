@@ -39,6 +39,10 @@ Testler içerik aktarımını, kaynak bağlantılarının korunmasını, konu e�
 
 ## Topluluk forumu
 
+Forum şu anda tamamen kapalıdır. `src/features.json` içindeki `forumEnabled: false` ayarı forum bağlantılarını gizler, yerel `/forum/` rotasını 404 ile kapatır ve `npm run forum:up` komutunun servisi başlatmasını engeller. Docker servisi ayrıca isteğe bağlı `forum` profiline bağlıdır. Veritabanı, hesaplar ve kurulum dosyaları korunur.
+
+Yeniden açmak için `src/features.json` içindeki `forumEnabled` değerini `true` yap, aşağıdaki komutları çalıştır ve çalışan yerel sunucuyu yeniden başlat. Statik yayında gezinmenin güncellenmesi için yeniden build/deploy gerekir. Mevcut Docker volume'ünü ve `.env` dosyasını koru.
+
 Forum, MediaWiki 1.43 ve Wikimedia'nın [DiscussionTools](https://www.mediawiki.org/wiki/Extension:DiscussionTools) eklentisini kullanır. Yeni konular, yanıtlar ve kullanıcı hesapları MediaWiki tarafından yönetilir. Okuma herkese açıktır; yazmak için giriş gerekir.
 
 Docker çalışırken:
