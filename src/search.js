@@ -86,6 +86,7 @@ export function createSearchIndex(topics, questions) {
     documents.push(documentEntry({
       href: `#${topic.id}/soru-${question.id}`, title: question.question,
       body: plainText(question.answer), context: `${topic.title} ${section}`,
+      paragraphs: question.answer.split(/\n\s*\n/).map(plainText),
       label: `${topic.title} › ${section}`, kind: 'question',
     }));
   }
@@ -141,6 +142,15 @@ function excerpt(text, matchedWords, length = 180) {
   return `${start ? '…' : ''}${text.slice(start, end).trim()}${end < text.length ? '…' : ''}`;
 }
 
+function excerptSource(doc, building) {
+  if (!building || !doc.paragraphs) return doc.body;
+  // Prefer a paragraph directly about the requested building over a passing comparison.
+  const candidates = doc.paragraphs.map(text => ({ text, position: normalize(text).indexOf(building) }))
+    .filter(paragraph => paragraph.position >= 0)
+    .sort((a, b) => a.position - b.position);
+  return candidates[0]?.text || doc.body;
+}
+
 /** Rank matching topics/questions, keeping every meaningful query term required. */
 export function findMatches(query, index) {
   const normalized = normalize(query.slice(0, 180));
@@ -175,7 +185,7 @@ export function findMatches(query, index) {
     if (doc.kind === 'question') score += 1;
     const excerptWords = new Set([...matchedWords].filter(word => !building || !['apian', building.at(-1)].includes(word)));
     matches.push({ href: doc.href, title: doc.title, label: doc.label, kind: doc.kind,
-      excerpt: excerpt(doc.body, excerptWords), matchedWords: [...matchedWords],
+      excerpt: excerpt(excerptSource(doc, building), excerptWords), matchedWords: [...matchedWords],
       approximate: expanded.some(term => term.approximate), score });
   }
   return matches.sort((a, b) => b.score - a.score || a.title.localeCompare(b.title, 'tr'));
