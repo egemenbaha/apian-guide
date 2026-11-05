@@ -2,6 +2,7 @@
   "name": "apian-guide",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "node scripts/generate-faq.mjs && python3 -m http.server 5173 --bind 127.0.0.1",

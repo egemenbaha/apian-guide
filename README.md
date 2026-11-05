@@ -58,3 +58,9 @@ Testler içerik aktarımını, kaynak bağlantılarının korunmasını, konu e�
 ## Sonraki adım
 
 Proje açıklamasındaki dört açık soru grubu, kullanıcının yanıtları geldiğinde tamamlanacak. Apian 1 ve Apian 2 ayrımı, kaynak bağlantıları ve tarihli deneyimlerin bağlamı korunacak.
+
+## Açık kaynak ve katkı
+
+Apian Guide [MIT lisansı](LICENSE) altında açık kaynaktır. Herkes fork oluşturup değişiklik önerebilir. Katkıcılar `main` için pull request açar; birleştirme `@egemenbaha` onayı ve başarılı `Test and build` kontrolü gerektirir. Repo sahibi gerektiğinde doğrudan gönderebilir.
+
+Katkı adımları, içerik ilkeleri ve ana dal kuralları için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasına bak. Dış kaynak bağlantıları, kaynakların kendi lisans ve kullanım koşullarını değiştirmez.
