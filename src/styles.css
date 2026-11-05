@@ -70,3 +70,18 @@ main{min-width:0}h1,h2{font-family:'Linux Libertine',Georgia,'Times New Roman',s
 :root[data-color="dark"] #search-results mark{background:#544b1f}
 .search-more{display:block;width:100%;min-height:44px;border:0;background:var(--panel);color:var(--link);font-size:13px;font-weight:600;padding:10px 14px}
 .search-more:focus-visible{outline-offset:-3px}
+.topic-group[data-group="Çevre rehberi"] {
+  background: #fff9ed;
+  border-color: #d8b77a;
+}
+.topic-group[data-group="Çevre rehberi"] h3 {
+  background: #ffe2a8;
+  border-color: inherit;
+}
+:root[data-color="dark"] .topic-group[data-group="Çevre rehberi"] {
+  background: #302619;
+  border-color: #886939;
+}
+:root[data-color="dark"] .topic-group[data-group="Çevre rehberi"] h3 {
+  background: #503b20;
+}
