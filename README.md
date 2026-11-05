@@ -4,7 +4,23 @@ Apian sakinleri ve yeni taşınacak öğrenciler için Türkçe bilgi ve sıkça
 
 [Proje açıklaması ve 56 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
-Uygulama geliştirme başlamadı. Teknoloji, tasarım ve yayımlama yöntemi henüz belirlenmedi. Çalıştırılabilir bir uygulama veya kurulum adımı yoktur.
+İlk iskelet, Türkçe bir ana sayfa ve konu başlıklarına göre gezilebilen boş FAQ bölümleri içerir. Proje açıklamasındaki sorular ve yanıtlar arayüze aktarılmadı. Yayınlama henüz yapılmadı.
+
+## Yerel geliştirme
+
+Node.js 22+ ve Python 3 gerektirir. Haricî paket kurulumu gerekmez.
+
+```sh
+npm run dev
+```
+
+Tarayıcıda http://127.0.0.1:5173 adresini aç. Statik yayın dosyalarını üretmek için:
+
+```sh
+npm run build
+```
+
+Çıktı `dist/` klasörüne yazılır; herhangi bir statik sunucuda yayımlanabilir. Başlıklar `src/topics.js`, gezinme ve arama `src/app.js`, tasarım `src/styles.css` içinde tutulur. Konu bağlantıları URL hash kullanır; sunucuda özel yönlendirme gerekmez. Arama yalnızca konu ve alt bölüm başlıklarını tarar. Bu iskelet MediaWiki veya bir içerik yönetim sistemi içermez.
 
 ## İçerik kapsamı
 
@@ -28,4 +44,4 @@ Uygulama geliştirme başlamadı. Teknoloji, tasarım ve yayımlama yöntemi hen
 
 ## Sonraki adım
 
-FAQ, 5 Kasım 2026 tarihinde proje açıklaması olarak eklendi. Açık kalan dört soru grubu kullanıcının yanıtlarıyla tamamlanacak. Ardından projenin nasıl kullanılacağı, arayüzü ve teknoloji seçimi bu içerik üzerinden netleştirilecek.
+Konu bölümlerine gözden geçirilmiş FAQ içerikleri, kaynakları ve doğrulama tarihleri eklenecek. Apian 1 ve Apian 2 bilgileri ayrı tutulacak. Proje açıklamasındaki açık sorular, yanıtları doğrulandığında tamamlanacak.
