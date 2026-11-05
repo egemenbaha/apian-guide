@@ -2,9 +2,11 @@
 
 Apian sakinleri ve yeni taşınacak öğrenciler için Türkçe bilgi ve sıkça sorulan sorular projesi.
 
-[Proje açıklaması ve 93 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
+[Proje açıklaması ve 97 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
-Arda’nın Wikipedia tarzı düzeni korunarak 93 soruluk FAQ, kaynak bağlantıları ve açık sorular 18 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+Arda’nın Wikipedia tarzı düzeni korunarak 97 soruluk FAQ, kaynak bağlantıları ve açık sorular 19 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+
+Resmî tatiller bölümünde 2026 sonundaki kapanışlar ve 2027 takvimi yer alır. Marketlerin pazar/tatil saatleri ve Unterföhring’in güncel nöbetçi eczane listesine bağlantı ilgili konulardadır; değişen nöbet listeleri siteye sabit olarak kopyalanmaz. Tamir için odaya giriş, sakin gözlemi ile genel kurallar ayrılarak bakım bölümünde anlatılır.
 
 Açık/koyu mod düğmesi üst çubukta masaüstü ve telefonda görünür. Tema tercihi tarayıcıda hatırlanır ve sağdaki görünüm ayarlarıyla eşzamanlı çalışır.
 

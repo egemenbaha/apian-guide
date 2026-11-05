@@ -262,9 +262,13 @@ Sözleşmendeki bitiş ve bildirim süresini kontrol edip işletmecinin resmî i
 
 **Feringa-Apotheke, Föhringer Allee 6, 85774 Unterföhring.** Merkezde işin varsa değerlendirebileceğin bir alternatif. Normal saatleri **pazartesi–cuma 08.00–18.30**, **cumartesi 08.00–13.00**. Telefonu **089 95001313**. Sırf eczane için Apian’dan çıkıyorsan önce SaniPlus’a; merkezdeysen Feringa’ya bakmak makul bir başlangıç olur. [Feringa-Apotheke](https://www.apo-ufg.de/apotheken/rpod/) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Feringa+Apotheke+Foehringer+Allee+6+85774+Unterfoehring&travelmode=transit)
 
-### 64. Gece, pazar günü veya tatilde açık eczaneyi nasıl bulurum?
+### 64. Unterföhring’de güncel nöbetçi eczane listesini nereden açabilirim?
 
-Nöbetçi eczane her gün değişebildiği için sabit bir eczaneye gitmek yerine **aponet Notdienstsuche** üzerinden **85774** posta koduyla ara. Tarihi ve saati doğru seç; yola çıkmadan eczaneyi arayıp ihtiyacın olan ürünün bulunup bulunmadığını sorabilirsin. Arama, Bundesapothekerkammer’ın resmî nöbet verilerini kullanıyor. [Güncel nöbetçi eczane araması](https://www.aponet.de/notdienstsuche/0)
+[Unterföhring için güncel nöbetçi eczane listesini aç](https://www.aponet.de/notdienstsuche/85774-Unterf%C3%B6hring). Posta kodu hazır: **85774 Unterföhring**. Listede çevredeki nöbetçi eczanelerin adı, adresi, telefonu ve nöbetin başlangıç–bitiş saati yer alıyor. aponet, Bundesapothekerkammer’ın resmî nöbet verilerini kullanıyor.
+
+**Gece, pazar ve resmî tatillerde bu listeye bakabilirsin.** Nöbet sırası değiştiği için SaniPlus veya Feringa’nın her zaman açık olduğunu düşünme. Gitmeden önce listedeki tarih ve saat aralığını kontrol et, eczaneyi arayıp ihtiyacın olan ürünün stokta olduğunu sor. Haritadaki mesafeler kuş uçuşu; yol süresini ayrıca kontrol et.
+
+Başka bir gün için **“Erweiterte Suche”** bölümünden tarih seçebilirsin; arama iki hafta ilerisine kadar plan gösterebiliyor. Alternatif resmî arama için **Bayerische Landesapothekerkammer** sayfasında **85774** veya **Unterföhring** yaz. [Bavyera Eczacılar Odası nöbet araması](https://www.blak.de/notdienstsuche/)
 
 ### 65. Apian yakınında hangi DHL Packstation var?
 
@@ -395,6 +399,58 @@ dm’nin ücretsiz hizmeti, kartını veren bankanın varsa kur veya kart işlem
 Evet. **TEB’in BNP Paribas anlaşmalı ATM ağı kapsamında Almanya’daki ortağı Deutsche Bank.** **Visa veya Mastercard logolu TEB/CEPTETEB banka kartınla**, günlük limitin içinde çekim yaptığında **TEB’in yurt dışı ATM kullanım ücreti alınmıyor**. Bu avantajı bütün Cash Group ATM’lerine veya TROY kartlara genelleme; Almanya için listelenen banka Deutsche Bank.
 
 Euro hesabından çekmek istiyorsan önce CEPTETEB Mobil veya İnternet Şubesi’nde kartının **“Yurtdışı Nakit Seçim”** ayarından ilgili euro hesabını tanımla. TL hesabından çekim ile euro hesabından çekimi ayır; kur dönüşümü ayrı bir konu. ATM ekranında ek komisyon çıkarsa bu tutar karşı banka tarafından alınabilir; onaylamadan önce kontrol et. Bu iş birliği nakit çekme içindir, TEB hesabına Deutsche Bank ATM’sinden para yatırma hakkı anlamına gelmez. [TEB’in resmî anlaşmalı ATM listesi ve koşulları](https://www.teb.com.tr/yurt-disi-atm-kullanimi/)
+
+### 94. Pazar günleri ve resmî tatillerde marketler kapalı mı?
+
+**Evet; yakındaki normal süpermarket alışverişini pazar ve resmî tatillere bırakma.** Bavyera’da mağazalar kural olarak bu günlerde kapalı. ALDI, Lidl, EDEKA ve REWE için alışverişini önceki açık günde tamamlamak en rahatı. Cumartesi bir resmî tatile denk geliyorsa o gün de normal cumartesi saatleri geçerli olmaz. [Bavyera mağaza kapanış kuralları](https://www.gesetze-bayern.de/Content/Document/BayLadSchlG-2)
+
+**24 Aralık tam gün resmî tatil değil**, ama pazartesi–cumartesiye denk geldiğinde normal mağazalar **en geç 14.00’te** kapanır; şube daha erken de kapatabilir. **31 Aralık da resmî tatil değil**; marketin yılbaşı için ilan ettiği özel saatlere bak. Bu iki günü 25–26 Aralık ve 1 Ocak’taki tam gün kapanışlarla karıştırma. [Resmî tatil listesi](https://www.stmi.bayern.de/staat-und-verfassung/feiertage/) · [24 Aralık kapanış saati](https://www.gesetze-bayern.de/Content/Document/BayLadSchlG-2)
+
+Tarihleri [resmî tatiller bölümünde](https://apian-guide.vercel.app/#tatiller), ilaç gerektiğinde açık yerleri [güncel nöbetçi eczane listesinde](https://apian-guide.vercel.app/#eczaneler/soru-64) bulabilirsin.
+
+### 95. 2026’nın sonunda alışveriş için hangi günlere dikkat edeyim?
+
+**Noel alışverişini son güne bırakma:** 24 Aralık Perşembe normal marketler en geç 14.00’te kapanır. Ardından **25 Aralık Cuma ve 26 Aralık Cumartesi Noel tatili**, **27 Aralık ise pazar**; normal marketler üç gün üst üste kapalı olur.
+
+**31 Aralık Perşembe** şubenin özel kapanış saatini kontrol et. **1 Ocak 2027 Cuma yılbaşı tatili** olduğu için o gün de normal marketler kapalı. [2026–2027 tatil takvimi](https://www.muenchen.de/aktuell/feiertage-bayern-2026-und-2027) · [Mağaza kapanış kuralları](https://www.gesetze-bayern.de/Content/Document/BayLadSchlG-2)
+
+### 96. Unterföhring ve Münih’te 2027 resmî tatilleri hangi günler?
+
+**Alışverişini planlarken şu tarihleri takvimine ekleyebilirsin:**
+
+**1 Ocak Cuma:** Yılbaşı — Neujahr.
+
+**6 Ocak Çarşamba:** Üç Krallar Günü — Heilige Drei Könige.
+
+**26 Mart Cuma:** Kutsal Cuma — Karfreitag.
+
+**29 Mart Pazartesi:** Paskalya Pazartesisi — Ostermontag.
+
+**1 Mayıs Cumartesi:** İşçi Bayramı — Tag der Arbeit.
+
+**6 Mayıs Perşembe:** İsa’nın Göğe Yükselişi — Christi Himmelfahrt.
+
+**17 Mayıs Pazartesi:** Pentekost Pazartesisi — Pfingstmontag.
+
+**27 Mayıs Perşembe:** İsa’nın Bedeni ve Kanı Bayramı — Fronleichnam.
+
+**15 Ağustos Pazar:** Meryem’in Göğe Kabulü — Mariä Himmelfahrt.
+
+**3 Ekim Pazar:** Alman Birliği Günü — Tag der Deutschen Einheit.
+
+**1 Kasım Pazartesi:** Azizler Günü — Allerheiligen.
+
+**25 Aralık Cumartesi ve 26 Aralık Pazar:** Noel’in birinci ve ikinci günü — Weihnachten.
+
+[2027 tarihleri ve haftanın günleri](https://www.muenchen.de/aktuell/feiertage-bayern-2026-und-2027) · [Bavyera resmî tatil listesi](https://www.stmi.bayern.de/staat-und-verfassung/feiertage/)
+
+**15 Ağustos, Unterföhring ve Münih’te de tatil.** Buna karşılık **8 Ağustos Augsburger Friedensfest yalnızca Augsburg şehrinde** geçerli; buradaki marketler için tatil sayma. Okul tatili de tek başına marketlerin kapanacağı anlamına gelmiyor. [Mariä Himmelfahrt’ın geçerli olduğu bölgeler](https://statistik.bayern.de/presse/mitteilungen/2026/pm217/index.html) · [Yerel tatillerin kapsamı](https://www.stmi.bayern.de/staat-und-verfassung/feiertage/)
+
+### 97. Yönetim tamir veya tadilat için bana sormadan odama girebiliyor mu?
+
+**Apian’da tamir ve tadilat sırasında, sakine önceden sorulmadan odaya girildiği gözlemlenmiş.** Bu bilgi paylaşılan bir sakin deneyimine dayanıyor. Arıza bildirirken **gelmeden önce sana haber verilmesini ve uygun saatin birlikte belirlenmesini** istemen iyi olur.
+
+Bu gözlem, yönetimin her istediğinde izinsiz girebileceği anlamına gelmiyor. **Olağan durumlarda odaya giriş için somut bir gerekçe ve önceden bildirim gerekiyor.** Kendi odan için girişin hangi iş kapsamında ve ne zaman yapılacağını ofisle yazılı olarak netleştirebilirsin. [Odaya girişin genel sınırları — BGH, VIII ZR 289/13](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Gericht=bgh&anz=1&nr=68406&pos=0&sid=0)
 
 <a id="acik-sorular"></a>
 
