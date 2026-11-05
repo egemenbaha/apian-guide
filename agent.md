@@ -49,7 +49,7 @@ Always commit and push completed repository changes after the relevant checks pa
 
 - `#` opens the landing page.
 - `#<topic-id>` opens a topic, for example `#camasirhane`.
-- `#<topic-id>/bolum-<n>` opens a topic and scrolls to a section; section numbers follow the array order, starting at 1.
+- `#<topic-id>/bolum-<n>` opens a topic and scrolls to a section. Numbers follow the array order, starting at 1, unless `sectionNumbers` preserves previously published links after a section merge.
 - `#konular` and `#hakkinda` open landing-page anchors.
 - `#main` focuses the content skip-link target without changing the current topic.
 - When enabled, `/forum/index.php?title=Talk:Forum` opens the MediaWiki discussion page. It is a server route, not a hash route. MediaWiki manages its own accounts, search, and discussion data.
