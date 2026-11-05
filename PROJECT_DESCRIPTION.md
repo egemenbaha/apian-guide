@@ -869,6 +869,26 @@ Almanya’da yasal sağlık sigortan varsa **sağlık kartını (eGK)** götür.
 
 Apian 1’de henüz oda ölçümü yapmadık. Odanı ölçtüysen aşağıdaki **Düzeltme öner** bağlantısından paylaşabilirsin. Odanın eni ve boyu, perde takılan yerin genişliği ya da tek bir eşyanın ölçüsü bile işimize yarar. Neyi ölçtüğünü ve sonucu santimetre cinsinden yazman yeterli.
 
+### 142. Haftpflichtversicherung nedir, neleri kapsar?
+
+**Privathaftpflichtversicherung**, özel hayatında başkasına verdiğin zarar nedeniyle ortaya çıkan tazminat taleplerini, sözleşmedeki kapsam ve limitler içinde karşılayan **özel sorumluluk sigortasıdır**. Sigortacı talebin haklı olup olmadığını inceler; kapsam içindeki haklı talepleri öder, haksız taleplere karşı savunma sağlar. Sağlık sigortasından farklıdır; kişinin kendi eşyasına gelen zararlar genel olarak bu sigortanın konusu değildir. [Bavyera tüketici portalı: özel sorumluluk sigortası](https://vis.bayern.de/geld_versicherungen/wohnen_rechtsschutz_kfz/privathaftpflichtversicherung.htm)
+
+**Kiralanan odaya verilen zararlar**, poliçede **Mietsachschäden** kapsamında yer alabilir. Bu kapsam, odadaki bütün eşyaların ve her hasar türünün otomatik olarak sigortalı olduğu anlamına gelmez. Kiralanan mobilyalar, anahtar kaybı ve diğer ek teminatlar ayrı koşullara bağlı olabilir. [Kiralanan konut ve eşyalardaki hasarlar](https://www.allianz.de/recht-und-eigentum/privat-haftpflichtversicherung/mietsachschaeden/)
+
+**Cam hasarları genellikle standart kiracı sorumluluk kapsamına dahil değildir.** Özellikle oturduğun kiralık odanın pencere veya kapı camının kırılması, ayrı cam sigortasıyla sigortalanabilen bir risk olarak hariç tutulabilir. Bu, başkasının camına verilen her zararın Haftpflicht dışında olduğu anlamına gelmez; hasarın oluştuğu yer, sorumluluk ve poliçe koşulları belirleyicidir. [GDV: kiralık konutta cam hasarı](https://www.dieversicherer.de/versicherer/wohnen/glasversicherung)
+
+Bu bölüm genel bilgilendirme amaçlıdır; sigorta veya ürün tavsiyesi içermez. Bir hasarın ödenip ödenmeyeceği, ilgili sözleşmedeki teminatlara, istisnalara, limitlere ve varsa **Selbstbeteiligung** (hasarın sigortalıya kalan kısmı) tutarına bağlıdır.
+
+### 143. Glasversicherung nedir, Haftpflicht’ten farkı ne?
+
+**Glasversicherung / Glasbruchversicherung**, poliçede tanımlanan cam yüzeylerin kırılmasına yönelik **cam sigortasıdır**. Ayrı bir sözleşme veya başka bir sigortaya ek teminat olarak bulunabilir. Haftpflicht başkasına karşı tazminat sorumluluğunu ele alırken, Glasversicherung sigortalanmış camdaki kırılmayı ele alır; yalnızca başka birine verilen zararlarla sınırlı değildir. [GDV: cam sigortasının kapsamı](https://www.dieversicherer.de/versicherer/wohnen/glasversicherung)
+
+**Kapsam türleri:** **Gebäudeverglasung**, pencere ve kapı camları gibi binaya ait camları; **Mobiliarverglasung**, cam masa veya vitrin gibi eşyalardaki camları ifade eder. Hangi yüzeylerin sigortalı olduğu sözleşmede tanımlanır. Kiralık konuttaki ev sahibine ait camlar da sözleşme kapsamına girebilir.
+
+**Kırılma ile çizik aynı kapsam değildir.** Çizikler, yüzeysel aşınma ve kozmetik kusurlar genellikle cam kırılması teminatının dışında kalır. Bardak, gözlük, telefon ekranı ve cam seramik ocak yüzeyi de yalnızca camdan yapıldığı için otomatik olarak kapsama girmez; bunların dahil olup olmadığı poliçeye bağlıdır.
+
+Dolayısıyla bir Haftpflicht poliçesinin bulunması, ayrıca Glasversicherung olduğu anlamına gelmez. Cam sigortasının bulunması da bütün cam eşyaların ve her tür cam hasarının karşılanacağı anlamına gelmez.
+
 <a id="acik-sorular"></a>
 
 ## Açık kalan sorular
