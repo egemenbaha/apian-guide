@@ -552,6 +552,8 @@ Bu numaralar Almanya’da kullanım içindir. **Hayati tehlike, ağır kaza veya
 
 Aramada **tam adresini, bina numarasını, katı ve ne olduğunu** açıkça belirt. Görevlinin sorularını yanıtla ve görüşmeyi bitirmesini bekle.
 
+Rutin bir muayene için [yakındaki aile hekimlerine ve diş hekimlerine](https://apianwiki.space/#doktor-randevusu) bakabilirsin.
+
 ### 105. Apian 2’de mutfağın ve açık rafın ölçüleri ne?
 
 **Mutfak genişliği: 90 cm.**
@@ -834,6 +836,34 @@ Hayır. **Oda tek kişi içinse aynı odaya iki kişi kaydedilemiyor.** Oda kayd
 ### 136. Depozito belgesinde e-imza kabul ediliyor mu?
 
 Depozito belgesini e-imzayla göndermeden önce **info@apian-aparthaus.de** adresine yazıp Apian’a sor. E-postanda “Depozito belgesinde e-imza kabul ediyor musunuz, yoksa ıslak imza mı gerekiyor?” diye sorabilirsin. Belgeyi, ofisten gelen yanıta göre hazırla. [Apian iletişim bilgileri](https://www.apian-aparthaus.de/)
+
+### 137. İlk kez aile hekiminden veya diş hekiminden nasıl randevu alırım?
+
+Genel bir sağlık şikâyetin için **Hausarzt** (aile hekimi), diş kontrolü için **Zahnarzt** (diş hekimi) seç. Muayenehaneyi aradığında ilk kez geleceğini ve hangi sigortayı kullandığını söyle. İnternetten randevu alırken **Neupatient** seçeneği ilk kez gelecek hastalar içindir. [Doktor seçimi ve randevu](https://gesund.bund.de/arztwahl-und-terminsuche)
+
+- **“Guten Tag, nehmen Sie zurzeit neue Patienten auf?”** — Merhaba, şu anda yeni hasta kabul ediyor musunuz?
+- **“Ich bin gesetzlich versichert. Wann wäre ein Termin frei?”** — Yasal sağlık sigortam var. Ne zaman boş randevunuz olur? Özel sigortalıysan *privat versichert* diyebilirsin.
+- **“Kann ich mit der Ärztin oder dem Arzt Türkisch sprechen?”** — Doktorla Türkçe konuşabilir miyim?
+
+### 138. Apian yakınında hangi aile hekimine veya diş hekimine gidebilirim?
+
+**Aile hekimi · Gemeinschaftspraxis Dr. Schub** — Münchner Straße 21c, 85774 Unterföhring. Siedlerstraße durağının hemen yanında. Burada *offene Sprechstunde* var, yani muayene saatinde randevusuz gidiyorsun. İlk kez gideceksen o gün yeni hasta alıp alamayacaklarını telefonla sor. [089 9582 1964](tel:+498995821964) · [Muayene saatleri](https://www.praxis-dr-schub.de/) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Muenchner+Strasse+21c+85774+Unterfoehring)
+
+**Aile hekimi · Dr. Emmanouela Vlizou** — Ahornstraße 2, 85774 Unterföhring. Belirli bir saate randevu almak istersen telefonla arayabilir veya muayenehanenin sitesinden gün seçebilirsin. İlk ziyaret için sitedeki sağlık geçmişi formunu (*Anamnesebogen*) doldurup yanında götür. [089 9237 9190](tel:+498992379190) · [Randevu ve form](https://www.hausarzt-unterfoehring.de/) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Ahornstrasse+2+85774+Unterfoehring)
+
+**Diş hekimi · Dr. Mia Peters** — Föhringer Allee 6, 85774 Unterföhring. İlk diş kontrolün için muayenehaneyi arayabilir veya sitesindeki Doctolib bağlantısından randevu arayabilirsin. [089 950 5453](tel:+49899505453) · [Muayenehane ve randevu](https://www.dr-miapeters.de/) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Foehringer+Allee+6+85774+Unterfoehring)
+
+### 139. Türkçe konuşan bir aile hekimi veya diş kliniği var mı?
+
+**Türkçe konuşan aile hekimi · Kayhan Koruyan** — Allgemeinmedizin am Schwabinger Tor, Leopoldstraße 206, 80804 München. Koruyan muayeneyi Türkçe yapabiliyor. Randevu alırken adını söyle veya muayenehanenin Doctolib bağlantısından kendisini seç. [089 8905 9970](tel:+498989059970) · [Hekimler, konuştukları diller ve randevu](https://www.allgemeinmedizin-schwabinger-tor.de/) · [Apian’dan toplu taşımayla git](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Leopoldstrasse+206+80804+Muenchen&travelmode=transit)
+
+**Türkçe konuşan ekibi olan diş kliniği · Zahnmedizin Bogenhausen** — Englschalkinger Straße 140, 81925 München. Ekipte Türkçe konuşan kişiler var. Diş hekimiyle doğrudan Türkçe görüşmek istiyorsan ararken bunu belirt ve randevunu ona göre al. [089 470 2972](tel:+49894702972) · [Kliniğin dil seçenekleri](https://www.zahnmedizin-bogenhausen.de/zahnarzt-fuer-internationale-patienten/) · [Randevu](https://www.zahnmedizin-bogenhausen.de/kontakt/) · [Apian’dan toplu taşımayla git](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Englschalkinger+Strasse+140+81925+Muenchen&travelmode=transit)
+
+### 140. İlk muayeneye giderken yanıma ne almalıyım?
+
+Almanya’da yasal sağlık sigortan varsa **sağlık kartını (eGK)** götür. Kartın henüz gelmediyse sigortandan muayenehaneye geçici sigorta belgesi göndermesini iste. Varsa kullandığın ilaçların listesini ve gidiş nedeninle ilgili eski raporları da al. [Muayeneye hazırlık](https://gesund.bund.de/arztbesuch-vorbereiten) · [Geçici sigorta belgesi](https://www.kzvb.de/praxisfuehrung/versicherung-versorgung/versicherungsnachweis)
+
+**Türkiye’den AT11 (A/T 11) ile geldiysen** randevudan önce Almanya’daki Krankenkasse’ye başvur. Aile hekimi veya diş hekimi için hangi muayene belgesini (*Behandlungsschein*) alman gerektiğini ve planlanan işlemin kapsamını sor. [AT11 ile muayene belgesi](https://www.audibkk.de/mitgliedschaft/arbeiten-im-ausland/leistungsaushilfe-deutschland) · [Öğrenciler için AT11 ve M10](https://apianwiki.space/#resmi-islemler/soru-53)
 
 <a id="acik-sorular"></a>
 

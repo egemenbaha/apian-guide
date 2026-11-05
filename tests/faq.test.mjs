@@ -11,7 +11,7 @@ const faq = parseFaq(source);
 const searchIndex = createSearchIndex(topics, faq.questions);
 
 test('all reviewed questions, sources and pending items survive the Markdown import', () => {
-  assert.equal(faq.questions.length, 136);
+  assert.equal(faq.questions.length, 140);
   assert.equal(faq.openQuestions.length, 1);
   assert.match(faq.openQuestions[0], /^\*\*Boya:/);
   assert.equal(faq.updatedAt, '5 Kasım 2026');
