@@ -596,7 +596,7 @@ Apian 2’de **iki ayrı perde veriliyor**.
 
 ### 111. Apian 2’deki ölçülerin hepsini bir arada görebilir miyim?
 
-Tabii, Apian 2’de ölçülen değerleri aşağıda bir arada bulabilirsin. **Apian 1’de henüz ölçüm yapmadık.**
+Bu tablodaki ölçüleri Apian 2’de aldık. [Apian 1 oda ölçüleri](https://apianwiki.space/#oda-donanimi/soru-141) için henüz ölçüm yapmadık.
 
 | Eşya / alan | Ölçü / adet |
 | --- | --- |
@@ -865,10 +865,13 @@ Almanya’da yasal sağlık sigortan varsa **sağlık kartını (eGK)** götür.
 
 **Türkiye’den AT11 (A/T 11) ile geldiysen** randevudan önce Almanya’daki Krankenkasse’ye başvur. Aile hekimi veya diş hekimi için hangi muayene belgesini (*Behandlungsschein*) alman gerektiğini ve planlanan işlemin kapsamını sor. [AT11 ile muayene belgesi](https://www.audibkk.de/mitgliedschaft/arbeiten-im-ausland/leistungsaushilfe-deutschland) · [Öğrenciler için AT11 ve M10](https://apianwiki.space/#resmi-islemler/soru-53)
 
+### 141. Apian 1’de odanın ve eşyaların ölçüleri ne?
+
+Apian 1’de henüz oda ölçümü yapmadık. Odanı ölçtüysen aşağıdaki **Düzeltme öner** bağlantısından paylaşabilirsin. Odanın eni ve boyu, perde takılan yerin genişliği ya da tek bir eşyanın ölçüsü bile işimize yarar. Neyi ölçtüğünü ve sonucu santimetre cinsinden yazman yeterli.
+
 <a id="acik-sorular"></a>
 
 ## Açık kalan sorular
 
-Yalnızca boya bilgisi açık kaldı. Marka ve renk kodları netleştiğinde ilgili yanıt tamamlanacak.
-
-- [ ] **Boya:** Apian 1 ve Apian 2’de kullanılan beyaz/gri boyanın marka ve renk kodları nedir?
+- [ ] **Boya:** [Apian 1 ve Apian 2’de kullanılan beyaz ve gri boyaların marka ve renk kodları nedir?](https://apianwiki.space/#cikis/soru-37)
+- [ ] **Apian 1 oda ölçüleri:** [Odanın ve eşyaların ölçüleri ne?](https://apianwiki.space/#oda-donanimi/soru-141)

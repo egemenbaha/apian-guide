@@ -8,9 +8,9 @@ Ana alan adı `apianwiki.space`, Vercel’deki `ApianS / apian-guide` projesinin
 
 `www.apianwiki.space` ve önceki `apian-guide.vercel.app` adresi, Vercel üzerinden **308 kalıcı yönlendirmeyle** ana domaine gider. Eski soru ve bölüm bağlantıları aynı hash rotalarını kullanmaya devam eder.
 
-[Proje açıklaması ve 140 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
+[Proje açıklaması ve 141 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
-Arda’nın Wikipedia tarzı düzeni korunarak 140 soruluk FAQ, kaynak bağlantıları ve açık sorular 24 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+Arda’nın Wikipedia tarzı düzeni korunarak 141 soruluk FAQ, kaynak bağlantıları ve açık sorular 24 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
 
 Arama soru, cevap ve bölüm başlıklarını ilgililiğe göre sıralar; Türkçe karakterleri, bazı Türkçe ekleri, yaygın Türkçe/Almanca/İngilizce karşılıkları ve küçük yazım hatalarını destekler. Örneğin `wifi çalışmıyor`, `pazar günü nereler açık`, `Apian2 sineklik`, `Kaution` veya `sineklki` yazabilirsin. Sonuçlarda bölüm adı, cevaptan kısa alıntı ve eşleşen kelimeler görünür. İlk sekiz sonuçtan sonra tümünü açabilirsin; ↑/↓ ile gezin, Enter ile aç, Escape ile kapat. Aramalar kaydedilmez veya bir servise gönderilmez; yeni cevap üretilmez, rehberdeki metinler aranır.
 
@@ -131,7 +131,7 @@ Forum entegrasyonunu doğrulamak için `python3 scripts/check-forum.py` çalış
 
 ## Sonraki adım
 
-Açık kalan tek soru, Apian 1 ve Apian 2 için beyaz/gri boyanın marka ve renk kodları. Bu bilgiler geldiğinde boya yanıtı tamamlanacak. Apian 1 ve Apian 2 ayrımı, kaynak bağlantıları ve tarihli bilgilerin bağlamı korunacak.
+[Açık kalan sorular](https://apianwiki.space/#acik-sorular) bölümünde boya kodları ve Apian 1 oda ölçüleri yer alıyor. Bir ölçü paylaşmak için ilgili sorudaki **Düzeltme öner** bağlantısını, rehberde eksik bir konuyu önermek için **Yeni başlık öner** bağlantısını kullanabilirsin.
 
 ## Açık kaynak ve katkı
 
