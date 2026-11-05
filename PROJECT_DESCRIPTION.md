@@ -72,7 +72,7 @@ Odandaki kablolu modemin güç bağlantısını ve duvardaki uygun internet/TV �
 
 ### 15. Çamaşırhane nerede?
 
-Apian 1’de çamaşırhaneye ofisin yanından dış/arka bölüme geçerek ulaşılıyor. Apian 2’de çamaşırhane **7B binasının birinci katında**. Şimdilik Apian 1’de madeni para, Apian 2’de Airwallet kullanılıyor.
+Apian 1’de çamaşırhaneye ofisin yanından dış/arka bölüme geçerek ulaşılıyor. Apian 2’de çamaşırhane **7B binasının birinci katında**. Apian 1’de madeni parayla, Apian 2’de ise Airwallet uygulamasıyla ödeme yapıyorsun.
 
 ### 16. Çamaşır yıkama ve kurutma ne kadar?
 
@@ -424,7 +424,7 @@ Kartın yurt dışı kullanıma açıksa ve ATM ilgili **Visa/Mastercard ağın�
 
 Alışveriş yaparken kasiyere **“Könnten Sie mir das Wechselgeld bitte in 50-Cent-Münzen geben?”** diyebilirsin: “Para üstünü 50 centlik verebilir misiniz?” Bu küçük bir rica; kasanın bozuk para durumuna bağlı, garanti bir hizmet değil. Makinenin hangi kupürü istediğine önce bak, gereksiz yere farklı madeni para toplama.
 
-Çamaşırhanendeki makine Airwallet kabul ediyorsa uygulamayla da ödeyebilirsin.
+Apian 2’de çamaşırhane için bozuk paraya ihtiyacın yok. Ödemeyi Airwallet uygulamasından yapıyorsun.
 
 ### 92. dm’den 200 €’ya kadar para çekebilir miyim? Nasıl yapılıyor?
 
