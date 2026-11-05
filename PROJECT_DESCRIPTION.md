@@ -44,6 +44,10 @@ Yastık, yorgan, çarşaf ve nevresimini kendin getir; yatak tekstili kiralamaya
 
 Apian 1’in üst katlarındaki uzun pencereler için rehberdeki referans ölçü **90 × 210 cm**. Sipariş vermeden kendi pencereni ölç. Bu ölçüyü zemin kattaki odalar veya Apian 2 için doğrudan esas alma.
 
+**Apian 2’de ölçülen sineklik: 120 × 110 cm.** Kendi pencereni de ölçerek uygunluğunu kontrol edebilirsin.
+
+*Ölçüm notu: Bu ölçü Apian 2’de ölçülüp 5 Kasım 2026’da rehber için paylaşıldı. Odana göre farklılık gösterebilir.*
+
 ### 9. Odadaki mobilyaları çıkarabilir miyim?
 
 Kendi eşyanı getirmek istiyorsan önce ofisle konuş. Yurda ait mobilyaların depolanması her zaman mümkün olmuyor ve çıkışta teslim aldığın eşyaları geri vermen bekleniyor. Özellikle masa, sandalye veya yatağı elden çıkarmadan önce yazılı onay al.
@@ -519,6 +523,58 @@ Bu numaralar Almanya’da kullanım içindir. **Hayati tehlike, ağır kaza veya
 **089 19240 — Münih zehir danışma hattı (Giftnotruf):** Zehirlenme veya zehirlenme şüphesinde 7 gün 24 saat telefonla danışmanlık verir. Hayati tehlikede önce **112’yi ara**. [089 19240’ı ara](tel:+498919240). [TUM Klinikum zehir danışma hattı](https://toxikologie.mri.tum.de/de/giftnotruf-muenchen)
 
 Aramada **tam adresini, bina numarasını, katı ve ne olduğunu** açıkça belirt. Görevlinin sorularını yanıtla ve görüşmeyi bitirmesini bekle. Bilgiler **5 Kasım 2026** tarihinde resmî kaynaklardan kontrol edildi.
+
+### 105. Apian 2’de mutfağın ve açık rafın ölçüleri ne?
+
+**Mutfak genişliği: 90 cm.**
+
+**Açık mutfak rafı: 45 × 37 cm; derinliği 37 cm.**
+
+*Ölçüm notu: Bu ölçüler Apian 2’de ölçülüp 5 Kasım 2026’da rehber için paylaşıldı. Odana göre farklılık gösterebilir.*
+
+### 106. Apian 2’de gardırop, masalar ve komodin kaç cm?
+
+**Gardırop: 120 × 200 cm.**
+
+**Küçük masa: 70 × 80 cm.**
+
+**Büyük masa: 120 × 60 cm.**
+
+**Komodin: 40 × 40 cm.**
+
+*Ölçüm notu: Bu ölçüler Apian 2’de ölçülüp 5 Kasım 2026’da rehber için paylaşıldı. Odana göre farklılık gösterebilir.*
+
+### 107. Apian 2’de banyo camı ve aynası kaç cm?
+
+**Banyo camı: 90 × 60 cm.**
+
+**Banyo aynası: 60 × 150 cm.**
+
+*Ölçüm notu: Bu ölçüler Apian 2’de ölçülüp 5 Kasım 2026’da rehber için paylaşıldı. Odana göre farklılık gösterebilir.*
+
+### 108. Apian 2’de giriş ve tuvalet kapısının ölçüleri ne?
+
+**Giriş kapısı: 90 × 210 cm.**
+
+**Tuvalet kapısı: 60 × 210 cm.**
+
+*Ölçüm notu: Bu ölçüler Apian 2’de ölçülüp 5 Kasım 2026’da rehber için paylaşıldı. Odana göre farklılık gösterebilir.*
+
+### 109. Apian 2’de kaloriferin ölçüsü ne?
+
+**Kalorifer: 70 × 96 cm.**
+
+*Ölçüm notu: Bu ölçü Apian 2’de ölçülüp 5 Kasım 2026’da rehber için paylaşıldı. Odana göre farklılık gösterebilir.*
+
+### 110. Apian 2’de perde ölçüsü ne, kaç perde veriliyor?
+
+**Perde boyu: 215 cm.**
+
+**Perde takılacak alanın toplam eni: 240 cm.**
+
+Apian 2’de **iki ayrı perde veriliyor**.
+
+*Ölçüm notu: Bu ölçüler Apian 2’de ölçülüp 5 Kasım 2026’da rehber için paylaşıldı. Odana göre farklılık gösterebilir.*
 
 <a id="acik-sorular"></a>
 

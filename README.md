@@ -2,9 +2,11 @@
 
 Apian sakinleri ve yeni taşınacak öğrenciler için Türkçe bilgi ve sıkça sorulan sorular projesi.
 
-[Proje açıklaması ve 104 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
+[Proje açıklaması ve 110 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
-Arda’nın Wikipedia tarzı düzeni korunarak 104 soruluk FAQ, kaynak bağlantıları ve açık sorular 21 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+Arda’nın Wikipedia tarzı düzeni korunarak 110 soruluk FAQ, kaynak bağlantıları ve açık sorular 21 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+
+Apian 2’de ölçülüp paylaşılan sineklik, mutfak, mobilya, banyo, kapı, kalorifer ve perde ölçüleri “Odada neler var?” bölümündedir. Ölçüm dipnotları bina kapsamını ve odalar arasında farklılık olabileceğini belirtir. Perde takılacak alanın eni, tek bir perdenin kumaş eni olarak yorumlanmaz.
 
 Resmî tatiller bölümünde 2026 sonundaki kapanışlar ve 2027 takvimi yer alır. Marketlerin pazar/tatil saatleri ve Unterföhring’in güncel nöbetçi eczane listesine bağlantı ilgili konulardadır; değişen nöbet listeleri siteye sabit olarak kopyalanmaz. Tamir için odaya giriş, sakin gözlemi ile genel kurallar ayrılarak bakım bölümünde anlatılır.
 
