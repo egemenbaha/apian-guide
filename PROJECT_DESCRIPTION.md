@@ -889,6 +889,18 @@ Bu bölüm genel bilgilendirme amaçlıdır; sigorta veya ürün tavsiyesi içer
 
 Dolayısıyla bir Haftpflicht poliçesinin bulunması, ayrıca Glasversicherung olduğu anlamına gelmez. Cam sigortasının bulunması da bütün cam eşyaların ve her tür cam hasarının karşılanacağı anlamına gelmez.
 
+### 144. Feringasee’de hangi sosyal aktiviteler var?
+
+**Feringasee**, arkadaşlarla yüzme, piknik ve göl çevresinde yürüyüş için bir seçenek. [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Feringasee+Unterfoehring&travelmode=bicycling)
+
+**Spor ve açık hava:** İki sahalı **beach voleybol alanı**, güneşlenme çayırları ve su kenarında kumluk alanlar var. Gölün bir bölümü sörf için ayrılmış; kuzey kıyısında doğal yaşam alanı bulunuyor. Göl çevresinde tuvaletler de var. [Göl ve tesis bilgileri](https://www.landkreis-muenchen.de/themen/freizeit-kultur-sport/badeseen-und-badegewaesser/feringasee/)
+
+**Açık havada mangal:** Yalnızca tabelalarla işaretlenmiş **Grillzone** alanlarında, küçük taşınabilir mangallarla yapılabiliyor. Yerde mangal yakmak ve kamp ateşi yasak. Alanın yerini resmî sayfadaki **Grillzone Feringasee** planından kontrol edebilirsin.
+
+**Ayrı FKK bölgesi:** Yarımadada çıplak güneşlenme ve yüzme için ayrılmış bir **FKK alanı** var; gölün tamamı FKK bölgesi değil.
+
+**Yeme içme:** FERINGAS restoranı, Seegarten/Biergarten, Beach Club ve büfeler bulunuyor. Restoran **4 Ekim 2026’dan itibaren kış arasında**; normal sezonun **25 Mart 2027’de** yeniden başlaması planlanıyor. Seegarten güzel havalarda hafta sonları açılıyor. Gitmeden sezon ve hava durumuna bağlı açılış bilgisini kontrol et. [FERINGAS güncel duyuruları ve menüler](https://feringa-see.de/)
+
 <a id="acik-sorular"></a>
 
 ## Açık kalan sorular
