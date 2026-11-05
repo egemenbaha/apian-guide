@@ -6,13 +6,15 @@ Apian Guide, Apian sakinlerinin ve yeni taşınacak öğrencilerin günlük yaş
 
 ## Apian’da yaşam: Sık sorulan sorular
 
-Yeni taşınıyorsan ya da bir şeyin nasıl işlediğini merak ediyorsan buradan başlayabilirsin. Bu rehber, Ağustos–Kasım 2026 dönemindeki sakin deneyimleri ve resmî kaynaklarla hazırlandı. Yanıtlar bu dönemdeki bilgileri doğrudan anlatır; uygulama değiştikçe güncellenir. Binaya veya odana bağlı konularda kendi sözleşmeni ve yönetimin sana gönderdiği güncel bilgileri esas al.
+Yeni taşınıyorsan ya da bir şeyin nasıl işlediğini merak ediyorsan buradan başlayabilirsin. Bu rehber, Temmuz 2025–Kasım 2026 dönemine ait bilgiler, sakin deneyimleri ve resmî açıklamalarla hazırlandı. Yanıtlar bu dönemdeki bilgileri doğrudan anlatır; uygulama değiştikçe güncellenir. Binaya veya odana bağlı konularda kendi sözleşmeni ve yönetimin sana gönderdiği güncel bilgileri esas al.
 
 Bu proje yurt yönetiminin resmî yayını değildir. Sakin deneyimleri ve tarihli ücret örnekleri güncel yönetim kuralı veya sabit tarife olarak değerlendirilmemeli. Ham sohbet dökümü ve kişisel bilgiler bu depoda yayımlanmıyor.
 
 ### 1. Ofis hangi saatlerde açık?
 
-Ofis pazartesi–perşembe **07.00–12.00 ve 13.00–16.00**, cuma **07.00–12.00** arasında açık. Bu saatler rehberdeki ofis duyurusuna dayanıyor. Öğle arasında ofis kapalı; tatil ve geçici değişiklikler için kapıdaki son duyuruyu kontrol et.
+Ofis pazartesi–perşembe **07.00–12.00 ve 13.00–16.00**, cuma **07.00–12.00** arasında açık. **Cumartesi, pazar ve resmî tatillerde kapalı**. Saat değişiklikleri e-postayla veya binaya asılan duyurularla bildiriliyor; gitmeden önce son duyuruyu kontrol et.
+
+Ofise **089 / 90 7784 390** numarasından veya **info@apian-aparthaus.de** adresinden ulaşabilirsin.
 
 ### 2. İlk geldiğimde anahtarımı nasıl alacağım?
 
@@ -88,7 +90,11 @@ Apian 1 için gece de erişilebildiğini söyleyen sakinler var. Apian 2’de is
 
 ### 20. Anahtar içeride kaldı, kapıda kaldım. Ne yapmalıyım?
 
-Ofis açıksa ilk olarak oraya git. Grupta ofis veya görevli yardımıyla kapısını açtıranlar ve bunun için **10 € ödediğini söyleyenler** var; güncel ücreti işlem öncesinde sorabilirsin. Gece görevlisine nasıl ulaşılacağına ilişkin kısmı açık bıraktık.
+Ofis açıksa ilk olarak oraya git. **Apian 2’de gece görevlisi 21.00–06.00 arasında** ofiste veya Apian arazisinde devriyede bulunuyor. Ofis ya da gece görevlisi kapı açma hizmeti verebiliyor. Kapı açma bedeli **10 €** (**Temmuz 2025** bilgisi); işlem öncesinde güncel tutarı teyit et.
+
+Dışarıdan çilingir çağırman gerekirse kilit sistemine aşina firma **Gmeineder**, telefon **08022 75228**. Dışarıdan aldığın hizmetin tüm masrafları sana ait. Bu numara gece görevlisinin numarası değil.
+
+Gece görevlisinin çalışma saatleri, Apian 2 dış kapısının veya çamaşırhanenin erişim saatlerini belirlemiyor; bu saatler henüz netleşmedi.
 
 ### 21. Anahtarımı kaybedersem ne olur?
 
@@ -105,6 +111,8 @@ Sakinlerin paylaşımlarına göre Apian 1’de çalışma odası ikinci, müzik
 ### 24. Bisikletimi nereye koyabilirim? Kayıt gerekiyor mu?
 
 Bisiklet park alanlarını kullanabilirsin. Kayıt için bisikletinle ofise gidip etiket al. **Ekim 2026** için kayıt işlemi ücretsizdi; kayıt sırasında güncel uygulamayı teyit et.
+
+**Apian 2’de arazi içinde bisiklete binilmez; bisikletini yollarda elinde iterek götür.** Bisiklet evine bırakacağın bisiklet için ofisten bisiklet etiketi al.
 
 ### 25. Kargo adresimi nasıl yazmalıyım?
 
@@ -234,6 +242,18 @@ Eğitim Ataşeliği’nde öğrenci dosyası açılması ve güncel öğrenci be
 
 Sözleşmendeki bitiş ve bildirim süresini kontrol edip işletmecinin resmî iptal sayfasından işlemi başlatabilirsin. VK Bodyfit’in Almanya’daki stüdyolar için çevrim içi iptal formu var. Gönderdiğin başvuruyu sakla ve üyeliğinin hangi tarihte biteceğine dair yazılı teyit al. [Üyelik iptal sayfası](https://www.vk-bodyfit.de/vertraege-hier-kuendigen.html)
 
+### 57. Apian 2’de çöp, kâğıt ve kartonları nereye bırakmalıyım?
+
+Evsel çöpleri ve artık kullanmadığın eşyaları dairenin önünde, koridorda veya merdiven boşluğunda bekletme; bu alanları eşya bırakmak ya da başkasına vermek için de kullanma. Evsel çöpleri ayrılmış çöp konteynerlerine at. Büyük eşyalar için normal çöp yerine büyük eşya toplama kurallarını takip et.
+
+**Kâğıt ve kartonları, büyük ambalajlar dahil, önce küçültüp beyaz kâğıt konteynerlerine at.** Konteynerlere hem ön hem arka taraftan erişilebiliyor. Ortak alanlarda çöp veya eşya biriktirmek yazılı ihtara neden olabilir.
+
+### 58. Apian 2’de acil merdivenleri, kapıları ve asansörleri nasıl kullanmalıyım?
+
+**Acil merdivenleri ve acil çıkış kapılarını yalnızca can güvenliğini tehdit eden acil durumlarda kullan.** Yangın, duman veya tıbbi yardım gerektiren durumlar buna örnek. Günlük giriş-çıkış için bu alanları kullanmak yazılı ihtara neden olabilir.
+
+Asansörleri özenli kullan.
+
 <a id="acik-sorular"></a>
 
 ## Açık kalan sorular
@@ -241,6 +261,6 @@ Sözleşmendeki bitiş ve bildirim süresini kontrol edip işletmecinin resmî i
 Bu dört başlık, kullanıcının isteğiyle yanıtları gelene kadar açık bırakıldı. Yanıtlar geldiğinde ilgili FAQ maddeleri güncellenecek.
 
 - [ ] **Boya:** Apian 1 ve Apian 2’de kullanılan beyaz/gri boyanın marka ve renk kodları nedir?
-- [ ] **Gece erişimi:** Apian 2’nin dış kapısı kaçta kapanıp açılıyor? Gece görevlisine nasıl ulaşılır?
+- [ ] **Gece erişimi:** Apian 2’nin dış kapısı kaçta kapanıp açılıyor?
 - [ ] **Ortak odalar:** Çalışma/müzik odası anahtarı en geç kaçta alınabilir? Hafta sonu kullanımına izin veriliyor mu?
 - [ ] **Teslim ve belgeler:** Başkası adına anahtar teslimi mümkün mü? Aynı odaya iki kişi kaydedilebilir mi? Depozito belgesinde e-imza kabul ediliyor mu?
