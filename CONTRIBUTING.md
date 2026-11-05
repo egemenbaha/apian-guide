@@ -12,12 +12,11 @@ Apian Guide'a katkıların hoş geldi! Hata bildirmek, bir cevabı güncellemek 
 
 ## Ana dalın korunması
 
-- Katkıcılar, Arda dahil, `main` dalına doğrudan göndermez; PR üzerinden ilerler.
+- Katkıcılar, `main` dalına doğrudan göndermez; PR üzerinden ilerler.
 - Tüm dosyaların kod sahibi `@egemenbaha`dır. Birleştirme için onun onayı gerekir.
 - Yeni değişiklik gönderilirse önceki onay geçersiz olur ve yeniden inceleme gerekir.
 - `Test and build` kontrolü başarılı olmalı, dal güncel `main` ile uyumlu olmalı ve inceleme konuşmaları çözülmelidir.
 - Force push ve dal silme kapalıdır.
-- Repo sahibinin yönetici istisnası vardır: `@egemenbaha` gerektiğinde doğrudan `main` dalına gönderebilir. Bu işlem PR onay kapısını atlar; testlerin önceden çalıştırılması önerilir.
 
 Bu kurallar GitHub dal korumasıyla uygulanır; `CODEOWNERS` dosyası tek başına birleştirmeyi engellemez. İleride başka birine yönetici yetkisi verilirse yönetici istisnasının kapsamı yeniden değerlendirilmelidir.
 
