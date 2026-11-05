@@ -24,3 +24,7 @@ build/
 coverage/
 __pycache__/
 .venv/
+
+# Generated FAQ content and local Vercel link
+src/faq-data.js
+.vercel/

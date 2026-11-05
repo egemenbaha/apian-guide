@@ -1,4 +1,7 @@
 import { topics } from './topics.js';
+import { faq } from './faq-data.js';
+import { escapeHtml, renderInline, renderAnswer, findMatches } from './faq.js';
+const questionsById = new Map(faq.questions.map(question => [question.id, question]));
 const content = document.querySelector('#page-content');
 const nav = document.querySelector('#topic-nav');
 const toggle = document.querySelector('.menu-toggle');
@@ -26,33 +29,30 @@ function home() {
   document.title = 'Apian Guide — Apian’da yaşam rehberi';
   content.innerHTML = `<h1>Ana sayfa</h1>${tabs('Ana sayfa')}<p class="site-subtitle">Apian Guide, sakinlerin bilgi rehberi.</p>
   <section class="welcome" aria-labelledby="welcome-title"><h2 id="welcome-title"><strong>Apian Guide</strong>’a hoş geldiniz</h2><p>Apian sakinleri ve yeni taşınacak öğrenciler için Türkçe bilgi rehberi.</p><p class="welcome-meta">Apian 1 · Apian 2 · <a href="#konular">${topics.length} konu başlığı</a></p></section>
-  <aside class="notice"><strong>Rehber hazırlanıyor.</strong> Şimdilik yalnızca konu başlıkları ve bölümler yer alıyor. Sık sorulan sorular ve yanıtlar daha sonra eklenecek.</aside>
+  <aside class="notice"><strong>${faq.questions.length} soruluk yaşam rehberi.</strong> Son güncelleme: ${escapeHtml(faq.updatedAt)}. Sakin deneyimleri ve resmî kaynaklar bir arada. <a href="#acik-sorular">Açık kalan ${faq.openQuestions.length} başlık</a> daha sonra tamamlanacak.</aside>
   <section id="konular" class="directory"><h2>Rehber konuları</h2><div class="portal-grid">${groups.map(group => `<section class="topic-group"><h3>${group}</h3><ul>${topics.filter(topic => topic.group === group).map(card).join('')}</ul></section>`).join('')}</div></section>
-  <section id="hakkinda" class="about"><h2>Rehber hakkında</h2><p>Apian’da yerleşme, günlük yaşam ve resmî işlemlere yönelik bağımsız bir bilgi rehberidir. Konulara soldaki içindekiler bölümünden veya arama alanından ulaşabilirsin.</p><p>Apian 1 ve Apian 2 bilgileri ayrı tutulacak; içeriklere kaynaklar ve doğrulama tarihleri eklenecek. Bu proje yurt yönetiminin resmî yayını değildir.</p></section><div class="category-box"><span>Konular:</span> Apian 1 <span class="category-divider">|</span> Apian 2 <span class="category-divider">|</span> Öğrenci yaşamı</div>`;
-}
-function normalize(text) {
-  return text.toLocaleLowerCase('tr').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ı/g, 'i');
+  <section id="hakkinda" class="about"><h2>Rehber hakkında</h2><p>Apian’da yerleşme, günlük yaşam ve resmî işlemlere yönelik bağımsız bir bilgi rehberidir. Konulara soldaki içindekiler bölümünden veya arama alanından ulaşabilirsin.</p><p>Apian 1 ve Apian 2 bilgileri ayrı tutulur; kaynak bağlantıları ilgili yanıtların yanında yer alır. Tarihli deneyimleri güncel fiyat veya kesin kural olarak değerlendirmeden önce kontrol et. Bu proje yurt yönetiminin resmî yayını değildir.</p></section><section id="acik-sorular" class="about"><h2>Açık kalan sorular</h2><p>${faq.openQuestions.length ? "Bu başlıklar, yanıtlar netleştiğinde tamamlanacak." : "Açık kalan soru bulunmuyor."}</p><ul>${faq.openQuestions.map(question => `<li>${renderInline(question)}</li>`).join('')}</ul></section><div class="category-box"><span>Konular:</span> Apian 1 <span class="category-divider">|</span> Apian 2 <span class="category-divider">|</span> Öğrenci yaşamı</div>`;
 }
 const search = document.querySelector('#topic-search');
 const results = document.querySelector('#search-results');
 function searchTopics() {
-  const query = normalize(search.value.trim());
+  const query = search.value.trim();
   results.replaceChildren();
   results.hidden = !query;
-  const matches = query ? topics.filter(topic => normalize([topic.title, ...topic.sections].join(' ')).includes(query)) : [];
-  for (const topic of matches) {
+  const matches = findMatches(query, topics, faq.questions);
+  for (const match of matches) {
     const link = document.createElement('a');
-    link.href = `#${topic.id}`;
-    link.textContent = topic.title;
+    link.href = match.href;
+    link.textContent = match.title;
     link.addEventListener('click', () => { results.hidden = true; });
     results.append(link);
   }
   if (query && !matches.length) {
     const message = document.createElement('p');
-    message.textContent = 'Eşleşen konu bulunamadı.';
+    message.textContent = 'Başka bir kelimeyle deneyebilirsin; örneğin anahtar, depozito veya Anmeldung.';
     results.append(message);
   }
-  document.querySelector('#search-status').textContent = query ? `${matches.length} konu bulundu.` : '';
+  document.querySelector('#search-status').textContent = query ? `${matches.length} sonuç bulundu.` : '';
 }
 search.addEventListener('input', searchTopics);
 search.addEventListener('focus', () => { if (search.value.trim()) searchTopics(); });
@@ -66,10 +66,22 @@ document.addEventListener('click', event => { if (!event.target.closest('.global
 document.querySelectorAll('.appearance input').forEach(input => input.addEventListener('change', () => {
   document.documentElement.dataset[input.name.replace('-size', 'Size')] = input.value;
 }));
+function renderSection(topic, sectionIndex) {
+  const ids = topic.questionIds[sectionIndex];
+  if (!ids.length) return '<p>İptal başvurunu ve üyeliğinin sona ereceği tarihi gösteren yazılı teyidi sakla. <a href="#abonelikler/soru-56">Üyelik iptali yanıtına git.</a></p>';
+  const answers = ids.map(id => {
+    const question = questionsById.get(id);
+    return `<article class="faq-answer" id="soru-${id}"><h3>${escapeHtml(question.question)}</h3>${renderAnswer(question.answer)}</article>`;
+  }).join('');
+  // Document/registration questions remain open until the user supplies the answers.
+  const pendingText = faq.openQuestions.find(question => question.startsWith('**Teslim ve belgeler:**'));
+  const pending = pendingText && ((topic.id === 'yerlesme' && sectionIndex === 2) || (topic.id === 'cikis' && sectionIndex === 3));
+  return answers + (pending ? `<aside class="notice">${renderInline(pendingText)}<br>Yanıtı daha sonra eklenecek. <a href="#acik-sorular">Açık soruların tümü</a></aside>` : '');
+}
 function article(topic) {
   document.title = `${topic.title} — Apian Guide`;
   const index = topics.indexOf(topic);
-  content.innerHTML = `<h1>${topic.title}</h1>${tabs('Konu')}<p class="site-subtitle">Apian Guide, sakinlerin bilgi rehberi.</p><p class="article-subtitle">${topic.group} / Sık sorulan sorular</p><aside class="notice"><strong>Bu bölüm hazırlanıyor.</strong> Sorular ve yanıtlar daha sonra eklenecek.</aside><nav class="article-toc" aria-label="Bu sayfada"><h2>İçindekiler</h2><ol>${topic.sections.map((section, i) => `<li><a href="#${topic.id}/bolum-${i + 1}">${section}</a></li>`).join('')}</ol></nav><div class="article-sections">${topic.sections.map((section, i) => `<section id="bolum-${i + 1}" class="empty-section"><h2>${section}</h2><p class="empty-copy">İçerik eklenecek.</p></section>`).join('')}</div><nav class="article-pagination" aria-label="Diğer konular">${index > 0 ? `<a href="#${topics[index - 1].id}">← ${topics[index - 1].title}</a>` : '<a href="#">← Ana sayfa</a>'}${index < topics.length - 1 ? `<a href="#${topics[index + 1].id}">${topics[index + 1].title} →</a>` : '<a href="#">Ana sayfa →</a>'}</nav>`;
+  content.innerHTML = `<h1>${topic.title}</h1>${tabs('Konu')}<p class="site-subtitle">Apian Guide, sakinlerin bilgi rehberi.</p><p class="article-subtitle">${topic.group} / Sık sorulan sorular</p><aside class="notice"><strong>Son güncelleme: ${escapeHtml(faq.updatedAt)}.</strong> Yanıtlar sakin deneyimlerini ve bağlantıları verilen resmî kaynakları içerir. Güncel uygulama odana ve binana göre değişebilir.</aside><nav class="article-toc" aria-label="Bu sayfada"><h2>İçindekiler</h2><ol>${topic.sections.map((section, i) => `<li><a href="#${topic.id}/bolum-${i + 1}">${section}</a></li>`).join('')}</ol></nav><div class="article-sections">${topic.sections.map((section, i) => `<section id="bolum-${i + 1}" class="empty-section"><h2>${section}</h2>${renderSection(topic, i)}</section>`).join('')}</div><nav class="article-pagination" aria-label="Diğer konular">${index > 0 ? `<a href="#${topics[index - 1].id}">← ${topics[index - 1].title}</a>` : '<a href="#">← Ana sayfa</a>'}${index < topics.length - 1 ? `<a href="#${topics[index + 1].id}">${topics[index + 1].title} →</a>` : '<a href="#">Ana sayfa →</a>'}</nav>`;
 }
 let currentTopic;
 function render() {
@@ -91,8 +103,8 @@ function render() {
   if (!desktopMenu.matches) resetMenu();
   results.hidden = true;
   if (!id) window.scrollTo(0, 0);
-  if (sectionId && /^bolum-\d+$/.test(sectionId)) document.getElementById(sectionId)?.scrollIntoView();
-  if (id === 'konular' || id === 'hakkinda') document.getElementById(id)?.scrollIntoView();
+  if (sectionId && /^(bolum|soru)-\d+$/.test(sectionId)) document.getElementById(sectionId)?.scrollIntoView();
+  if (['konular', 'hakkinda', 'acik-sorular'].includes(id)) document.getElementById(id)?.scrollIntoView();
 }
 window.addEventListener('hashchange', render);
 render();

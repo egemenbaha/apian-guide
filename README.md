@@ -4,7 +4,7 @@ Apian sakinleri ve yeni taşınacak öğrenciler için Türkçe bilgi ve sıkça
 
 [Proje açıklaması ve 56 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
-İlk iskelet, Türkçe bir ana sayfa ve konu başlıklarına göre gezilebilen boş FAQ bölümleri içerir. Proje açıklamasındaki sorular ve yanıtlar arayüze aktarılmadı. Yayınlama henüz yapılmadı.
+Arda’nın Wikipedia tarzı düzeni korunarak 56 soruluk FAQ, kaynak bağlantıları ve açık sorular 11 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
 
 ## Yerel geliştirme
 
@@ -20,7 +20,20 @@ Tarayıcıda http://127.0.0.1:5173 adresini aç. Statik yayın dosyalarını ür
 npm run build
 ```
 
-Çıktı `dist/` klasörüne yazılır; herhangi bir statik sunucuda yayımlanabilir. Başlıklar `src/topics.js`, gezinme ve arama `src/app.js`, tasarım `src/styles.css` içinde tutulur. Konu bağlantıları URL hash kullanır; sunucuda özel yönlendirme gerekmez. Arama yalnızca konu ve alt bölüm başlıklarını tarar. Bu iskelet MediaWiki veya bir içerik yönetim sistemi içermez.
+Çıktı `dist/` klasörüne yazılır; herhangi bir statik sunucuda yayımlanabilir. Başlıklar `src/topics.js`, gezinme ve arama `src/app.js`, tasarım `src/styles.css` içinde tutulur. Konu bağlantıları URL hash kullanır; sunucuda özel yönlendirme gerekmez. Arama konu ve alt bölüm başlıklarının yanında soruları ve cevapları da tarar; Türkçe karakterleri destekler ve sonuçlar ilgili soruya gider. Bu iskelet MediaWiki veya bir içerik yönetim sistemi içermez.
+
+## İçerik güncelleme ve doğrulama
+
+`npm run dev` ve `npm run build`, Markdown kaynağından `src/faq-data.js` dosyasını otomatik üretir. Üretilen dosya Git'e eklenmez. İçerik değişikliğinden sonra çalışan önizlemeyi yeniden başlat veya `node scripts/generate-faq.mjs` çalıştırıp sayfayı yenile.
+
+Yeni soruları numara sırasını koruyarak ekle ve `src/topics.js` içindeki `questionIds` eşlemesine yerleştir. Her soru tam olarak bir bölüme atanmalıdır. Açık başlıklar tamamlandığında Markdown listesindeki kutuyu işaretle; cevapları ve güncelleme tarihini de aynı dosyada düzenle. Site yalnızca işaretlenmemiş açık başlıkları gösterir.
+
+```sh
+npm test
+npm run build
+```
+
+Testler içerik aktarımını, kaynak bağlantılarının korunmasını, konu eşlemelerini, Türkçe aramayı ve güvenli Markdown gösterimini kontrol eder. `vercel.json`, Vercel için `npm run build` komutunu ve `dist/` yayın klasörünü tanımlar. Sunucu, veri tabanı veya ortam değişkeni gerekmez.
 
 ## İçerik kapsamı
 
@@ -44,4 +57,4 @@ npm run build
 
 ## Sonraki adım
 
-Konu bölümlerine gözden geçirilmiş FAQ içerikleri, kaynakları ve doğrulama tarihleri eklenecek. Apian 1 ve Apian 2 bilgileri ayrı tutulacak. Proje açıklamasındaki açık sorular, yanıtları doğrulandığında tamamlanacak.
+Proje açıklamasındaki dört açık soru grubu, kullanıcının yanıtları geldiğinde tamamlanacak. Apian 1 ve Apian 2 ayrımı, kaynak bağlantıları ve tarihli deneyimlerin bağlamı korunacak.
