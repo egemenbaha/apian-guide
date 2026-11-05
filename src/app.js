@@ -63,7 +63,32 @@ document.querySelector('#search-form').addEventListener('submit', event => {
   results.querySelector('a')?.focus();
 });
 document.addEventListener('click', event => { if (!event.target.closest('.global-search')) results.hidden = true; });
+const themeToggle = document.querySelector('.theme-toggle');
+function setColorTheme(color, save = true) {
+  const dark = color === 'dark';
+  document.documentElement.dataset.color = dark ? 'dark' : 'light';
+  themeToggle.querySelector('.theme-icon').textContent = dark ? '☀' : '☾';
+  themeToggle.querySelector('.theme-label').textContent = dark ? 'Açık mod' : 'Koyu mod';
+  themeToggle.setAttribute('aria-label', dark ? 'Açık moda geç' : 'Koyu moda geç');
+  themeToggle.title = themeToggle.getAttribute('aria-label');
+  document.querySelectorAll('.appearance input[name="color"]').forEach(input => {
+    input.checked = input.value === document.documentElement.dataset.color;
+  });
+  document.querySelector('meta[name="theme-color"]').content = dark ? '#101418' : '#ffffff';
+  if (save) {
+    try { localStorage.setItem('apian-color-theme', document.documentElement.dataset.color); }
+    catch { /* Theme switching also works when browser storage is unavailable. */ }
+  }
+}
+let savedTheme = 'light';
+try { savedTheme = localStorage.getItem('apian-color-theme') || 'light'; } catch { /* Use the default theme. */ }
+setColorTheme(savedTheme, false);
+themeToggle.hidden = false;
+themeToggle.addEventListener('click', () => {
+  setColorTheme(document.documentElement.dataset.color === 'dark' ? 'light' : 'dark');
+});
 document.querySelectorAll('.appearance input').forEach(input => input.addEventListener('change', () => {
+  if (input.name === 'color') { setColorTheme(input.value); return; }
   document.documentElement.dataset[input.name.replace('-size', 'Size')] = input.value;
 }));
 function renderSection(topic, sectionIndex) {

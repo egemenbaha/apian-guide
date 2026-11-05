@@ -6,6 +6,8 @@ Apian sakinleri ve yeni taşınacak öğrenciler için Türkçe bilgi ve sıkça
 
 Arda’nın Wikipedia tarzı düzeni korunarak 56 soruluk FAQ, kaynak bağlantıları ve açık sorular 11 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
 
+Açık/koyu mod düğmesi üst çubukta masaüstü ve telefonda görünür. Tema tercihi tarayıcıda hatırlanır ve sağdaki görünüm ayarlarıyla eşzamanlı çalışır.
+
 ## Yerel geliştirme
 
 Node.js 22+ ve Python 3 gerektirir. Haricî paket kurulumu gerekmez.
