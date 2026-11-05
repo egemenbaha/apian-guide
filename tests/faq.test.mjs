@@ -9,7 +9,7 @@ const source = await readFile(new URL('../PROJECT_DESCRIPTION.md', import.meta.u
 const faq = parseFaq(source);
 
 test('all reviewed questions, sources and pending items survive the Markdown import', () => {
-  assert.equal(faq.questions.length, 61);
+  assert.equal(faq.questions.length, 62);
   assert.equal(faq.openQuestions.length, 4);
   assert.equal(faq.updatedAt, '5 Kasım 2026');
   assert.match(faq.questions[36].answer, /açık bırakıldı/);
@@ -70,4 +70,13 @@ test('Rathaus link renders a map with the supplied pin and a directions fallback
   assert.ok(!renderAnswer('[x](https://example.com/maps/place/x/!3d48!4d11)').includes('<iframe'));
   assert.ok(!renderAnswer('[x](https://www.google.com/maps/place/x/!3d999!4d11)').includes('<iframe'));
   assert.ok(!renderAnswer('[<script>](https://www.google.com/maps/place/x/!3d48!4d11)').includes('<script>'));
+});
+
+test('pharmacy comes first in the shopping topic without mixing Sunday market hours', () => {
+  const shopping = topics.find(topic => topic.id === 'alisveris');
+  assert.equal(shopping.sections[0], 'En yakın eczane');
+  assert.deepEqual(shopping.questionIds[0], [62]);
+  assert.match(faq.questions[61].answer, /Pharao Apotheke/);
+  assert.match(faq.questions[61].answer, /pazar günü kapalı/);
+  assert.ok(findMatches('eczane', topics, faq.questions).some(match => match.href === '#alisveris/soru-62'));
 });

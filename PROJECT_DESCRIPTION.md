@@ -282,6 +282,12 @@ Pazar günü şehir içinde alışveriş için şu marketleri kullanabilirsin. S
 
 **EDEKA Häfner**, **Fritz-Meyer-Weg 55, 81925 München** adresinde. **Pazartesi–cumartesi 07.00–20.00** açık; **pazar günü kapalı**. Saatler **5 Kasım 2026** tarihinde kontrol edildi. [Mağaza bilgileri](https://www.edeka.de/maerkte/030241/)
 
+### 62. En yakın eczane nerede, hangi saatlerde açık?
+
+Apian’a en yakın eczane **Pharao Apotheke**, **Fritz-Meyer-Weg 55, 81925 München** adresinde. EDEKA Häfner ile aynı adreste. [Konum ve yol tarifi](https://maps.app.goo.gl/WKKg1MSwJ9LecCB56)
+
+**Pazartesi–cuma 08.30–18.30**, **cumartesi 08.30–12.30** açık; **pazar günü kapalı**. Telefon: **089 95 51 07**. Saatler **5 Kasım 2026** tarihinde kontrol edildi. [Eczane bilgileri](https://eugenapotheke.de/)
+
 <a id="acik-sorular"></a>
 
 ## Açık kalan sorular
