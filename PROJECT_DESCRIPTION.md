@@ -232,7 +232,7 @@ En yakın dm, **Feringastraße 4, 85774 Unterföhring** adresinde. [Konum ve yol
 
 Feringastraße dışında yakındaki bir seçenek de **Prinz-Eugen-Park’taki dm: Maria-Nindl-Platz 2, 81927 München**. Burada da **biyometrik fotoğraf hizmeti** var. Normal saatleri **pazartesi–cumartesi 07.00–20.00**, pazar kapalı. [Şube ve fotoğraf hizmeti](https://www.dm.de/store/d539/muenchen/maria-nindl-platz-2) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=dm+Maria-Nindl-Platz+2+81927+Muenchen&travelmode=walking)
 
-**Küçük bir not:** Sakinlerin paylaştığı bilgiye göre Ausländerbehörde’de de fotoğraf çekilebiliyor. Yine de “orada hallederim” diye yalnızca bu hizmete güvenme; randevudan önce dijital biyometrik fotoğrafını çektirip kodunu yanında götürmen daha güvenli. Apian’ın bağlı olduğu **Landkreis München**, oturum işlemlerinde **basılı fotoğraf kabul etmiyor**. [Landkreis München fotoğraf koşulları](https://www.landkreis-muenchen.de/themen/auslaenderrecht-integration/fragen-antworten/)
+Apian’ın bağlı olduğu Landkreis München, oturum kartı için **dijital biyometrik fotoğraf** istiyor. Fotoğrafını dm’de çektirirsen sana verilen kodu randevuya götür. Ausländerbehörde’de çektirmeyi düşünüyorsan randevu aldığın yerde çekim yapılıp yapılmadığını önceden sor. [Landkreis München fotoğraf koşulları](https://www.landkreis-muenchen.de/themen/auslaenderrecht-integration/fragen-antworten/)
 
 ### 51. Oturum uzatırken yeniden bloke hesap gerekiyor mu?
 
@@ -490,9 +490,9 @@ Tarihleri [resmî tatiller bölümünde](https://apianwiki.space/#tatiller), ila
 
 ### 97. Yönetim tamir veya tadilat için bana sormadan odama girebiliyor mu?
 
-**Apian’da tamir ve tadilat sırasında, sakine önceden sorulmadan odaya girildiği gözlemlenmiş.** Arıza bildirirken **gelmeden önce sana haber verilmesini ve uygun saatin birlikte belirlenmesini** istemen iyi olur.
+Apian’da tamir ekibinin odada kalana önceden sormadan içeri girdiği durumlar oldu. Arıza bildirirken **ekibin gelmeden önce sana haber vermesini** iste. Ziyaretin gününü ve saatini ofisle yazılı olarak netleştirebilirsin.
 
-Bu gözlem, yönetimin her istediğinde izinsiz girebileceği anlamına gelmiyor. **Olağan durumlarda odaya giriş için somut bir gerekçe ve önceden bildirim gerekiyor.** Kendi odan için girişin hangi iş kapsamında ve ne zaman yapılacağını ofisle yazılı olarak netleştirebilirsin. [Odaya girişin genel sınırları — BGH, VIII ZR 289/13](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Gericht=bgh&anz=1&nr=68406&pos=0&sid=0)
+Olağan durumlarda yönetimin odaya girmek için **somut bir gerekçesi olmalı ve sana önceden haber vermeli**. [Odaya girişin genel sınırları — BGH, VIII ZR 289/13](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Gericht=bgh&anz=1&nr=68406&pos=0&sid=0)
 
 ### 98. Apian 2’de çöp, kâğıt ve kartonları nereye bırakmalıyım?
 

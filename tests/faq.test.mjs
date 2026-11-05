@@ -113,8 +113,10 @@ test('emergency contacts are discoverable and render safe dial links', () => {
 
 test('published guide copy has no chat or resident-attribution phrasing', async () => {
   const app = await readFile(new URL('../src/app.js', import.meta.url), 'utf8');
-  const indirectAttribution = /sakinlerin paylaşımlarına göre|söyleyen sakinler|gruptaki süreler|grupta .*paylaşım|sakin aktarımı|ham sohbet dökümü|rehberdeki mevcut/i;
+  const readme = await readFile(new URL('../README.md', import.meta.url), 'utf8');
+  const indirectAttribution = /sakinlerin (?:paylaşımlarına|paylaştığı (?:bilgiye|bilgilere)|deneyimlerine) göre|söyleyen sakinler|gruptaki süreler|grupta .*paylaşım|sakin aktarımı|ham sohbet dökümü|rehberdeki mevcut/i;
   assert.doesNotMatch(source, indirectAttribution);
   assert.doesNotMatch(app, indirectAttribution);
+  assert.doesNotMatch(readme, indirectAttribution);
   assert.match(faq.questions.find(question => question.id === 18).answer, /Apian 1’de çamaşırhane şimdilik gece de kullanılabiliyor/);
 });
