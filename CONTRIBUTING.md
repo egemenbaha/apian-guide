@@ -4,25 +4,20 @@ Apian Guide'a katkıların hoş geldi! Hata bildirmek, bir cevabı güncellemek 
 
 ## Değişiklik gönderme
 
-1. Depoda yazma yetkin yoksa fork oluştur; yazma yetkin varsa ayrı bir dal aç.
-2. Değişikliğini bu dalda yap. Mevcut Wikipedia tarzı tasarımı ve Apian 1/2 ayrımını koru.
+1. `@ardatas` ve `@egemenbaha` için varsayılan yol doğrudan `main` dalına göndermektir. Başlamadan önce güncel `main` değişikliklerini al.
+2. Mevcut Wikipedia tarzı tasarımı, diğer katkıları ve Apian 1/2 ayrımını koruyarak değişikliğini yap.
 3. `npm test` ve `npm run build` komutlarını çalıştır.
-4. Dalını gönderip `main` hedefli bir pull request aç. Sorunu, yaptığın değişikliği ve kontrol sonucunu kısaca anlat. Görsel değişikliklerde ekran görüntüsü ekle.
-5. `@egemenbaha` veya `@ardatas` incelemesini bekle. Geri bildirim varsa aynı dala yeni commit gönder.
+4. İlgili dosyaları commit edip doğrudan `origin/main` dalına gönder. Uzak dalın gönderdiğin commit ile eşleştiğini kontrol et. PR açman veya inceleme istemen gerekmiyor.
+5. Yazma yetkin yoksa fork oluşturup pull request açabilirsin. Değişikliği ve kontrol sonucunu kısaca anlat; görsel değişikliklerde ekran görüntüsü ekle. Proje sorumluları katkını birleştirebilir.
 
-## Ana dalın korunması
+## Ana dala doğrudan gönderim
 
-- `@egemenbaha` ve `@ardatas` güvenilen proje sorumlularıdır. Kullanıcıya özel `always` muafiyetiyle doğrudan `main` dalına push yapabilir ve PR'ları onay/test kapısına takılmadan birleştirebilirler.
-- Diğer katkıcılar PR üzerinden ilerler. Tüm dosyaların kod sahipleri `@egemenbaha` ve `@ardatas`tır; bu iki kişiden birinin onayı gerekir.
-- Yeni değişiklik gönderilirse önceki onay geçersiz olur ve yeniden inceleme gerekir.
-- `Test and build` kontrolü başarılı olmalı, dal güncel `main` ile uyumlu olmalı ve inceleme konuşmaları çözülmelidir.
-- Force push ve dal silme diğer katkıcılara kapalıdır. İki proje sorumlusunun muafiyeti bu kuralları da kapsar.
+- Kullanıcının kararıyla ana dalda zorunlu PR, inceleme onayı ve zorunlu kontrol kapısı bulunmuyor. Önceki [ruleset](https://github.com/egemenbaha/apian-guide/rules/26578031) devre dışı.
+- Otomatik inceleme isteği oluşturan `CODEOWNERS` tanımı kaldırıldı. Kullanıcı istemedikçe inceleme talebi gönderme.
+- `Test and build` her gönderimde çalışmaya devam eder; sonucu kontrol et ve hataları düzelt. Kontrol, gönderimi veya birleştirmeyi bekletmez.
+- Başkasının değişikliğini silmemek için güncel ana dalı alıp birleştir; normal iş akışında force push kullanma.
 
-Onay, test ve konuşma çözümleme zorunlulukları muafiyet tanınan iki hesap dışındaki katkıcılar için geçerlidir. Testler proje sorumlularının push'larında da çalışır; başarılı olmaları önerilir, gönderimi engellemez.
-
-Bu kurallar [GitHub ruleset](https://github.com/egemenbaha/apian-guide/rules/26578031) üzerinden uygulanır. Muafiyet yalnızca bu iki kullanıcı hesabına tanımlıdır; ileride eklenen katkıcılara otomatik aktarılmaz. `CODEOWNERS` dosyası tek başına birleştirmeyi engellemez.
-
-Repo kişisel hesaba aittir. GitHub bu tür depolarda ayrı bir admin rolünü başka bir kullanıcıya vermediği için repo ayarları ve sahiplik işlemleri `@egemenbaha`da kalır; `@ardatas`ın collaborator yazma/birleştirme erişimi ve yukarıdaki muafiyeti vardır.
+Bu değişiklik kimseye yeni yazma yetkisi vermez. Repo kişisel hesaba aittir; ayarlar ve sahiplik işlemleri `@egemenbaha`da, `@ardatas`ın collaborator yazma/birleştirme erişimi vardır. Yazma yetkisi olmayan dış katkıcılar fork ve PR kullanır.
 
 ## FAQ içeriği
 

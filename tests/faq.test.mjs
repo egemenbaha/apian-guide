@@ -9,7 +9,7 @@ const source = await readFile(new URL('../PROJECT_DESCRIPTION.md', import.meta.u
 const faq = parseFaq(source);
 
 test('all reviewed questions, sources and pending items survive the Markdown import', () => {
-  assert.equal(faq.questions.length, 97);
+  assert.equal(faq.questions.length, 104);
   assert.equal(faq.openQuestions.length, 4);
   assert.equal(faq.updatedAt, '5 Kasım 2026');
   assert.match(faq.questions[36].answer, /açık bırakıldı/);
@@ -30,6 +30,9 @@ test('search handles Turkish letters, answers, whitespace and exact question des
   assert.ok(findMatches('SİNEKLİK', topics, faq.questions).some(match => match.href === '#oda-donanimi/soru-8'));
   assert.ok(findMatches('koaksiyel', topics, faq.questions).some(match => match.href === '#internet/soru-11'));
   assert.ok(findMatches('  AIRWALLET   rezervasyon ', topics, faq.questions).some(match => match.href === '#camasirhane/soru-17'));
+  assert.ok(findMatches('BEYAZ KARTON', topics, faq.questions).some(match => match.href === '#bakim/soru-98'));
+  assert.ok(findMatches('acil merdiven', topics, faq.questions).some(match => match.href === '#ortak-alanlar/soru-99'));
+  assert.ok(findMatches('pazar market', topics, faq.questions).some(match => match.href === '#alisveris/soru-101'));
   assert.deepEqual(findMatches('   ', topics, faq.questions), []);
   assert.deepEqual(findMatches('zzzzzz', topics, faq.questions), []);
 });
@@ -42,4 +45,51 @@ test('Markdown formatting preserves sources without allowing raw HTML or unsafe 
   assert.ok(!html.includes('<script>'));
   assert.ok(!html.includes('href="javascript:'));
   assert.equal((html.match(/<p>/g) || []).length, 2);
+});
+
+// Duty hours do not establish the building-door or laundry opening hours.
+test('night assistance is answered while unknown Apian 2 access hours remain open', () => {
+  assert.match(faq.questions[19].answer, /Apian 2/);
+  assert.match(faq.questions[19].answer, /21\.00–06\.00/);
+  assert.match(faq.questions[19].answer, /10 €/);
+  assert.match(faq.questions[19].answer, /2025/);
+  assert.match(faq.questions[17].answer, /kesin kapanış ve açılış saatleri açık bırakıldı/);
+  const pending = faq.openQuestions.find(item => item.startsWith('**Gece erişimi:**'));
+  assert.match(pending, /dış kapısı/);
+  assert.doesNotMatch(pending, /Gece görevlisine/);
+});
+
+test('Rathaus link renders a map with the supplied pin and a directions fallback', () => {
+  const html = renderAnswer(faq.questions[43].answer);
+  assert.match(html, /<details>/);
+  assert.match(html, /<summary>Haritayı göster<\/summary>/);
+  assert.match(html, /<iframe title="Unterföhring, Rathaus haritası"/);
+  assert.match(html, /q=48\.1916509,11\.6401404/);
+  assert.match(html, /destination=48\.1916509,11\.6401404/);
+  assert.match(html, /Google Maps’te aç/);
+  assert.ok(!renderAnswer('[x](https://example.com/maps/place/x/!3d48!4d11)').includes('<iframe'));
+  assert.ok(!renderAnswer('[x](https://www.google.com/maps/place/x/!3d999!4d11)').includes('<iframe'));
+  assert.ok(!renderAnswer('[<script>](https://www.google.com/maps/place/x/!3d48!4d11)').includes('<script>'));
+});
+
+test('pharmacy comes first in the shopping topic without mixing Sunday market hours', () => {
+  const shopping = topics.find(topic => topic.id === 'alisveris');
+  assert.equal(shopping.sections[0], 'En yakın eczane');
+  assert.deepEqual(shopping.questionIds[0], [103]);
+  assert.match(faq.questions[102].answer, /Pharao Apotheke/);
+  assert.match(faq.questions[102].answer, /pazar günü kapalı/);
+  assert.ok(findMatches('eczane', topics, faq.questions).some(match => match.href === '#alisveris/soru-103'));
+});
+
+test('emergency contacts are discoverable and render safe dial links', () => {
+  const emergency = faq.questions.find(question => question.id === 104);
+  assert.equal(topics[0].id, 'acil-yardim');
+  assert.ok(findMatches('116117', topics, faq.questions).some(match => match.href === '#acil-yardim/soru-104'));
+  const html = renderAnswer(emergency.answer);
+  for (const number of ['112', '110', '116117', '+498919240']) {
+    assert.ok(html.includes(`href="tel:${number}"`));
+  }
+  assert.match(emergency.answer, /Hayati tehlikede 116117 yerine 112’yi ara/);
+  const unsafe = renderAnswer('[x](tel:112;ext=123) [x](tel:112"onclick="alert) [x](javascript:alert(1))');
+  assert.ok(!unsafe.includes('<a '));
 });

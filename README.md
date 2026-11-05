@@ -2,13 +2,13 @@
 
 Apian sakinleri ve yeni taşınacak öğrenciler için Türkçe bilgi ve sıkça sorulan sorular projesi.
 
-[Proje açıklaması ve 97 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
+[Proje açıklaması ve 104 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
-Arda’nın Wikipedia tarzı düzeni korunarak 97 soruluk FAQ, kaynak bağlantıları ve açık sorular 19 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+Arda’nın Wikipedia tarzı düzeni korunarak 104 soruluk FAQ, kaynak bağlantıları ve açık sorular 21 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
 
 Resmî tatiller bölümünde 2026 sonundaki kapanışlar ve 2027 takvimi yer alır. Marketlerin pazar/tatil saatleri ve Unterföhring’in güncel nöbetçi eczane listesine bağlantı ilgili konulardadır; değişen nöbet listeleri siteye sabit olarak kopyalanmaz. Tamir için odaya giriş, sakin gözlemi ile genel kurallar ayrılarak bakım bölümünde anlatılır.
 
-Açık/koyu mod düğmesi üst çubukta masaüstü ve telefonda görünür. Tema tercihi tarayıcıda hatırlanır ve sağdaki görünüm ayarlarıyla eşzamanlı çalışır.
+Açık/koyu mod düğmesi üst çubukta masaüstü ve telefonda görünür. Tema tercihi tarayıcıda hatırlanır ve sağdaki görünüm ayarlarıyla eşzamanlı çalışır. Rathaus konum bağlantısı açılır harita ve yol tarifiyle gösterilir; acil yardım numaraları telefonda aranabilir bağlantılardır.
 
 ## Yerel geliştirme
 
@@ -71,6 +71,7 @@ Forum entegrasyonunu doğrulamak için `python3 scripts/check-forum.py` çalış
 ## İçerik kapsamı
 
 - Yerleşme ve odadaki eşyalar
+- Acil yardım numaraları, yakındaki Pharao eczanesi ve pazar günü açık marketler
 - İnternet ve çamaşırhane
 - Anahtar, ortak alanlar ve kargo
 - Arızalar ve günlük yaşam
@@ -102,6 +103,6 @@ Proje açıklamasındaki dört açık soru grubu, kullanıcının yanıtları ge
 
 ## Açık kaynak ve katkı
 
-Apian Guide [MIT lisansı](LICENSE) altında açık kaynaktır. Herkes fork oluşturup değişiklik önerebilir. `@egemenbaha` ve `@ardatas` doğrudan push ve merge yapabilir; iki hesap ana dal kurallarından muaftır. Diğer katkıcılar `main` için pull request açar; birleştirme bu iki proje sorumlusundan birinin onayını ve başarılı `Test and build` kontrolünü gerektirir.
+Apian Guide [MIT lisansı](LICENSE) altında açık kaynaktır. `@egemenbaha` ve `@ardatas` değişiklikleri doğrudan `main` dalına gönderir; PR açma ve inceleme onayı zorunluluğu yoktur. Otomatik inceleme talepleri kaldırıldı. `Test and build` her gönderimde çalışır, gönderimi engellemez. Yazma yetkisi olmayan katkıcılar fork ve PR üzerinden değişiklik önerebilir.
 
 Katkı adımları, içerik ilkeleri ve ana dal kuralları için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasına bak. Dış kaynak bağlantıları, kaynakların kendi lisans ve kullanım koşullarını değiştirmez.

@@ -6,7 +6,7 @@ Turkish informational guide for Apian residents and incoming students. The guide
 
 ## Commit and push
 
-Always commit and push completed repository changes after the relevant checks pass, without waiting for a separate request. Use the `ardatas` GitHub account. Stage only files belonging to the task, keep credentials and local runtime data out of Git, and Follow `CONTRIBUTING.md`: work on a task branch and push it to `origin` without force-pushing; changes to `main` go through an owner-reviewed pull request. Verify that the remote branch matches the local commit and report the commit. If a check or push fails, resolve it where possible and report any remaining blocker. Follow an explicit user instruction to leave changes uncommitted or unpushed when given.
+Always commit and push completed repository changes after the relevant checks pass, without waiting for a separate request. For trusted maintainers `ardatas` and `egemenbaha`, the default workflow is to fetch the latest `main`, integrate changes without overwriting others' work, and push directly to `origin/main`. Do not create a task branch, pull request, or review request unless the user asks for one. Use the already authenticated authorized maintainer account; do not switch accounts merely to match an author name. Stage only files belonging to the task, keep credentials and local runtime data out of Git, and never force-push by default. Contributors without write access can use a fork and pull request as described in `CONTRIBUTING.md`. Verify that the remote branch matches the local commit and report the commit. If a check or push fails, resolve it where possible and report any remaining blocker. Follow an explicit user instruction to leave changes uncommitted or unpushed when given.
 
 ## Where to work
 
@@ -27,7 +27,7 @@ Always commit and push completed repository changes after the relevant checks pa
 | FAQ generation and topic mapping validation | `scripts/generate-faq.mjs` |
 | Markdown rendering and question search | `src/faq.js` |
 | Generated FAQ data (ignored; regenerate from Markdown) | `src/faq-data.js` |
-| Contribution, PR, and owner-review workflow | `CONTRIBUTING.md` |
+| Direct push and external contribution workflow | `CONTRIBUTING.md` |
 | Static Vercel deployment configuration | `vercel.json` |
 | Available commands | `package.json` |
 | Static output generation | `scripts/build.mjs` |

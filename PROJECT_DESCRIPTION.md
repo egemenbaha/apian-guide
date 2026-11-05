@@ -6,13 +6,15 @@ Apian Guide, Apian sakinlerinin ve yeni taşınacak öğrencilerin günlük yaş
 
 ## Apian’da yaşam: Sık sorulan sorular
 
-Yeni taşınıyorsan ya da bir şeyin nasıl işlediğini merak ediyorsan buradan başlayabilirsin. Bu rehber, Ağustos–Kasım 2026 dönemindeki sakin deneyimleri ve resmî kaynaklarla hazırlandı. Yanıtlar bu dönemdeki bilgileri doğrudan anlatır; uygulama değiştikçe güncellenir. Binaya veya odana bağlı konularda kendi sözleşmeni ve yönetimin sana gönderdiği güncel bilgileri esas al.
+Yeni taşınıyorsan ya da bir şeyin nasıl işlediğini merak ediyorsan buradan başlayabilirsin. Bu rehber, Temmuz 2025–Kasım 2026 dönemine ait bilgiler, sakin deneyimleri ve resmî açıklamalarla hazırlandı. Yanıtlar bu dönemdeki bilgileri doğrudan anlatır; uygulama değiştikçe güncellenir. Binaya veya odana bağlı konularda kendi sözleşmeni ve yönetimin sana gönderdiği güncel bilgileri esas al.
 
 Bu proje yurt yönetiminin resmî yayını değildir. Sakin deneyimleri ve tarihli ücret örnekleri güncel yönetim kuralı veya sabit tarife olarak değerlendirilmemeli. Ham sohbet dökümü ve kişisel bilgiler bu depoda yayımlanmıyor.
 
 ### 1. Ofis hangi saatlerde açık?
 
-Ofis pazartesi–perşembe **07.00–12.00 ve 13.00–16.00**, cuma **07.00–12.00** arasında açık. Bu saatler rehberdeki ofis duyurusuna dayanıyor. Öğle arasında ofis kapalı; tatil ve geçici değişiklikler için kapıdaki son duyuruyu kontrol et.
+Ofis pazartesi–perşembe **07.00–12.00 ve 13.00–16.00**, cuma **07.00–12.00** arasında açık. **Cumartesi, pazar ve resmî tatillerde kapalı**. Saat değişiklikleri e-postayla veya binaya asılan duyurularla bildiriliyor; gitmeden önce son duyuruyu kontrol et.
+
+Ofise **089 / 90 7784 390** numarasından veya **info@apian-aparthaus.de** adresinden ulaşabilirsin.
 
 ### 2. İlk geldiğimde anahtarımı nasıl alacağım?
 
@@ -88,7 +90,11 @@ Apian 1 için gece de erişilebildiğini söyleyen sakinler var. Apian 2’de is
 
 ### 20. Anahtar içeride kaldı, kapıda kaldım. Ne yapmalıyım?
 
-Ofis açıksa ilk olarak oraya git. Grupta ofis veya görevli yardımıyla kapısını açtıranlar ve bunun için **10 € ödediğini söyleyenler** var; güncel ücreti işlem öncesinde sorabilirsin. Gece görevlisine nasıl ulaşılacağına ilişkin kısmı açık bıraktık.
+Ofis açıksa ilk olarak oraya git. **Apian 2’de gece görevlisi 21.00–06.00 arasında** ofiste veya Apian arazisinde devriyede bulunuyor. Ofis ya da gece görevlisi kapı açma hizmeti verebiliyor. Kapı açma bedeli **10 €** (**Temmuz 2025** bilgisi); işlem öncesinde güncel tutarı teyit et.
+
+Dışarıdan çilingir çağırman gerekirse kilit sistemine aşina firma **Gmeineder**, telefon **08022 75228**. Dışarıdan aldığın hizmetin tüm masrafları sana ait. Bu numara gece görevlisinin numarası değil.
+
+Gece görevlisinin çalışma saatleri, Apian 2 dış kapısının veya çamaşırhanenin erişim saatlerini belirlemiyor; bu saatler henüz netleşmedi.
 
 ### 21. Anahtarımı kaybedersem ne olur?
 
@@ -104,11 +110,15 @@ Sakinlerin paylaşımlarına göre Apian 1’de çalışma odası ikinci, müzik
 
 ### 24. Bisikletimi nereye koyabilirim? Kayıt gerekiyor mu?
 
-Bisiklet park alanlarını kullanabilirsin. Kayıt için bisikletinle ofise gidip etiket al. **Ekim 2026** için kayıt işlemi ücretsizdi; kayıt sırasında güncel uygulamayı teyit et.
+Bisiklet park alanlarını kullanabilirsin. **Apian 2 binalarının altında ve arkasında da bisiklet park yerleri bulunuyor.** Kayıt için bisikletinle ofise gidip etiket al. **Ekim 2026** için kayıt işlemi ücretsizdi; kayıt sırasında güncel uygulamayı teyit et.
+
+**Apian 2’de arazi içinde bisiklete binilmez; bisikletini yollarda elinde iterek götür.** Bisiklet evine bırakacağın bisiklet için ofisten bisiklet etiketi al.
 
 ### 25. Kargo adresimi nasıl yazmalıyım?
 
 Ad-soyadının yanında sözleşmendeki **doğru bina adresini ve oda/apartman numaranı** mutlaka yaz. Apian 1’in adresi Apianstraße 7; Apian 2, 7a ve 7b binalarını kapsıyor. Rehberdeki yönetim e-postasına göre posta kutusuna isim eklemek yerine gönderilerde apartman/posta kutusu numarası kullanılmalı. [Apian 1 adresi](https://www.apian-aparthaus.de/kopie-von-apartments) · [Apian 2 adresleri](https://www.apian-aparthaus.de/apartments)
+
+En yakın DHL Packstation, **Packstation 166**. Kargonu buradan almak için internetten sipariş verirken teslimat adresi olarak bu Packstation’ı seçebilirsin. Sipariş sonrasında da uygun gönderileri **Post & DHL** uygulamasından Packstation 166’ya yönlendirebilirsin.
 
 ### 26. DHL teslim alma kodu gelmedi. Ne yapabilirim?
 
@@ -186,6 +196,8 @@ SEPA tahsilatı ayın ilk birkaç gününe sarkabiliyor. Önce hesabındaki baki
 
 Apian için adres kaydı **Unterföhring Belediyesi** üzerinden yapılıyor. Kimliğin/pasaportun ve ev sahibinin verdiği **Wohnungsgeberbestätigung** temel belgeler arasında. Bu belgeyi teslimde almadıysan ofisten iste. Gitmeden önce belediyenin güncel belge listesini kontrol et. [Unterföhring belge listesi](https://www.unterfoehring.de/files/content/rathaus-buergerservice/buergerservice/2024-EWO-Unterlagen-Termine.pdf)
 
+[Unterföhring, Rathaus](https://www.google.com/maps/place/Unterf%C3%B6hring,+Rathaus/@48.1916509,11.6375655,17z/data=!3m1!4b1!4m6!3m5!1s0x479e749252845b0f:0x9b2fee66366927dd!8m2!3d48.1916509!4d11.6401404!16s%2Fg%2F1pycs7ktp)
+
 ### 45. Anmeldung için ne kadar sürem var? İnternetten yapabilir miyim?
 
 Genel kural, **fiilen taşındıktan sonraki iki hafta içinde** kayıt yaptırman. Unterföhring’in çevrim içi hizmet bağlantısı var; kullanabilmen taşınma durumuna ve sahip olduğun kimlik doğrulama imkânına bağlı. Özellikle Almanya’ya ilk gelişinde çevrim içi işlemin sana uygun olup olmadığını kontrol et. [Yasal süre](https://www.gesetze-im-internet.de/bmg/__17.html) · [Belediyenin çevrim içi hizmetleri](https://www.unterfoehring.de/rathaus-buergerservice/buergerservice/online-buergerserviceportal.html)
@@ -209,6 +221,8 @@ Belgenin üzerinde hangi madde yazdığına bakman gerekiyor. **§81 Abs. 4** ka
 ### 50. Oturum için biyometrik fotoğrafı nerede çektirebilirim?
 
 dm’de resmî işlemlere uygun dijital biyometrik fotoğraf hizmeti var. Çekimden sonra fotoğrafın kurum tarafından alınmasını sağlayan bir kod veriliyor. Giderken fotoğrafın **oturum kartı için** olduğunu söyle; sıradan fotoğraf baskısı yaptırmakla karıştırma. [dm fotoğraf hizmeti](https://www.dm.de/services/services-im-markt/fotoservice/passbild-service-51462)
+
+En yakın dm, **Feringastraße 4, 85774 Unterföhring** adresinde. [Konum ve yol tarifi](https://www.google.com/maps/dir//dm-drogerie+markt,+Feringastra%C3%9Fe+4,+85774+Unterf%C3%B6hring/@48.1792733,11.63264,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x479e74e557008bed:0xa9df1b3acf9df6!2m2!1d11.632828!2d48.1788542)
 
 ### 51. Oturum uzatırken yeniden bloke hesap gerekiyor mu?
 
@@ -452,6 +466,60 @@ Tarihleri [resmî tatiller bölümünde](https://apian-guide.vercel.app/#tatille
 
 Bu gözlem, yönetimin her istediğinde izinsiz girebileceği anlamına gelmiyor. **Olağan durumlarda odaya giriş için somut bir gerekçe ve önceden bildirim gerekiyor.** Kendi odan için girişin hangi iş kapsamında ve ne zaman yapılacağını ofisle yazılı olarak netleştirebilirsin. [Odaya girişin genel sınırları — BGH, VIII ZR 289/13](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Gericht=bgh&anz=1&nr=68406&pos=0&sid=0)
 
+### 98. Apian 2’de çöp, kâğıt ve kartonları nereye bırakmalıyım?
+
+Evsel çöpleri ve artık kullanmadığın eşyaları dairenin önünde, koridorda veya merdiven boşluğunda bekletme; bu alanları eşya bırakmak ya da başkasına vermek için de kullanma. Evsel çöpleri ayrılmış çöp konteynerlerine at. Büyük eşyalar için normal çöp yerine büyük eşya toplama kurallarını takip et.
+
+**Kâğıt ve kartonları, büyük ambalajlar dahil, önce küçültüp beyaz kâğıt konteynerlerine at.** Konteynerlere hem ön hem arka taraftan erişilebiliyor. Ortak alanlarda çöp veya eşya biriktirmek yazılı ihtara neden olabilir.
+
+### 99. Apian 2’de acil merdivenleri, kapıları ve asansörleri nasıl kullanmalıyım?
+
+**Acil merdivenleri ve acil çıkış kapılarını yalnızca can güvenliğini tehdit eden acil durumlarda kullan.** Yangın, duman veya tıbbi yardım gerektiren durumlar buna örnek. Günlük giriş-çıkış için bu alanları kullanmak yazılı ihtara neden olabilir.
+
+Asansörleri özenli kullan.
+
+### 100. Clever fit hangi saatlerde açık?
+
+**Feringastraße 14, 85774 Unterföhring** adresindeki Clever fit, **haftanın her günü 06.00–00.00** arasında açık. Pazartesi–pazar aynı saatler geçerli. Saat bilgisi: **5 Kasım 2026**.
+
+### 101. Münih’te pazar günü hangi marketler açık?
+
+Pazar günü şehir içinde alışveriş için şu marketleri kullanabilirsin. Saatler **5 Kasım 2026** tarihinde kontrol edildi; gitmeden önce mağazanın güncel saatlerine bak.
+
+**EDEKA Ernst — Hauptbahnhof:** Pazar **08.00–23.00**. Adres: **Arnulfstraße 2, 80335 München**, Hauptbahnhof’un S-Bahn alt katında. [Mağaza bilgileri](https://www.edeka.de/maerkte/030285/)
+
+**EDEKA Ernst — Ostbahnhof:** Pazar **08.00–23.00**. Adres: **Orleansplatz 10–12, 81667 München**. [Mağaza bilgileri](https://www.edeka-ernst.de/)
+
+**Havalimanındaki alternatifler:** Aşağıdaki iki market Münih şehir merkezinin dışında, havalimanında. İkisi de güvenlik kontrolünden önceki halka açık alanda; alışveriş için uçuş bileti gerekmiyor.
+
+**REWE — Munich Airport Center (MAC):** Pazar **05.30–23.00**. Adres: **Terminalstraße Mitte 18, 85356 München-Flughafen**, MAC, Ebene 03. [Mağaza bilgileri](https://www.rewe.de/marktseite/muenchen-flughafen/250497/rewe-markt-terminalstr-mitte-18/)
+
+**EDEKA — Terminal 2:** Pazar **06.00–22.00**. Konum: **Terminal 2, Ebene 03**, güvenlik kontrolünden önce. [Mağaza bilgileri](https://www.munich-airport.de/edeka-478043)
+
+### 102. Fritz-Meyer-Weg’deki EDEKA nerede, hangi saatlerde açık?
+
+**EDEKA Häfner**, **Fritz-Meyer-Weg 55, 81925 München** adresinde. **Pazartesi–cumartesi 07.00–20.00** açık; **pazar günü kapalı**. Saatler **5 Kasım 2026** tarihinde kontrol edildi. [Mağaza bilgileri](https://www.edeka.de/maerkte/030241/)
+
+### 103. En yakın eczane nerede, hangi saatlerde açık?
+
+Apian’a en yakın eczane **Pharao Apotheke**, **Fritz-Meyer-Weg 55, 81925 München** adresinde. EDEKA Häfner ile aynı adreste. [Konum ve yol tarifi](https://maps.app.goo.gl/WKKg1MSwJ9LecCB56)
+
+**Pazartesi–cuma 08.30–18.30**, **cumartesi 08.30–12.30** açık; **pazar günü kapalı**. Telefon: **089 95 51 07**. Saatler **5 Kasım 2026** tarihinde kontrol edildi. [Eczane bilgileri](https://eugenapotheke.de/)
+
+### 104. Acil durumda hangi numarayı aramalıyım?
+
+Bu numaralar Almanya’da kullanım içindir. **Hayati tehlike, ağır kaza veya yangında 112’yi ara.**
+
+**112 — Ambulans ve itfaiye:** Acil sağlık yardımı ve yangın için günün her saatinde ulaşılabilir; arama ücretsizdir. [112’yi ara](tel:112).
+
+**110 — Polis:** Acil polis müdahalesi gerektiğinde ara. Arama ücretsizdir. [110’u ara](tel:110). [Münih Belediyesi acil numaralar bilgisi](https://stadt.muenchen.de/infos/notruf.html)
+
+**116117 — Nöbetçi hekim ve hasta danışma hattı:** Hayati tehlike oluşturmayan, ancak bir sonraki muayene saatine kadar bekleyemeyecek sağlık sorunlarında, özellikle muayenehaneler kapalıyken başvurabilirsin. Hat 7 gün 24 saat açık. **Hayati tehlikede 116117 yerine 112’yi ara.** [116117’yi ara](tel:116117). [116117 hizmet bilgileri](https://www.116117.de/de/haeufige-fragen.php)
+
+**089 19240 — Münih zehir danışma hattı (Giftnotruf):** Zehirlenme veya zehirlenme şüphesinde 7 gün 24 saat telefonla danışmanlık verir. Hayati tehlikede önce **112’yi ara**. [089 19240’ı ara](tel:+498919240). [TUM Klinikum zehir danışma hattı](https://toxikologie.mri.tum.de/de/giftnotruf-muenchen)
+
+Aramada **tam adresini, bina numarasını, katı ve ne olduğunu** açıkça belirt. Görevlinin sorularını yanıtla ve görüşmeyi bitirmesini bekle. Bilgiler **5 Kasım 2026** tarihinde resmî kaynaklardan kontrol edildi.
+
 <a id="acik-sorular"></a>
 
 ## Açık kalan sorular
@@ -459,6 +527,6 @@ Bu gözlem, yönetimin her istediğinde izinsiz girebileceği anlamına gelmiyor
 Bu dört başlık, kullanıcının isteğiyle yanıtları gelene kadar açık bırakıldı. Yanıtlar geldiğinde ilgili FAQ maddeleri güncellenecek.
 
 - [ ] **Boya:** Apian 1 ve Apian 2’de kullanılan beyaz/gri boyanın marka ve renk kodları nedir?
-- [ ] **Gece erişimi:** Apian 2’nin dış kapısı kaçta kapanıp açılıyor? Gece görevlisine nasıl ulaşılır?
+- [ ] **Gece erişimi:** Apian 2’nin dış kapısı kaçta kapanıp açılıyor?
 - [ ] **Ortak odalar:** Çalışma/müzik odası anahtarı en geç kaçta alınabilir? Hafta sonu kullanımına izin veriliyor mu?
 - [ ] **Teslim ve belgeler:** Başkası adına anahtar teslimi mümkün mü? Aynı odaya iki kişi kaydedilebilir mi? Depozito belgesinde e-imza kabul ediliyor mu?
