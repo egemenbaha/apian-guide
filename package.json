@@ -5,9 +5,14 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "node scripts/generate-faq.mjs && python3 -m http.server 5173 --bind 127.0.0.1",
+    "dev": "node scripts/generate-faq.mjs && python3 scripts/dev.py",
     "build": "node scripts/build.mjs",
-    "test": "node --test"
+    "test": "node --test",
+    "forum:setup": "node scripts/forum-setup.mjs",
+    "forum:up": "npm run forum:setup && docker compose --profile forum up -d",
+    "forum:down": "docker compose stop forum"
   },
-  "engines": { "node": ">=22" }
+  "engines": {
+    "node": ">=22"
+  }
 }

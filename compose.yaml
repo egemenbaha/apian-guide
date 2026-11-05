@@ -1,0 +1,17 @@
+name: apian-guide
+services:
+  forum:
+    profiles: ["forum"]
+    image: mediawiki:1.43
+    ports:
+      - "127.0.0.1:8081:80"
+    environment:
+      FORUM_ADMIN_PASSWORD: ${FORUM_ADMIN_PASSWORD:?Run npm run forum:setup first}
+    volumes:
+      - forum-data:/var/lib/mediawiki
+      - ./forum/LocalSettings.php:/opt/apian/LocalSettings.php:ro
+      - ./forum/apache.conf:/etc/apache2/conf-enabled/apian-forum.conf:ro
+      - ./forum/start.sh:/opt/apian/start.sh:ro
+    entrypoint: ["bash", "/opt/apian/start.sh"]
+volumes:
+  forum-data:
