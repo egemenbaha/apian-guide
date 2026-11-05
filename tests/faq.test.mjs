@@ -57,3 +57,16 @@ test('night assistance is answered while unknown Apian 2 access hours remain ope
   assert.match(pending, /dış kapısı/);
   assert.doesNotMatch(pending, /Gece görevlisine/);
 });
+
+test('Rathaus link renders a map with the supplied pin and a directions fallback', () => {
+  const html = renderAnswer(faq.questions[43].answer);
+  assert.match(html, /<details>/);
+  assert.match(html, /<summary>Haritayı göster<\/summary>/);
+  assert.match(html, /<iframe title="Unterföhring, Rathaus haritası"/);
+  assert.match(html, /q=48\.1916509,11\.6401404/);
+  assert.match(html, /destination=48\.1916509,11\.6401404/);
+  assert.match(html, /Google Maps’te aç/);
+  assert.ok(!renderAnswer('[x](https://example.com/maps/place/x/!3d48!4d11)').includes('<iframe'));
+  assert.ok(!renderAnswer('[x](https://www.google.com/maps/place/x/!3d999!4d11)').includes('<iframe'));
+  assert.ok(!renderAnswer('[<script>](https://www.google.com/maps/place/x/!3d48!4d11)').includes('<script>'));
+});

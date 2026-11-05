@@ -19,8 +19,29 @@ export function renderInline(text) {
   return html + escapeHtml(text.slice(position));
 }
 
+// Enhance standalone Google Maps place links; other Markdown uses the normal renderer.
+export function renderMapLink(paragraph) {
+  const match = paragraph.match(/^\[([^\]]+)\]\((https:\/\/[^\s)]+)\)$/);
+  if (!match) return null;
+  let url;
+  try { url = new URL(match[2]); } catch { return null; }
+  if (url.origin !== 'https://www.google.com' || !url.pathname.startsWith('/maps/place/')) return null;
+  const coordinates = url.pathname.match(/!3d(-?[\d.]+)!4d(-?[\d.]+)/);
+  if (!coordinates) return null;
+  const [latitude, longitude] = coordinates.slice(1).map(Number);
+  if (!Number.isFinite(latitude) || !Number.isFinite(longitude) || Math.abs(latitude) > 90 || Math.abs(longitude) > 180) return null;
+  const destination = `${latitude},${longitude}`;
+  const embed = `https://maps.google.com/maps?q=${destination}&z=17&output=embed`;
+  const directions = `https://www.google.com/maps/dir/?api=1&destination=${destination}`;
+  return `<aside class="location-card" aria-label="${escapeHtml(match[1])}">
+    <div class="location-heading"><strong>${escapeHtml(match[1])}</strong><a href="${escapeHtml(url.href)}" target="_blank" rel="noopener noreferrer">Google Maps’te aç ↗</a></div>
+    <details><summary>Haritayı göster</summary><iframe title="${escapeHtml(match[1])} haritası" src="${escapeHtml(embed)}" loading="lazy" referrerpolicy="no-referrer" allowfullscreen></iframe></details>
+    <a class="directions-link" href="${escapeHtml(directions)}" target="_blank" rel="noopener noreferrer">Yol tarifi al ↗</a>
+  </aside>`;
+}
+
 export function renderAnswer(answer) {
-  return answer.split(/\n\s*\n/).map(paragraph => `<p>${renderInline(paragraph)}</p>`).join('');
+  return answer.split(/\n\s*\n/).map(paragraph => renderMapLink(paragraph) ?? `<p>${renderInline(paragraph)}</p>`).join('');
 }
 
 export function normalize(text) {
