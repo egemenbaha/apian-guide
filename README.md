@@ -8,9 +8,9 @@ Ana alan adı `apianwiki.space`, Vercel’deki `ApianS / apian-guide` projesinin
 
 `www.apianwiki.space` ve önceki `apian-guide.vercel.app` adresi, Vercel üzerinden **308 kalıcı yönlendirmeyle** ana domaine gider. Eski soru ve bölüm bağlantıları aynı hash rotalarını kullanmaya devam eder.
 
-[Proje açıklaması ve 142 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
+[Proje açıklaması ve 144 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
-Arda’nın Wikipedia tarzı düzeni korunarak 142 soruluk FAQ, kaynak bağlantıları ve açık sorular 24 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+Arda’nın Wikipedia tarzı düzeni korunarak 144 soruluk FAQ, kaynak bağlantıları ve açık sorular 25 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
 
 Arama soru, cevap ve bölüm başlıklarını ilgililiğe göre sıralar; Türkçe karakterleri, bazı Türkçe ekleri, yaygın Türkçe/Almanca/İngilizce karşılıkları ve küçük yazım hatalarını destekler. Örneğin `wifi çalışmıyor`, `pazar günü nereler açık`, `Apian2 sineklik`, `Kaution` veya `sineklki` yazabilirsin. Sonuçlarda bölüm adı, cevaptan kısa alıntı ve eşleşen kelimeler görünür. İlk sekiz sonuçtan sonra tümünü açabilirsin; ↑/↓ ile gezin, Enter ile aç, Escape ile kapat. Aramalar kaydedilmez veya bir servise gönderilmez; yeni cevap üretilmez, rehberdeki metinler aranır.
 
@@ -58,7 +58,7 @@ npm run build
 
 `npm run dev` ve `npm run build`, Markdown kaynağından `src/faq-data.js` dosyasını otomatik üretir. Üretilen dosya Git'e eklenmez. İçerik değişikliğinden sonra çalışan önizlemeyi yeniden başlat veya `node scripts/generate-faq.mjs` çalıştırıp sayfayı yenile.
 
-Yeni soruları numara sırasını koruyarak ekle ve `src/topics.js` içindeki `questionIds` eşlemesine yerleştir. Her soru tam olarak bir bölüme atanmalıdır. Açık başlıklar tamamlandığında Markdown listesindeki kutuyu işaretle; cevapları ve güncelleme tarihini de aynı dosyada düzenle. Site yalnızca işaretlenmemiş açık başlıkları gösterir.
+Yeni soruları numara sırasını koruyarak ekle ve `src/topics.js` içindeki `questionIds` eşlemesine yerleştir. Her sorunun bir ana bölümü vardır. Bir yanıtı başka bir konunun başında da göstermek için numarasını o konunun `introQuestionId` alanına yazabilirsin. Açık başlıklar tamamlandığında Markdown listesindeki kutuyu işaretle; cevapları ve güncelleme tarihini de aynı dosyada düzenle. Site yalnızca işaretlenmemiş açık başlıkları gösterir.
 
 Ölçü tablosu da Markdown kaynağında tutulur; ölçü değişirse ilgili tekil cevabı ve tablo satırını birlikte güncelle. Tabloların her satırı `|` ile başlar ve biter; başlıktan sonraki ayırıcı satırda her sütun için `---` kullanılır. Tabloyu önceki ve sonraki paragraflardan boş satırla ayır. Hücrelerde kalın/italik yazı ve güvenli bağlantılar desteklenir; ham HTML çalıştırılmaz.
 

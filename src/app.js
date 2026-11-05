@@ -1,7 +1,7 @@
 // One shared switch controls forum navigation and the local server route.
 const { forumEnabled = false } = await fetch(new URL('./features.json', import.meta.url)).then(response => response.json()).catch(() => ({}));
 document.querySelector('.forum-link').hidden = forumEnabled !== true;
-import { topics } from './topics.js';
+import { topics, sectionQuestionIds } from './topics.js';
 import { faq } from './faq-data.js';
 import { escapeHtml, renderInline, renderAnswer } from './faq.js';
 import { checklistToolbar, mountChecklist } from './checklist.js';
@@ -82,7 +82,7 @@ document.querySelectorAll('.appearance input').forEach(input => input.addEventLi
   document.documentElement.dataset[input.name.replace('-size', 'Size')] = input.value;
 }));
 function renderSection(topic, sectionIndex) {
-  const ids = topic.questionIds[sectionIndex];
+  const ids = sectionQuestionIds(topic, sectionIndex);
   if (!ids.length) return '<p>İptal başvurunu ve üyeliğinin sona ereceği tarihi gösteren yazılı teyidi sakla. <a href="#abonelikler/soru-56">Üyelik iptali yanıtına git.</a></p>';
   const answers = ids.map(id => {
     const question = questionsById.get(id);
@@ -93,10 +93,14 @@ function renderSection(topic, sectionIndex) {
 function article(topic) {
   document.title = `${topic.title} — Apian Wiki`;
   const index = topics.indexOf(topic);
-  content.innerHTML = `<h1>${topic.title}</h1>${tabs('Konu')}<p class="site-subtitle">Apian Wiki, Apian’da yaşam rehberi.</p><p class="article-subtitle">${topic.group} / Sık sorulan sorular</p><nav class="article-toc" aria-label="Bu sayfada"><h2>İçindekiler</h2><ol>${topic.sections.map((section, i) => `<li><a href="#${topic.id}/bolum-${i + 1}">${section}</a></li>`).join('')}</ol></nav>${topic.checklist ? checklistToolbar() : ''}<div class="article-sections">${topic.sections.map((section, i) => `<section id="bolum-${i + 1}" class="empty-section"><h2>${section}</h2>${renderSection(topic, i)}</section>`).join('')}</div><nav class="article-pagination" aria-label="Diğer konular">${index > 0 ? `<a href="#${topics[index - 1].id}">← ${topics[index - 1].title}</a>` : '<a href="#">← Ana sayfa</a>'}${index < topics.length - 1 ? `<a href="#${topics[index + 1].id}">${topics[index + 1].title} →</a>` : '<a href="#">Ana sayfa →</a>'}</nav>`;
+  const anchors = topic.sections.map((_, i) => `bolum-${topic.sectionNumbers?.[i] ?? (i + 1)}`);
+  content.innerHTML = `<h1>${topic.title}</h1>${tabs('Konu')}<p class="site-subtitle">Apian Wiki, Apian’da yaşam rehberi.</p><p class="article-subtitle">${topic.group} / Sık sorulan sorular</p><nav class="article-toc" aria-label="Bu sayfada"><h2>İçindekiler</h2><ol>${topic.sections.map((section, i) => `<li><a href="#${topic.id}/${anchors[i]}">${section}</a></li>`).join('')}</ol></nav>${topic.checklist ? checklistToolbar() : ''}<div class="article-sections">${topic.sections.map((section, i) => `<section id="${anchors[i]}" class="empty-section"><h2>${section}</h2>${renderSection(topic, i)}</section>`).join('')}</div><nav class="article-pagination" aria-label="Diğer konular">${index > 0 ? `<a href="#${topics[index - 1].id}">← ${topics[index - 1].title}</a>` : '<a href="#">← Ana sayfa</a>'}${index < topics.length - 1 ? `<a href="#${topics[index + 1].id}">${topics[index + 1].title} →</a>` : '<a href="#">Ana sayfa →</a>'}</nav>`;
 }
 let currentTopic;
 function render() {
+  if (location.hash === '#abonelikler/bolum-2') {
+    history.replaceState(history.state, '', '#abonelikler/soru-56');
+  }
   const [id, sectionId] = location.hash.slice(1).split('/');
   if (id === 'main') { document.querySelector('main').focus(); return; }
   const topic = topics.find(topic => topic.id === id);

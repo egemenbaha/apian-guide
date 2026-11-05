@@ -296,13 +296,13 @@ Sözleşmendeki bitiş ve bildirim süresini kontrol edip işletmecinin resmî i
 
 ### 63. Unterföhring merkezinde başka hangi eczaneyi kullanabilirim?
 
-**Feringa-Apotheke, Föhringer Allee 6, 85774 Unterföhring.** Merkezde işin varsa değerlendirebileceğin bir alternatif. Normal saatleri **pazartesi–cuma 08.00–18.30**, **cumartesi 08.00–13.00**. Telefonu **089 95001313**. Sırf eczane için Apian’dan çıkıyorsan önce SaniPlus’a; merkezdeysen Feringa’ya bakmak makul bir başlangıç olur. [Feringa-Apotheke](https://www.apo-ufg.de/apotheken/rpod/) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Feringa+Apotheke+Foehringer+Allee+6+85774+Unterfoehring&travelmode=transit)
+**Feringa-Apotheke, Föhringer Allee 6, 85774 Unterföhring.** Merkezde işin varsa değerlendirebileceğin bir alternatif. Normal saatleri **pazartesi–cuma 08.00–18.30**, **cumartesi 08.00–13.00**. Telefonu **089 95001313**. [Feringa-Apotheke](https://www.apo-ufg.de/apotheken/rpod/) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Feringa+Apotheke+Foehringer+Allee+6+85774+Unterfoehring&travelmode=transit)
 
 ### 64. Unterföhring’de güncel nöbetçi eczane listesini nereden açabilirim?
 
 [Unterföhring için güncel nöbetçi eczane listesini aç](https://www.aponet.de/notdienstsuche/85774-Unterf%C3%B6hring). Posta kodu hazır: **85774 Unterföhring**. Listede çevredeki nöbetçi eczanelerin adı, adresi, telefonu ve nöbetin başlangıç–bitiş saati yer alıyor. aponet, Bundesapothekerkammer’ın resmî nöbet verilerini kullanıyor.
 
-**Gece, pazar ve resmî tatillerde bu listeye bakabilirsin.** Nöbet sırası değiştiği için SaniPlus veya Feringa’nın her zaman açık olduğunu düşünme. Gitmeden önce listedeki tarih ve saat aralığını kontrol et, eczaneyi arayıp ihtiyacın olan ürünün stokta olduğunu sor. Haritadaki mesafeler kuş uçuşu; yol süresini ayrıca kontrol et.
+**Gece, pazar ve resmî tatillerde bu listeye bakabilirsin.** Gitmeden önce listedeki tarih ve saat aralığını kontrol et, eczaneyi arayıp ihtiyacın olan ürünün stokta olduğunu sor. Haritadaki mesafeler kuş uçuşu; yol süresini ayrıca kontrol et.
 
 Başka bir gün için **“Erweiterte Suche”** bölümünden tarih seçebilirsin; arama iki hafta ilerisine kadar plan gösterebiliyor. Alternatif resmî arama için **Bayerische Landesapothekerkammer** sayfasında **85774** veya **Unterföhring** yaz. [Bavyera Eczacılar Odası nöbet araması](https://www.blak.de/notdienstsuche/)
 
@@ -536,7 +536,7 @@ Pazar günü **ekmek ve kahvaltılık için yakındaki fırına**, **daha geniş
 
 Apian’a en yakın eczane **Pharao Apotheke**, **Fritz-Meyer-Weg 55, 81925 München** adresinde. EDEKA Häfner ile aynı adreste. [Konum ve yol tarifi](https://maps.app.goo.gl/WKKg1MSwJ9LecCB56)
 
-**Pazartesi–cuma 08.30–18.30**, **cumartesi 08.30–12.30** açık; **pazar günü kapalı**. Telefon: **089 95 51 07**. [Eczane bilgileri](https://eugenapotheke.de/)
+**Pazartesi–cuma 08.30–18.30**, **cumartesi 08.30–12.30** açık. Normal çalışma düzeninde **pazar günü kapalı**. [089 95 51 07](tel:+4989955107) · [Eczane bilgileri](https://eugenapotheke.de/)
 
 ### 104. Acil durumda hangi numarayı aramalıyım?
 
@@ -869,7 +869,27 @@ Almanya’da yasal sağlık sigortan varsa **sağlık kartını (eGK)** götür.
 
 Apian 1’de henüz oda ölçümü yapmadık. Odanı ölçtüysen aşağıdaki **Düzeltme öner** bağlantısından paylaşabilirsin. Odanın eni ve boyu, perde takılan yerin genişliği ya da tek bir eşyanın ölçüsü bile işimize yarar. Neyi ölçtüğünü ve sonucu santimetre cinsinden yazman yeterli.
 
-### 142. Feringasee’de hangi sosyal aktiviteler var?
+### 142. Haftpflichtversicherung nedir, neleri kapsar?
+
+**Privathaftpflichtversicherung**, özel hayatında başkasına verdiğin zarar nedeniyle ortaya çıkan tazminat taleplerini, sözleşmedeki kapsam ve limitler içinde karşılayan **özel sorumluluk sigortasıdır**. Sigortacı talebin haklı olup olmadığını inceler; kapsam içindeki haklı talepleri öder, haksız taleplere karşı savunma sağlar. Sağlık sigortasından farklıdır; kişinin kendi eşyasına gelen zararlar genel olarak bu sigortanın konusu değildir. [Bavyera tüketici portalı: özel sorumluluk sigortası](https://vis.bayern.de/geld_versicherungen/wohnen_rechtsschutz_kfz/privathaftpflichtversicherung.htm)
+
+**Kiralanan odaya verilen zararlar**, poliçede **Mietsachschäden** kapsamında yer alabilir. Bu kapsam, odadaki bütün eşyaların ve her hasar türünün otomatik olarak sigortalı olduğu anlamına gelmez. Kiralanan mobilyalar, anahtar kaybı ve diğer ek teminatlar ayrı koşullara bağlı olabilir. [Kiralanan konut ve eşyalardaki hasarlar](https://www.allianz.de/recht-und-eigentum/privat-haftpflichtversicherung/mietsachschaeden/)
+
+**Cam hasarları genellikle standart kiracı sorumluluk kapsamına dahil değildir.** Özellikle oturduğun kiralık odanın pencere veya kapı camının kırılması, ayrı cam sigortasıyla sigortalanabilen bir risk olarak hariç tutulabilir. Bu, başkasının camına verilen her zararın Haftpflicht dışında olduğu anlamına gelmez; hasarın oluştuğu yer, sorumluluk ve poliçe koşulları belirleyicidir. [GDV: kiralık konutta cam hasarı](https://www.dieversicherer.de/versicherer/wohnen/glasversicherung)
+
+Bu bölüm genel bilgilendirme amaçlıdır; sigorta veya ürün tavsiyesi içermez. Bir hasarın ödenip ödenmeyeceği, ilgili sözleşmedeki teminatlara, istisnalara, limitlere ve varsa **Selbstbeteiligung** (hasarın sigortalıya kalan kısmı) tutarına bağlıdır.
+
+### 143. Glasversicherung nedir, Haftpflicht’ten farkı ne?
+
+**Glasversicherung / Glasbruchversicherung**, poliçede tanımlanan cam yüzeylerin kırılmasına yönelik **cam sigortasıdır**. Ayrı bir sözleşme veya başka bir sigortaya ek teminat olarak bulunabilir. Haftpflicht başkasına karşı tazminat sorumluluğunu ele alırken, Glasversicherung sigortalanmış camdaki kırılmayı ele alır; yalnızca başka birine verilen zararlarla sınırlı değildir. [GDV: cam sigortasının kapsamı](https://www.dieversicherer.de/versicherer/wohnen/glasversicherung)
+
+**Kapsam türleri:** **Gebäudeverglasung**, pencere ve kapı camları gibi binaya ait camları; **Mobiliarverglasung**, cam masa veya vitrin gibi eşyalardaki camları ifade eder. Hangi yüzeylerin sigortalı olduğu sözleşmede tanımlanır. Kiralık konuttaki ev sahibine ait camlar da sözleşme kapsamına girebilir.
+
+**Kırılma ile çizik aynı kapsam değildir.** Çizikler, yüzeysel aşınma ve kozmetik kusurlar genellikle cam kırılması teminatının dışında kalır. Bardak, gözlük, telefon ekranı ve cam seramik ocak yüzeyi de yalnızca camdan yapıldığı için otomatik olarak kapsama girmez; bunların dahil olup olmadığı poliçeye bağlıdır.
+
+Dolayısıyla bir Haftpflicht poliçesinin bulunması, ayrıca Glasversicherung olduğu anlamına gelmez. Cam sigortasının bulunması da bütün cam eşyaların ve her tür cam hasarının karşılanacağı anlamına gelmez.
+
+### 144. Feringasee’de hangi sosyal aktiviteler var?
 
 **Feringasee**, arkadaşlarla yüzme, piknik ve göl çevresinde yürüyüş için bir seçenek. [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Feringasee+Unterfoehring&travelmode=bicycling)
 
