@@ -260,6 +260,10 @@ Evsel çöpleri ve artık kullanmadığın eşyaları dairenin önünde, koridor
 
 Asansörleri özenli kullan.
 
+### 59. Clever fit hangi saatlerde açık?
+
+**Feringastraße 14, 85774 Unterföhring** adresindeki Clever fit, **haftanın her günü 06.00–00.00** arasında açık. Pazartesi–pazar aynı saatler geçerli. Saat bilgisi: **5 Kasım 2026**.
+
 <a id="acik-sorular"></a>
 
 ## Açık kalan sorular

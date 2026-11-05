@@ -10,5 +10,5 @@ export const topics = [
   { id: 'cikis', title: 'Çıkış, boya ve depozito', group: 'Taşınma ve işlemler', sections: ['Ön kontrol ve oda teslimi', 'Temizlik', 'Boya ve renk kodları', 'Depozito iadesi', 'Kesintiler ve itirazlar', 'Erken ayrılma'], questionIds: [[33, 34], [35], [36, 37], [38], [39, 41], [42]] },
   { id: 'odemeler', title: 'Kira ve ödemeler', group: 'Taşınma ve işlemler', sections: ['Kira ve SEPA tahsilatı', 'Ücretler ve toplam tutarlar', 'Rundfunkbeitrag'], questionIds: [[43], [40], [52]] },
   { id: 'resmi-islemler', title: 'Resmî işlemler', group: 'Taşınma ve işlemler', sections: ['Anmeldung ve Abmeldung', 'Oturum ve randevular', 'Fiktionsbescheinigung', 'Biyometrik fotoğraf', 'Geçim belgeleri ve bloke hesap', 'Sağlık sigortası, AT11 ve M10', 'Eğitim Ataşeliği, KYK ve askerlik', 'Vergi ve sosyal güvenlik numaraları'], questionIds: [[44, 45, 46], [47, 48], [49], [50], [51], [53], [54], [55]] },
-  { id: 'abonelikler', title: 'Üyelikler ve abonelikler', group: 'Taşınma ve işlemler', sections: ['Spor salonu üyeliği', 'İptal ve yazılı teyit'], questionIds: [[56], []] }
+  { id: 'abonelikler', title: 'Üyelikler ve abonelikler', group: 'Taşınma ve işlemler', sections: ['Spor salonu üyeliği', 'İptal ve yazılı teyit'], questionIds: [[59, 56], []] }
 ];
