@@ -115,7 +115,7 @@ Forum entegrasyonunu doğrulamak için `python3 scripts/check-forum.py` çalış
 ## İçerik ilkeleri
 
 - Apian 1 ve Apian 2 bilgileri ayrı tutulur.
-- Resmî kaynak, yönetimden aktarılan bilgi, kişisel deneyim ve belirsiz bilgi birbirinden ayrılır.
+- Bilgiler doğrudan anlatılır; tarih, bina ve odaya bağlı koşullar açıkça belirtilir. Henüz netleşmeyen noktalar açık bırakılır.
 - Kaynak bağlantıları ve anlam taşıyan tarihler (tatil günü veya geçmiş ücret örneği gibi) korunur; eski bilgiler güncel gibi sunulmaz.
 - Cevaplara paylaşım/kontrol tarihi ve genel değişkenlik dipnotları eklenmez. Ölçüler ilgili bina adıyla doğrudan verilir; henüz ölçülmeyen bina açıkça belirtilir.
 - Çelişen cevaplar, doğrulanmış bir sonuç bulunmadan birleştirilmez.
@@ -126,7 +126,7 @@ Forum entegrasyonunu doğrulamak için `python3 scripts/check-forum.py` çalış
 
 ## Sonraki adım
 
-Proje açıklamasındaki dört açık soru grubu, kullanıcının yanıtları geldiğinde tamamlanacak. Apian 1 ve Apian 2 ayrımı, kaynak bağlantıları ve tarihli deneyimlerin bağlamı korunacak.
+Proje açıklamasındaki dört açık soru grubu, kullanıcının yanıtları geldiğinde tamamlanacak. Apian 1 ve Apian 2 ayrımı, kaynak bağlantıları ve tarihli bilgilerin bağlamı korunacak.
 
 ## Açık kaynak ve katkı
 
