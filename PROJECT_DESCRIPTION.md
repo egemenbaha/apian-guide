@@ -288,6 +288,20 @@ Apian’a en yakın eczane **Pharao Apotheke**, **Fritz-Meyer-Weg 55, 81925 Mün
 
 **Pazartesi–cuma 08.30–18.30**, **cumartesi 08.30–12.30** açık; **pazar günü kapalı**. Telefon: **089 95 51 07**. Saatler **5 Kasım 2026** tarihinde kontrol edildi. [Eczane bilgileri](https://eugenapotheke.de/)
 
+### 63. Acil durumda hangi numarayı aramalıyım?
+
+Bu numaralar Almanya’da kullanım içindir. **Hayati tehlike, ağır kaza veya yangında 112’yi ara.**
+
+**112 — Ambulans ve itfaiye:** Acil sağlık yardımı ve yangın için günün her saatinde ulaşılabilir; arama ücretsizdir. [112’yi ara](tel:112).
+
+**110 — Polis:** Acil polis müdahalesi gerektiğinde ara. Arama ücretsizdir. [110’u ara](tel:110). [Münih Belediyesi acil numaralar bilgisi](https://stadt.muenchen.de/infos/notruf.html)
+
+**116117 — Nöbetçi hekim ve hasta danışma hattı:** Hayati tehlike oluşturmayan, ancak bir sonraki muayene saatine kadar bekleyemeyecek sağlık sorunlarında, özellikle muayenehaneler kapalıyken başvurabilirsin. Hat 7 gün 24 saat açık. **Hayati tehlikede 116117 yerine 112’yi ara.** [116117’yi ara](tel:116117). [116117 hizmet bilgileri](https://www.116117.de/de/haeufige-fragen.php)
+
+**089 19240 — Münih zehir danışma hattı (Giftnotruf):** Zehirlenme veya zehirlenme şüphesinde 7 gün 24 saat telefonla danışmanlık verir. Hayati tehlikede önce **112’yi ara**. [089 19240’ı ara](tel:+498919240). [TUM Klinikum zehir danışma hattı](https://toxikologie.mri.tum.de/de/giftnotruf-muenchen)
+
+Aramada **tam adresini, bina numarasını, katı ve ne olduğunu** açıkça belirt. Görevlinin sorularını yanıtla ve görüşmeyi bitirmesini bekle. Bilgiler **5 Kasım 2026** tarihinde resmî kaynaklardan kontrol edildi.
+
 <a id="acik-sorular"></a>
 
 ## Açık kalan sorular

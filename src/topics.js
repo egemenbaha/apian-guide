@@ -1,5 +1,6 @@
 // Question numbers refer to PROJECT_DESCRIPTION.md; keep each answer in one section.
 export const topics = [
+  { id: 'acil-yardim', title: 'Acil yardım numaraları', group: 'Başlangıç', sections: ['Hangi numarayı aramalıyım?'], questionIds: [[63]] },
   { id: 'yerlesme', title: 'Yerleşme ve teslim', group: 'Başlangıç', sections: ['Ofis ve iletişim', 'Anahtar teslimi', 'Sözleşme ve öğrenci belgeleri', 'Oda teslim tutanağı'], questionIds: [[1], [2], [3, 4], [10]] },
   { id: 'oda-donanimi', title: 'Oda donanımı', group: 'Başlangıç', sections: ['Yatak ve tekstil', 'Mutfak ve ocak', 'Pencereler ve sineklik', 'Mobilyalar'], questionIds: [[5, 6], [7], [8], [9]] },
   { id: 'alisveris', title: 'Eczane ve marketler', group: 'Günlük yaşam', sections: ['En yakın eczane', 'Pazar günü açık marketler', 'Yakındaki marketler'], questionIds: [[62], [60], [61]] },

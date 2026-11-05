@@ -6,7 +6,7 @@ export function escapeHtml(text) {
 }
 
 export function renderInline(text) {
-  const tokens = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)|\*\*([^*]+)\*\*|\*([^*]+)\*/g;
+  const tokens = /\[([^\]]+)\]\((https?:\/\/[^\s)]+|tel:\+?\d{3,15})\)|\*\*([^*]+)\*\*|\*([^*]+)\*/g;
   let html = '';
   let position = 0;
   for (const match of text.matchAll(tokens)) {

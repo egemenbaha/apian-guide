@@ -9,7 +9,7 @@ const source = await readFile(new URL('../PROJECT_DESCRIPTION.md', import.meta.u
 const faq = parseFaq(source);
 
 test('all reviewed questions, sources and pending items survive the Markdown import', () => {
-  assert.equal(faq.questions.length, 62);
+  assert.equal(faq.questions.length, 63);
   assert.equal(faq.openQuestions.length, 4);
   assert.equal(faq.updatedAt, '5 Kasım 2026');
   assert.match(faq.questions[36].answer, /açık bırakıldı/);
@@ -79,4 +79,17 @@ test('pharmacy comes first in the shopping topic without mixing Sunday market ho
   assert.match(faq.questions[61].answer, /Pharao Apotheke/);
   assert.match(faq.questions[61].answer, /pazar günü kapalı/);
   assert.ok(findMatches('eczane', topics, faq.questions).some(match => match.href === '#alisveris/soru-62'));
+});
+
+test('emergency contacts are discoverable and render safe dial links', () => {
+  const emergency = faq.questions.find(question => question.id === 63);
+  assert.equal(topics[0].id, 'acil-yardim');
+  assert.ok(findMatches('116117', topics, faq.questions).some(match => match.href === '#acil-yardim/soru-63'));
+  const html = renderAnswer(emergency.answer);
+  for (const number of ['112', '110', '116117', '+498919240']) {
+    assert.ok(html.includes(`href="tel:${number}"`));
+  }
+  assert.match(emergency.answer, /Hayati tehlikede 116117 yerine 112’yi ara/);
+  const unsafe = renderAnswer('[x](tel:112;ext=123) [x](tel:112"onclick="alert) [x](javascript:alert(1))');
+  assert.ok(!unsafe.includes('<a '));
 });
