@@ -2,9 +2,11 @@
 
 Apian sakinleri ve yeni taşınacak Türk öğrenciler için bilgi rehberi.
 
-[Proje açıklaması ve 126 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
+[Proje açıklaması ve 130 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
-Arda’nın Wikipedia tarzı düzeni korunarak 126 soruluk FAQ, kaynak bağlantıları ve açık sorular 23 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+Arda’nın Wikipedia tarzı düzeni korunarak 130 soruluk FAQ, kaynak bağlantıları ve açık sorular 23 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+
+[Türk Konsolosluğu, Eğitim Ataşeliği ve askerlik](https://apian-guide.vercel.app/#resmi-islemler/bolum-7) bölümünde iletişim/ulaşım, yurt dışı adres beyanı, özel öğrenci dosyası belgeleri ve tecil takibi bulunur. Randevusuz işlem paylaşımı sakin aktarımı olarak ayrılır; adres beyanına ilişkin eski duyuru ile güncel genel randevu açıklaması birlikte gösterilir. Öğrenci fişi, tamamlanmış askerlik ertelemesi olarak sunulmaz.
 
 [Fotokopi, çıktı ve tarama](https://apian-guide.vercel.app/#resmi-islemler/soru-126), Resmî işlemler bölümünde Feringastraße’deki dm’nin Copy-Station hizmetini, dosya hazırlığını, A4 ücretlerini ve ciltleme seçeneğini anlatır.
 

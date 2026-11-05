@@ -244,7 +244,11 @@ Bu belgeler farklı işler görüyor. **AT11**, şartları sağladığında Tür
 
 ### 54. Eğitim Ataşeliği, KYK ve askerlik işlemlerini nasıl takip etmeliyim?
 
-Eğitim Ataşeliği’nde öğrenci dosyası açılması ve güncel öğrenci belgesinin iletilmesi, burs ve askerlik işlemlerini takip ederken önemli olabiliyor. Güncel belge listesini Ataşeliğin sayfasından kontrol et. KYK için ilgili dönemin duyurusundaki süreleri esas al; askerlik ertelemesinin tamamlandığını da ayrıca kontrol et. Birine evrak göndermiş olman bütün işlemlerin sonuçlandığı anlamına gelmiyor. [Öğrenci işlemleri](https://munih.meb.gov.tr/www/ozel-ogrenci-islemleri/icerik/544) · [Askerlik işlemleri](https://munih.meb.gov.tr/www/askerlik-islemleri/icerik/541)
+Öğrenci olarak Almanya’ya geldiysen **Eğitim Ataşeliğinde özel öğrenci dosyası açtırıp askerlik erteleme talebini de ilet**. Dosyan açıldıktan sonra her dönem güncel **Immatrikulationsbescheinigung** vererek öğreniminin devam ettiğini belgele. Süresiz oturma iznin varsa Ataşelik, tecil için doğrudan Başkonsolosluğun Askerlik Servisine başvurabileceğini belirtiyor. [Öğrenci işlemleri](https://munih.meb.gov.tr/www/ozel-ogrenci-islemleri/icerik/544) · [Münih askerlik işlemleri](https://munih.meb.gov.tr/www/askerlik-islemleri/icerik/541)
+
+**“Öğrenci fişi aldım, askerlik de otomatik ertelendi” diye düşünme.** Erteleme, öğrenim düzeyin, yaşın ve mevcut askerlik durumuna göre değerlendirilir. Başvurudan sonra **e-Devlet → Millî Savunma Bakanlığı → Askerliğim → Askerlik Durum Belgesi Sorgulama** yolundan tecil bitiş tarihini kontrol et. Sonuç işlenmemişse Ataşeliğe dosyanı sor. [MSB öğrenci erteleme koşulları](https://www.msb.gov.tr/Askeralma/icerik/ogrenci-erteleme-islemleri) · [e-Devlet sorgulama adımları](https://www.turkiye.gov.tr/iletisim?hizli=CozumMerkeziV2&nodeId=146)
+
+KYK burs/kredi işlemlerinde ilgili dönemin duyurusundaki belge teslim sürelerini ayrıca takip et. [Öğrenci dosyası için hazırlayacağın belgeler](https://apian-guide.vercel.app/#resmi-islemler/soru-129)
 
 ### 55. Steuer-ID ile Sozialversicherungsnummer aynı mı? Nereden bulabilirim?
 
@@ -722,6 +726,47 @@ Başvuru formu, kira evrakı veya ders notu için **Feringastraße 4, 85774 Unte
 | Renkli | 0,55 € | 1,00 € |
 
 Baskılar **beyaz A4 kâğıda** yapılıyor. Feringastraße şubesinde **ciltleme** de var; ders notlarını veya ödevini ciltletmek istersen görevliye sor. Ciltleme ayrıca ücretli ve yalnızca dm’de bastığın sayfalara uygulanıyor. [dm çıktı, fotokopi, tarama ve ciltleme bilgileri](https://www.dm.de/services/services-im-markt/fotoservice/copyshop-scanservice-50518)
+
+### 127. Münih Türk Başkonsolosluğu ve Eğitim Ataşeliği nerede?
+
+İkisi de **Menzinger Straße 3, 80638 München** adresinde. Apian/Unterföhring, Münih Başkonsolosluğunun görev bölgesinde. Adres beyanı, pasaport ve kimlik işlemleri için Başkonsolosluğa; özel öğrenci dosyası ve öğrenciliğe bağlı tecil işlemleri için **Eğitim Ataşeliğine** başvurabilirsin. [Başkonsolosluk ve görev bölgesi](https://munih-bk.mfa.gov.tr/Mission/Contact) · [Apian’dan toplu taşıma rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Menzinger+Strasse+3+80638+Muenchen&travelmode=transit)
+
+**Başkonsolosluk:** [089 178 0310](tel:+49891780310), **konsulat.muenchen@mfa.gov.tr**. İlan edilen mesai hafta içi **09.00–12.00 ve 13.00–16.00**; hazır pasaport/kimlik teslimi **09.00–12.00**. Diğer başvurularda işlemine ait randevu ve kabul saatini esas al. [İletişim ve çalışma saatleri](https://munih-bk.mfa.gov.tr/Mission/Contact)
+
+**Eğitim Ataşeliği:** [089 178 1911](tel:+49891781911), **munih@meb.gov.tr**. Öğrenci dosyası ve tecil için kabul saatini bu birimden öğrenebilirsin. [MEB temsilcilik iletişim bilgileri](https://yyegm.meb.gov.tr/www/yurt-disi-temsilciliklerimiz/icerik/1006)
+
+### 128. Anmeldung yaptım; Türk Konsolosluğunda da adres beyanı yapmalı mıyım?
+
+**Evet, Almanya’ya yerleştiğinde Türkiye’deki adres kaydını da güncelle.** Belediyedeki Anmeldung ile Türk nüfus sistemindeki **yurt dışı adres beyanı** ayrı işlemler. Genel bildirim süresi adres değişikliğinden itibaren **20 iş günü**; yurt dışında bunun için bulunduğun yerin konsolosluğuna başvurabilirsin. [Nüfus ve Vatandaşlık İşleri adres açıklamaları](https://www.nvi.gov.tr/sss-adres-hizmetleri?v=1.0.23)
+
+Yanına **T.C. kimlik numaranı ve fotoğrafını içeren kimlik veya pasaportunu** al. Apian’daki açık adresini, bina/oda numaranı ve taşınma tarihini hazırla. Adresi doğru aktarmak için **Anmeldung belgeni de yanında bulundurman pratik olur**. [Adres beyanı duyurusu](https://munih-bk.mfa.gov.tr/Mission/ShowAnnouncement/401541) · [Yurt dışı adres beyan formu](https://www.nvi.gov.tr/kurumlar/nvi.gov.tr/Projeler/aks/yurt-disinda-yasayan-vatandaslarimiz-icin-adres-beyan-formu-form-b-on-sayfa.pdf)
+
+İşlemden sonra adresinin güncellendiğini e-Devlet’ten kontrol et. Adres beyanı, Eğitim Ataşeliğinde öğrenci dosyası açmanın veya askerlik ertelemesinin yerine geçmiyor. [e-Devlet adres sorgulama](https://www.turkiye.gov.tr/nvi-yerlesim-yeri-ve-diger-adres-belgesi-sorgulama)
+
+### 129. Eğitim Ataşeliğinde öğrenci dosyası açtırmak için hangi belgeleri hazırlayayım?
+
+Almanya’da kendi imkânlarıyla örgün yükseköğrenim gören T.C. vatandaşları için **özel öğrenci dosyası** açılıyor. Münih Eğitim Ataşeliği, Almanya’ya öğrenci olarak gelişten itibaren **en geç 6 ay içinde** başvurulmasını istiyor. Dosya bir kez açılıyor; sonraki dönemlerde güncel öğrenci belgesiyle takip ediliyor. [Özel öğrenci işlemleri](https://munih.meb.gov.tr/www/ozel-ogrenci-islemleri/icerik/544)
+
+| Belge | Ne hazırlayayım? |
+| --- | --- |
+| Fotoğraf | 2 adet vesikalık |
+| Pasaport | Fotokopi; pasaportunu da yanında bulundur |
+| Yurda giriş/çıkış belgesi | e-Devlet çıktısı |
+| Nüfus kayıt örneği | e-Devlet çıktısı |
+| Askerlik durum belgesi | Askerlik yükümlülüğün varsa e-Devlet’ten al |
+| Mezuniyet belgesi / diploma | Lisans için lise; yüksek lisans/doktora için tecil listesinde lisans diploması isteniyor |
+| Güncel öğrenci belgesi | Immatrikulationsbescheinigung |
+| Özel Öğrenci Bilgi Formu | Doldurulmuş ve imzalanmış form |
+
+Belgeleri okunaklı çıktılarla **poşet dosyada** hazırla. **Lisans tecil başvurusunda ayrıca Tebliğ-Tebellüğ Belgesi** isteniyor; askerlik sayfasındaki formu da al. Yatay geçiş veya memuriyetten ayrılma gibi durumlarda aynı sayfada ek belgeler belirtiliyor. [Öğrenci Bilgi Formu](https://munih.meb.gov.tr/meb_iys_dosyalar/2022_05/18133104_ozel_oYrenci_formu.pdf) · [Tecil belgeleri ve ek formlar](https://munih.meb.gov.tr/www/askerlik-islemleri/icerik/541) · [Yakında çıktı ve fotokopi: dm](https://apian-guide.vercel.app/#resmi-islemler/soru-126)
+
+### 130. Adres beyanı ve Eğitim Ataşeliği için randevusuz gidebilir miyim?
+
+**Adres beyanı:** Münih Başkonsolosluğunun yayımladığı **2023 tarihli duyuru**, adres beyanının randevusuz yapılabildiğini söylüyor. Güncel genel iletişim sayfasında ise pasaport/kimlik teslimi dışındaki işlemler için randevulu çalışma belirtiliyor. Yola çıkmadan **089 178 0310** numarasından adres beyanının güncel kabul saatini ve randevu durumunu netleştir. [Adres beyanı duyurusu](https://munih-bk.mfa.gov.tr/Mission/ShowAnnouncement/401541) · [Güncel başvuru düzeni](https://munih-bk.mfa.gov.tr/Mission/Contact)
+
+**Eğitim Ataşeliği:** Grupta öğrenci dosyasını randevusuz açtırabildiğini belirten bir paylaşım var; bu bir **sakin aktarımı**. Ataşeliğin resmî tecil sayfası **şahsen başvuru** istiyor, randevusuz kabulü açıkça belirtmiyor. **089 178 1911** numarasını arayıp “Özel öğrenci dosyası açtırmak ve tecil başvurusu yapmak istiyorum; randevu gerekiyor mu, hangi saatlerde gelebilirim?” diye sorabilirsin. [Ataşeliğin başvuru açıklaması](https://munih.meb.gov.tr/www/askerlik-islemleri/icerik/541)
+
+Grupta yoğunluk nedeniyle erken gitme önerisi de var. Kabul saatini öğrendikten sonra gününü buna göre planlamak işini kolaylaştırır. **Pasaport başvurusu için randevu şart**; bunun randevusuz işlemlerle karışmaması önemli. [Münih pasaport başvurusu](https://munih-bk.mfa.gov.tr/Mission/ShowInfoNote/419360) · [Resmî randevu portalı](https://www.konsolosluk.gov.tr/)
 
 <a id="acik-sorular"></a>
 
