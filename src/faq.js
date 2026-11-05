@@ -52,8 +52,19 @@ function renderTable(paragraph) {
   return `<table class="faq-table"><thead><tr>${header}</tr></thead><tbody>${content}</tbody></table>`;
 }
 
-export function renderAnswer(answer) {
-  return answer.split(/\n\s*\n/).map(paragraph => renderTable(paragraph) ?? renderMapLink(paragraph) ?? `<p>${renderInline(paragraph)}</p>`).join('');
+function renderChecklist(paragraph, prefix) {
+  if (!prefix) return null;
+  const lines = paragraph.trim().split('\n');
+  if (!lines.every(line => /^- \[ \] .+/.test(line))) return null;
+  return `<ul class="packing-list">${lines.map(line => {
+    const text = line.slice(6);
+    const key = `${prefix}:${text}`;
+    return `<li><label><input type="checkbox" data-checklist-key="${escapeHtml(key)}"><span>${renderInline(text)}</span></label></li>`;
+  }).join('')}</ul>`;
+}
+
+export function renderAnswer(answer, { checklistPrefix = '' } = {}) {
+  return answer.split(/\n\s*\n/).map(paragraph => renderChecklist(paragraph, checklistPrefix) ?? renderTable(paragraph) ?? renderMapLink(paragraph) ?? `<p>${renderInline(paragraph)}</p>`).join('');
 }
 
 export function normalize(text) {

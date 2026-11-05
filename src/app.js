@@ -4,6 +4,8 @@ document.querySelector('.forum-link').hidden = forumEnabled !== true;
 import { topics } from './topics.js';
 import { faq } from './faq-data.js';
 import { escapeHtml, renderInline, renderAnswer, findMatches } from './faq.js';
+import { checklistToolbar, mountChecklist } from './checklist.js';
+import { renderCorrection } from './corrections.js';
 const questionsById = new Map(faq.questions.map(question => [question.id, question]));
 const content = document.querySelector('#page-content');
 const nav = document.querySelector('#topic-nav');
@@ -99,7 +101,7 @@ function renderSection(topic, sectionIndex) {
   if (!ids.length) return '<p>İptal başvurunu ve üyeliğinin sona ereceği tarihi gösteren yazılı teyidi sakla. <a href="#abonelikler/soru-56">Üyelik iptali yanıtına git.</a></p>';
   const answers = ids.map(id => {
     const question = questionsById.get(id);
-    return `<article class="faq-answer" id="soru-${id}"><h3>${escapeHtml(question.question)}</h3>${renderAnswer(question.answer)}</article>`;
+    return `<article class="faq-answer" id="soru-${id}"><h3>${escapeHtml(question.question)}</h3>${renderAnswer(question.answer, { checklistPrefix: topic.checklist ? `soru-${id}` : '' })}${renderCorrection(topic.id, question)}</article>`;
   }).join('');
   // Document/registration questions remain open until the user supplies the answers.
   const pendingText = faq.openQuestions.find(question => question.startsWith('**Teslim ve belgeler:**'));
@@ -109,7 +111,7 @@ function renderSection(topic, sectionIndex) {
 function article(topic) {
   document.title = `${topic.title} — Apian Guide`;
   const index = topics.indexOf(topic);
-  content.innerHTML = `<h1>${topic.title}</h1>${tabs('Konu')}<p class="site-subtitle">Apian Guide, sakinlerin bilgi rehberi.</p><p class="article-subtitle">${topic.group} / Sık sorulan sorular</p><nav class="article-toc" aria-label="Bu sayfada"><h2>İçindekiler</h2><ol>${topic.sections.map((section, i) => `<li><a href="#${topic.id}/bolum-${i + 1}">${section}</a></li>`).join('')}</ol></nav><div class="article-sections">${topic.sections.map((section, i) => `<section id="bolum-${i + 1}" class="empty-section"><h2>${section}</h2>${renderSection(topic, i)}</section>`).join('')}</div><nav class="article-pagination" aria-label="Diğer konular">${index > 0 ? `<a href="#${topics[index - 1].id}">← ${topics[index - 1].title}</a>` : '<a href="#">← Ana sayfa</a>'}${index < topics.length - 1 ? `<a href="#${topics[index + 1].id}">${topics[index + 1].title} →</a>` : '<a href="#">Ana sayfa →</a>'}</nav>`;
+  content.innerHTML = `<h1>${topic.title}</h1>${tabs('Konu')}<p class="site-subtitle">Apian Guide, sakinlerin bilgi rehberi.</p><p class="article-subtitle">${topic.group} / Sık sorulan sorular</p><nav class="article-toc" aria-label="Bu sayfada"><h2>İçindekiler</h2><ol>${topic.sections.map((section, i) => `<li><a href="#${topic.id}/bolum-${i + 1}">${section}</a></li>`).join('')}</ol></nav>${topic.checklist ? checklistToolbar() : ''}<div class="article-sections">${topic.sections.map((section, i) => `<section id="bolum-${i + 1}" class="empty-section"><h2>${section}</h2>${renderSection(topic, i)}</section>`).join('')}</div><nav class="article-pagination" aria-label="Diğer konular">${index > 0 ? `<a href="#${topics[index - 1].id}">← ${topics[index - 1].title}</a>` : '<a href="#">← Ana sayfa</a>'}${index < topics.length - 1 ? `<a href="#${topics[index + 1].id}">${topics[index + 1].title} →</a>` : '<a href="#">Ana sayfa →</a>'}</nav>`;
 }
 let currentTopic;
 function render() {
@@ -119,6 +121,7 @@ function render() {
   const route = topic?.id ?? 'home';
   if (currentTopic !== route) {
     topic ? article(topic) : home();
+    if (topic?.checklist) mountChecklist(content);
     currentTopic = route;
     window.scrollTo(0, 0);
     if (document.activeElement !== document.body) document.querySelector('main').focus({ preventScroll: true });

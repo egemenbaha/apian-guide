@@ -2,6 +2,7 @@
 export const topics = [
   { id: 'acil-yardim', title: 'Acil yardım numaraları', group: 'Başlangıç', sections: ['Hangi numarayı aramalıyım?'], questionIds: [[104]] },
   { id: 'yerlesme', title: 'Yerleşme ve teslim', group: 'Başlangıç', sections: ['Ofis ve iletişim', 'Anahtar teslimi', 'Sözleşme ve öğrenci belgeleri', 'Oda teslim tutanağı'], questionIds: [[1], [2], [3, 4], [10]] },
+  { id: 'tasinma-listesi', title: 'Yanımda ne getireyim?', group: 'Başlangıç', sections: ['Yanında getir', 'Odada bulunanlar', 'Yerleştikten sonra al'], questionIds: [[113], [114], [115]], checklist: true },
   { id: 'oda-donanimi', title: 'Odada neler var?', group: 'Başlangıç', sections: ['Yatak ve tekstil', 'Mutfak ve ocak', 'Pencereler, sineklik ve perde', 'Mobilyalar', 'Banyo', 'Kapılar ve kalorifer', 'Prizler'], questionIds: [[5, 6], [7, 105], [8, 110], [9, 106], [107], [108, 109], [112]] },
   { id: 'apian-2-oda-olculeri', title: 'Apian 2 oda ölçüleri', group: 'Başlangıç', sections: ['Ölçü ve eşya tablosu'], questionIds: [[111]] },
   { id: 'alisveris', title: 'Eczane ve marketler', group: 'Günlük yaşam', sections: ['En yakın eczane', 'Pazar günü açık marketler', 'Yakındaki marketler'], questionIds: [[103], [101], [102]] },

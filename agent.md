@@ -26,6 +26,8 @@ Always commit and push completed repository changes after the relevant checks pa
 | Shared forum logo asset | `src/forum-logo.svg` |
 | FAQ generation and topic mapping validation | `scripts/generate-faq.mjs` |
 | Markdown rendering and question search | `src/faq.js` |
+| Packing checklist storage, progress and reset | `src/checklist.js` |
+| Per-answer GitHub correction draft links | `src/corrections.js` |
 | Generated FAQ data (ignored; regenerate from Markdown) | `src/faq-data.js` |
 | Direct push and external contribution workflow | `CONTRIBUTING.md` |
 | Static Vercel deployment configuration | `vercel.json` |
@@ -63,6 +65,8 @@ Preserve the wiki design direction and Turkish interface. Consult `README.md` be
 ## Run and verify
 
 Use the commands in `package.json`; the requirements and local URL are documented in `README.md`. The build recreates `dist/` and copies only `index.html` and `src/`. Edit source files, not generated output. Root Markdown documents, forum configuration, and credentials are not included in the static build. A static host alone cannot serve forum routes.
+
+The packing page (`#tasinma-listesi`) uses FAQ 113–115 Markdown checklist items. Keep its item text in PROJECT_DESCRIPTION.md; the `checklist` topic flag enables rendering and local progress. Verify check/uncheck, reload, reset, and blocked storage when changing this feature. Correction links must include the canonical question URL and open an unsubmitted GitHub issue draft. Visitors submit on GitHub; no credentials or automatic publication belong in the guide.
 
 For forum changes, read the forum section of `README.md`. The shared `src/features.json` switch must explicitly enable the forum before `npm run forum:up` can initialize credentials and start Docker. While disabled, the guide hides forum links and the local server returns 404 for `/forum/`. To re-enable later, change `forumEnabled` to true, run `npm run forum:up`, and restart `npm run dev`. Preserve credentials and the data volume. Generated MediaWiki settings and SQLite data live in the named Docker volume. Preserve that volume and the ignored `.env`; setup preserves existing credentials. Configuration is copied into the container on startup, so restart the service after changing `forum/LocalSettings.php`. The service is bound to loopback for local use. Production requires separate server configuration and backups.
 

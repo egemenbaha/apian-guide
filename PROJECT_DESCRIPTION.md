@@ -597,6 +597,44 @@ Tabii, Apian 2’de ölçülen değerleri aşağıda bir arada bulabilirsin. **A
 
 Apian 1’de henüz ölçüm yapmadık.
 
+### 113. Apian’a taşınırken yanımda ne getireyim?
+
+Yastık, yorgan, çarşaf ve nevresim kiralamaya dahil değil. İlk gece için bunları önceden hazırlaman işini kolaylaştırır. Hazırladıklarını listede işaretleyebilirsin.
+
+- [ ] Yastık
+- [ ] Yorgan
+- [ ] Çarşaf
+- [ ] Nevresim ve yastık kılıfı
+- [ ] Havlu ve kişisel bakım eşyaları
+- [ ] Telefon ve bilgisayar şarj cihazları
+
+[Yatak ve tekstil bilgileri](https://apian-guide.vercel.app/#oda-donanimi/soru-6)
+
+### 114. Hangi eşyalar odada bulunuyor?
+
+Yeni eşya almadan önce odadakilere bak; kontrol ettiklerini işaretleyebilirsin.
+
+- [ ] **Seramik ocak:** Apian 1 ve Apian 2’nin oda donanımında yer alıyor.
+- [ ] **Modem:** Yeni cihaz almadan önce odandaki modemin bağlantılarını ve çalışmasını kontrol et.
+- [ ] **Apian 2 mobilyaları:** Gardırop, küçük masa, büyük masa ve komodin.
+- [ ] **Apian 2 perdeleri:** İki ayrı perde veriliyor.
+
+[Odada neler var?](https://apian-guide.vercel.app/#oda-donanimi) · [Apian 2 oda ölçüleri](https://apian-guide.vercel.app/#apian-2-oda-olculeri)
+
+### 115. Hangi alışverişleri yerleştikten sonra yapayım?
+
+Önce odana bakıp eksiklerini belirle. İhtiyacını karşıladığın veya almana gerek kalmayan kalemleri işaretleyebilirsin.
+
+- [ ] **Şilte:** Teslimatta bulunup bulunmadığını ofisten öğren; eksikse yatak ölçüsüne göre al.
+- [ ] **Duş perdesi:** Odada yoksa al.
+- [ ] **Sineklik:** Apian 2’de ölçülen sineklik 120 × 110 cm. Apian 1 için ilgili sineklik yanıtına bak.
+- [ ] **Tencere ve tava:** Seramik/elektrikli ocakla uyumlu olanları seç.
+- [ ] Tabak, bardak ve çatal-kaşık
+- [ ] Temizlik malzemeleri
+- [ ] Askı ve düzenleyiciler
+
+[Sineklik bilgileri](https://apian-guide.vercel.app/#oda-donanimi/soru-8) · [Apian 2 oda ölçüleri](https://apian-guide.vercel.app/#apian-2-oda-olculeri) · [Yakındaki marketler](https://apian-guide.vercel.app/#marketler)
+
 <a id="acik-sorular"></a>
 
 ## Açık kalan sorular
