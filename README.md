@@ -2,9 +2,11 @@
 
 Apian sakinleri ve yeni taşınacak Türk öğrenciler için bilgi rehberi.
 
-[Proje açıklaması ve 130 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
+[Proje açıklaması ve 131 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
-Arda’nın Wikipedia tarzı düzeni korunarak 130 soruluk FAQ, kaynak bağlantıları ve açık sorular 23 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+Arda’nın Wikipedia tarzı düzeni korunarak 131 soruluk FAQ, kaynak bağlantıları ve açık sorular 23 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+
+[Yakındaki dm şubeleri](https://apian-guide.vercel.app/#alisveris/soru-131), alışveriş bölümünde Feringastraße 4 ile Maria-Nindl-Platz 2’yi adres, saat ve yol tarifleriyle karşılaştırır. Maria-Nindl-Platz şubesi, [para çekme yanıtında](https://apian-guide.vercel.app/#bankalar/soru-92) da Feringastraße’ye alternatif olarak gösterilir.
 
 [Türk Konsolosluğu, Eğitim Ataşeliği ve askerlik](https://apian-guide.vercel.app/#resmi-islemler/bolum-7) bölümünde iletişim/ulaşım, yurt dışı adres beyanı, özel öğrenci dosyası belgeleri ve tecil takibi bulunur. Randevusuz işlem paylaşımı sakin aktarımı olarak ayrılır; adres beyanına ilişkin eski duyuru ile güncel genel randevu açıklaması birlikte gösterilir. Öğrenci fişi, tamamlanmış askerlik ertelemesi olarak sunulmaz.
 

@@ -266,6 +266,8 @@ Sözleşmendeki bitiş ve bildirim süresini kontrol edip işletmecinin resmî i
 
 **Bütçe odaklı temel alışveriş için ALDI Süd ve Lidl**, **ürün çeşitliliği için EDEKA ve REWE** ile başlayabilirsin. Bu, alışverişi kolaylaştıran bir öneri; aynı sepetin her hafta hangi markette daha ucuz olduğu kampanyalara göre değişir. Dördü de Feringastraße üzerinde: ALDI 15, Lidl 5, EDEKA 16, REWE 6 numarada. EDEKA ile SaniPlus aynı adreste olduğu için market ve eczane işini birleştirmek de pratik. [ALDI şubesi](https://www.aldi-sued.de/filialen/l/unterfoehring/feringastrasse-15/bn98) · [Lidl şubesi](https://www.lidl.de/s/de-DE/filialen/unterfoehring/feringastrasse-5/) · [EDEKA şubesi](https://www.edeka.de/maerkte/030604/) · [REWE şubesi](https://www.rewe.de/marktseite/unterfoehring/320970/rewe-markt-feringastr-6)
 
+**Temizlik ve kişisel bakım alışverişinde dm’ye de bakabilirsin.** Feringastraße 4’teki şubenin yakın alternatifi, **Prinz-Eugen-Park’taki Maria-Nindl-Platz 2, 81927 München** şubesi. [İki dm’nin adresleri, saatleri ve yol tarifleri](https://apian-guide.vercel.app/#alisveris/soru-131)
+
 ### 58. ALDI Süd nerede, ne için tercih edebilirim?
 
 **Feringastraße 15, 85774 Unterföhring.** Temel gıda ve haftalık alışveriş için bütçe odaklı başlangıç seçeneklerinden biri. Şubenin fırın ürünleri bölümü de var. Sabah çok erken gideceksen açılış saatini şube sayfasından kontrol et; sayfadaki saat tablosuyla erken açılış duyurusu farklı saatler gösteriyor. [Resmî şube bilgisi](https://www.aldi-sued.de/filialen/l/unterfoehring/feringastrasse-15/bn98) · [Apian’dan yürüyüş rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=ALDI+Sued+Feringastrasse+15+85774+Unterfoehring&travelmode=walking)
@@ -344,6 +346,8 @@ Aynı tesiste **bilardo, kapalı alanda Moonlight-Minigolf, dart ve langırt** s
 
 **dm’de en az bir ürün alarak kasadan 200 €’ya kadar nakit çekebilirsin; minimum alışveriş tutarı yok.** Kart seçeneklerini ve adımları [dm’den para çekme yanıtında](https://apian-guide.vercel.app/#bankalar/soru-92) bulabilirsin.
 
+Yakında **Feringastraße 4’teki dm** var; **Maria-Nindl-Platz 2, 81927 München’deki dm (Prinz-Eugen-Park)** de kasadan para çekmek için alternatifin. [Maria-Nindl-Platz şubesi ve kasa hizmetleri](https://www.dm.de/store/d539/muenchen/maria-nindl-platz-2)
+
 **Az miktarda para çekeceksen alışveriş sırasında kasadan çekmeyi**, **nakit yatıracaksan bankanın kendi yatırma kanalını** kontrol ederek başlamak pratik. EDEKA Feringastraße 16 kasadan para çekme hizmetini listeliyor; kart, minimum alışveriş ve kasa koşullarını ödeme öncesinde sor. Uygulamayla barkodlu nakit işlemi ise ayrı bir hizmet: mağazanın bankanın uygulamasında katılımcı olarak görünmesi gerekiyor. [EDEKA hizmetleri](https://www.edeka.de/maerkte/030604/) · [ING’nin kasa ve barkod açıklaması](https://www.ing.de/hilfe/geldautomatensuche/)
 
 **Cash Group**; Deutsche Bank, Commerzbank, Postbank ve HypoVereinsbank arasında uygun kartlarla para çekmeye yarıyor. Bu üyelik, her üye bankanın ATM’sinden diğer bankaya nakit yatırabileceğin anlamına gelmez. Ücret için kendi kartının tarifesine ve işlem ekranına bak; aşağıda her banka ayrı anlatılıyor. [Cash Group para çekme açıklaması](https://www.deutsche-bank.de/pk/service-und-kontakt/services/fragen-antworten/konto-und-debitkarten/wo-kann-ich-in-deutschland-kostenlos-bargeld-abheben.html) · [Commerzbank yatırma koşulları](https://www.commerzbank.de/service/wie-zahle-ich-im-inland-geld-ein/)
@@ -419,6 +423,8 @@ Bankanda **Münzrollenautomat** varsa rulo madeni para da alabilirsin. Örneğin
 ### 92. dm’den 200 €’ya kadar para çekebilir miyim? Nasıl yapılıyor?
 
 Evet. Almanya’daki **dm mağazalarında en az bir ürün alarak kasadan 200 €’ya kadar nakit çekebilirsin**. Alışveriş tutarı için alt sınır yok; dm bu hizmet için ek ücret almıyor. **girocard ile Visa veya Mastercard banka/kredi kartları** destekleniyor. Ödeme başlamadan kasiyere çekmek istediğin tutarı söyle; alışverişle nakit tutarı kartından birlikte tahsil edilir, nakdi kasadan alırsın. Örneğin **“Ich würde gern 100 Euro abheben.”** diyebilirsin.
+
+**Feringastraße’ye alternatif:** **Maria-Nindl-Platz 2, 81927 München’deki dm (Prinz-Eugen-Park)** de bu hizmeti sunuyor. Normal saatleri **pazartesi–cumartesi 07.00–20.00**, pazar kapalı. Yolun bu tarafa düşüyorsa alışverişini ve para çekme işini burada birlikte halledebilirsin. [Şube ve kasa hizmetleri](https://www.dm.de/store/d539/muenchen/maria-nindl-platz-2) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=dm+Maria-Nindl-Platz+2+81927+Muenchen&travelmode=walking) · [İki yakın dm şubesi](https://apian-guide.vercel.app/#alisveris/soru-131)
 
 dm’nin ücretsiz hizmeti, kartını veren bankanın varsa kur veya kart işlem ücretini ortadan kaldırmaz. Başka marketlerde de kasadan çekim seçeneği olabilir; onların minimum alışveriş ve kart şartları farklıdır. [dm güncel nakit hizmeti](https://www.dm.de/services/services-im-markt/bezahlmethoden-3628894) · [dm’nin desteklediği kartlar](https://newsroom.dm.de/pressreleases/jetzt-auch-mit-visa-kostenlos-bargeld-abheben-bei-dm-3132766)
 
@@ -773,6 +779,19 @@ Belgeleri okunaklı çıktılarla **poşet dosyada** hazırla. **Lisans tecil ba
 **Eğitim Ataşeliği:** Grupta öğrenci dosyasını randevusuz açtırabildiğini belirten bir paylaşım var; bu bir **sakin aktarımı**. Ataşeliğin resmî tecil sayfası **şahsen başvuru** istiyor, randevusuz kabulü açıkça belirtmiyor. **089 178 1911** numarasını arayıp “Özel öğrenci dosyası açtırmak ve tecil başvurusu yapmak istiyorum; randevu gerekiyor mu, hangi saatlerde gelebilirim?” diye sorabilirsin. [Ataşeliğin başvuru açıklaması](https://munih.meb.gov.tr/www/askerlik-islemleri/icerik/541)
 
 Grupta yoğunluk nedeniyle erken gitme önerisi de var. Kabul saatini öğrendikten sonra gününü buna göre planlamak işini kolaylaştırır. **Pasaport başvurusu için randevu şart**; bunun randevusuz işlemlerle karışmaması önemli. [Münih pasaport başvurusu](https://munih-bk.mfa.gov.tr/Mission/ShowInfoNote/419360) · [Resmî randevu portalı](https://www.konsolosluk.gov.tr/)
+
+### 131. Yakındaki dm şubeleri nerede? Feringastraße dışında nereye gidebilirim?
+
+Şampuan, kişisel bakım ve temizlik ürünleri için **Feringastraße’deki dm’ye alternatif olarak Prinz-Eugen-Park’taki Maria-Nindl-Platz şubesini** de kullanabilirsin. İki şubenin normal saatleri **pazartesi–cumartesi 07.00–20.00**; **pazar kapalı**.
+
+| dm şubesi | Adres | Bilgi ve ulaşım |
+| --- | --- | --- |
+| Feringastraße | Feringastraße 4, 85774 Unterföhring | [Şube bilgileri](https://www.dm.de/store/d0kl/unterfoehring/feringastrasse-4) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=dm+Feringastrasse+4+85774+Unterfoehring&travelmode=walking) |
+| Prinz-Eugen-Park — Feringastraße’ye alternatif | Maria-Nindl-Platz 2, 81927 München | [Şube bilgileri](https://www.dm.de/store/d539/muenchen/maria-nindl-platz-2) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=dm+Maria-Nindl-Platz+2+81927+Muenchen&travelmode=walking) |
+
+**İkisinde de alışveriş sırasında kasadan para çekebilirsin:** En az bir ürün alarak **200 €’ya kadar**, minimum alışveriş tutarı olmadan. [Kartlar ve para çekme adımları](https://apian-guide.vercel.app/#bankalar/soru-92) · [dm nakit hizmeti](https://www.dm.de/services/services-im-markt/bezahlmethoden-3628894)
+
+Fotoğraf veya evrak işin de varsa iki şubede de **biyometrik fotoğraf ve fotokopi hizmeti** bulunuyor. [Fotoğraf bilgileri](https://apian-guide.vercel.app/#resmi-islemler/soru-50) · [Çıktı, fotokopi ve tarama](https://apian-guide.vercel.app/#resmi-islemler/soru-126)
 
 <a id="acik-sorular"></a>
 
