@@ -24,7 +24,7 @@ Bu kurallar GitHub dal korumasıyla uygulanır; `CODEOWNERS` dosyası tek başı
 
 Tek içerik kaynağı `PROJECT_DESCRIPTION.md` dosyasıdır. Üretilen `src/faq-data.js` dosyasını düzenleme veya commit etme. Yeni soruları `src/topics.js` içindeki ilgili bölüme de ekle. Ayrıntılar [README](README.md) içinde.
 
-- Samimi ve anlaşılır Türkçe kullan; eksik bilgiyi tahminle doldurma.
+- Yanıtları samimi, anlaşılır ve doğrudan Türkçeyle yaz. "Bunu söyleyen sakinler var" gibi dolaylı anlatımlar yerine mevcut bilgiyi aktar; tarihe, binaya veya odaya bağlı sınırları koru. Cevabı bilinmeyen başlıkları tahminle doldurma.
 - Güncel bir cevap önerirken tarihini ve varsa resmî kaynağını ekle.
 - Sakin deneyimini kesin yönetim kuralı veya güncel tarife gibi sunma.
 - Ham sohbet, kişisel iletişim bilgileri, kişi–oda eşleştirmeleri, özel davet bağlantıları ve gizli anahtarlar paylaşma.

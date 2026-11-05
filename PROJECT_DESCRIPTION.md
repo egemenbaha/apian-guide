@@ -2,17 +2,17 @@
 
 Son güncelleme: **5 Kasım 2026**
 
-Apian Guide, Apian sakinlerinin ve yeni taşınacak öğrencilerin günlük yaşam sorularına samimi, anlaşılır Türkçeyle cevap veren bir bilgi rehberi projesidir. Aşağıdaki FAQ, projenin başlangıç içeriğini oluşturur. Uygulamanın arayüzü ve teknolojisi henüz belirlenmedi.
+Apian Guide, Apian sakinlerinin ve yeni taşınacak öğrencilerin günlük yaşam sorularına samimi, anlaşılır Türkçeyle cevap veren bir bilgi rehberi projesidir. Aşağıdaki FAQ, Wikipedia tarzındaki rehberin içerik kaynağıdır.
 
 ## Apian’da yaşam: Sık sorulan sorular
 
-Yeni taşınıyorsan ya da bir şeyin nasıl işlediğini merak ediyorsan buradan başlayabilirsin. Bu rehber, Ağustos–Kasım 2026 dönemindeki sakin deneyimleri ve resmî kaynaklarla hazırlandı. Binaya veya odana göre değişebilen konularda kendi sözleşmen ve yönetimin sana gönderdiği güncel bilgiler önemli.
+Yeni taşınıyorsan ya da bir şeyin nasıl işlediğini merak ediyorsan buradan başlayabilirsin. Bu rehber, Ağustos–Kasım 2026 dönemindeki sakin deneyimleri ve resmî kaynaklarla hazırlandı. Yanıtlar bu dönemdeki bilgileri doğrudan anlatır; uygulama değiştikçe güncellenir. Binaya veya odana bağlı konularda kendi sözleşmeni ve yönetimin sana gönderdiği güncel bilgileri esas al.
 
 Bu proje yurt yönetiminin resmî yayını değildir. Sakin deneyimleri ve tarihli ücret örnekleri güncel yönetim kuralı veya sabit tarife olarak değerlendirilmemeli. Ham sohbet dökümü ve kişisel bilgiler bu depoda yayımlanmıyor.
 
 ### 1. Ofis hangi saatlerde açık?
 
-Grupta paylaşılan ofis duyurusuna göre pazartesi–perşembe **07.00–12.00 ve 13.00–16.00**, cuma ise **07.00–12.00** arasında açık. Öğle arasında gitmemeye dikkat et. Tatil veya geçici değişiklikler için kapıdaki son duyuruya da bakabilirsin.
+Ofis pazartesi–perşembe **07.00–12.00 ve 13.00–16.00**, cuma **07.00–12.00** arasında açık. Bu saatler rehberdeki ofis duyurusuna dayanıyor. Öğle arasında ofis kapalı; tatil ve geçici değişiklikler için kapıdaki son duyuruyu kontrol et.
 
 ### 2. İlk geldiğimde anahtarımı nasıl alacağım?
 
@@ -20,27 +20,27 @@ Gelmeden önce ofisle e-posta üzerinden gün ve saat belirle. Özellikle uçak 
 
 ### 3. İmzalı sözleşmeyi nasıl göndermeliyim?
 
-Sana gelen e-postadaki gönderim talimatını takip et. Grupta iki imzalı nüsha gönderenler var. Göndermeden önce belgelerin taramasını, gönderdikten sonra da kargo takip numarasını sakla. Ardından ofisten belgelerin ulaştığını ve işlemin tamamlandığını teyit etmesini iste.
+İmzalı sözleşmeyi sana gelen e-postadaki talimata göre gönder. İki imzalı nüsha gönderimi kullanılan yöntemlerden biri; hazırlayacağın nüsha sayısını kendi e-postandan kontrol et. Göndermeden önce belgeleri tara, gönderdikten sonra kargo takip numarasını sakla. Ofisten belgelerin ulaştığını ve işlemin tamamlandığını teyit etmesini iste.
 
 ### 4. Öğrenci belgem henüz çıkmadı. Ne yapabilirim?
 
-Ofise belgenin ne zaman çıkacağını yazıp mevcut kabul belgeni paylaşabilirsin. Resmî başvuru sayfasında öğrenci belgesi veya kabul belgesi kabul edilen belgeler arasında sayılıyor. Yine de sözleşmenin ilerleyen aşamasında senden güncel öğrenci belgesi istenebilir; teslim tarihini birlikte netleştir. [Apian başvuru bilgileri](https://www.apian-aparthaus.de/)
+Öğrenci belgen henüz çıkmadıysa ofise belgenin ne zaman hazır olacağını yaz ve mevcut kabul belgeni paylaş. Başvuruda öğrenci belgesi veya kabul belgesi kullanılabiliyor. Sözleşmenin ilerleyen aşamasında güncel öğrenci belgesi istenirse teslim tarihini ofisle netleştir. [Apian başvuru bilgileri](https://www.apian-aparthaus.de/)
 
 ### 5. Yatak ölçüsü ne? Şilte de veriliyor mu?
 
-Gruptaki tekrar eden paylaşımlara göre yatak ölçüsü **90 × 200 cm**. Ancak yatak iskeleti ile şilteyi ayrı düşün: şiltesiz oda teslim alanlar da olmuş. Alışverişini yapmadan önce kendi odanda şilte bulunup bulunmadığını ofise sor.
+Rehberdeki yatak ölçüsü **90 × 200 cm**. Şilte her odada teslimata dahil olmayabiliyor. Alışverişten önce kendi odandaki yatak ölçüsünü ve şiltenin bulunup bulunmadığını ofisten teyit et.
 
 ### 6. Yastık, yorgan, nevresim ve duş perdesi getirmeli miyim?
 
-Yastık, yorgan, çarşaf ve nevresimini kendin hazırlaman iyi olur; yatak tekstili kiralamaya dahil değil. Duş perdesinin bulunduğunu söyleyen sakinler var, onu odayı gördükten sonra alabilirsin. [Apian oda donanımı](https://www.apian-aparthaus.de/apartments)
+Yastık, yorgan, çarşaf ve nevresimini kendin getir; yatak tekstili kiralamaya dahil değil. Duş perdesi odada bulunabiliyor. Eksikse odayı gördükten sonra al. [Apian oda donanımı](https://www.apian-aparthaus.de/apartments)
 
 ### 7. Ocak indüksiyonlu mu? Nasıl tencere almalıyım?
 
-Apian’ın resmî sayfalarında iki bina için de **seramik ocak** belirtiliyor. Apian 1’deki sakinler de elektrikli, indüksiyonsuz ocak kullandıklarını aktarıyor. Alışverişte seramik/elektrikli ocakla uyumlu ürün seç; odandaki cihazın modelini kontrol etmek en garantisi. [Apian 1](https://www.apian-aparthaus.de/kopie-von-apartments) · [Apian 2](https://www.apian-aparthaus.de/apartments)
+İki bina için de resmî oda donanımında **seramik ocak** yer alıyor. Apian 1 için mevcut kullanım bilgisi de elektrikli, indüksiyonsuz ocak yönünde. Seramik/elektrikli ocakla uyumlu tencere seç; alışverişten önce odandaki cihazın modelini kontrol et. [Apian 1](https://www.apian-aparthaus.de/kopie-von-apartments) · [Apian 2](https://www.apian-aparthaus.de/apartments)
 
 ### 8. Sineklik için hangi ölçüyü almalıyım?
 
-Apian 1’in üst katlarındaki uzun pencereler için **90 × 210 cm** sineklik öneren birkaç kişi var. Bunu başlangıç noktası olarak kullanabilirsin ama sipariş vermeden kendi pencereni ölç. Zemin kattaki odalar ve Apian 2 için aynı ölçüyü doğrudan kullanma.
+Apian 1’in üst katlarındaki uzun pencereler için rehberdeki referans ölçü **90 × 210 cm**. Sipariş vermeden kendi pencereni ölç. Bu ölçüyü zemin kattaki odalar veya Apian 2 için doğrudan esas alma.
 
 ### 9. Odadaki mobilyaları çıkarabilir miyim?
 
@@ -52,15 +52,15 @@ Yerleşmeden önce odanın fotoğraflarını çek. Duvar lekesi, çizik, kırık
 
 ### 11. İnterneti nasıl çalıştıracağım?
 
-Odanda kablolu modem varsa güç bağlantısının yanında duvardaki uygun internet/TV çıkışına giden **koaksiyel kabloyu** da kontrol et. Grupta eksik bağlantı tamamlanınca internete bağlanabilen çok kişi var. Modemi açtıktan sonra bağlantının kurulması için biraz bekle; kablo eksikse ofise bildir.
+Odandaki kablolu modemin güç bağlantısını ve duvardaki uygun internet/TV çıkışına giden **koaksiyel kabloyu** kontrol et. Eksik koaksiyel bağlantı internetin çalışmasını engelleyebiliyor. Bağlantıları tamamlayıp modemi açtıktan sonra biraz bekle; kablo eksikse ofise bildir.
 
 ### 12. Wi-Fi kullanabilir miyim, ayrıca modem almam gerekiyor mu?
 
-Önce odadaki cihazı dene. Verilen modemlerin üzerindeki ağ adı ve şifreyle Wi-Fi’ye bağlanabilen sakinler var. Yeni modem veya abonelik almadan önce mevcut cihazın çalışıp çalışmadığını ve odana dahil hizmeti kontrol et.
+Önce odadaki modemi kullan. Cihazın Wi-Fi özelliği varsa üzerindeki ağ adı ve şifreyle bağlan. Yeni modem veya abonelik almadan önce mevcut cihazın çalıştığını ve odana dahil internet hizmetini kontrol et.
 
 ### 13. İnternet yavaşsa veya sürekli kopuyorsa ne yapabilirim?
 
-Önce modemi yeniden başlatıp mümkünse kablolu bağlantıyla dene. Komşularında da aynı sorun varsa bina genelinde bir kesinti olabilir. Sorunun saatlerini ve varsa hız testi sonuçlarını kaydedip ofise ilet. Grupta önerilen özel ağ ayarları her cihaz için uygun olmayabilir; rastgele değiştirmene gerek yok.
+Önce modemi yeniden başlat ve mümkünse kablolu bağlantıyla dene. Komşularında da aynı sorun varsa bina genelinde bir kesinti olabilir. Sorunun saatlerini ve varsa hız testi sonuçlarını kaydedip ofise ilet. Başkasının kullandığı özel ağ ayarlarını kendi cihazına doğrudan uygulama.
 
 ### 14. Hangi telefon operatörü daha iyi çekiyor?
 
@@ -68,11 +68,11 @@ Odanda kablolu modem varsa güç bağlantısının yanında duvardaki uygun inte
 
 ### 15. Çamaşırhane nerede?
 
-Sakinlerin tarifine göre Apian 1’de ofisin yanından dış/arka bölüme geçiliyor. Apian 2’de ise **7B binasının birinci katında**. Apian 1’de madeni para, Apian 2’de Airwallet uygulaması kullanıldığı aktarılıyor.
+Apian 1’de çamaşırhaneye ofisin yanından dış/arka bölüme geçerek ulaşılıyor. Apian 2’de çamaşırhane **7B binasının birinci katında**. Rehberdeki mevcut ödeme bilgisine göre Apian 1’de madeni para, Apian 2’de Airwallet kullanılıyor.
 
 ### 16. Çamaşır yıkama ve kurutma ne kadar?
 
-12 Ekim’deki bir paylaşımda Apian 1 için **yıkama 3,50 €, kurutma 4 €** olarak belirtilmiş. Bunu fiyat konusunda bir fikir vermesi için düşünebilirsin; ödeme yapmadan makinenin üzerindeki güncel tutarı kontrol et. Apian 2’de fiyatı Airwallet’ta makineyi seçtiğinde görebilirsin.
+Apian 1 için **12 Ekim 2026** tarihli ücret bilgisi **yıkama 3,50 €, kurutma 4 €**. Güncel tutar için ödeme yapmadan makinenin üzerindeki fiyatı kontrol et. Apian 2’de ücret Airwallet’ta makineyi seçtiğinde görünüyor.
 
 ### 17. Airwallet’ta rezervasyon yapmak şart mı?
 
@@ -92,11 +92,11 @@ Ofis açıksa ilk olarak oraya git. Grupta ofis veya görevli yardımıyla kapı
 
 ### 21. Anahtarımı kaybedersem ne olur?
 
-Kaybı ofise hemen bildir. Grupta **300 € bedel bildirilen** örnekler var; senin durumunda uygulanacak tutarı ve işlemi yazılı olarak öğren. Anahtarı kendi başına çoğaltmaya çalışma. Anahtar kaybını kapsayan bir sigortan varsa poliçendeki şartları da kontrol et.
+Anahtar kaybını hemen ofise bildir. Kayıp anahtar işlemi **300 €’ya ulaşan** bir bedel doğurabiliyor; senin durumunda uygulanacak tutarı ve işlemi yazılı olarak öğren. Anahtarı kendi başına çoğaltma. Anahtar kaybını kapsayan bir sigortan varsa poliçenin şartlarını da kontrol et.
 
 ### 22. Odama misafir gelebilir mi?
 
-Kısa ziyaretlerle ilgili olumlu deneyimler var. Grupta aktarılan kurala göre **üç günü aşan konaklamalarda yönetime haber verilmesi** gerekiyor. Bir arkadaşın birkaç gün kalacaksa tarihleri önceden paylaşman iyi olur.
+Kısa süreli misafir kabul edilebiliyor. Rehberdeki mevcut uygulamaya göre **üç günü aşan konaklamalarda yönetime haber vermen gerekiyor**. Misafirinin kalacağı tarihleri önceden paylaş ve kendi sözleşmendeki koşulları kontrol et.
 
 ### 23. Çalışma ve müzik odası var mı?
 
@@ -104,15 +104,15 @@ Sakinlerin paylaşımlarına göre Apian 1’de çalışma odası ikinci, müzik
 
 ### 24. Bisikletimi nereye koyabilirim? Kayıt gerekiyor mu?
 
-Bisiklet park alanları var. Grupta anlatılan uygulamada bisikletinle ofise gidip kayıt yaptırıyor ve etiket alıyorsun. Ekim ayındaki deneyimlerde ücret alınmadığı belirtilmiş. Bisikletini getirince kayıt işini de aradan çıkarabilirsin.
+Bisiklet park alanlarını kullanabilirsin. Kayıt için bisikletinle ofise gidip etiket al. **Ekim 2026** için kayıt işlemi ücretsizdi; kayıt sırasında güncel uygulamayı teyit et.
 
 ### 25. Kargo adresimi nasıl yazmalıyım?
 
-Ad-soyadının yanında sözleşmendeki **doğru bina adresini ve oda/apartman numaranı** mutlaka yaz. Apian 1’in adresi Apianstraße 7; Apian 2, 7a ve 7b binalarını kapsıyor. Grupta paylaşılan yönetim e-postası, posta kutusuna isim eklemek yerine gönderilerde apartman/posta kutusu numarasının kullanılmasını istiyor. [Apian 1 adresi](https://www.apian-aparthaus.de/kopie-von-apartments) · [Apian 2 adresleri](https://www.apian-aparthaus.de/apartments)
+Ad-soyadının yanında sözleşmendeki **doğru bina adresini ve oda/apartman numaranı** mutlaka yaz. Apian 1’in adresi Apianstraße 7; Apian 2, 7a ve 7b binalarını kapsıyor. Rehberdeki yönetim e-postasına göre posta kutusuna isim eklemek yerine gönderilerde apartman/posta kutusu numarası kullanılmalı. [Apian 1 adresi](https://www.apian-aparthaus.de/kopie-von-apartments) · [Apian 2 adresleri](https://www.apian-aparthaus.de/apartments)
 
 ### 26. DHL teslim alma kodu gelmedi. Ne yapabilirim?
 
-Önce takip sayfasındaki teslim yerini kontrol et. Posta kutuna ve kutuların üzerine bırakılmış teslim bildirimlerine de bak. Grupta DHL destek/chatbot üzerinden yardım alıp sorunu çözenler var; gönderi numaranı hazır tutman işini kolaylaştırır.
+Önce takip sayfasındaki teslim yerini kontrol et. Posta kutuna ve kutuların üzerine bırakılmış teslim bildirimlerine de bak. Kod gelmediyse gönderi numaranla DHL desteğe veya chatbot’a başvur.
 
 ### 27. Kargom “teslim edildi” görünüyor ama bulamıyorum.
 
@@ -124,7 +124,7 @@ Ofisten **Reparaturzettel**, yani arıza bildirim formunu iste. Oda numaranı, s
 
 ### 29. Tamirat ücretli mi, ne kadar sürede geliyorlar?
 
-Soruna göre değişiyor. Grupta ücretsiz çözülen arızalar da ücret istenen işlemler de var; müdahale süresi de aynı değil. Bildirim sırasında tahmini zamanı ve senden ücret alınıp alınmayacağını sor. Su sızıntısı gibi büyüyebilecek bir sorunda acil olduğunu özellikle belirt.
+Tamiratın ücreti ve müdahale süresi arızaya göre değişiyor; her işlem için aynı süre veya ücret geçerli değil. Bildirim sırasında tahmini zamanı ve senden ücret alınıp alınmayacağını sor. Su sızıntısı gibi büyüyebilecek bir sorunda acil olduğunu özellikle belirt.
 
 ### 30. Kalorifer, buzdolabı veya havalandırma düzgün çalışmıyor. Ne yapayım?
 
@@ -136,7 +136,7 @@ Nerede ve ne zaman ortaya çıktığını fotoğraflarla kaydet. Yiyecekleri kap
 
 ### 32. Büyük eşyaları ve eski şilteyi normal çöpe atabilir miyim?
 
-Yönetimin grupta paylaşılan duyurusuna göre büyük eşyalar normal konteynerlere veya koridorlara bırakılmamalı. Unterföhring’deki **Wertstoffhof, Birkenhofstraße 12** adresinde. Eşyayı götürmeden kabul koşullarına ve çalışma saatlerine bak. [Belediyenin atık rehberi](https://www.unterfoehring.de/mobilitaet-umwelt/ver-und-entsorgung/abfallentsorgung.html)
+Büyük eşyaları normal konteynerlere veya koridorlara bırakma; yönetimin rehberdeki duyurusu bu şekilde. Unterföhring’deki **Wertstoffhof, Birkenhofstraße 12** adresinde. Eşyayı götürmeden kabul koşullarını ve çalışma saatlerini kontrol et. [Belediyenin atık rehberi](https://www.unterfoehring.de/mobilitaet-umwelt/ver-und-entsorgung/abfallentsorgung.html)
 
 ### 33. Vorabnahme nedir? Anahtar teslimiyle aynı şey mi?
 
@@ -144,7 +144,7 @@ Vorabnahme, çıkıştan önce odanın durumuna bakılan ön kontroldür. Hangi 
 
 ### 34. Odayı sözleşme bitmeden birkaç gün önce teslim edebilir miyim?
 
-Ofisle anlaşarak erken teslim yapanlar var. Tarih ve saati önceden belirle; anahtarı verdikten sonra odayı kullanmaya devam edebileceğini varsayma. Erken teslimin kira hesabını nasıl etkileyeceğini de ayrıca yazılı olarak netleştir.
+Ofisle tarih ve saat üzerinde anlaşarak erken teslim yapabilirsin; randevuyu önceden teyit ettir. Anahtarı verdikten sonra odayı kullanmaya devam edebileceğini varsayma. Erken teslimin kira hesabına etkisini ayrıca yazılı olarak netleştir.
 
 ### 35. Çıkmadan önce neleri temizlemeliyim?
 
@@ -160,11 +160,11 @@ Boya almadan önce ön kontrolde hangi alanların düzeltilmesinin istendiğini 
 
 ### 38. Depozitom ne zaman geri gelir?
 
-Gruptaki deneyimlerde **6–8 hafta**, bazen de yaklaşık **2,5 ay** süren iadeler var. Bütçeni depozito hemen gelecekmiş gibi kurmaman iyi olur. Çıkışta ödeme yapılacak hesabını teyit et ve tahmini iade zamanını sor; belirtilen süre geçerse yazılı takip yap.
+Rehberdeki iade süreleri **6–8 hafta**, bazı işlemlerde yaklaşık **2,5 ay**. Bunlar garanti edilmiş süreler değil; bütçeni depozitonun hemen yatacağı varsayımıyla kurma. Çıkışta ödeme yapılacak hesabı teyit et ve kendi işlemin için tahmini iade tarihini sor. Belirtilen süre geçerse yazılı takip yap.
 
 ### 39. Depozitodan neler kesilebiliyor?
 
-Grupta temizlik, eksik kablo, eşya hasarı, şilte ve boya işleri için kesinti örnekleri paylaşılmış. Bunlar herkes için geçerli sabit bir fiyat listesi değil. Kesinti yapılırsa hangi işlem için ne kadar alındığını gösteren ayrıntılı dökümü iste.
+Depozitodan temizlik, eksik kablo, eşya hasarı, şilte ve boya işleri için kesinti yapılabiliyor. Kesinti kalemleri ve tutarları odanın durumuna göre değişiyor; herkese uygulanan sabit bir liste olarak değerlendirme. Kesinti varsa hangi işlem için ne kadar alındığını gösteren ayrıntılı dökümü iste.
 
 ### 40. Söylenen ücret neden sonradan daha yüksek çıkabiliyor?
 
@@ -176,11 +176,11 @@ Hangi kaleme neden itiraz ettiğini kısa ve açık bir e-postayla yaz. Giriş-�
 
 ### 42. Sözleşmem bitmeden ayrılabilir miyim? Yerime birini bulsam yeterli mi?
 
-Erken ayrılmak istiyorsan ofise planladığın tarihi yazıp uygulanacak koşulları öğren. Grupta yüksek bedeller, **3.500 € istenen örnekler** ve farklı sözleşme koşulları konuşulmuş. Yerine birini bulman tek başına sözleşmeni sona erdirmiyor; çıkış tarihi ve varsa ödeme konusunda yazılı anlaşma al. Odayı başkasına kullandırmadan önce sözleşmendeki alt kiralama şartlarını da kontrol et.
+Erken ayrılmak istiyorsan planladığın tarihi ofise yaz ve sözleşmene uygulanacak koşulları öğren. Erken çıkış bedeli **3.500 €’ya ulaşabiliyor**; bu tutar herkes için geçerli sabit bir ücret değil. Yerine birini bulman tek başına sözleşmeni sona erdirmiyor. Çıkış tarihi ve varsa ödeme için yazılı anlaşma al; odayı başkasına kullandırmadan önce alt kiralama şartlarını kontrol et.
 
 ### 43. Kira hesabımdan hemen çekilmedi. Kendim göndereyim mi?
 
-SEPA tahsilatının ayın ilk birkaç gününe sarktığını söyleyen sakinler var. Önce hesabındaki bakiyeyi ve hareketleri kontrol et, ardından ofise sor. Kendi başına ayrıca ödeme yaparsan aynı kira iki kez tahsil edilebilir; havale gerekiyorsa açıklamayı ve tutarı ofisle netleştir.
+SEPA tahsilatı ayın ilk birkaç gününe sarkabiliyor. Önce hesabındaki bakiyeyi ve hareketleri kontrol et, ardından ofise sor. Ayrıca havale yaparsan aynı kira iki kez tahsil edilebilir. Havale gerekiyorsa açıklamayı ve tutarı ofisle netleştir.
 
 ### 44. Anmeldung’u nerede yapacağım, hangi belgeler gerekiyor?
 
