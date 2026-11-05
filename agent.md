@@ -58,7 +58,7 @@ Appearance controls set `data-text-size`, `data-width`, and `data-color` on the 
 
 ## Content and design boundaries
 
-Preserve the wiki design direction and Turkish interface. Consult `README.md` before changing content policy, and `PROJECT_DESCRIPTION.md` before extending topic coverage. Future FAQ content must distinguish Apian 1 / Apian 2, sources, verification dates, and unresolved information. Keep the independent-guide disclaimer visible. Private chat exports and personal data stay outside the public source and build output.
+Preserve the wiki design direction and Turkish interface. Consult `README.md` before changing content policy, and `PROJECT_DESCRIPTION.md` before extending topic coverage. Future FAQ content must distinguish Apian 1 / Apian 2, sources, and unresolved information. Do not append sharing/verification dates or generic room-variation disclaimers to answers. State measurements with the relevant building and keep the unmeasured-building status explicit. Preserve meaningful dates such as holidays and historical price examples; repository history records editorial checks. Keep the independent-guide disclaimer visible. Private chat exports and personal data stay outside the public source and build output.
 
 ## Run and verify
 

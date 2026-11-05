@@ -2,13 +2,13 @@
 
 Son güncelleme: **5 Kasım 2026**
 
-Apian Guide, Apian sakinlerinin ve yeni taşınacak öğrencilerin günlük yaşam sorularına samimi, anlaşılır Türkçeyle cevap veren bir bilgi rehberi projesidir. Aşağıdaki FAQ, Wikipedia tarzındaki rehberin içerik kaynağıdır. Çevre rehberi Apianstraße, 85774 Unterföhring başlangıç alınarak hazırlanmıştır; öneriler kullanım amacına göre seçilmiştir.
+Apian Guide, Apian sakinlerinin ve yeni taşınacak Türk öğrencilerin günlük yaşam sorularına samimi, anlaşılır Türkçeyle cevap veren bir bilgi rehberi projesidir. Aşağıdaki FAQ, Wikipedia tarzındaki rehberin içerik kaynağıdır. Çevre rehberi Apianstraße, 85774 Unterföhring başlangıç alınarak hazırlanmıştır; öneriler kullanım amacına göre seçilmiştir.
 
 ## Apian’da yaşam: Sık sorulan sorular
 
-Yeni taşınıyorsan ya da bir şeyin nasıl işlediğini merak ediyorsan buradan başlayabilirsin. Bu rehber, Temmuz 2025–Kasım 2026 dönemine ait bilgiler, sakin deneyimleri ve resmî açıklamalarla hazırlandı. Yanıtlar bu dönemdeki bilgileri doğrudan anlatır; uygulama değiştikçe güncellenir. Binaya veya odana bağlı konularda kendi sözleşmeni ve yönetimin sana gönderdiği güncel bilgileri esas al.
+Yeni taşınıyorsan ya da bir şeyin nasıl işlediğini merak ediyorsan buradan başlayabilirsin.
 
-Bu proje yurt yönetiminin resmî yayını değildir. Sakin deneyimleri ve tarihli ücret örnekleri güncel yönetim kuralı veya sabit tarife olarak değerlendirilmemeli. Ham sohbet dökümü ve kişisel bilgiler bu depoda yayımlanmıyor.
+Bu proje yurt yönetiminin resmî yayını değildir. Ham sohbet dökümü ve kişisel bilgiler bu depoda yayımlanmıyor.
 
 ### 1. Ofis hangi saatlerde açık?
 
@@ -44,9 +44,7 @@ Yastık, yorgan, çarşaf ve nevresimini kendin getir; yatak tekstili kiralamaya
 
 Apian 1’in üst katlarındaki uzun pencereler için rehberdeki referans ölçü **90 × 210 cm**. Sipariş vermeden kendi pencereni ölç. Bu ölçüyü zemin kattaki odalar veya Apian 2 için doğrudan esas alma.
 
-**Apian 2’de ölçülen sineklik: 120 × 110 cm.** Kendi pencereni de ölçerek uygunluğunu kontrol edebilirsin.
-
-*Ölçüm notu: Bu ölçü Apian 2’de ölçülüp 5 Kasım 2026’da rehber için paylaşıldı. Odana göre farklılık gösterebilir.*
+**Apian 2’de ölçülen sineklik: 120 × 110 cm.**
 
 ### 9. Odadaki mobilyaları çıkarabilir miyim?
 
@@ -239,8 +237,6 @@ Geçimini nasıl sağladığını yeniden belgelemen istenebilir; kullanılabile
 **Standart ödeme düzeni 3 ayda bir:** Aylık tutar **18,36 €**, üç aylık toplam **55,08 €**. Yasal ödeme düzeninde ödeme, üç aylık dönemin ortasında yapılır; sana bildirilen ödeme tarihini takip et. [Ödeme tutarı ve dönemleri](https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/informationen/zahlung)
 
 **Üç aylık ödeme düzeninde SEPA otomatik ödeme talimatı verdiysen, tutar 3 ayda bir hesabından otomatik çekilir.** Talimat vermediysen ödemeyi kendin yapman gerekir. Gelen yazıyı bekletmeden kaydını ve ödeme yöntemini kontrol et; her ödeme için yeni bir hatırlatma gelmesini bekleme. [Otomatik ödeme ve havale bilgileri](https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/informationen/zahlung)
-
-*Apian 1 ve Apian 2’de ödeme yapıldığı bilgisi sakin aktarımına dayanır. Genel kurallar, tutar ve ödeme koşulları 5 Kasım 2026’da resmî kaynaklardan kontrol edildi.*
 
 ### 53. AT11, M10 ve Alman sağlık sigortası aynı şey mi?
 
@@ -472,7 +468,7 @@ Tarihleri [resmî tatiller bölümünde](https://apian-guide.vercel.app/#tatille
 
 ### 97. Yönetim tamir veya tadilat için bana sormadan odama girebiliyor mu?
 
-**Apian’da tamir ve tadilat sırasında, sakine önceden sorulmadan odaya girildiği gözlemlenmiş.** Bu bilgi paylaşılan bir sakin deneyimine dayanıyor. Arıza bildirirken **gelmeden önce sana haber verilmesini ve uygun saatin birlikte belirlenmesini** istemen iyi olur.
+**Apian’da tamir ve tadilat sırasında, sakine önceden sorulmadan odaya girildiği gözlemlenmiş.** Arıza bildirirken **gelmeden önce sana haber verilmesini ve uygun saatin birlikte belirlenmesini** istemen iyi olur.
 
 Bu gözlem, yönetimin her istediğinde izinsiz girebileceği anlamına gelmiyor. **Olağan durumlarda odaya giriş için somut bir gerekçe ve önceden bildirim gerekiyor.** Kendi odan için girişin hangi iş kapsamında ve ne zaman yapılacağını ofisle yazılı olarak netleştirebilirsin. [Odaya girişin genel sınırları — BGH, VIII ZR 289/13](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Gericht=bgh&anz=1&nr=68406&pos=0&sid=0)
 
@@ -490,11 +486,11 @@ Asansörleri özenli kullan.
 
 ### 100. Clever fit hangi saatlerde açık?
 
-**Feringastraße 14, 85774 Unterföhring** adresindeki Clever fit, **haftanın her günü 06.00–00.00** arasında açık. Pazartesi–pazar aynı saatler geçerli. Saat bilgisi: **5 Kasım 2026**.
+**Feringastraße 14, 85774 Unterföhring** adresindeki Clever fit, **haftanın her günü 06.00–00.00** arasında açık. Pazartesi–pazar aynı saatler geçerli.
 
 ### 101. Münih’te pazar günü hangi marketler açık?
 
-Pazar günü şehir içinde alışveriş için şu marketleri kullanabilirsin. Saatler **5 Kasım 2026** tarihinde kontrol edildi; gitmeden önce mağazanın güncel saatlerine bak.
+Pazar günü şehir içinde alışveriş için şu marketleri kullanabilirsin.
 
 **EDEKA Ernst — Hauptbahnhof:** Pazar **08.00–23.00**. Adres: **Arnulfstraße 2, 80335 München**, Hauptbahnhof’un S-Bahn alt katında. [Mağaza bilgileri](https://www.edeka.de/maerkte/030285/)
 
@@ -508,13 +504,13 @@ Pazar günü şehir içinde alışveriş için şu marketleri kullanabilirsin. S
 
 ### 102. Fritz-Meyer-Weg’deki EDEKA nerede, hangi saatlerde açık?
 
-**EDEKA Häfner**, **Fritz-Meyer-Weg 55, 81925 München** adresinde. **Pazartesi–cumartesi 07.00–20.00** açık; **pazar günü kapalı**. Saatler **5 Kasım 2026** tarihinde kontrol edildi. [Mağaza bilgileri](https://www.edeka.de/maerkte/030241/)
+**EDEKA Häfner**, **Fritz-Meyer-Weg 55, 81925 München** adresinde. **Pazartesi–cumartesi 07.00–20.00** açık; **pazar günü kapalı**. [Mağaza bilgileri](https://www.edeka.de/maerkte/030241/)
 
 ### 103. En yakın eczane nerede, hangi saatlerde açık?
 
 Apian’a en yakın eczane **Pharao Apotheke**, **Fritz-Meyer-Weg 55, 81925 München** adresinde. EDEKA Häfner ile aynı adreste. [Konum ve yol tarifi](https://maps.app.goo.gl/WKKg1MSwJ9LecCB56)
 
-**Pazartesi–cuma 08.30–18.30**, **cumartesi 08.30–12.30** açık; **pazar günü kapalı**. Telefon: **089 95 51 07**. Saatler **5 Kasım 2026** tarihinde kontrol edildi. [Eczane bilgileri](https://eugenapotheke.de/)
+**Pazartesi–cuma 08.30–18.30**, **cumartesi 08.30–12.30** açık; **pazar günü kapalı**. Telefon: **089 95 51 07**. [Eczane bilgileri](https://eugenapotheke.de/)
 
 ### 104. Acil durumda hangi numarayı aramalıyım?
 
@@ -528,15 +524,13 @@ Bu numaralar Almanya’da kullanım içindir. **Hayati tehlike, ağır kaza veya
 
 **089 19240 — Münih zehir danışma hattı (Giftnotruf):** Zehirlenme veya zehirlenme şüphesinde 7 gün 24 saat telefonla danışmanlık verir. Hayati tehlikede önce **112’yi ara**. [089 19240’ı ara](tel:+498919240). [TUM Klinikum zehir danışma hattı](https://toxikologie.mri.tum.de/de/giftnotruf-muenchen)
 
-Aramada **tam adresini, bina numarasını, katı ve ne olduğunu** açıkça belirt. Görevlinin sorularını yanıtla ve görüşmeyi bitirmesini bekle. Bilgiler **5 Kasım 2026** tarihinde resmî kaynaklardan kontrol edildi.
+Aramada **tam adresini, bina numarasını, katı ve ne olduğunu** açıkça belirt. Görevlinin sorularını yanıtla ve görüşmeyi bitirmesini bekle.
 
 ### 105. Apian 2’de mutfağın ve açık rafın ölçüleri ne?
 
 **Mutfak genişliği: 90 cm.**
 
 **Açık mutfak rafı: 45 × 37 cm; derinliği 37 cm.**
-
-*Ölçüm notu: Bu ölçüler Apian 2’de ölçülüp 5 Kasım 2026’da rehber için paylaşıldı. Odana göre farklılık gösterebilir.*
 
 ### 106. Apian 2’de gardırop, masalar ve komodin kaç cm?
 
@@ -548,15 +542,11 @@ Aramada **tam adresini, bina numarasını, katı ve ne olduğunu** açıkça bel
 
 **Komodin: 40 × 40 cm.**
 
-*Ölçüm notu: Bu ölçüler Apian 2’de ölçülüp 5 Kasım 2026’da rehber için paylaşıldı. Odana göre farklılık gösterebilir.*
-
 ### 107. Apian 2’de banyo camı ve aynası kaç cm?
 
 **Banyo camı: 90 × 60 cm.**
 
 **Banyo aynası: 60 × 150 cm.**
-
-*Ölçüm notu: Bu ölçüler Apian 2’de ölçülüp 5 Kasım 2026’da rehber için paylaşıldı. Odana göre farklılık gösterebilir.*
 
 ### 108. Apian 2’de giriş ve tuvalet kapısının ölçüleri ne?
 
@@ -564,13 +554,9 @@ Aramada **tam adresini, bina numarasını, katı ve ne olduğunu** açıkça bel
 
 **Tuvalet kapısı: 60 × 210 cm.**
 
-*Ölçüm notu: Bu ölçüler Apian 2’de ölçülüp 5 Kasım 2026’da rehber için paylaşıldı. Odana göre farklılık gösterebilir.*
-
 ### 109. Apian 2’de kaloriferin ölçüsü ne?
 
 **Kalorifer: 70 × 96 cm.**
-
-*Ölçüm notu: Bu ölçü Apian 2’de ölçülüp 5 Kasım 2026’da rehber için paylaşıldı. Odana göre farklılık gösterebilir.*
 
 ### 110. Apian 2’de perde ölçüsü ne, kaç perde veriliyor?
 
@@ -580,11 +566,9 @@ Aramada **tam adresini, bina numarasını, katı ve ne olduğunu** açıkça bel
 
 Apian 2’de **iki ayrı perde veriliyor**.
 
-*Ölçüm notu: Bu ölçüler Apian 2’de ölçülüp 5 Kasım 2026’da rehber için paylaşıldı. Odana göre farklılık gösterebilir.*
-
 ### 111. Apian 2’deki ölçülerin hepsini bir arada görebilir miyim?
 
-Tabii, eşya alırken veya yerleşirken bakman kolay olsun diye ölçüleri aşağıda topladık. **Apian 1’de henüz ölçüm yapmadık; bu tablo Apian 2’ye ait.**
+Tabii, Apian 2’de ölçülen değerleri aşağıda bir arada bulabilirsin. **Apian 1’de henüz ölçüm yapmadık.**
 
 | Eşya / alan | Ölçü / adet |
 | --- | --- |
@@ -607,13 +591,11 @@ Tabii, eşya alırken veya yerleşirken bakman kolay olsun diye ölçüleri aşa
 
 **Perde için küçük bir not:** 240 cm, perde takılacak yerin toplam eni; tek bir perdenin kumaş eni değil. Apian 2’de iki ayrı perde veriliyor.
 
-*Ölçüm notu: Bu ölçüler ve 7 priz bilgisi Apian 2’de ölçülüp sayılarak 5 Kasım 2026’da rehber için paylaşıldı. Odana göre farklılık gösterebilir; alışverişten önce kendi odanda da kontrol et.*
-
 ### 112. Apian 2’de odada kaç priz var?
 
 **Ölçüm yapılan Apian 2 odasında 7 priz var.** Yerleşirken cihazlarını buna göre planlayabilirsin.
 
-*Not: Priz sayısı 5 Kasım 2026’da Apian 2 için paylaşıldı. Apian 1’de henüz ölçüm ve sayım yapmadık.*
+Apian 1’de henüz ölçüm yapmadık.
 
 <a id="acik-sorular"></a>
 

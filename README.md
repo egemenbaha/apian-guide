@@ -1,12 +1,12 @@
 # Apian Guide
 
-Apian sakinleri ve yeni taşınacak öğrenciler için Türkçe bilgi ve sıkça sorulan sorular projesi.
+Apian sakinleri ve yeni taşınacak Türk öğrenciler için bilgi rehberi.
 
 [Proje açıklaması ve 112 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
 Arda’nın Wikipedia tarzı düzeni korunarak 112 soruluk FAQ, kaynak bağlantıları ve açık sorular 22 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
 
-Apian 2’de ölçülüp paylaşılan sineklik, mutfak, mobilya, banyo, kapı, kalorifer ve perde ölçüleri “Odada neler var?” bölümündedir. [Apian 2 oda ölçüleri](https://apian-guide.vercel.app/#apian-2-oda-olculeri) sayfası bunları 7 priz bilgisiyle birlikte tek tabloda toplar. Apian 1’de henüz ölçüm yapılmadığı açıkça belirtilir. Ölçüm dipnotları bina kapsamını ve odalar arasında farklılık olabileceğini belirtir. Perde takılacak alanın eni, tek bir perdenin kumaş eni olarak yorumlanmaz.
+Apian 2’de ölçülüp paylaşılan sineklik, mutfak, mobilya, banyo, kapı, kalorifer ve perde ölçüleri “Odada neler var?” bölümündedir. [Apian 2 oda ölçüleri](https://apian-guide.vercel.app/#apian-2-oda-olculeri) sayfası bunları 7 priz bilgisiyle birlikte tek tabloda toplar. Apian 1’de henüz ölçüm yapılmadığı açıkça belirtilir. Perde takılacak alanın eni, tek bir perdenin kumaş eni olarak yorumlanmaz.
 
 Resmî tatiller bölümünde 2026 sonundaki kapanışlar ve 2027 takvimi yer alır. Marketlerin pazar/tatil saatleri ve Unterföhring’in güncel nöbetçi eczane listesine bağlantı ilgili konulardadır; değişen nöbet listeleri siteye sabit olarak kopyalanmaz. Tamir için odaya giriş, sakin gözlemi ile genel kurallar ayrılarak bakım bölümünde anlatılır.
 
@@ -94,7 +94,8 @@ Forum entegrasyonunu doğrulamak için `python3 scripts/check-forum.py` çalış
 
 - Apian 1 ve Apian 2 bilgileri ayrı tutulur.
 - Resmî kaynak, yönetimden aktarılan bilgi, kişisel deneyim ve belirsiz bilgi birbirinden ayrılır.
-- Tarihler ve kaynaklar korunur; eski fiyat ve saatler güncel bilgi gibi sunulmaz.
+- Kaynak bağlantıları ve anlam taşıyan tarihler (tatil günü veya geçmiş ücret örneği gibi) korunur; eski bilgiler güncel gibi sunulmaz.
+- Cevaplara paylaşım/kontrol tarihi ve genel değişkenlik dipnotları eklenmez. Ölçüler ilgili bina adıyla doğrudan verilir; henüz ölçülmeyen bina açıkça belirtilir.
 - Çelişen cevaplar, doğrulanmış bir sonuç bulunmadan birleştirilmez.
 - Cevaplar samimi ve anlaşılır Türkçeyle yazılır. Eksik noktalar araştırılır veya kullanıcıya sorulur; doğrulanana kadar açık bırakılır.
 - Ham WhatsApp dökümleri, kişi–oda eşleştirmeleri, telefon numaraları ve özel grup davet bağlantıları depoya eklenmez.
