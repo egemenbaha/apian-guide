@@ -2,7 +2,7 @@
 
 Son güncelleme: **5 Kasım 2026**
 
-Apian Guide, Apian sakinlerinin ve yeni taşınacak öğrencilerin günlük yaşam sorularına samimi, anlaşılır Türkçeyle cevap veren bir bilgi rehberi projesidir. Aşağıdaki FAQ, Wikipedia tarzındaki rehberin içerik kaynağıdır.
+Apian Guide, Apian sakinlerinin ve yeni taşınacak öğrencilerin günlük yaşam sorularına samimi, anlaşılır Türkçeyle cevap veren bir bilgi rehberi projesidir. Aşağıdaki FAQ, Wikipedia tarzındaki rehberin içerik kaynağıdır. Çevre rehberi Apianstraße, 85774 Unterföhring başlangıç alınarak hazırlanmıştır; öneriler kullanım amacına göre seçilmiştir.
 
 ## Apian’da yaşam: Sık sorulan sorular
 
@@ -233,6 +233,152 @@ Eğitim Ataşeliği’nde öğrenci dosyası açılması ve güncel öğrenci be
 ### 56. Clever fit üyeliğimi nasıl iptal edebilirim?
 
 Sözleşmendeki bitiş ve bildirim süresini kontrol edip işletmecinin resmî iptal sayfasından işlemi başlatabilirsin. VK Bodyfit’in Almanya’daki stüdyolar için çevrim içi iptal formu var. Gönderdiğin başvuruyu sakla ve üyeliğinin hangi tarihte biteceğine dair yazılı teyit al. [Üyelik iptal sayfası](https://www.vk-bodyfit.de/vertraege-hier-kuendigen.html)
+
+### 57. Apian çevresinde market seçerken nereden başlayayım?
+
+**Bütçe odaklı temel alışveriş için ALDI Süd ve Lidl**, **ürün çeşitliliği için EDEKA ve REWE** ile başlayabilirsin. Bu, alışverişi kolaylaştıran bir öneri; aynı sepetin her hafta hangi markette daha ucuz olduğu kampanyalara göre değişir. Dördü de Feringastraße üzerinde: ALDI 15, Lidl 5, EDEKA 16, REWE 6 numarada. EDEKA ile SaniPlus aynı adreste olduğu için market ve eczane işini birleştirmek de pratik. [ALDI şubesi](https://www.aldi-sued.de/filialen/l/unterfoehring/feringastrasse-15/bn98) · [Lidl şubesi](https://www.lidl.de/s/de-DE/filialen/unterfoehring/feringastrasse-5/) · [EDEKA şubesi](https://www.edeka.de/maerkte/030604/) · [REWE şubesi](https://www.rewe.de/marktseite/unterfoehring/320970/rewe-markt-feringastr-6)
+
+### 58. ALDI Süd nerede, ne için tercih edebilirim?
+
+**Feringastraße 15, 85774 Unterföhring.** Temel gıda ve haftalık alışveriş için bütçe odaklı başlangıç seçeneklerinden biri. Şubenin fırın ürünleri bölümü de var. Sabah çok erken gideceksen açılış saatini şube sayfasından kontrol et; sayfadaki saat tablosuyla erken açılış duyurusu farklı saatler gösteriyor. [Resmî şube bilgisi](https://www.aldi-sued.de/filialen/l/unterfoehring/feringastrasse-15/bn98) · [Apian’dan yürüyüş rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=ALDI+Sued+Feringastrasse+15+85774+Unterfoehring&travelmode=walking)
+
+### 59. Lidl nerede, ne zaman iyi bir seçenek?
+
+**Feringastraße 5, 85774 Unterföhring.** Temel alışverişte ALDI’ye alternatif olarak bakabilirsin; özellikle haftalık teklifleri karşılaştırmak işine yarar. Tek bir marketin sürekli en ucuz olduğunu varsaymak yerine sık aldığın ürünlerin fiyatını karşılaştır. Güncel saatler ve kampanyalar şubenin kendi sayfasında. [Resmî Lidl şubesi](https://www.lidl.de/s/de-DE/filialen/unterfoehring/feringastrasse-5/) · [Apian’dan yürüyüş rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Lidl+Feringastrasse+5+85774+Unterfoehring&travelmode=walking)
+
+### 60. EDEKA Die Frischnachbarn nerede, hangi işlerimi birlikte halledebilirim?
+
+**Feringastraße 16, 85774 Unterföhring.** Taze ürün, şarküteri ve daha geniş çeşit arıyorsan iyi bir başlangıç. Fırın ve sıcak yemek imkânı da listeleniyor. Normal açılış saatleri **pazartesi–cumartesi 07.00–20.00**. Aynı adreste SaniPlus eczanesi bulunuyor. Şube, kasadan para çekme hizmetini de listeliyor; kartının kabulünü ve alışveriş koşulunu ödeme yapmadan önce kasiyere sorabilirsin. [EDEKA hizmetleri ve saatleri](https://www.edeka.de/maerkte/030604/) · [Apian’dan yürüyüş rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=EDEKA+Feringastrasse+16+85774+Unterfoehring&travelmode=walking)
+
+### 61. REWE nerede, hangi saatlerde açık?
+
+**REWE Serdar Kayacan, Feringastraße 6, 85774 Unterföhring.** Belirli bir marka veya daha geniş ürün seçeneği ararken EDEKA’ya alternatif olarak düşünebilirsin. Normal saatleri **pazartesi–cumartesi 07.00–20.00**, pazar kapalı. Bankanın uygulamasıyla kasada nakit yatırmayı planlıyorsan bu şubenin uygulamanın katılımcı mağaza haritasında çıktığını da kontrol et; REWE tabelası tek başına her bankanın hizmetini desteklediği anlamına gelmiyor. [Resmî REWE şubesi](https://www.rewe.de/marktseite/unterfoehring/320970/rewe-markt-feringastr-6) · [Apian’dan yürüyüş rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=REWE+Feringastrasse+6+85774+Unterfoehring&travelmode=walking)
+
+### 62. Alışverişle birlikte uğrayabileceğim eczane hangisi?
+
+**SaniPlus Apotheke Föhring, Feringastraße 16, 85774 Unterföhring.** EDEKA ile aynı adreste olduğu için iki işi bir arada halletmek isteyenlere ilk önerimiz. Normal saatleri **pazartesi–cumartesi 09.00–20.00**. Belirli bir ilaç için gidiyorsan önceden stok durumunu sorabilirsin: **089 904295567**. [SaniPlus adres ve saatleri](https://saniplus.de/) · [Apian’dan yürüyüş rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=SaniPlus+Apotheke+Feringastrasse+16+85774+Unterfoehring&travelmode=walking)
+
+### 63. Unterföhring merkezinde başka hangi eczaneyi kullanabilirim?
+
+**Feringa-Apotheke, Föhringer Allee 6, 85774 Unterföhring.** Merkezde işin varsa değerlendirebileceğin bir alternatif. Normal saatleri **pazartesi–cuma 08.00–18.30**, **cumartesi 08.00–13.00**. Telefonu **089 95001313**. Sırf eczane için Apian’dan çıkıyorsan önce SaniPlus’a; merkezdeysen Feringa’ya bakmak makul bir başlangıç olur. [Feringa-Apotheke](https://www.apo-ufg.de/apotheken/rpod/) · [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Feringa+Apotheke+Foehringer+Allee+6+85774+Unterfoehring&travelmode=transit)
+
+### 64. Gece, pazar günü veya tatilde açık eczaneyi nasıl bulurum?
+
+Nöbetçi eczane her gün değişebildiği için sabit bir eczaneye gitmek yerine **aponet Notdienstsuche** üzerinden **85774** posta koduyla ara. Tarihi ve saati doğru seç; yola çıkmadan eczaneyi arayıp ihtiyacın olan ürünün bulunup bulunmadığını sorabilirsin. Arama, Bundesapothekerkammer’ın resmî nöbet verilerini kullanıyor. [Güncel nöbetçi eczane araması](https://www.aponet.de/notdienstsuche/0)
+
+### 65. Apian yakınında hangi DHL Packstation var?
+
+**DHL Packstation 166, Apianstraße 9, 85774 Unterföhring**, Dream-Bowl Palace adresinde listeleniyor. Apianstraße üzerinde olduğu için ilk bakılacak seçeneklerden biri. Konum kaydı için [Packstation 166 adresi](https://www.kaufda.de/Filialen/Unterfoehring/DHL-Packstation-166-Apianstrasse-DHL-Packstation/v-f1024544847), güncel kullanım ve erişim bilgisi için **DHL’nin kendi bulucusunu** kullan; aramaya “Apianstraße 9, Unterföhring” yaz. [DHL konum bulucu](https://www.dhl.de/de/privatkunden/dhl-standorte-finden.html) · [Apian’dan yürüyüş rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=DHL+Packstation+166+Apianstrasse+9+85774+Unterfoehring&travelmode=walking)
+
+### 66. Siparişi doğrudan Packstation’a nasıl gönderirim?
+
+Önce DHL hesabını ve Packstation hizmetini etkinleştir, ardından **Post & DHL App** içinde cihaz aktivasyonunu tamamla. Adres bilgileri **adın soyadın, kişisel Postnummer’ın, Packstation 166, 85774 Unterföhring** şeklinde olmalı. Sipariş formunda sokak alanına “Packstation”, kapı numarasına “166” yazılır; **Apianstraße 9 fiziksel konumdur, Packstation teslim adresindeki sokak alanının yerine geçmez**. Satıcının DHL ile ve Packstation’a uygun gönderim yaptığını kontrol et. Teslim alınacak istasyon ve son teslim alma tarihi için uygulamadaki bildirimi esas al. [DHL kayıt adımları](https://www.dhl.de/de/privatkunden/pakete-empfangen/an-einem-abholort-empfangen/packstation/packstation-registrierung.html) · [DHL adresleme ve teslim alma](https://www.dhl.de/de/privatkunden/pakete-empfangen/an-einem-abholort-empfangen/packstation/empfangen-packstation.html)
+
+### 67. Apianstraße durağından hangi otobüslere binebilirim?
+
+**Unterföhring, Apianstraße** durağında **233 ve X205** var. **233’ün Studentenstadt yönü** seni U6’ya götürür; diğer yönü Unterföhring S-Bahn istasyonuna uzanır. **X205’in Garching-Forschungszentrum yönü** kampüse, **Arabellapark yönü** U4 bağlantısına gider. Durakta yalnızca hat numarasına değil, aracın önündeki son durak adına da bak. [233 hat planı](https://www.mvv-muenchen.de/fileadmin/mediapool/downloads/fahrplanmedien/2026/233-s26-1-MFP_S.pdf) · [X205 hat planı](https://www.mvv-muenchen.de/fileadmin/mediapool/downloads/fahrplanmedien/2026/20-205-s26-1-MFP_S.pdf) · [Apian’dan durağa yürüyüş](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Unterfoehring+Apianstrasse+Bushaltestelle&travelmode=walking)
+
+### 68. Marketlerden dönerken Feringastraße durakları işime yarar mı?
+
+Evet. **Feringastraße** durağında **50, 188, 189 ve 232**, **Feringastraße Ost** durağında **50 ve 232** bağlantıları listeleniyor. U6’ya gitmek için **50’nin Studentenstadt üzerinden giden yönüne** bakabilirsin. Marketin konumuna göre doğru durağı seç; “Feringastraße” ile “Feringastraße Ost” ayrı duraklar. [50 numaralı hattın durakları](https://www.mvv-muenchen.de/fileadmin/mediapool/downloads/fahrplanmedien/2026/24-50-s26-1-MFP_M.pdf) · [Canlı sefer araması](https://www.mvv-auskunft.de/)
+
+### 69. Yakındaki tramvay bağlantısı nerede? Seferleri nereden kontrol edeyim?
+
+**St. Emmeram ve Fritz-Meyer-Weg**, **16 ve 17 numaralı tramvaylara** ulaşabileceğin seçenekler. Apian’dan yürüme kısmını da hesaba katarak otobüsle karşılaştır; her yolculukta tramvay daha kısa sürmeyebilir. [Hatlar ve bağlantılar](https://www.unterfoehring.de/mobilitaet-umwelt/mobilitaet/oepnv.html) · [Fritz-Meyer-Weg bağlantıları](https://www.mvv-muenchen.de/fileadmin/mediapool/downloads/fahrplanmedien/2026/24-50-s26-1-MFP_M.pdf)
+
+Çıkmadan önce **MVV yolculuk aramasına başlangıç olarak Apianstraße 7, Unterföhring**, hedef olarak gideceğin binanın adresini yaz. Böylece durağa yürüyüş, aktarma, hafta sonu seferleri ve o günkü değişiklikleri birlikte görebilirsin. Dönüşün geç olacaksa son bağlantıyı da kontrol et. [MVV canlı yolculuk planlayıcı](https://www.mvv-auskunft.de/)
+
+### 70. Apian’dan TUM Garching kampüsüne nasıl giderim?
+
+**Aktarmasız gitmek istiyorsan ilk bakılacak seçenek X205:** Apianstraße durağından **Garching-Forschungszentrum yönüne** bin ve son durakta in. “Garching” ile “Garching-Forschungszentrum” farklı duraklar; araştırma kampüsü için ikincisini seç. Alternatif olarak **233 → Studentenstadt → U6 Garching-Forschungszentrum** yolunu karşılaştırabilirsin. U6’ya binerken son durağının gerçekten Forschungszentrum olduğuna bak. Bunlar hat ağına göre önerilen rotalar; en erken varışı o günkü sefer araması belirler. [X205 güzergâhı](https://www.mvv-muenchen.de/fileadmin/mediapool/downloads/fahrplanmedien/2026/20-205-s26-1-MFP_S.pdf) · [TUM kampüs bilgileri](https://www.tum.de/ueber-die-tum/kontakt-und-anfahrt) · [Apian’dan güncel toplu taşıma rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=TUM+Garching+Forschungszentrum&travelmode=transit)
+
+### 71. Apian’dan TUM Stammgelände’ye nasıl giderim?
+
+Hedef **Arcisstraße 21, 80333 München**. Takibi kolay bir başlangıç rotası **233 ile Studentenstadt**, ardından **U6 ile şehir merkezi yönünde Universität** ve oradan kampüse yürüyüş. Universität durağı TUM’un kapısı değil; son yürüyüşü plana dahil et. Daha az yürümek istediğinde yolculuk aramasında **Technische Universität** durağını hedefleyip ek otobüs aktarmalı seçenekleri karşılaştırabilirsin. Dersliğin girişini de TUM haritasından bulmak ilk gün işini kolaylaştırır. [TUM Stammgelände haritası](https://nav.tum.de/campus/stammgelaende) · [TUM ulaşım bilgileri](https://www.tum.de/ueber-die-tum/kontakt-und-anfahrt) · [Apian’dan güncel rota](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=TUM+Arcisstrasse+21+80333+Muenchen&travelmode=transit)
+
+### 72. Apian’dan LMU Universität ana binasına nasıl giderim?
+
+**233 ile Studentenstadt’a**, oradan **U6’nın şehir merkezi yönüne** binip **Universität** durağında inebilirsin. Ana bina **Geschwister-Scholl-Platz 1, 80539 München** adresinde. Bu rota LMU’nun şehir merkezindeki ana binası için; dersin Martinsried veya başka bir yerleşkedeyse ders programındaki bina adresini hedef seç. [LMU ana bina ulaşım bilgisi](https://www.peoplemanagement.uni-muenchen.de/downloads/anfahrt_geschwister_scholl.pdf) · [Apian’dan güncel rota](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=LMU+Geschwister+Scholl+Platz+1+80539+Muenchen&travelmode=transit)
+
+### 73. Dream-Bowl Palace nerede? Arkadaşlarla bowling için nasıl plan yapalım?
+
+**Apianstraße 9, 85774 Unterföhring.** Apianstraße üzerinde olduğu için yakın çevrede arkadaşlarla bir akşam planı için ilk önerimiz. Gitmeden önce resmî rezervasyonda **Unterföhring/München** tesisini seç, kişi sayısını ve saati gir; markanın başka şehirlerde de salonları var. Ücret gün ve saate göre değişebildiği için rezervasyon ekranındaki tutarı ve ayakkabı kiralamasını birlikte kontrol et. [Dream-Bowl Palace](https://www.dreambowl.de/dream-bowl-palace-unterfoehring-muenchen/dream-bowl-palace/) · [Adres](https://www.dreambowl.de/dream-bowl/kontakt/) · [Rezervasyon ve güncel bilgiler](https://secure.meriq.com/dreambowl-munchen/currentstatus.asp) · [Apian’dan yürüyüş rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Dream+Bowl+Palace+Apianstrasse+9+85774+Unterfoehring&travelmode=walking)
+
+### 74. Dream-Bowl’da bowling dışında neler yapabiliriz?
+
+Aynı tesiste **bilardo, kapalı alanda Moonlight-Minigolf, dart ve langırt** seçenekleri var; yemek için restoran da bulunuyor. Bowling oynamak istemeyen bir grupla bilardo veya minigolf planlamak güzel bir alternatif. Bu etkinliklerin müsaitliğini ve ücretini bowling rezervasyonundan ayrı kontrol et; bowling saati almak diğer alanları otomatik olarak ayırmıyor. [Dream-Bowl Palace etkinlikleri](https://www.dreambowl.de/dream-bowl-palace-unterfoehring-muenchen/dream-bowl-palace/)
+
+### 75. Nakit için önce ATM’ye mi, markete mi bakayım?
+
+**Az miktarda para çekeceksen alışveriş sırasında kasadan çekmeyi**, **nakit yatıracaksan bankanın kendi yatırma kanalını** kontrol ederek başlamak pratik. EDEKA Feringastraße 16 kasadan para çekme hizmetini listeliyor; kart, minimum alışveriş ve kasa koşullarını ödeme öncesinde sor. Uygulamayla barkodlu nakit işlemi ise ayrı bir hizmet: mağazanın bankanın uygulamasında katılımcı olarak görünmesi gerekiyor. [EDEKA hizmetleri](https://www.edeka.de/maerkte/030604/) · [ING’nin kasa ve barkod açıklaması](https://www.ing.de/hilfe/geldautomatensuche/)
+
+**Cash Group**; Deutsche Bank, Commerzbank, Postbank ve HypoVereinsbank arasında uygun kartlarla para çekmeye yarıyor. Bu üyelik, her üye bankanın ATM’sinden diğer bankaya nakit yatırabileceğin anlamına gelmez. Ücret için kendi kartının tarifesine ve işlem ekranına bak; aşağıda her banka ayrı anlatılıyor. [Cash Group para çekme açıklaması](https://www.deutsche-bank.de/pk/service-und-kontakt/services/fragen-antworten/konto-und-debitkarten/wo-kann-ich-in-deutschland-kostenlos-bargeld-abheben.html) · [Commerzbank yatırma koşulları](https://www.commerzbank.de/service/wie-zahle-ich-im-inland-geld-ein/)
+
+### 76. Kreissparkasse München Starnberg Ebersberg müşterisiyim. Nereden çekip yatırabilirim?
+
+**Münchner Straße 70, 85774 Unterföhring** konumundaki SB noktası, **banknot çekme ve yatırma** işlevini birlikte listeliyor. Resmî kayıtta ATM erişimi her gün 24 saat. Kendi Kreissparkasse hesabına banknot yatırmak için ilk bakılacak yer bu; madeni para kabul eden cihaz olarak düşünme. **Am Bahnhof 1** noktası ise para çekme için listeleniyor. Başka bir Sparkasse’nin müşterisiysen yatırma yetkisini ayrıca kontrol et; yerel Sparkasse’ye özel işlevler var. [Münchner Straße 70](https://www.kskmse.de/de/home/toolbar/geldautomaten/kreissparkasse-muenchen-starnberg-ebersberg-geldautomat-unterfoehring-29247.html) · [Am Bahnhof 1](https://www.kskmse.de/de/home/toolbar/filialen/kreissparkasse-muenchen-starnberg-ebersberg-sb-standort-unterfoehring-am-bahnhof-143777.html) · [Apian’dan rota](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Sparkasse+Muenchner+Strasse+70+85774+Unterfoehring&travelmode=transit)
+
+### 77. Stadtsparkasse München müşterisiyim. Hangi noktayı seçeyim?
+
+**Para çekmek için Oberföhring SB noktası, Oberföhringer Straße 155, 81925 München** bir seçenek. **Banknot yatırmak için Arabellapark şubesi, Rosenkavalierplatz 10, 81925 München** daha uygun: burada yatırma ve çekme işlevi birlikte listeleniyor. Her iki noktada ATM erişimi **06.00–22.00** olarak belirtilmiş. Madeni para yatırma ise şubede Safebag ile yapılan ayrı bir işlem; ücreti hesabına göre kontrol et. Unterföhring’deki Kreissparkasse ile Stadtsparkasse farklı bankalar olduğundan yatırma için kendi bankanı seç. [Oberföhring ATM](https://www.sskm.de/de/home/toolbar/filialen/stadtsparkasse-muenchen-sb-standort-oberfoehring-40887.html) · [Arabellapark yatırma ATM’si](https://www.sskm.de/de/home/toolbar/filialen/stadtsparkasse-muenchen-filiale-arabellapark-40828.html) · [Banknot ve madeni para işlemleri](https://www.sskm.de/de/home/service/automaten.html) · [Apian’dan Arabellapark rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Sparkasse+Rosenkavalierplatz+10+81925+Muenchen&travelmode=transit)
+
+### 78. VR-Bank Ismaning Hallbergmoos Neufahrn veya başka bir Volksbank/Raiffeisenbank müşterisiyim. Ne yapayım?
+
+**VR-Bank Unterföhring, Bahnhofstraße 1, 85774 Unterföhring** şubesinde ATM ve **yalnızca kendi müşterileri için banknot yatırma cihazı** bulunuyor; SB alanı her gün açık. **Cosimastraße 191, 81925 München** adresindeki Oberföhring şubesi de para çekme için bir alternatif; SB saatleri **06.00–22.00**. Bu iki nokta BankCard ServiceNetz içinde listeleniyor. Başka bir Volksbank/Raiffeisenbank hesabın varsa kendi kartının ağ ve ücret koşullarını kontrol et; ortak ağ, başka bankanın hesabına yatırma yetkisi vermez. [Unterföhring şubesi](https://www.vrbank-ihn.de/meine-bank/filialen/uebersicht-filialen/geschaeftsstelle-unterfoehring.html) · [Oberföhring şubesi](https://www.vrbank-ihn.de/meine-bank/filialen/uebersicht-filialen/geschaeftsstelle-oberfoehring.html) · [Apian’dan Unterföhring şubesine rota](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=VR+Bank+Bahnhofstrasse+1+85774+Unterfoehring&travelmode=transit)
+
+### 79. Münchner Bank müşterisiyim. Yakında nakit yatırabileceğim bir şube var mı?
+
+**Münchner Bank Unterföhring, Münchner Straße 80, 85774 Unterföhring** şubesi yatırma cihazını ve 24 saat açık SB alanını listeliyor. Kendi Münchner Bank hesabına nakit yatırmak için buradan başlayabilirsin. Yatıracağın para madeni paraysa cihazın kabulünü ve hesabına uygulanacak ücreti şubeye sor. Bu banka, Bahnhofstraße’deki VR-Bank’ten ayrı bir kurum; tabelaları birbirine karıştırma. [Resmî şube ve cihaz bilgileri](https://www.muenchner-bank.de/ueber-uns/filialen-und-geldautomaten/muenchner-bank-eg-filiale-unterfoehring.html) · [Apian’dan rota](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Muenchner+Bank+Muenchner+Strasse+80+85774+Unterfoehring&travelmode=transit)
+
+### 80. Deutsche Bank müşterisiyim. Para çekme ve yatırma seçeneklerim neler?
+
+**Para çekme:** girocard ile Cash Group ATM’lerini kullanabilirsin. Bölgede bakılabilecek şube **München-Arabellapark, Arabellastraße 11, 81925 München**. **Para yatırma:** banknot için Deutsche Bank’ın yatırma ATM’sini veya kasalı şubesini; madeni para için kasalı şubeyi seç. Gitmeden şube bulucusunda ilgili hizmeti kontrol et. Uygulamadaki **Bargeld-Code** ile katılımcı mağazalarda çekme/yatırma da mümkün; ücret ve katılımcı mağaza bilgisi işlem öncesinde kontrol edilmeli. [Arabellapark şubesi](https://www.deutsche-bank.de/pk/filialen/sued/muenchen/muenchen-arabellapark.html) · [Adres teyidi](https://www.db-finanzberatung.de/sandra.padberg.html) · [Para çekme](https://www.deutsche-bank.de/pk/service-und-kontakt/services/fragen-antworten/konto-und-debitkarten/wo-kann-ich-in-deutschland-kostenlos-bargeld-abheben.html) · [Para yatırma](https://www.deutsche-bank.de/pk/service-und-kontakt/services/fragen-antworten/konto-und-debitkarten/wie-kann-ich-geld-einzahlen.html) · [Apian’dan rota](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Deutsche+Bank+Arabellastrasse+11+81925+Muenchen&travelmode=transit)
+
+### 81. Commerzbank müşterisiyim. Nakit yatırmak için nereye gidebilirim?
+
+**Leopoldstraße 37, 80802 München** şubesi hem ATM hem yatırma cihazı listeliyor. Üniversite veya şehir yolculuğuyla nakit işini birleştirmek için değerlendirebilirsin. **Para çekmede** kartına uygun Cash Group noktalarını da karşılaştırabilirsin. **Para yatırmada** girocard ile Commerzbank yatırma cihazını kullan; banka kendi cihazlarında banknot ve madeni para kabul edildiğini belirtiyor. Başka bankanın ATM’sine yatırma desteklenmiyor. Ücret hesabının tarifesine bağlı. [Leopoldstraße şubesi](https://www.commerzbank.de/filialen/de/M%C3%BCnchen-Leopoldstra%C3%9Fe) · [Yatırma adımları](https://www.commerzbank.de/service/wie-zahle-ich-im-inland-geld-ein/) · [Güncel cihaz araması](https://www.commerzbank.de/service/geldautomat-gesucht-wo-finde-ich-einen-automaten/) · [Apian’dan rota](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Commerzbank+Leopoldstrasse+37+80802+Muenchen&travelmode=transit)
+
+### 82. HypoVereinsbank / UniCredit müşterisiyim. Hangi ATM’leri kullanayım?
+
+**Para çekme:** UniCredit Card veya girocard ile Cash Group logolu ATM’lere bakabilirsin; örneğin şehir yolculuğunda Commerzbank’ın **Leopoldstraße 37** noktası bir seçenek. Farklı HVB kartlarında koşullar değişebildiği için kartının adını kontrol et. **Para yatırma:** HVB’nin kendi yatırma cihazını veya bu hizmeti veren şubesini seç. Resmî bulucuda **85774** ile ara ve yatırma hizmetini filtrele; yalnızca ATM simgesi görmek yatırma yapılabildiği anlamına gelmez. [HVB para çekme koşulları](https://hypovereinsbank.de/hvb/services/digitales-banking/hilfe/bargeldabhebung) · [HVB şube ve hizmet bulucu](https://my.hypovereinsbank.de/hvb/kontaktwege/filiale) · [HVB yatırma hizmeti](https://www.hypovereinsbank.de/content/dam/hypovereinsbank/footer/barrierefreiheit/BFSG-Informationsblaetter_Zahlungskonto-und-Zahlungsdienste.pdf)
+
+### 83. Postbank müşterisiyim. Posta şubesine gitmem yeterli mi?
+
+Önce **bankacılık hizmeti veren nokta** olduğuna bak; her DHL Paketshop veya posta noktası banka işlemi yapmıyor. **Para çekmede** uygun Postbank kartınla Cash Group ATM’lerini kullanabilirsin. **Banknot yatırmak için** Postbank’ın yatırma işlevli ATM’sini seç ve bulucuda bu işlevi kontrol et. Uygulamadaki **Postbank Bargeld-Code** da katılımcı mağazalarda para yatırıp çekmek için alternatif; mağaza ve işlem ücretini uygulamadan kontrol et. [Postbank ATM ve yatırma açıklaması](https://www.postbank.de/privatkunden/services/bargeld-und-automaten/transaktionen-am-geldautomaten.html) · [Nakit noktaları ve Cash Group](https://www.postbank.de/privatkunden/services/bargeld-und-automaten.html) · [Bargeld-Code](https://www.postbank.de/privatkunden/services/online-banking/banking-app/bargeld-code.html)
+
+### 84. comdirect müşterisiyim. Commerzbank’a nakit yatırabilir miyim?
+
+Evet. **comdirect girocard** ile Commerzbank yatırma ATM’lerine ve kasası olan şubelerine yatırabilirsin. **Leopoldstraße 37, München** şubesi yatırma cihazı listeliyor. Normal koşullarda **her takvim yılındaki ilk üç yatırma işlemi** ücretsiz; sonraki işlemleri hesabının güncel tarifesinden kontrol et. Girokonto Plus gibi modellerde farklı koşullar var. Uygulamadaki **Barzahlen** da katılımcı mağazalarda alternatif. Para çekmede kullanacağın kartı ayrı değerlendir: girocard ve Visa’nın ücretsiz işlem koşulları aynı olmayabilir. [comdirect nakit yatırma koşulları](https://www.comdirect.de/faq/Bargeldeinzahlung) · [Commerzbank Leopoldstraße](https://www.commerzbank.de/filialen/de/M%C3%BCnchen-Leopoldstra%C3%9Fe)
+
+### 85. ING müşterisiyim. Para çekmek ve yatırmak için en pratik seçenek ne?
+
+**Para çekme:** Visa Debit ile Almanya’da Visa kabul eden ATM’lerde genellikle **50 € ve üzeri** çekimden başlayabilirsin; ATM işletmecisinin ayrıca gösterebileceği ücreti de kontrol et. **Para yatırma:** yakın çevrede ilk bakılacak seçenek, uygulamadaki **ING Bargeld** katılımcı mağazaları. Banka bu hizmet için yatırma ücretini **%1,5** olarak açıklıyor. **ING’nin yatırma ATM’si** ise girocard gerektiriyor ve farklı ücretli: **%1, en az 2,50 €, en çok 7,50 €**. Bu yüzden küçük bir tutarda mağaza, daha büyük bir tutarda ING cihazı daha uygun olabilir; yol masrafını da düşün. [ING nakit işlemleri](https://www.ing.de/hilfe/zahlungsverkehr/bargeld/) · [ING cihaz ve mağaza bulucu](https://www.ing.de/hilfe/geldautomatensuche/)
+
+### 86. DKB müşterisiyim. Nakit yatırabiliyor muyum?
+
+Evet, **DKB uygulamasındaki Cash im Shop** ile katılımcı mağazalarda nakit yatırabilirsin. Bankanın açıklamasında günlük **50–999,99 €** aralığı ve **%1,5 yatırma ücreti** var; yakın mağazayı uygulamadan seç. Para çekmek için Visa Debit ile Visa kabul eden ATM’lere bak; standart alt çekim tutarı **50 €**. Kartın, Aktivstatus durumun ve ATM işletmecisinin ek ücreti sonucu etkileyebilir. Yakındaki Sparkasse cihazı DKB kartıyla para vermesi durumunda bile DKB hesabına nakit yatırma cihazına dönüşmez. [DKB çekme ve yatırma](https://www.dkb.de/privatkunden/karten/bargeld) · [Cash im Shop ücreti](https://www.dkb.de/privatkunden/karten/girocard)
+
+### 87. N26 müşterisiyim. CASH26 mı ATM mi daha uygun?
+
+**Küçük tutarlı nakit ihtiyacında önce CASH26’ya bakabilirsin:** uygulamada katılımcı mağazayı seçip barkod oluşturuyorsun; alışveriş yapmadan çekme/yatırma mümkün. Çekimler çoğu N26 hesabında ücretsiz; **Flex için işlem başına 2 €** istisnası var. ATM’deki ücretsiz çekim sayısı ise paketine bağlı. **Yatırma** en az **50 €**, günlük en çok **999 €** ve **%1,5 ücretli**; çekme ve yatırma toplamı için ayrıca ortak günlük limit var. Mağazayı mutlaka uygulamadan seç: N26, **25 Eylül 2026’dan itibaren Rossmann’ın Almanya’da CASH26’dan çıktığını** belirtiyor. [N26 CASH26 koşulları ve limitler](https://support.n26.com/de-de/app-und-produkte/cash26/was-ist-cash26)
+
+### 88. Revolut müşterisiyim. ATM’den çekebilir, nakit yatırabilir miyim?
+
+**Para çekebilirsin:** kartının Visa/Mastercard ağına uygun ATM’yi seç ve uygulamadan kalan ücretsiz hakkına bak. Almanya Standard tarifesinde ücretsiz sınır, **hareketli aylık dönemde 200 € veya 5 çekimden önce dolan**; sonrasında ücret uygulanıyor. ATM işletmecisinin ek ücreti ayrıca çıkabilir. **Nakit yatırma hizmeti 26 Ocak 2026’da durduruldu.** Nakit elindeyse destekleyen başka bir kendi hesabına yatırıp banka transferi yapmak bir yol; Revolut’a doğrudan yatırmak için rastgele bir ATM’ye gitme. [Revolut Almanya Standard ücretleri](https://www.revolut.com/de-DE/legal/standard-fees/) · [Revolut nakit yatırma durumu](https://help.revolut.com/de-DE/help/adding-money/can-i-deposit-cash-to-revolut/)
+
+### 89. Türkiye’den aldığım banka kartıyla Apian çevresinde para çekebilir miyim?
+
+Kartın yurt dışı kullanıma açıksa ve ATM ilgili **Visa/Mastercard ağını** destekliyorsa çekim yapabilirsin. Örneğin İş Bankası, yurt dışında bu ağların ATM’lerinden yerel para biriminde çekimi açıklıyor. Buradaki Sparkasse veya Cash Group etiketi Türk kartın için otomatik ücretsiz çekim sağlamaz. **Kartı veren bankanın komisyonu, kur dönüşümü ve ATM’nin göstereceği ek ücret** ayrı kalemler olabilir; onaylamadan önce tutarı kontrol et. Banka kartıyla çekimi kredi kartından nakit avansla karıştırma. Nakit yatırmak istiyorsan kartın bankasından Almanya’da desteklenen kanalı sor; para çekebilen bir ATM’nin Türkiye’deki hesabına nakit kabul edeceğini varsayma. [İş Bankası yurt dışında kart kullanımı](https://www.isbank.com.tr/yurt-disinda-bankacilik-islemleri) · [İş Bankası güncel ücretleri](https://www.isbank.com.tr/urun-ve-hizmet-ucretleri) · [Garanti BBVA kart ve ATM açıklamaları](https://www.garantibbva.com.tr/sikca-sorulan-sorular/dijital-bankacilik)
+
+### 90. Çamaşırhane için banknotu bozuk paraya nerede çevirebilirim?
+
+**Bankadan bağımsız, resmî seçenek: Deutsche Bundesbank München şubesi, Leopoldstraße 234, 80807 München.** Özel kişiler için ev ihtiyacına uygun miktarlarda euro banknot ve madeni parayı başka kupürlere **ücretsiz** çevirebiliyor. Örneğin 50 cent veya 1 € gerektiğini söyleyebilirsin; yerel miktar sınırı ve eldeki kupürlere göre işlem yapılır. Münih şubesi normalde **pazartesi–cuma 09.00–12.30** açık ve önceden randevu istemiyor. Yanına geçerli kimlik al; yola çıkmadan şube duyurusuna bak. **Gideceğin yer Leopoldstraße’deki şube; Ludwigstraße’deki Hauptverwaltung değil.** [Münih şubesi](https://www.bundesbank.de/de/bundesbank/hauptverwaltungen-filialen/by/filialen/filiale-muenchen-605466) · [Ücretsiz kupür değiştirme koşulları](https://www.bundesbank.de/resource/blob/599434/753d35ff7bae414061d46316bb8c4417/472B63F073F071307366337C94F8C870/dienstleistungsangebot-filialen-privatkunden-data.pdf) · [Kimlik ve işlem açıklamaları](https://www.bundesbank.de/de/aufgaben/bargeld/haeufig-gestellte-fragen-faq-/haeufig-gestellte-fragen-zum-geschaeft-fuer-andere-jedermann-) · [Apian’dan rota](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Deutsche+Bundesbank+Leopoldstrasse+234+80807+Muenchen&travelmode=transit)
+
+### 91. Sadece birkaç bozuk para gerekiyorsa daha kolay bir yol var mı?
+
+Alışveriş yaparken kasiyere **“Könnten Sie mir das Wechselgeld bitte in 50-Cent-Münzen geben?”** diyebilirsin: “Para üstünü 50 centlik verebilir misiniz?” Bu küçük bir rica; kasanın bozuk para durumuna bağlı, garanti bir hizmet değil. Makinenin hangi kupürü istediğine önce bak, gereksiz yere farklı madeni para toplama.
+
+Bankanda **Münzrollenautomat** varsa rulo madeni para da alabilirsin. Örneğin Stadtsparkasse München, **Kurfürstenplatz** dahil belirli şubelerde bu cihazları listeliyor; gitmeden müşteri şartını ve ücreti sor. Normal banknot ATM’siyle veya marketten hesaptan para çekmeyle aynı işlem değil. Çamaşırhanendeki makine Airwallet kabul ediyorsa uygulamayla ödeme seçeneğini de değerlendirebilirsin. [Stadtsparkasse madeni para cihazları](https://www.sskm.de/fi/home/services-und-kontakt/online-services/alle-services/automaten.html)
 
 <a id="acik-sorular"></a>
 

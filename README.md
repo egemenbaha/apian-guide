@@ -2,9 +2,9 @@
 
 Apian sakinleri ve yeni taşınacak öğrenciler için Türkçe bilgi ve sıkça sorulan sorular projesi.
 
-[Proje açıklaması ve 56 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
+[Proje açıklaması ve 91 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
-Arda’nın Wikipedia tarzı düzeni korunarak 56 soruluk FAQ, kaynak bağlantıları ve açık sorular 11 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+Arda’nın Wikipedia tarzı düzeni korunarak 91 soruluk FAQ, kaynak bağlantıları ve açık sorular 18 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
 
 Açık/koyu mod düğmesi üst çubukta masaüstü ve telefonda görünür. Tema tercihi tarayıcıda hatırlanır ve sağdaki görünüm ayarlarıyla eşzamanlı çalışır.
 
@@ -74,6 +74,13 @@ Forum entegrasyonunu doğrulamak için `python3 scripts/check-forum.py` çalış
 - Arızalar ve günlük yaşam
 - Çıkış, boya ve depozito
 - Ödemeler ve resmî işlemlere yönlendirme
+- Feringastraße marketleri, eczaneler ve DHL Packstation
+- Yakındaki duraklar; TUM Garching, TUM Stammgelände ve LMU ulaşımı
+- Dream-Bowl Palace ve tesisteki eğlence seçenekleri
+- 13 banka/yerel banka için ayrı çekme ve yatırma yanıtları, Türkiye banka kartları
+- Çamaşırhane için banknotu madeni paraya çevirme
+
+Çevre rehberindeki öneriler Apianstraße başlangıç alınarak kullanım amacına göre seçilir. Adresler kaynaklarla, yollar harita bağlantılarıyla verilir; süreler için canlı yolculuk planlayıcı kullanılır. Bankalarda para çekme, yatırma ve bozuk para edinme ayrı ele alınır; kart türü, kendi banka müşterisi olma koşulu ve uygulamadaki katılımcı mağaza bilgisi korunur. Yeni konum eklerken yalnızca adresi değil, önerilen hizmeti de kaynağından doğrula.
 
 ## İçerik ilkeleri
 
