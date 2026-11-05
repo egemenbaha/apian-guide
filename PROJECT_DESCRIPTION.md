@@ -310,6 +310,8 @@ Aynı tesiste **bilardo, kapalı alanda Moonlight-Minigolf, dart ve langırt** s
 
 ### 75. Nakit için önce ATM’ye mi, markete mi bakayım?
 
+**dm’de en az bir ürün alarak kasadan 200 €’ya kadar nakit çekebilirsin; minimum alışveriş tutarı yok.** Kart seçeneklerini ve adımları [dm’den para çekme yanıtında](https://apian-guide.vercel.app/#bankalar/soru-92) bulabilirsin.
+
 **Az miktarda para çekeceksen alışveriş sırasında kasadan çekmeyi**, **nakit yatıracaksan bankanın kendi yatırma kanalını** kontrol ederek başlamak pratik. EDEKA Feringastraße 16 kasadan para çekme hizmetini listeliyor; kart, minimum alışveriş ve kasa koşullarını ödeme öncesinde sor. Uygulamayla barkodlu nakit işlemi ise ayrı bir hizmet: mağazanın bankanın uygulamasında katılımcı olarak görünmesi gerekiyor. [EDEKA hizmetleri](https://www.edeka.de/maerkte/030604/) · [ING’nin kasa ve barkod açıklaması](https://www.ing.de/hilfe/geldautomatensuche/)
 
 **Cash Group**; Deutsche Bank, Commerzbank, Postbank ve HypoVereinsbank arasında uygun kartlarla para çekmeye yarıyor. Bu üyelik, her üye bankanın ATM’sinden diğer bankaya nakit yatırabileceğin anlamına gelmez. Ücret için kendi kartının tarifesine ve işlem ekranına bak; aşağıda her banka ayrı anlatılıyor. [Cash Group para çekme açıklaması](https://www.deutsche-bank.de/pk/service-und-kontakt/services/fragen-antworten/konto-und-debitkarten/wo-kann-ich-in-deutschland-kostenlos-bargeld-abheben.html) · [Commerzbank yatırma koşulları](https://www.commerzbank.de/service/wie-zahle-ich-im-inland-geld-ein/)
@@ -331,6 +333,8 @@ Aynı tesiste **bilardo, kapalı alanda Moonlight-Minigolf, dart ve langırt** s
 **Münchner Bank Unterföhring, Münchner Straße 80, 85774 Unterföhring** şubesi yatırma cihazını ve 24 saat açık SB alanını listeliyor. Kendi Münchner Bank hesabına nakit yatırmak için buradan başlayabilirsin. Yatıracağın para madeni paraysa cihazın kabulünü ve hesabına uygulanacak ücreti şubeye sor. Bu banka, Bahnhofstraße’deki VR-Bank’ten ayrı bir kurum; tabelaları birbirine karıştırma. [Resmî şube ve cihaz bilgileri](https://www.muenchner-bank.de/ueber-uns/filialen-und-geldautomaten/muenchner-bank-eg-filiale-unterfoehring.html) · [Apian’dan rota](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Muenchner+Bank+Muenchner+Strasse+80+85774+Unterfoehring&travelmode=transit)
 
 ### 80. Deutsche Bank müşterisiyim. Para çekme ve yatırma seçeneklerim neler?
+
+**TEB/CEPTETEB kartın varsa Deutsche Bank ATM iş birliğinden de yararlanabilirsin.** Bunun kart ve ücret koşulları [ayrı TEB yanıtında](https://apian-guide.vercel.app/#bankalar/soru-93) yer alıyor.
 
 **Para çekme:** girocard ile Cash Group ATM’lerini kullanabilirsin. Bölgede bakılabilecek şube **München-Arabellapark, Arabellastraße 11, 81925 München**. **Para yatırma:** banknot için Deutsche Bank’ın yatırma ATM’sini veya kasalı şubesini; madeni para için kasalı şubeyi seç. Gitmeden şube bulucusunda ilgili hizmeti kontrol et. Uygulamadaki **Bargeld-Code** ile katılımcı mağazalarda çekme/yatırma da mümkün; ücret ve katılımcı mağaza bilgisi işlem öncesinde kontrol edilmeli. [Arabellapark şubesi](https://www.deutsche-bank.de/pk/filialen/sued/muenchen/muenchen-arabellapark.html) · [Adres teyidi](https://www.db-finanzberatung.de/sandra.padberg.html) · [Para çekme](https://www.deutsche-bank.de/pk/service-und-kontakt/services/fragen-antworten/konto-und-debitkarten/wo-kann-ich-in-deutschland-kostenlos-bargeld-abheben.html) · [Para yatırma](https://www.deutsche-bank.de/pk/service-und-kontakt/services/fragen-antworten/konto-und-debitkarten/wie-kann-ich-geld-einzahlen.html) · [Apian’dan rota](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Deutsche+Bank+Arabellastrasse+11+81925+Muenchen&travelmode=transit)
 
@@ -379,6 +383,18 @@ Kartın yurt dışı kullanıma açıksa ve ATM ilgili **Visa/Mastercard ağın�
 Alışveriş yaparken kasiyere **“Könnten Sie mir das Wechselgeld bitte in 50-Cent-Münzen geben?”** diyebilirsin: “Para üstünü 50 centlik verebilir misiniz?” Bu küçük bir rica; kasanın bozuk para durumuna bağlı, garanti bir hizmet değil. Makinenin hangi kupürü istediğine önce bak, gereksiz yere farklı madeni para toplama.
 
 Bankanda **Münzrollenautomat** varsa rulo madeni para da alabilirsin. Örneğin Stadtsparkasse München, **Kurfürstenplatz** dahil belirli şubelerde bu cihazları listeliyor; gitmeden müşteri şartını ve ücreti sor. Normal banknot ATM’siyle veya marketten hesaptan para çekmeyle aynı işlem değil. Çamaşırhanendeki makine Airwallet kabul ediyorsa uygulamayla ödeme seçeneğini de değerlendirebilirsin. [Stadtsparkasse madeni para cihazları](https://www.sskm.de/fi/home/services-und-kontakt/online-services/alle-services/automaten.html)
+
+### 92. dm’den 200 €’ya kadar para çekebilir miyim? Nasıl yapılıyor?
+
+Evet. Almanya’daki **dm mağazalarında en az bir ürün alarak kasadan 200 €’ya kadar nakit çekebilirsin**. Alışveriş tutarı için alt sınır yok; dm bu hizmet için ek ücret almıyor. **girocard ile Visa veya Mastercard banka/kredi kartları** destekleniyor. Ödeme başlamadan kasiyere çekmek istediğin tutarı söyle; alışverişle nakit tutarı kartından birlikte tahsil edilir, nakdi kasadan alırsın. Örneğin **“Ich würde gern 100 Euro abheben.”** diyebilirsin.
+
+dm’nin ücretsiz hizmeti, kartını veren bankanın varsa kur veya kart işlem ücretini ortadan kaldırmaz. Başka marketlerde de kasadan çekim seçeneği olabilir; onların minimum alışveriş ve kart şartları farklıdır. [dm güncel nakit hizmeti](https://www.dm.de/services/services-im-markt/bezahlmethoden-3628894) · [dm’nin desteklediği kartlar](https://newsroom.dm.de/pressreleases/jetzt-auch-mit-visa-kostenlos-bargeld-abheben-bei-dm-3132766)
+
+### 93. TEB / CEPTETEB kartımla Deutsche Bank ATM’sinden ücretsiz para çekebilir miyim?
+
+Evet. **TEB’in BNP Paribas anlaşmalı ATM ağı kapsamında Almanya’daki ortağı Deutsche Bank.** **Visa veya Mastercard logolu TEB/CEPTETEB banka kartınla**, günlük limitin içinde çekim yaptığında **TEB’in yurt dışı ATM kullanım ücreti alınmıyor**. Bu avantajı bütün Cash Group ATM’lerine veya TROY kartlara genelleme; Almanya için listelenen banka Deutsche Bank.
+
+Euro hesabından çekmek istiyorsan önce CEPTETEB Mobil veya İnternet Şubesi’nde kartının **“Yurtdışı Nakit Seçim”** ayarından ilgili euro hesabını tanımla. TL hesabından çekim ile euro hesabından çekimi ayır; kur dönüşümü ayrı bir konu. ATM ekranında ek komisyon çıkarsa bu tutar karşı banka tarafından alınabilir; onaylamadan önce kontrol et. Bu iş birliği nakit çekme içindir, TEB hesabına Deutsche Bank ATM’sinden para yatırma hakkı anlamına gelmez. [TEB’in resmî anlaşmalı ATM listesi ve koşulları](https://www.teb.com.tr/yurt-disi-atm-kullanimi/)
 
 <a id="acik-sorular"></a>
 

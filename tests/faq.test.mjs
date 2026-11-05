@@ -9,7 +9,7 @@ const source = await readFile(new URL('../PROJECT_DESCRIPTION.md', import.meta.u
 const faq = parseFaq(source);
 
 test('all reviewed questions, sources and pending items survive the Markdown import', () => {
-  assert.equal(faq.questions.length, 91);
+  assert.equal(faq.questions.length, 93);
   assert.equal(faq.openQuestions.length, 4);
   assert.equal(faq.updatedAt, '5 Kasım 2026');
   assert.match(faq.questions[36].answer, /açık bırakıldı/);
