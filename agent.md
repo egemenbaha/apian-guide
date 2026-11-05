@@ -1,0 +1,68 @@
+# Apian Guide: repository navigation
+
+## Scope
+
+Turkish informational guide for Apian residents and incoming students. The guide is a dependency-free static site with a Wikipedia / Vector 2022 inspired design. The integrated community forum runs MediaWiki with DiscussionTools in Docker. The current guide renders reviewed FAQ content generated from PROJECT_DESCRIPTION.md. Preserve the integrated content and source links when changing the interface.
+
+## Commit and push
+
+Always commit and push completed repository changes after the relevant checks pass, without waiting for a separate request. Use the `ardatas` GitHub account. Stage only files belonging to the task, keep credentials and local runtime data out of Git, and Follow `CONTRIBUTING.md`: work on a task branch and push it to `origin` without force-pushing; changes to `main` go through an owner-reviewed pull request. Verify that the remote branch matches the local commit and report the commit. If a check or push fails, resolve it where possible and report any remaining blocker. Follow an explicit user instruction to leave changes uncommitted or unpushed when given.
+
+## Where to work
+
+| Task | Entry point |
+| --- | --- |
+| Understand the project, source FAQ, and unresolved questions | `PROJECT_DESCRIPTION.md` |
+| Setup and content policy | `README.md` |
+| Shared page shell, header, search form, sidebar, appearance controls, footer | `index.html` |
+| Topic titles, groups, subheadings, and stable topic IDs | `src/topics.js` |
+| Landing page and topic-page markup | `home()`, `article()`, `tabs()`, `card()` in `src/app.js` |
+| Hash routing, scrolling, active navigation, page titles | `render()` in `src/app.js` |
+| Turkish title search and result links | `normalize()`, `searchTopics()` in `src/app.js` |
+| Responsive menu behavior | `desktopMenu`, `resetMenu()`, toggle listener in `src/app.js` |
+| Appearance behavior | `.appearance input` change listener in `src/app.js` |
+| Wiki layout, typography, responsive rules, light/dark colors | `src/styles.css` |
+| Shared forum logo asset | `src/forum-logo.svg` |
+| FAQ generation and topic mapping validation | `scripts/generate-faq.mjs` |
+| Markdown rendering and question search | `src/faq.js` |
+| Generated FAQ data (ignored; regenerate from Markdown) | `src/faq-data.js` |
+| Contribution, PR, and owner-review workflow | `CONTRIBUTING.md` |
+| Static Vercel deployment configuration | `vercel.json` |
+| Available commands | `package.json` |
+| Static output generation | `scripts/build.mjs` |
+| Local guide server and same-origin `/forum/` reverse proxy | `scripts/dev.py` |
+| MediaWiki container, loopback port, persistent volume | `compose.yaml` |
+| MediaWiki installation, migrations, and initial forum page | `forum/start.sh` |
+| DiscussionTools, permissions, skin, and navigation notice | `forum/LocalSettings.php` |
+| Apache `/forum/` alias | `forum/apache.conf` |
+| Ignored local administrator credential generation | `scripts/forum-setup.mjs` |
+| Forum login, topic/reply, and read-back integration check | `scripts/check-forum.py` |
+
+## Navigation and data flow
+
+`index.html` loads `src/app.js` as an ES module. It imports `topics` from `src/topics.js`, builds the navigation, and renders the requested page into `#page-content`.
+
+- `#` opens the landing page.
+- `#<topic-id>` opens a topic, for example `#camasirhane`.
+- `#<topic-id>/bolum-<n>` opens a topic and scrolls to a section; section numbers follow the array order, starting at 1.
+- `#konular` and `#hakkinda` open landing-page anchors.
+- `#main` focuses the content skip-link target without changing the current topic.
+- `/forum/index.php?title=Talk:Forum` opens the MediaWiki discussion page. It is a server route, not a hash route. MediaWiki manages its own accounts, search, and discussion data.
+
+Keep topic IDs stable because sidebar, search, and pagination links share them. Changing section order also changes numbered section links. Topic groups and their ordering come from `topics`; headings are rendered into HTML from this trusted repository data. Use DOM text APIs or escaping if content later comes from users or external sources.
+
+FAQ search includes questions and answers; `#<topic-id>/soru-<n>` opens a question. Edit the Markdown source and the `questionIds` mapping when changing content. The dev and build commands generate FAQ data automatically.
+
+Appearance controls set `data-text-size`, `data-width`, and `data-color` on the root element. The theme is also controlled from the header and persisted in the browser; preserve synchronization with appearance controls. Menu behavior switches at 901px; the appearance sidebar hides at 1200px and below.
+
+## Content and design boundaries
+
+Preserve the wiki design direction and Turkish interface. Consult `README.md` before changing content policy, and `PROJECT_DESCRIPTION.md` before extending topic coverage. Future FAQ content must distinguish Apian 1 / Apian 2, sources, verification dates, and unresolved information. Keep the independent-guide disclaimer visible. Private chat exports and personal data stay outside the public source and build output.
+
+## Run and verify
+
+Use the commands in `package.json`; the requirements and local URL are documented in `README.md`. The build recreates `dist/` and copies only `index.html` and `src/`. Edit source files, not generated output. Root Markdown documents, forum configuration, and credentials are not included in the static build. A static host alone cannot serve forum routes.
+
+For forum changes, read the forum section of `README.md`. `npm run forum:up` initializes local credentials and starts Docker; `npm run dev` serves both the guide and forum proxy. Generated MediaWiki settings and SQLite data live in the named Docker volume. Preserve that volume and the ignored `.env`; setup preserves existing credentials. Configuration is copied into the container on startup, so restart the service after changing `forum/LocalSettings.php`. The service is bound to loopback for local use. Production requires separate server configuration and backups.
+
+For UI changes, run `node --check src/app.js`, `npm test`, `npm run build`, and `git diff --check`. Verify the affected behavior in the local browser: landing page, topic route, section link, Turkish search (e.g. `camasir`), or responsive menu / appearance controls as appropriate. For forum behavior, run `python3 scripts/check-forum.py` against the running local services; it creates and deletes a unique test page. `vercel.json` configures the static guide; the MediaWiki service needs separate production hosting. A successful build or local preview is not a deployment.
