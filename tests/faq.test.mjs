@@ -11,8 +11,9 @@ const faq = parseFaq(source);
 const searchIndex = createSearchIndex(topics, faq.questions);
 
 test('all reviewed questions, sources and pending items survive the Markdown import', () => {
-  assert.equal(faq.questions.length, 133);
-  assert.equal(faq.openQuestions.length, 4);
+  assert.equal(faq.questions.length, 136);
+  assert.equal(faq.openQuestions.length, 1);
+  assert.match(faq.openQuestions[0], /^\*\*Boya:/);
   assert.equal(faq.updatedAt, '5 Kasım 2026');
   assert.match(faq.questions[36].answer, /açık bırakıldı/);
   const sourceLinks = [...source.split('### 1.')[1].matchAll(/\]\((https?:\/\/[^)]+)\)/g)].map(match => match[1]);
@@ -65,16 +66,13 @@ test('tables keep column and row headings, inline formatting and escaped cell co
   ]) assert.doesNotMatch(renderAnswer(invalid), /<table/);
 });
 
-// Duty hours do not establish the building-door or laundry opening hours.
-test('night assistance is answered while unknown Apian 2 access hours remain open', () => {
+test('night assistance and confirmed Apian 2 door hours are distinguished from Apian 1 access', () => {
   assert.match(faq.questions[19].answer, /Apian 2/);
   assert.match(faq.questions[19].answer, /21\.00–06\.00/);
   assert.match(faq.questions[19].answer, /10 €/);
   assert.match(faq.questions[19].answer, /2025/);
-  assert.match(faq.questions[17].answer, /kesin kapanış ve açılış saatleri açık bırakıldı/);
-  const pending = faq.openQuestions.find(item => item.startsWith('**Gece erişimi:**'));
-  assert.match(pending, /dış kapısı/);
-  assert.doesNotMatch(pending, /Gece görevlisine/);
+  assert.match(faq.questions[17].answer, /Apian 2’nin dış kapısı akşam 21\.00’de kilitleniyor, sabah 06\.00’da açılıyor/);
+  assert.doesNotMatch(faq.questions[17].answer, /açık bırakıldı|yanıtı eklenecek/);
 });
 
 test('Rathaus link renders a map with the supplied pin and a directions fallback', () => {

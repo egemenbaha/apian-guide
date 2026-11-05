@@ -37,7 +37,7 @@ function home() {
   <section class="welcome" aria-labelledby="welcome-title"><h2 id="welcome-title"><strong>Apian Wiki</strong>’ye hoş geldiniz</h2><p>Apian sakinleri ve yeni taşınacak Türk öğrenciler için bilgi rehberi.</p><p class="welcome-meta">Apian 1 · Apian 2 · <a href="#konular">${topics.length} konu başlığı</a></p></section>
   <section id="konular" class="directory"><h2>Rehber konuları</h2><div class="portal-grid">${groups.map(group => `<section class="topic-group"><h3>${group}</h3><ul>${topics.filter(topic => topic.group === group).map(card).join('')}</ul></section>`).join('')}</div></section>
   ${forumEnabled === true ? '<section id="topluluk" class="about"><h2>Topluluk forumu</h2><p>Rehbere katkı sunmak, bilgi paylaşmak veya bir konuyu birlikte değerlendirmek için <a href="/forum/index.php?title=Talk:Forum">Apian Wiki forumuna katıl</a>. Konu açmak ve yanıt yazmak için giriş yapman gerekiyor.</p></section>' : ''}
-  <section id="hakkinda" class="about"><h2>Rehber hakkında</h2><p>Apian’da yerleşme, günlük yaşam ve resmî işlemlere yönelik bağımsız bir bilgi rehberidir. Konulara soldaki içindekiler bölümünden veya arama alanından ulaşabilirsin.</p><p>Apian 1 ve Apian 2 bilgileri ayrı tutulur; kaynak bağlantıları ilgili yanıtların yanında yer alır. Bu proje yurt yönetiminin resmî yayını değildir.</p></section><section id="acik-sorular" class="about"><h2>Açık kalan sorular</h2><p>${faq.openQuestions.length ? "Bu başlıklar, yanıtlar netleştiğinde tamamlanacak." : "Açık kalan soru bulunmuyor."}</p><ul>${faq.openQuestions.map(question => `<li>${renderInline(question)}</li>`).join('')}</ul></section><div class="category-box"><span>Konular:</span> Apian 1 <span class="category-divider">|</span> Apian 2 <span class="category-divider">|</span> Öğrenci yaşamı</div>`;
+  <section id="hakkinda" class="about"><h2>Rehber hakkında</h2><p>Apian’da yerleşme, günlük yaşam ve resmî işlemlere yönelik bağımsız bir bilgi rehberidir. Konulara soldaki içindekiler bölümünden veya arama alanından ulaşabilirsin.</p><p>Apian 1 ve Apian 2 bilgileri ayrı tutulur; kaynak bağlantıları ilgili yanıtların yanında yer alır. Bu proje yurt yönetiminin resmî yayını değildir.</p></section><section id="acik-sorular" class="about"><h2>${faq.openQuestions.length === 1 ? "Açık kalan soru" : "Açık kalan sorular"}</h2><p>${faq.openQuestions.length === 1 ? "Bu başlık, yanıtı netleştiğinde tamamlanacak." : faq.openQuestions.length ? "Bu başlıklar, yanıtlar netleştiğinde tamamlanacak." : "Açık kalan soru bulunmuyor."}</p><ul>${faq.openQuestions.map(question => `<li>${renderInline(question)}</li>`).join('')}</ul></section><div class="category-box"><span>Konular:</span> Apian 1 <span class="category-divider">|</span> Apian 2 <span class="category-divider">|</span> Öğrenci yaşamı</div>`;
 }
 const guideSearch = mountSearch({
   root: document.querySelector('.global-search'), topics, questions: faq.questions,
@@ -81,10 +81,7 @@ function renderSection(topic, sectionIndex) {
     const question = questionsById.get(id);
     return `<article class="faq-answer" id="soru-${id}"><h3>${escapeHtml(question.question)}</h3>${renderAnswer(question.answer, { checklistPrefix: topic.checklist ? `soru-${id}` : '' })}${renderCorrection(topic.id, question)}</article>`;
   }).join('');
-  // Document/registration questions remain open until the user supplies the answers.
-  const pendingText = faq.openQuestions.find(question => question.startsWith('**Teslim ve belgeler:**'));
-  const pending = pendingText && ((topic.id === 'yerlesme' && sectionIndex === 2) || (topic.id === 'cikis' && sectionIndex === 3));
-  return answers + (pending ? `<aside class="notice">${renderInline(pendingText)}<br>Yanıtı daha sonra eklenecek. <a href="#acik-sorular">Açık soruların tümü</a></aside>` : '');
+  return answers;
 }
 function article(topic) {
   document.title = `${topic.title} — Apian Wiki`;

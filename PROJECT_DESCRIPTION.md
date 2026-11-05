@@ -84,7 +84,7 @@ Hayır, rezervasyon isteğe bağlı. Uygulamada uygun görünen boş bir makiney
 
 ### 18. Çamaşırhaneyi gece kullanabilir miyim?
 
-Apian 1’de çamaşırhane şimdilik gece de kullanılabiliyor. Apian 2’de ise dış kapının kilitlenmesi erişimi etkileyebiliyor. **Apian 2’nin kesin kapanış ve açılış saatleri açık bırakıldı; yanıtı eklenecek.**
+Apian 1’de çamaşırhane şimdilik gece de kullanılabiliyor. **Apian 2’nin dış kapısı akşam 21.00’de kilitleniyor, sabah 06.00’da açılıyor.** Çamaşırhaneye erişim bu saatlerden etkilendiği için çamaşırını **21.00–06.00 arasındaki kapalı saatleri** hesaba katarak planla.
 
 ### 19. Ödeme yaptım ama makine çalışmadı. Ne yapayım?
 
@@ -96,7 +96,7 @@ Ofis açıksa ilk olarak oraya git. **Apian 2’de gece görevlisi 21.00–06.00
 
 Dışarıdan çilingir çağırman gerekirse kilit sistemine aşina firma **Gmeineder**, telefon **08022 75228**. Dışarıdan aldığın hizmetin tüm masrafları sana ait. Bu numara gece görevlisinin numarası değil.
 
-Gece görevlisinin çalışma saatleri, Apian 2 dış kapısının veya çamaşırhanenin erişim saatlerini belirlemiyor; bu saatler henüz netleşmedi.
+**Apian 2’nin dış kapısı 21.00–06.00 arasında kilitli.** Bu saatlerde kapıda kalırsan gece görevlisine başvurabilirsin.
 
 ### 21. Anahtarımı kaybedersem ne olur?
 
@@ -108,7 +108,11 @@ Kısa süreli misafir kabul edilebiliyor. Şimdilik **üç günü aşan konaklam
 
 ### 23. Çalışma ve müzik odası var mı?
 
-Apian 1’de çalışma odası ikinci, müzik odası üçüncü katta; müzik odasında piyano da bulunuyor. Anahtar ofisten alınıyor. **Anahtarın alınabileceği son saat ve hafta sonu kullanım koşulları açık bırakıldı.**
+Apian 1’de çalışma odası ikinci, müzik odası üçüncü katta; müzik odasında piyano da bulunuyor.
+
+**Anahtarı ofis saatlerinde alabilirsin:** pazartesi–perşembe **07.00–12.00 ve 13.00–16.00**, cuma **07.00–12.00**. İşin bitince **anahtarı bekçiye geri bırakabilirsin**.
+
+**Hafta sonu kullanım mümkün değil; ofis kapalı olduğu için anahtar alınamıyor.**
 
 ### 24. Bisikletimi nereye koyabilirim? Kayıt gerekiyor mu?
 
@@ -819,13 +823,22 @@ Evet: **Orterer Getränkemarkt, Küfnerstraße 3, 81927 München**. Su, meyve su
 
 **Evet, pazar günü de açık.** Yakındaki süpermarketler kapalıyken ekmek ve kahvaltılık için pratik bir seçenek. Resmî tatilde gideceksen özel açılış saatini şubeden sorabilirsin: [089 99629580](tel:+498999629580).
 
+### 134. Benim adıma başkası anahtar teslim alabilir mi?
+
+Hayır, **anahtarı kendin teslim almalısın**. Senin adına başka birine anahtar teslim edilmiyor. Varış gününü ve saatini ofisle önceden ayarla.
+
+### 135. Tek kişilik odaya iki kişi kayıt yaptırabilir mi?
+
+Hayır. **Oda tek kişi içinse aynı odaya iki kişi kaydedilemiyor.** Oda kaydını buna göre planla.
+
+### 136. Depozito belgesinde e-imza kabul ediliyor mu?
+
+Depozito belgesini e-imzayla göndermeden önce **info@apian-aparthaus.de** adresine yazıp Apian’a sor. E-postanda “Depozito belgesinde e-imza kabul ediyor musunuz, yoksa ıslak imza mı gerekiyor?” diye sorabilirsin. Belgeyi, ofisten gelen yanıta göre hazırla. [Apian iletişim bilgileri](https://www.apian-aparthaus.de/)
+
 <a id="acik-sorular"></a>
 
 ## Açık kalan sorular
 
-Bu dört başlık henüz netleşmedi. Bilgiler tamamlandığında ilgili yanıtlar güncellenecek.
+Yalnızca boya bilgisi açık kaldı. Marka ve renk kodları netleştiğinde ilgili yanıt tamamlanacak.
 
 - [ ] **Boya:** Apian 1 ve Apian 2’de kullanılan beyaz/gri boyanın marka ve renk kodları nedir?
-- [ ] **Gece erişimi:** Apian 2’nin dış kapısı kaçta kapanıp açılıyor?
-- [ ] **Ortak odalar:** Çalışma/müzik odası anahtarı en geç kaçta alınabilir? Hafta sonu kullanımına izin veriliyor mu?
-- [ ] **Teslim ve belgeler:** Başkası adına anahtar teslimi mümkün mü? Aynı odaya iki kişi kaydedilebilir mi? Depozito belgesinde e-imza kabul ediliyor mu?
