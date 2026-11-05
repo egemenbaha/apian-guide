@@ -278,6 +278,10 @@ Pazar günü şehir içinde alışveriş için şu marketleri kullanabilirsin. S
 
 **EDEKA — Terminal 2:** Pazar **06.00–22.00**. Konum: **Terminal 2, Ebene 03**, güvenlik kontrolünden önce. [Mağaza bilgileri](https://www.munich-airport.de/edeka-478043)
 
+### 61. Fritz-Meyer-Weg’deki EDEKA nerede, hangi saatlerde açık?
+
+**EDEKA Häfner**, **Fritz-Meyer-Weg 55, 81925 München** adresinde. **Pazartesi–cumartesi 07.00–20.00** açık; **pazar günü kapalı**. Saatler **5 Kasım 2026** tarihinde kontrol edildi. [Mağaza bilgileri](https://www.edeka.de/maerkte/030241/)
+
 <a id="acik-sorular"></a>
 
 ## Açık kalan sorular
