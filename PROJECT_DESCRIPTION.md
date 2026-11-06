@@ -889,6 +889,10 @@ Bu bölüm genel bilgilendirme amaçlıdır; sigorta veya ürün tavsiyesi içer
 
 Dolayısıyla bir Haftpflicht poliçesinin bulunması, ayrıca Glasversicherung olduğu anlamına gelmez. Cam sigortasının bulunması da bütün cam eşyaların ve her tür cam hasarının karşılanacağı anlamına gelmez.
 
+### 144. Misafirler araçlarını nereye park edebilir?
+
+Misafirler araçlarını **yol kenarındaki park şeritlerine** park edebilir.
+
 <a id="acik-sorular"></a>
 
 ## Açık kalan sorular
