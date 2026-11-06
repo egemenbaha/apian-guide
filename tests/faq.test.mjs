@@ -11,7 +11,7 @@ const faq = parseFaq(source);
 const searchIndex = createSearchIndex(topics, faq.questions);
 
 test('all reviewed questions, sources and pending items survive the Markdown import', () => {
-  assert.equal(faq.questions.length, 144);
+  assert.equal(faq.questions.length, 145);
   assert.equal(faq.openQuestions.length, 2);
   assert.match(faq.openQuestions[0], /^\*\*Boya:/);
   assert.match(faq.openQuestions[1], /Apian 1 oda ölçüleri/);

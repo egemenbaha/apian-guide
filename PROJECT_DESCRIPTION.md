@@ -244,7 +244,9 @@ Geçimini nasıl sağladığını yeniden belgelemen istenebilir; kullanılabile
 
 **Standart ödeme düzeni 3 ayda bir:** Aylık tutar **18,36 €**, üç aylık toplam **55,08 €**. Yasal ödeme düzeninde ödeme, üç aylık dönemin ortasında yapılır; sana bildirilen ödeme tarihini takip et. [Ödeme tutarı ve dönemleri](https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/informationen/zahlung)
 
-**Üç aylık ödeme düzeninde SEPA otomatik ödeme talimatı verdiysen, tutar 3 ayda bir hesabından otomatik çekilir.** Talimat vermediysen ödemeyi kendin yapman gerekir. Gelen yazıyı bekletmeden kaydını ve ödeme yöntemini kontrol et; her ödeme için yeni bir hatırlatma gelmesini bekleme. [Otomatik ödeme ve havale bilgileri](https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/informationen/zahlung)
+**Üç aylık ödeme düzeninde SEPA otomatik ödeme talimatı verdiysen, tutar 3 ayda bir hesabından otomatik çekilir.** Talimat vermediysen ödemeyi kendin yapman gerekir. Kendi adına gelen yazıyı bekletmeden kaydını ve ödeme yöntemini kontrol et; her ödeme için yeni bir hatırlatma gelmesini bekleme. [Otomatik ödeme ve havale bilgileri](https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/informationen/zahlung)
+
+**Önceki kiracı adına mektup geldiyse zarfı açma.** Açılmamış hâliyle postacıya geri verebilirsin. [İade için yazabileceğin Almanca not ve açıklama](https://apianwiki.space/#kargo/soru-145)
 
 ### 53. AT11, M10 ve Alman sağlık sigortası aynı şey mi?
 
@@ -892,6 +894,10 @@ Dolayısıyla bir Haftpflicht poliçesinin bulunması, ayrıca Glasversicherung 
 ### 144. Misafirler araçlarını nereye park edebilir?
 
 Misafirler araçlarını **yol kenarındaki park şeritlerine** park edebilir.
+
+### 145. Önceki kiracı adına mektup geldi. Ne yapmalıyım?
+
+**Zarfı açma; mektubu açılmamış hâliyle postacıya geri verebilirsin.** Üzerine **“Empfänger verzogen – zurück an den Absender”** yazabilirsin; “Alıcı taşındı, gönderene iade” demek. Önceki kiracı adına gelen Rundfunkbeitrag mektubu için de bu yolu kullanabilirsin; Beitragsservice’e ayrıca gitmen gerekmiyor. [Deutsche Post: yanlış teslim edilen mektuplar](https://www.deutschepost.de/de/hilfe-kundenservice/empfangen/zustellung.html) · [Mektup gizliliği: §202 StGB](https://www.gesetze-im-internet.de/stgb/__202.html)
 
 <a id="acik-sorular"></a>
 
