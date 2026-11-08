@@ -619,13 +619,17 @@ Bu tablodaki ölçüleri Apian 2’de aldık. [Apian 1 oda ölçüleri](https://
 | Giriş kapısı | 90 × 210 cm |
 | Tuvalet kapısı | 60 × 210 cm |
 | Kalorifer | 70 × 96 cm |
-| Priz sayısı | **7 adet** |
+| Priz sayısı | **8 adet** |
+
+**Priz notu:** Dolabın arkasında da bir priz var; toplam sayıya dahil.
 
 **Perde için küçük bir not:** 240 cm, perde takılacak yerin toplam eni; tek bir perdenin kumaş eni değil. Apian 2’de iki ayrı perde veriliyor.
 
 ### 112. Apian 2’de odada kaç priz var?
 
-**Ölçüm yapılan Apian 2 odasında 7 priz var.** Yerleşirken cihazlarını buna göre planlayabilirsin.
+**Ölçüm yapılan Apian 2 odasında 8 priz var.** Yerleşirken cihazlarını buna göre planlayabilirsin.
+
+**Not:** Dolabın arkasında da bir priz var; toplam sayıya dahil.
 
 Apian 1’de henüz ölçüm yapmadık.
 
