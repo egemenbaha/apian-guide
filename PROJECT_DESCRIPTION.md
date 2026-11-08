@@ -44,6 +44,8 @@ Yastık, yorgan, çarşaf ve nevresimini kendin getir; yatak tekstili kiralamaya
 
 Apian 1’in üst katlarındaki uzun pencerelerde sineklik için şimdilik **90 × 210 cm** ölçüsünü referans al. Sipariş vermeden kendi pencereni ölç. Bu ölçüyü zemin kattaki odalar veya Apian 2 için doğrudan esas alma.
 
+**Apian 1 için Amazon seçeneği:** [90 × 210 cm sinekliğe buradan bakabilirsin](https://www.amazon.de/dp/B073R7XK11). Sipariş ekranında seçili ölçünün **90 × 210 cm** olduğunu kontrol et.
+
 **Apian 2’de ölçülen sineklik: 120 × 110 cm.**
 
 Sinekliğin kenarlarında açıklık bırakma; küçük boşluklar da böceklerin içeri girmesine yetebilir. [Böceklerden korunma ve sineklik kullanımı](https://apianwiki.space/#bocekler/soru-147)
@@ -932,7 +934,7 @@ Kokarca olduğunu ayırt ettiğin tek bir böceği **bardak ve kartonla yakalay�
 
 **İlk iş sinekliğin kenarlarını kontrol et.** Tül sağlam olsa bile çerçeveyle arasında açıklık kalmışsa böcek geçebilir. Açılıp kapanan veya mıknatıslı kısımların tam kapandığından emin ol. Üst katlarda da pencereye sineklik takmak işe yarar. [İlaçsız önlemler ve pencere sinekliği](https://www.umweltbundesamt.de/system/files/medien/3521/dokumente/pan_flyer_schaedlingsbekaempfung_0.pdf)
 
-**Apian 1’in üst katlarındaki uzun pencereler için referans ölçü 90 × 210 cm; Apian 2’de ölçülen sineklik 120 × 110 cm.** Siparişten önce kendi pencereni ölç; Apian 1’in zemin katına üst kat ölçüsünü doğrudan uygulama. [Sineklik ölçüleri](https://apianwiki.space/#oda-donanimi/soru-8)
+**Apian 1’in üst katlarındaki uzun pencereler için referans ölçü 90 × 210 cm; Apian 2’de ölçülen sineklik 120 × 110 cm.** Siparişten önce kendi pencereni ölç; Apian 1’in zemin katına üst kat ölçüsünü doğrudan uygulama. [Sineklik ölçüleri ve Amazon bağlantısı](https://apianwiki.space/#oda-donanimi/soru-8)
 
 Odayı havalandırmaya devam et; sineklik bunu böcek girişini azaltarak yapmana yardımcı olur. Pencere contası veya çerçevesinde açıklık varsa fotoğrafını çekip ofisten onarım iste. [Arıza bildirimi](https://apianwiki.space/#bakim/soru-28)
 
