@@ -48,7 +48,7 @@ Apian 1’in üst katlarındaki uzun pencerelerde sineklik için şimdilik **90 
 
 **Apian 2’de ölçülen sineklik: 120 × 110 cm.**
 
-**Apian 2 için Amazon önerisi:** [tesa Insect Stop COMFORT / Klett Fliegengitter Premium — 130 × 150 cm, beyaz](https://www.amazon.de/dp/B00129AC2E). **Bu model kesilerek 120 × 110 cm alana uyarlanabilir.** Cırt bantla, delik açmadan takılıyor. Önce bandın yapışacağı çerçeveyi ölç; fileyi yerleştirdikten sonra fazlalığını kes. Sipariş ekranında **130 × 150 cm** seçeneğinin açık olduğunu kontrol et. [Üreticinin ölçüye göre kesme ve montaj bilgisi](https://www.tesa.com/de-de/buero-und-zuhause/tesa-insect-stop-fliegengitter-comfort-fuer-fenster.html)
+**Apian 2 için Amazon seçeneği:** [120 × 110 cm sinekliğe buradan bakabilirsin](https://www.amazon.de/dp/B0C2JDVS55). Sipariş ekranında seçili ölçünün **120 × 110 cm** olduğunu kontrol et.
 
 Sinekliğin kenarlarında açıklık bırakma; küçük boşluklar da böceklerin içeri girmesine yetebilir. [Böceklerden korunma ve sineklik kullanımı](https://apianwiki.space/#bocekler/soru-147)
 
