@@ -46,6 +46,8 @@ Apian 1’in üst katlarındaki uzun pencerelerde sineklik için şimdilik **90 
 
 **Apian 2’de ölçülen sineklik: 120 × 110 cm.**
 
+Sinekliğin kenarlarında açıklık bırakma; küçük boşluklar da böceklerin içeri girmesine yetebilir. [Böceklerden korunma ve sineklik kullanımı](https://apianwiki.space/#bocekler/soru-147)
+
 ### 9. Odadaki mobilyaları çıkarabilir miyim?
 
 Kendi eşyanı getirmek istiyorsan önce ofisle konuş. Yurda ait mobilyaların depolanması her zaman mümkün olmuyor ve çıkışta teslim aldığın eşyaları geri vermen bekleniyor. Özellikle masa, sandalye veya yatağı elden çıkarmadan önce yazılı onay al.
@@ -149,6 +151,8 @@ Tamiratın ücreti ve müdahale süresi arızaya göre değişiyor; her işlem i
 ### 31. Odada böcek, kötü koku veya küf fark ettim.
 
 Nerede ve ne zaman ortaya çıktığını fotoğraflarla kaydet. Yiyecekleri kapalı tutmak, çöpleri düzenli çıkarmak ve havalandırmak günlük önlem olarak yardımcı olabilir. Tekrarlayan veya yayılan bir durum varsa ofise bildir; kaynağın kontrol edilmesini iste.
+
+Böcekler için [Böcekler ve korunma](https://apianwiki.space/#bocekler) sayfasında pencereden giren türler, silverfish, ev çıyanı, tuzaklar ve ofise yazabileceğin kısa Almanca mesaj var.
 
 ### 32. Büyük eşyaları ve eski şilteyi normal çöpe atabilir miyim?
 
@@ -904,6 +908,57 @@ Misafirler araçlarını **yol kenarındaki park şeritlerine** park edebilir.
 ### 145. Önceki kiracı adına mektup geldi. Ne yapmalıyım?
 
 **Zarfı açma; mektubu açılmamış hâliyle postacıya geri verebilirsin.** Üzerine **“Empfänger verzogen – zurück an den Absender”** yazabilirsin; “Alıcı taşındı, gönderene iade” demek. Önceki kiracı adına gelen Rundfunkbeitrag mektubu için de bu yolu kullanabilirsin; Beitragsservice’e ayrıca gitmen gerekmiyor. [Deutsche Post: yanlış teslim edilen mektuplar](https://www.deutschepost.de/de/hilfe-kundenservice/empfangen/zustellung.html) · [Mektup gizliliği: §202 StGB](https://www.gesetze-im-internet.de/stgb/__202.html)
+
+### 146. Münih çevresinde sonbaharda pencereden giren böcekler ne olabilir?
+
+**Sonbaharda bazı böcekler kışlayacak yer ararken evlere giriyor.** Kahverengi, kanatlı bir böcek bir kokarca türü (*Stinkwanze / Baumwanze*) olabilir. Bavyera Tarım Enstitüsünün tanıttığı kahverengi kokarca (*Marmorierte Baumwanze*) da kışı korunaklı yerlerde, sıkça binalarda geçiriyor. Ancak yalnızca renk veya uçuş sesinden türünü kesinleştiremeyiz. [Bavyera: kokarca türleri ve fotoğrafları](https://www.lfl.bayern.de/ips/gartenbau/382754/index.php)
+
+**Hamam böceğine benzeyen her böcek de aynı tür değil.** Bavyera’da bulunan *Bernstein-Waldschabe*, bahçeden içeri girebilen ve gıdalara zarar vermeyen bir orman hamam böceği türü. Mutfakta çoğalabilen türlerle karışabildiği için net bir fotoğrafını çekip türünü belirletmek en iyi başlangıç. Bu örnekler, Apian’daki her böceğin bu türlerden biri olduğu anlamına gelmiyor. [Bavyera Orman Enstitüsü: Bernstein-Waldschabe](https://lwf.bayern.de/042)
+
+Kokarca olduğunu ayırt ettiğin tek bir böceği **bardak ve kartonla yakalayıp dışarı bırakabilirsin**. Ezmek veya elle sıkıştırmak kötü koku bırakmasına neden olabilir; bunun için odayı ilaçlamana gerek yok. [Umweltbundesamt: kokarcalar ve evden çıkarma](https://www.umweltbundesamt.de/wanzen)
+
+### 147. Pencereden böcek girmesini nasıl azaltabilirim?
+
+**İlk iş sinekliğin kenarlarını kontrol et.** Tül sağlam olsa bile çerçeveyle arasında açıklık kalmışsa böcek geçebilir. Açılıp kapanan veya mıknatıslı kısımların tam kapandığından emin ol. Üst katlarda da pencereye sineklik takmak işe yarar. [İlaçsız önlemler ve pencere sinekliği](https://www.umweltbundesamt.de/system/files/medien/3521/dokumente/pan_flyer_schaedlingsbekaempfung_0.pdf)
+
+**Apian 1’in üst katlarındaki uzun pencereler için referans ölçü 90 × 210 cm; Apian 2’de ölçülen sineklik 120 × 110 cm.** Siparişten önce kendi pencereni ölç; Apian 1’in zemin katına üst kat ölçüsünü doğrudan uygulama. [Sineklik ölçüleri](https://apianwiki.space/#oda-donanimi/soru-8)
+
+Odayı havalandırmaya devam et; sineklik bunu böcek girişini azaltarak yapmana yardımcı olur. Pencere contası veya çerçevesinde açıklık varsa fotoğrafını çekip ofisten onarım iste. [Arıza bildirimi](https://apianwiki.space/#bakim/soru-28)
+
+### 148. İnce ve hızlı böcekler silverfish mi, ne yapmalıyım?
+
+**Silverfish, yani gümüş böceği (Silberfischchen), kâğıt böceğine (Papierfischchen) çok benzer.** Yalnızca hızlı koşmasına veya duvarda görünmesine bakarak kesin tür söylemek zor. Yakından, mümkünse yanına boyutunu gösterecek bir nesne koyarak fotoğrafını çek. [LAVES: benzer türleri ayırmak](https://www.laves.niedersachsen.de/startseite/tiere/schadlingsbekampfung/lastlinge/silberfischchen-oder-nicht-211033.html)
+
+| Olası tür | Ne yapabilirsin? |
+| --- | --- |
+| Gümüş böceği | Nemli mutfak ve banyoda görülür. Sızıntı ve nemi kontrol et. |
+| Kâğıt böceği | Daha kuru odalarda da yaşar. Kartonları biriktirme; kitap ve kâğıtları kontrol et. |
+
+Bu tablo bir ilk ayrım; kesin teşhis yerine geçmez. Gümüş böceği fazla nemle ilişkili olabilir; kâğıt böceğinde yalnızca havalandırma sorunu çözmeyebilir. [Türler, nem ve kâğıt hasarı](https://www.umweltbundesamt.de/silber-ofen-papierfischchen)
+
+**Lavabo altını, buzdolabı çevresini, süpürgelikleri ve yatak altını kontrol et.** Kırıntı, toz ve ölü böcekleri temizle; yiyecekleri kapalı kaplarda tut. Islak yüzeyleri kurula, sızıntıyı bildir ve düzenli kısa havalandırma yap. Kargo kutularını uzun süre odada tutma. Tekrarlayan görülmelerde veya kâğıtlarda hasar varsa ofisten tür tespiti ve profesyonel kontrol iste. [Kalıcı çözüm için ortam ve giriş noktaları](https://www.umweltbundesamt.de/silber-ofen-papierfischchen)
+
+### 149. Çok bacaklı, hızla koşan şey ev çıyanı olabilir mi?
+
+**Uzun bacakları iki yana belirgin biçimde açılıyorsa ev çıyanı (Spinnenläufer) olasılığı da var.** Gümüş böceğiyle aynı hayvan değil. Spinnenläufer gündüz çatlaklarda saklanıp gece başka böcekleri ve örümcekleri avlayabiliyor. Fotoğrafını görmeden kesin tür söylemek doğru olmaz. [Naturkundemuseum Karlsruhe: ev çıyanı](https://wunderkammer.naturkundemuseum-karlsruhe.de/de/objekt/langen-beinen-unterwegs)
+
+Çıplak elle tutmaya çalışma. Sürekli aynı duvar, süpürgelik veya priz çevresinden çıktığını görüyorsan yerini fotoğraflayıp teknik ekibin kontrol etmesini iste. Priz kapağını sökme veya elektrik boşluklarına sprey sıkma. [Apian’a bildirim ve Almanca mesaj](https://apianwiki.space/#bocekler/soru-151)
+
+### 150. Lavanta, yapışkan tuzak veya böcek ilacı kullanmalı mıyım?
+
+**Yapışkan tuzak (*Klebefalle*):** İnce, yürüyen böceklerin nerede ve ne sıklıkta çıktığını takip etmene yardımcı olabilir. Aldığın ürünün üzerinde hedef türü ve kullanım yerini kontrol et; **insektizidfrei**, böcek öldürücü kimyasal içermediğini belirtir. Tuzakta böcek yakalanması, odadaki sorunun tamamen bittiğini göstermez. Mağazada “Silberfischchen-Klebefalle” diye sorabilirsin. [dm: silverfish için önlemler ve tuzaklar](https://www.dm.de/tipps-und-trends/haushaltstipps/ungeziefer/silberfische-409974) · [Yakındaki iki dm şubesi](https://apianwiki.space/#alisveris/soru-131)
+
+**Lavanta:** Lavanta yağı veya kokulu temizleyiciyi tek başına kalıcı çözüm sayma. Türü belirlemek, nemi ve saklanma alanlarını kontrol etmek daha önemli. Özellikle kâğıt böceğinde profesyonel değerlendirme gerekebilir. [Umweltbundesamt: türü belirleme ve mücadele](https://www.umweltbundesamt.de/themen/motten-schaben-silberfischchen)
+
+**Böcek spreyi:** Odayı düzenli aralıklarla rastgele ilaçlamak yerine önce neyle karşılaştığını netleştir. Spreyi çoğaltmak, giriş noktasını veya nem sorununu çözmez; kimyasallar oda tozunda ve yüzeylerde kalabilir. Bir ürün kullanacaksan etiketindeki hedef tür, iç mekân kullanımı ve güvenlik talimatlarına uy. **Lamba veya priz içine sprey sıkma.** Sorun sürüyorsa ofisten profesyonel müdahale iste. [Evde kimyasal kullanım ve uzman desteği](https://www.umweltbundesamt.de/system/files/medien/3521/dokumente/pan_flyer_schaedlingsbekaempfung_0.pdf) · [İç ortamda böcek ilaçları](https://presse.dguv.de/ifa/praxishilfen/innenraumarbeitsplaetze/chemische-einwirkungen/insektizide/index.jsp)
+
+### 151. Böcekler tekrar çıkıyorsa Apian’a nasıl bildireyim?
+
+**Aynı yerden tekrar çıkıyorsa, sayı artıyorsa veya eşyalarda zarar görüyorsan ofise bildir.** Apian 1/2 bilgisini, oda numaranı, ne zamandır gördüğünü ve yerini yaz; net fotoğraf ekle. Ofisten **Reparaturzettel** alabilir veya **info@apian-aparthaus.de** adresine yazabilirsin. [Arıza bildirim adımları](https://apianwiki.space/#bakim/soru-28) · [Apian iletişim](https://www.apian-aparthaus.de/)
+
+Şöyle yazabilirsin: **“In meinem Apartment [Nummer], Apian [1/2], sehe ich seit [Datum] wiederholt kleine Tiere, besonders [Ort]. Fotos sind beigefügt. Bitte prüfen Sie die Ursache und mögliche Eintrittsstellen und veranlassen Sie bei Bedarf eine fachkundige Schädlingsbekämpfung.”** Yani: “Odamda belirtilen tarihten beri, özellikle şu yerde tekrar tekrar küçük canlılar görüyorum. Fotoğrafları ekledim. Lütfen kaynağı ve giriş noktalarını kontrol edip gerekirse uzman desteği sağlayın.”
+
+Priz, lamba veya boru geçişi çevresinde açıklık varsa **kendin söküp silikonla doldurmak yerine teknik ekibin incelemesini iste**. Havalandırma açıklıklarını kapatma. Yeni taşındığında duvarlarda böcek izleri veya hasar görürsen bunları da teslim fotoğraflarına ekle. [Oda teslim tutanağı](https://apianwiki.space/#yerlesme/soru-10)
 
 <a id="acik-sorular"></a>
 
