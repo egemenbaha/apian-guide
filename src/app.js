@@ -1,5 +1,5 @@
-// One shared switch controls forum navigation and the local server route.
-const { forumEnabled = false } = await fetch(new URL('./features.json', import.meta.url)).then(response => response.json()).catch(() => ({}));
+// The build optionally adds the public Umami website ID to the feature settings.
+const { forumEnabled = false, umamiWebsiteId } = await fetch(new URL('./features.json', import.meta.url)).then(response => response.json()).catch(() => ({}));
 document.querySelector('.forum-link').hidden = forumEnabled !== true;
 import { topics, sectionQuestionIds } from './topics.js';
 import { faq } from './faq-data.js';
@@ -7,6 +7,8 @@ import { escapeHtml, renderInline, renderAnswer } from './faq.js';
 import { checklistToolbar, mountChecklist } from './checklist.js';
 import { renderCorrection, topicSuggestionUrl } from './corrections.js';
 import { mountSearch } from './search-ui.js';
+import { startAnalytics } from './analytics.js';
+const analytics = startAnalytics(umamiWebsiteId);
 const questionsById = new Map(faq.questions.map(question => [question.id, question]));
 const content = document.querySelector('#page-content');
 const nav = document.querySelector('#topic-nav');
@@ -37,7 +39,8 @@ function home() {
   <section class="welcome" aria-labelledby="welcome-title"><h2 id="welcome-title"><strong>Apian Wiki</strong>’ye hoş geldiniz</h2><p>Apian sakinleri ve yeni taşınacak Türk öğrenciler için bilgi rehberi.</p><p class="welcome-meta">Apian 1 · Apian 2 · <a href="#konular">${topics.length} konu başlığı</a> · <a href="#acik-sorular">Açık sorular ve öneriler</a></p></section>
   <section id="konular" class="directory"><h2>Rehber konuları</h2><div class="portal-grid">${groups.map(group => `<section class="topic-group" data-group="${escapeHtml(group)}"><h3>${group}</h3><ul>${topics.filter(topic => topic.group === group).map(card).join('')}</ul></section>`).join('')}</div></section>
   ${forumEnabled === true ? '<section id="topluluk" class="about"><h2>Topluluk forumu</h2><p>Rehbere katkı sunmak, bilgi paylaşmak veya bir konuyu birlikte değerlendirmek için <a href="/forum/index.php?title=Talk:Forum">Apian Wiki forumuna katıl</a>. Konu açmak ve yanıt yazmak için giriş yapman gerekiyor.</p></section>' : ''}
-  <section id="hakkinda" class="about"><h2>Rehber hakkında</h2><p>Apian’da yerleşme, günlük yaşam ve resmî işlemlere yönelik bağımsız bir bilgi rehberidir. Konulara soldaki içindekiler bölümünden veya arama alanından ulaşabilirsin.</p><p>Apian 1 ve Apian 2 bilgileri ayrı tutulur; kaynak bağlantıları ilgili yanıtların yanında yer alır. Bu proje yurt yönetiminin resmî yayını değildir.</p></section>
+  <section id="hakkinda" class="about"><h2>Rehber hakkında</h2><p>Apian’da yerleşme, günlük yaşam ve resmî işlemlere yönelik bağımsız bir bilgi rehberidir. Konulara soldaki içindekiler bölümünden veya arama alanından ulaşabilirsin.</p><p>Apian 1 ve Apian 2 bilgileri ayrı tutulur; kaynak bağlantıları ilgili yanıtların yanında yer alır. Bu proje yurt yönetiminin resmî yayını değildir.</p>
+  ${umamiWebsiteId ? '<p>Hangi konuların okunduğunu ve arama sonuçlarının kaç kez açıldığını Umami ile sayıyoruz. Aradığın kelimeler ve taşınma listesindeki işaretlerin tarayıcında kalır. Tarayıcında Do Not Track veya Global Privacy Control açıksa ziyaretin ölçüme katılmaz.</p>' : ''}</section>
   <section id="acik-sorular" class="about">
     <h2>${faq.openQuestions.length === 1 ? 'Açık kalan soru' : 'Açık kalan sorular'}</h2>
     ${faq.openQuestions.length ? `<ul>${faq.openQuestions.map(question => `<li>${renderInline(question)}</li>`).join('')}</ul>` : '<p>Açık kalan soru bulunmuyor.</p>'}
@@ -49,6 +52,7 @@ function home() {
 const guideSearch = mountSearch({
   root: document.querySelector('.global-search'), topics, questions: faq.questions,
   onSelect: match => {
+    analytics?.searchResult();
     if (location.hash === match.href) render();
     document.querySelector('main').focus({ preventScroll: true });
   },
@@ -109,6 +113,7 @@ function render() {
     topic ? article(topic) : home();
     if (topic?.checklist) mountChecklist(content);
     currentTopic = route;
+    analytics?.view(topic);
     window.scrollTo(0, 0);
     if (document.activeElement !== document.body) document.querySelector('main').focus({ preventScroll: true });
   }

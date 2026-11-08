@@ -38,6 +38,17 @@ Açık/koyu mod düğmesi üst çubukta masaüstü ve telefonda görünür. Tema
 
 Her FAQ yanıtındaki **Düzeltme öner** alanı, ilgili sorunun bağlantısını ve başlığını içeren bir GitHub öneri taslağı açar. Ziyaretçi GitHub hesabıyla giriş yapıp açıklamasını kendisi gönderir. Öneriler herkese açıktır ve Egemen veya Arda tarafından incelenip içerik düzenlenerek rehbere alınır; otomatik içerik değişikliği veya otomatik gönderim yapılmaz. Gönderiler [deponun Issues bölümünde](https://github.com/egemenbaha/apian-guide/issues) takip edilir. Bu akış forumu etkinleştirmez ve sunucuda gizli anahtar gerektirmez.
 
+## Ziyaret istatistikleri
+
+Umami Cloud'un ücretsiz Hobby planında ziyaretçi ve görüntüleme sayıları, en çok okunan konular, yönlendiren siteler, ülkeler ve cihazlar izlenebilir. Kurulum için:
+
+1. [Umami Cloud](https://cloud.umami.is/) hesabında Hobby planını seç. **Websites** bölümünde `apianwiki.space` alan adı için **Apian Wiki** sitesini ekle veya mevcut kaydı aç. Sitenin **Website ID** değerini kopyala.
+2. Vercel’de **ApianS → apian-guide → Settings → Environment Variables** bölümüne git. **Production** için `UMAMI_WEBSITE_ID` değişkenini bu herkese açık kimliğe ayarla ve güncel `main` sürümünü yeniden dağıt. Kimlik tanımlanana kadar ölçüm kapalıdır.
+3. `https://apianwiki.space/` adresini aç, ardından Çamaşırhane konusuna ve konu içindeki bir soruya git. Umami’de **Realtime** bölümünde ana sayfa (`/`) ve konu (`/konu/camasirhane`) için birer görüntüleme beklenir. Aynı konudaki soruya geçmek yeni görüntüleme oluşturmaz.
+4. Aramadan bir sonuç aç. **Events** bölümündeki `search-result-opened` sayacı bu seçimi gösterir. Arama metni, soru numarası ve taşınma listesi seçimleri gönderilmez. Ölçüm yalnızca ana alan adında çalışır ve tarayıcının Do Not Track veya Global Privacy Control tercihini dikkate alır.
+
+Günlük veya haftalık değişimi görmek için Umami’de **Apian Wiki** sitesini açıp tarih aralığını seç. **Pages** konu görüntülemelerini, **Referrers** dış trafik kaynaklarını gösterir. Ölçümü kapatmak için Vercel’de değişkeni kaldırıp yeniden dağıt.
+
 ## Yerel geliştirme
 
 Node.js 22+ ve Python 3 gerektirir. Haricî paket kurulumu gerekmez.
