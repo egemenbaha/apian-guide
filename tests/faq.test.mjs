@@ -52,6 +52,45 @@ test('Markdown formatting preserves sources without allowing raw HTML or unsafe 
   assert.equal((html.match(/<p>/g) || []).length, 2);
 });
 
+test('local photo galleries preserve accessible captions, credits and enlargement links', () => {
+  const html = renderAnswer('Örnekler\n\n![Gümüş böceği "yakın" <görünüm>](src/images/bugs/gumus-bocegi.webp)\n**Gümüş böceği**\n[Fotoğrafçı](https://example.com/author) · [Lisans](https://example.com/license)\n![Kâğıt böceği](src/images/bugs/kagit-bocegi.webp)\n<script>alert(1)</script>\n\nSon not.');
+  assert.equal((html.match(/<figure /g) || []).length, 2);
+  assert.equal((html.match(/<p>/g) || []).length, 2);
+  assert.match(html, /alt="Gümüş böceği &quot;yakın&quot; &lt;görünüm&gt;"/);
+  assert.match(html, /href="src\/images\/bugs\/gumus-bocegi.webp" target="_blank" rel="noopener noreferrer"/);
+  assert.match(html, /loading="lazy" decoding="async"/);
+  assert.match(html, /<figcaption><strong>Gümüş böceği<\/strong><br><a href="https:\/\/example.com\/author"/);
+  assert.match(html, /href="https:\/\/example.com\/license"/);
+  assert.doesNotMatch(html, /<script>/);
+  assert.match(renderAnswer('![Ev çıyanı](src/images/bugs/ev-ciyani.webp)'), /<figcaption>Ev çıyanı<\/figcaption>/);
+});
+
+test('photo rendering rejects external images, executable URLs and paths outside the image directory', () => {
+  for (const path of [
+    'https://example.com/tracker.png', '//example.com/tracker.png',
+    'javascript:alert(1)', 'data:image/svg+xml,<svg>',
+    'src/images/../private.png', 'src/images/%2e%2e/private.png',
+    'src/images/bugs/a.svg', 'src/images/a.webp?track=1',
+    'src/images/a.webp"onerror="alert(1)'
+  ]) assert.doesNotMatch(renderAnswer(`![Örnek](${path})`), /<img|<figure/);
+});
+
+test('published insect galleries include packaged images and keep file paths out of search excerpts', async () => {
+  const images = [];
+  for (const id of [146, 148, 149]) {
+    const answer = faq.questions.find(question => question.id === id).answer;
+    for (const match of answer.matchAll(/!\[[^\]]+\]\((src\/images\/[^)]+)\)/g)) {
+      images.push(match[1]);
+      const bytes = await readFile(new URL(`../${match[1]}`, import.meta.url));
+      assert.equal(bytes.toString('ascii', 8, 12), 'WEBP');
+    }
+  }
+  assert.equal(images.length, 5);
+  const matches = findMatches('Lepisma saccharina', searchIndex);
+  assert.ok(matches.some(match => match.href === '#bocekler/soru-148'));
+  assert.doesNotMatch(JSON.stringify(matches), /src\/images\/|!\[/);
+});
+
 test('tables keep column and row headings, inline formatting and escaped cell content', () => {
   const html = renderAnswer('Ölçüler\n\n| Eşya | Ölçü |\n| --- | --- |\n| <img src=x onerror=alert(1)> | **7 adet** |\n| Perde | [Kaynak](https://example.com) [x](javascript:alert(1)) |\n\nSon not.');
   assert.match(html, /<th scope="col">Eşya<\/th>/);

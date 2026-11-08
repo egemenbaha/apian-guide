@@ -1,0 +1,44 @@
+Apian Wiki — Böcek fotoğrafları / Photo credits
+
+Bu fotoğraflar Apian'da çekilmedi; türleri karşılaştırmak için kullanılır.
+Fotoğraflar aşağıdaki ayrı lisanslara tabidir; projenin MIT lisansı bu
+fotoğrafların lisanslarının yerine geçmez.
+
+Değişiklikler / Changes:
+Kaynak fotoğraflar WebP biçimine dönüştürüldü. 1280 pikselden büyük
+fotoğraflar, oranları korunarak en uzun kenarı 1280 piksele küçültüldü.
+Kırpma, renk düzenlemesi veya içerik değişikliği yapılmadı.
+Converted to WebP; images exceeding 1280 pixels were proportionally
+downscaled. No cropping, colour edits or content changes.
+
+kahverengi-kokarca.webp — Halyomorpha halys
+Author: Alvesgaspar
+Source: https://commons.wikimedia.org/wiki/File:Halyomorpha_halys_October_2025-1.jpg
+License (including this derivative): CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+
+orman-hamam-bocegi.webp — Ectobius vittiventris
+Author: Amada44
+Source: https://commons.wikimedia.org/wiki/File:Ectobius_vittiventris_008.jpg
+License selected from the source's offered licenses: CC BY 3.0
+https://creativecommons.org/licenses/by/3.0/
+
+gumus-bocegi.webp — Lepisma saccharina
+Author: Géry PARENT
+Source: https://commons.wikimedia.org/wiki/File:Lepisma_saccharina_Linnaeus,_1758.jpg
+License (including this derivative): CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+
+kagit-bocegi.webp — Ctenolepisma longicaudata
+Author: Francisco Welter-Schultes
+Source: https://commons.wikimedia.org/wiki/File:Ctenolepisma-longicaudata-01-fws.jpg
+Public-domain dedication: CC0 1.0
+https://creativecommons.org/publicdomain/zero/1.0/
+
+ev-ciyani.webp — Scutigera coleoptrata
+Author: Bruce Marlin
+The source file's 2012 revision credits Bea.miau for background cleanup
+and colour correction; this is the revision used here.
+Source: https://commons.wikimedia.org/wiki/File:Scutigera_coleoptrata.JPG
+License: CC BY 3.0
+https://creativecommons.org/licenses/by/3.0/

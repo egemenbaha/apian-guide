@@ -915,6 +915,17 @@ Misafirler araçlarını **yol kenarındaki park şeritlerine** park edebilir.
 
 **Hamam böceğine benzeyen her böcek de aynı tür değil.** Bavyera’da bulunan *Bernstein-Waldschabe*, bahçeden içeri girebilen ve gıdalara zarar vermeyen bir orman hamam böceği türü. Mutfakta çoğalabilen türlerle karışabildiği için net bir fotoğrafını çekip türünü belirletmek en iyi başlangıç. Bu örnekler, Apian’daki her böceğin bu türlerden biri olduğu anlamına gelmiyor. [Bavyera Orman Enstitüsü: Bernstein-Waldschabe](https://lwf.bayern.de/042)
 
+**Fotoğraflarla karşılaştır:** Bu sayfadaki fotoğraflar türleri tanımak için örnek; Apian’da çekilmedi. Ayrıntılara bakmak için fotoğrafa dokunup büyütebilirsin. Görseller aynı ölçekte değil. [Fotoğraf kaynakları ve kullanım bilgileri](https://apianwiki.space/src/images/bugs/ATTRIBUTION.txt)
+
+![Kahverengi kokarcanın kalkan biçimli gövdesi ve açık renk bantlı antenleri](src/images/bugs/kahverengi-kokarca.webp)
+**Kahverengi kokarca · Marmorierte Baumwanze**
+*Halyomorpha halys*
+Fotoğraf: [Alvesgaspar / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Halyomorpha_halys_October_2025-1.jpg) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+![Orman hamam böceğinin açık kahverengi gövdesi ve saydam kenarlı kanatları](src/images/bugs/orman-hamam-bocegi.webp)
+**Orman hamam böceği · Bernstein-Waldschabe**
+*Ectobius vittiventris*
+Fotoğraf: [Amada44 / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ectobius_vittiventris_008.jpg) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
 Kokarca olduğunu ayırt ettiğin tek bir böceği **bardak ve kartonla yakalayıp dışarı bırakabilirsin**. Ezmek veya elle sıkıştırmak kötü koku bırakmasına neden olabilir; bunun için odayı ilaçlamana gerek yok. [Umweltbundesamt: kokarcalar ve evden çıkarma](https://www.umweltbundesamt.de/wanzen)
 
 ### 147. Pencereden böcek girmesini nasıl azaltabilirim?
@@ -929,6 +940,15 @@ Odayı havalandırmaya devam et; sineklik bunu böcek girişini azaltarak yapman
 
 **Silverfish, yani gümüş böceği (Silberfischchen), kâğıt böceğine (Papierfischchen) çok benzer.** Yalnızca hızlı koşmasına veya duvarda görünmesine bakarak kesin tür söylemek zor. Yakından, mümkünse yanına boyutunu gösterecek bir nesne koyarak fotoğrafını çek. [LAVES: benzer türleri ayırmak](https://www.laves.niedersachsen.de/startseite/tiere/schadlingsbekampfung/lastlinge/silberfischchen-oder-nicht-211033.html)
 
+![Gümüş böceğinin parlak pullu, arkaya doğru incelen gövdesi](src/images/bugs/gumus-bocegi.webp)
+**Gümüş böceği · Silberfischchen**
+*Lepisma saccharina*
+Fotoğraf: [Géry PARENT / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lepisma_saccharina_Linnaeus,_1758.jpg) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+![Kâğıt böceğinin kıllı gövdesi ve arkadaki üç uzun uzantısı](src/images/bugs/kagit-bocegi.webp)
+**Kâğıt böceği · Papierfischchen**
+*Ctenolepisma longicaudata*
+Fotoğraf: [Francisco Welter-Schultes / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ctenolepisma-longicaudata-01-fws.jpg) · [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
 | Olası tür | Ne yapabilirsin? |
 | --- | --- |
 | Gümüş böceği | Nemli mutfak ve banyoda görülür. Sızıntı ve nemi kontrol et. |
@@ -941,6 +961,11 @@ Bu tablo bir ilk ayrım; kesin teşhis yerine geçmez. Gümüş böceği fazla n
 ### 149. Çok bacaklı, hızla koşan şey ev çıyanı olabilir mi?
 
 **Uzun bacakları iki yana belirgin biçimde açılıyorsa ev çıyanı (Spinnenläufer) olasılığı da var.** Gümüş böceğiyle aynı hayvan değil. Spinnenläufer gündüz çatlaklarda saklanıp gece başka böcekleri ve örümcekleri avlayabiliyor. Fotoğrafını görmeden kesin tür söylemek doğru olmaz. [Naturkundemuseum Karlsruhe: ev çıyanı](https://wunderkammer.naturkundemuseum-karlsruhe.de/de/objekt/langen-beinen-unterwegs)
+
+![Ev çıyanının çizgili gövdesi ve iki yana açılan çok uzun bacakları](src/images/bugs/ev-ciyani.webp)
+**Ev çıyanı · Spinnenläufer**
+*Scutigera coleoptrata*
+Fotoğraf: [Bruce Marlin / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Scutigera_coleoptrata.JPG) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 Çıplak elle tutmaya çalışma. Sürekli aynı duvar, süpürgelik veya priz çevresinden çıktığını görüyorsan yerini fotoğraflayıp teknik ekibin kontrol etmesini iste. Priz kapağını sökme veya elektrik boşluklarına sprey sıkma. [Apian’a bildirim ve Almanca mesaj](https://apianwiki.space/#bocekler/soru-151)
 

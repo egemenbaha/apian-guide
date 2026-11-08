@@ -63,6 +63,25 @@ function renderChecklist(paragraph, prefix) {
   }).join('')}</ul>`;
 }
 
+// Consecutive local Markdown images and their caption lines form a photo gallery.
+function renderPhotoGallery(paragraph) {
+  const photos = paragraph.trim().split(/\n(?=!\[)/).map(block => {
+    const [image, ...caption] = block.split('\n');
+    const match = image.match(/^!\[([^\]\n]+)\]\((src\/images\/(?:[a-z0-9-]+\/)*[a-z0-9-]+\.(?:webp|jpe?g|png))\)$/);
+    if (!match) return null;
+    const [, alt, source] = match;
+    return `<figure class="faq-photo">
+      <a class="faq-photo-link" href="${source}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(alt)} — fotoğrafı büyüt (yeni sekme)">
+        <img src="${source}" alt="${escapeHtml(alt)}" loading="lazy" decoding="async">
+        <span class="faq-photo-zoom" aria-hidden="true">Fotoğrafı büyüt ↗</span>
+      </a>
+      <figcaption>${caption.length ? caption.map(renderInline).join('<br>') : escapeHtml(alt)}</figcaption>
+    </figure>`;
+  });
+  if (photos.some(photo => photo === null)) return null;
+  return `<div class="faq-photo-gallery">${photos.join('')}</div>`;
+}
+
 export function renderAnswer(answer, { checklistPrefix = '' } = {}) {
-  return answer.split(/\n\s*\n/).map(paragraph => renderChecklist(paragraph, checklistPrefix) ?? renderTable(paragraph) ?? renderMapLink(paragraph) ?? `<p>${renderInline(paragraph)}</p>`).join('');
+  return answer.split(/\n\s*\n/).map(paragraph => renderChecklist(paragraph, checklistPrefix) ?? renderTable(paragraph) ?? renderMapLink(paragraph) ?? renderPhotoGallery(paragraph) ?? `<p>${renderInline(paragraph)}</p>`).join('');
 }
