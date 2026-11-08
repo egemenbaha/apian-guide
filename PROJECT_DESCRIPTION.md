@@ -502,9 +502,11 @@ Evsel çöpleri ve artık kullanmadığın eşyaları dairenin önünde, koridor
 
 **Kâğıt ve kartonları, büyük ambalajlar dahil, önce küçültüp beyaz kâğıt konteynerlerine at.** Konteynerlere hem ön hem arka taraftan erişilebiliyor. Ortak alanlarda çöp veya eşya biriktirmek yazılı ihtara neden olabilir.
 
-### 99. Apian 2’de acil merdivenleri, kapıları ve asansörleri nasıl kullanmalıyım?
+### 99. Apian 2’de yangın merdivenini günlük giriş çıkışlarda kullanabilir miyim? Cezası var mı?
 
-**Acil merdivenleri ve acil çıkış kapılarını yalnızca can güvenliğini tehdit eden acil durumlarda kullan.** Yangın, duman veya tıbbi yardım gerektiren durumlar buna örnek. Günlük giriş-çıkış için bu alanları kullanmak yazılı ihtara neden olabilir.
+**Yangın merdivenini ve acil çıkış kapılarını yalnızca acil durumlarda kullan.** Yangın, duman veya acil tıbbi yardım gerektiren bir durum buna örnek. Günlük giriş çıkışlarda normal merdiveni kullan. Yangın merdiveninden gelen ses, hemen yanındaki odalarda kalanları rahatsız ediyor.
+
+Bu kurala uymazsan yönetim sana **yazılı ihtar** verebilir. Ayrıca para cezası uygulandığına dair doğrulanmış bilgi yok.
 
 Asansörleri özenli kullan.
 
