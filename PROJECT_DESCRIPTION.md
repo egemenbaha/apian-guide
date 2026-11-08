@@ -625,7 +625,7 @@ Bu tablodaki ölçüleri Apian 2’de aldık. [Apian 1 oda ölçüleri](https://
 | Kalorifer | 70 × 96 cm |
 | Priz sayısı | **8 adet*** |
 
-(*) Dolabın arkasında ayrıca 2 priz var; tablodaki 8 prize dahil değil.
+(*) Buzdolabının arkasında ayrıca 2 priz var; tablodaki 8 prize dahil değil.
 
 **Perde için küçük bir not:** 240 cm, perde takılacak yerin toplam eni; tek bir perdenin kumaş eni değil. Apian 2’de iki ayrı perde veriliyor.
 
@@ -633,7 +633,7 @@ Bu tablodaki ölçüleri Apian 2’de aldık. [Apian 1 oda ölçüleri](https://
 
 **Ölçüm yapılan Apian 2 odasında toplam 10 priz var.** Yerleşirken cihazlarını buna göre planlayabilirsin.
 
-**Not:** Dolabın arkasında **2 priz** var. Bunlar odadaki diğer **8 prize ek**.
+**Not:** Buzdolabının arkasında **2 priz** var. Bunlar odadaki diğer **8 prize ek**.
 
 Apian 1’de henüz ölçüm yapmadık.
 
