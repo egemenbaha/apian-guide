@@ -8,9 +8,11 @@ Ana alan adı `apianwiki.space`, Vercel’deki `ApianS / apian-guide` projesinin
 
 `www.apianwiki.space` ve önceki `apian-guide.vercel.app` adresi, Vercel üzerinden **308 kalıcı yönlendirmeyle** ana domaine gider. Eski soru ve bölüm bağlantıları aynı hash rotalarını kullanmaya devam eder.
 
-[Proje açıklaması ve 151 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
+[Proje açıklaması ve 156 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
-Arda’nın Wikipedia tarzı düzeni korunarak 151 soruluk FAQ, kaynak bağlantıları ve açık sorular 26 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+Arda’nın Wikipedia tarzı düzeni korunarak 156 soruluk FAQ, kaynak bağlantıları ve açık sorular 27 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+
+[Atık ve geri dönüşüm](https://apianwiki.space/#geri-donusum), “Günlük yaşam” altında yatak/şilte, elektronik eşya ve pil/batarya teslimini ayrı başlıklarda anlatır. Wertstoffhof Unterföhring ile Feringastraße ve Maria-Nindl-Platz dm şubeleri adres, saat, açılır harita ve yol tarifiyle gösterilir. Bakım ve alışveriş yanıtlarından da erişilir. Harita kartları, koordinat içeren yer bağlantılarının yanında `https://www.google.com/maps/search/?api=1&query=...` biçimindeki tam adres bağlantılarını destekler.
 
 [Böcekler ve korunma](https://apianwiki.space/#bocekler), “Günlük yaşam” altında sonbaharda içeri giren türleri, sinekliği, silverfish/kâğıt böceği ayrımını, ev çıyanını, tuzakları ve Apian’a bildirim adımlarını anlatır. Bakım ve sineklik yanıtlarından da erişilir. Türler fotoğrafsız kesinleştirilmez; genel bölge bilgisi binada doğrulanmış bir istila gibi sunulmaz.
 

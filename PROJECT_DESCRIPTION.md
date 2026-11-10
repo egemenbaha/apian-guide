@@ -160,7 +160,9 @@ Böcekler için [Böcekler ve korunma](https://apianwiki.space/#bocekler) sayfas
 
 ### 32. Büyük eşyaları ve eski şilteyi normal çöpe atabilir miyim?
 
-Büyük eşyaları normal konteynerlere veya koridorlara bırakma. Unterföhring’deki **Wertstoffhof, Birkenhofstraße 12** adresinde. Eşyayı götürmeden kabul koşullarını ve çalışma saatlerini kontrol et. [Belediyenin atık rehberi](https://www.unterfoehring.de/mobilitaet-umwelt/ver-und-entsorgung/abfallentsorgung.html)
+Büyük eşyaları normal konteynerlere veya koridorlara bırakma. Kendi eski şilteni **Wertstoffhof Unterföhring, Birkenhofstraße 12** adresine götürebilirsin. [Yatak ve şilte teslimi](https://apianwiki.space/#geri-donusum/soru-152) · [Çalışma saatleri ve harita](https://apianwiki.space/#geri-donusum/soru-155)
+
+Elektronik eşya ve pillerin teslim yolları ayrı: [Elektronik eşyalar](https://apianwiki.space/#geri-donusum/soru-153) · [Pil ve batarya](https://apianwiki.space/#geri-donusum/soru-154)
 
 ### 33. Vorabnahme nedir? Anahtar teslimiyle aynı şey mi?
 
@@ -510,6 +512,8 @@ Evsel çöpleri ve artık kullanmadığın eşyaları dairenin önünde, koridor
 
 **Kâğıt ve kartonları, büyük ambalajlar dahil, önce küçültüp beyaz kâğıt konteynerlerine at.** Konteynerlere hem ön hem arka taraftan erişilebiliyor. Ortak alanlarda çöp veya eşya biriktirmek yazılı ihtara neden olabilir.
 
+Yatak, elektronik eşya veya pil atacaksan [Atık ve geri dönüşüm](https://apianwiki.space/#geri-donusum) sayfasından uygun teslim noktasını bulabilirsin.
+
 ### 99. Apian 2’de yangın merdivenini günlük giriş çıkışlarda kullanabilir miyim? Cezası var mı?
 
 **Yangın merdivenini ve acil çıkış kapılarını yalnızca acil durumlarda kullan.** Yangın, duman veya acil tıbbi yardım gerektiren bir durum buna örnek. Günlük giriş çıkışlarda normal merdiveni kullan. Yangın merdiveninden gelen ses, hemen yanındaki odalarda kalanları rahatsız ediyor.
@@ -823,6 +827,8 @@ Kabul saatini önceden öğren ve olası sıra için zaman ayır. **Pasaport ba�
 
 Fotoğraf veya evrak işin de varsa iki şubede de **biyometrik fotoğraf ve fotokopi hizmeti** bulunuyor. [Fotoğraf bilgileri](https://apianwiki.space/#resmi-islemler/soru-50) · [Çıktı, fotokopi ve tarama](https://apianwiki.space/#resmi-islemler/soru-126)
 
+Bitmiş pillerini ve kabul ölçüsündeki küçük elektroniklerini de götürebilirsin. [Ücretsiz teslim koşulları ve şube haritaları](https://apianwiki.space/#geri-donusum/soru-156)
+
 ### 132. Yakında içecek marketi (Getränkemarkt) var mı?
 
 Evet: **Orterer Getränkemarkt, Küfnerstraße 3, 81927 München**. Su, meyve suyu, gazlı içecek veya kasayla içecek alışverişi için yakındaki bir seçenek. **Pazartesi–cuma 09.00–19.00**, **cumartesi 08.00–16.00** açık; pazar kapalı. [Orterer resmî mağaza bulucu](https://www.orterer.de/markt-finden) · [Apian’dan yürüyüş rotası](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Orterer+Kuefnerstrasse+3+81927+Muenchen&travelmode=walking)
@@ -988,6 +994,59 @@ Fotoğraf: [Bruce Marlin / Wikimedia Commons](https://commons.wikimedia.org/wiki
 Şöyle yazabilirsin: **“In meinem Apartment [Nummer], Apian [1/2], sehe ich seit [Datum] wiederholt kleine Tiere, besonders [Ort]. Fotos sind beigefügt. Bitte prüfen Sie die Ursache und mögliche Eintrittsstellen und veranlassen Sie bei Bedarf eine fachkundige Schädlingsbekämpfung.”** Yani: “Odamda belirtilen tarihten beri, özellikle şu yerde tekrar tekrar küçük canlılar görüyorum. Fotoğrafları ekledim. Lütfen kaynağı ve giriş noktalarını kontrol edip gerekirse uzman desteği sağlayın.”
 
 Priz, lamba veya boru geçişi çevresinde açıklık varsa **kendin söküp silikonla doldurmak yerine teknik ekibin incelemesini iste**. Havalandırma açıklıklarını kapatma. Yeni taşındığında duvarlarda böcek izleri veya hasar görürsen bunları da teslim fotoğraflarına ekle. [Oda teslim tutanağı](https://apianwiki.space/#yerlesme/soru-10)
+
+### 152. Eski yatağımı, şiltemi veya bazamı nereye verebilirim?
+
+**Eski yatağını veya şilteni normal çöpe atma; kendi eşyanı Wertstoffhof Unterföhring’e götürebilirsin.** Şilte, **Sperrmüll** yani büyük eşya atığı olarak kabul ediliyor; ahşap ve metal parçaları görevlinin gösterdiği bölümlere ayır. **Büyük eşya ve ahşap için sınır 2 m³.** [Belediyenin kabul koşulları](https://www.unterfoehring.de/mobilitaet-umwelt/ver-und-entsorgung/abfallentsorgung.html) · [Adres, saatler ve harita](https://apianwiki.space/#geri-donusum/soru-155)
+
+Taşıyacak aracın yoksa belediyenin yıllık **Sperrmüllabholung** hizmetini sorabilirsin; önceden kayıt gerekiyor. Tarih ve kayıt için **abfall@unterfoehring.de** veya [089 950 81 358](tel:+498995081358). Bu toplama elektronik eşyaları kapsamıyor. [Büyük eşya toplama bilgileri](https://www.unterfoehring.de/mobilitaet-umwelt/ver-und-entsorgung/abfallentsorgung.html)
+
+**Apian’ın verdiği yatağı veya mobilyayı kendin elden çıkarma; önce ofisten yazılı onay al.** [Odadaki mobilyalar](https://apianwiki.space/#oda-donanimi/soru-9)
+
+### 153. Bozulan elektrikli aletleri ve eski elektronik eşyaları nereye bırakabilirim?
+
+**Küçük cihazlar için dm pratik bir seçenek.** Eski telefon, şarj adaptörü veya elektrikli diş fırçası gibi cihazları **hiçbir dış ölçüsü 25 cm’yi aşmıyorsa** kasaya ücretsiz teslim edebilirsin. **Alışveriş şartı yok; aynı cihaz türünden en fazla üç adet** kabul ediliyor. [dm kabul koşulları](https://www.dm.de/elektro-altgeraeteentsorgung-995460) · [Yakındaki iki dm ve haritaları](https://apianwiki.space/#geri-donusum/soru-156)
+
+**Daha büyük cihazlar için Wertstoffhof’a git.** Elektrik süpürgesi, monitör ve büyük mutfak aletleri elektronik atık olarak teslim edilebilir. Normal çöp konteynerine atma veya büyük eşya toplama gününde dışarı bırakma. [Belediyenin elektronik atık bilgileri](https://www.unterfoehring.de/mobilitaet-umwelt/ver-und-entsorgung/abfallentsorgung.html) · [Wertstoffhof konumu](https://apianwiki.space/#geri-donusum/soru-155)
+
+Teslimden önce telefondaki/bilgisayardaki kişisel verilerini sil. **Kolayca ve zarar vermeden çıkarılabilen pili ayrı teslim et; gömülü bataryayı sökmeye çalışma.** [dm teslim hazırlığı](https://www.dm.de/elektro-altgeraeteentsorgung-995460)
+
+Apian’a ait buzdolabı, ocak veya başka bir cihaz bozulduysa atmak yerine [ofise arıza bildir](https://apianwiki.space/#bakim/soru-28).
+
+### 154. Bitmiş pilleri, şarjlı pilleri ve bataryaları nereye atmalıyım?
+
+**Pilleri normal çöpe veya sarı ambalaj kutusuna atma.** Kumanda pili, AA/AAA kalem pil ve düğme pil gibi ev tipi pilleri **dm’deki pil toplama kutusuna** ücretsiz bırakabilirsin. Kutuyu göremezsen kasaya sor. Evde biriken olağan miktarlar ve mağazanın sattığı pil türleri kabul ediliyor. [dm pil teslimi](https://www.dm.de/elektro-altgeraeteentsorgung-995460) · [Mağazalardaki toplama kutuları](https://www.dm.de/services/services-im-markt) · [Yakındaki dm konumları](https://apianwiki.space/#geri-donusum/soru-156)
+
+**Lityum pil ve bataryaların açık kutuplarını teslimden önce bantla.** Şişmiş, hasarlı veya sızdıran bataryayı kullanma, şarj etme ya da açmaya çalışma; toplama kutusuna bırakmak yerine görevliye durumunu söyleyerek teslim et. [Umweltbundesamt: güvenli batarya teslimi](https://www.umweltbundesamt.de/en/umwelttipps-fuer-den-alltag/proper-handling-of-lithium-batteries-rechargeable)
+
+**Elektrikli bisiklet ve scooter bataryası**, küçük ev tipi pil kutusuna uygun değil. Bu tür batarya satan bir mağazayla görüş; Wertstoffhof’a götüreceksen önce kabul edip etmediklerini sor. [Büyük bataryalar için teslim noktaları](https://www.umweltbundesamt.de/en/umwelttipps-fuer-den-alltag/proper-handling-of-lithium-batteries-rechargeable)
+
+### 155. Wertstoffhof nerede, hangi saatlerde gidebilirim?
+
+**Wertstoffhof Unterföhring — Birkenhofstraße 12, 85774 Unterföhring.** Unterföhring sakinleri için kabul kapsamındaki evsel eşyaların teslimi ücretsiz.
+
+| Gün | Açılış saatleri |
+| --- | --- |
+| Pazartesi | 08.00–12.00 |
+| Çarşamba ve cuma | 14.00–18.00 |
+| Cumartesi | 09.00–15.00 |
+| Salı, perşembe ve pazar | Kapalı |
+
+**Son kabul kapanıştan 15 dakika önce.** Kimliğini yanında götür. Unterföhring adresini kimliğinle gösteremiyorsan gitmeden belediyenin atık danışmanlığından **Berechtigungsschein** (teslim izin belgesi) al: **abfall@unterfoehring.de**, [089 950 81 358](tel:+498995081358). [Güncel saatler ve kabul koşulları](https://www.unterfoehring.de/mobilitaet-umwelt/ver-und-entsorgung/abfallentsorgung.html)
+
+[Wertstoffhof Unterföhring — yatak ve elektronik teslimi](https://www.google.com/maps/search/?api=1&query=Wertstoffhof+Unterf%C3%B6hring+Birkenhofstra%C3%9Fe+12+85774+Unterf%C3%B6hring)
+
+### 156. Pil ve küçük elektronik teslimi için yakındaki dm şubeleri nerede?
+
+**İki şubeyi de kullanabilirsin; normal açılış saatleri pazartesi–cumartesi 07.00–20.00, pazar kapalı.** Küçük elektroniği kasaya, ev tipi pili pil toplama kutusuna bırak. [Elektronik kabul ölçüsü ve adet sınırı](https://apianwiki.space/#geri-donusum/soru-153) · [Pil ve batarya teslimi](https://apianwiki.space/#geri-donusum/soru-154)
+
+**dm Feringastraße — Feringastraße 4, 85774 Unterföhring.** [Resmî şube bilgileri](https://www.dm.de/store/d0kl/unterfoehring/feringastrasse-4)
+
+[dm Feringastraße — pil ve küçük elektronik teslimi](https://www.google.com/maps/search/?api=1&query=dm-drogerie+markt+Feringastra%C3%9Fe+4+85774+Unterf%C3%B6hring)
+
+**dm Prinz-Eugen-Park — Maria-Nindl-Platz 2, 81927 München.** Feringastraße’ye alternatif. [Resmî şube bilgileri](https://www.dm.de/store/d539/muenchen/maria-nindl-platz-2)
+
+[dm Prinz-Eugen-Park — pil ve küçük elektronik teslimi](https://www.google.com/maps/search/?api=1&query=dm-drogerie+markt+Maria-Nindl-Platz+2+81927+M%C3%BCnchen)
 
 <a id="acik-sorular"></a>
 

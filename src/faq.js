@@ -19,18 +19,25 @@ export function renderInline(text) {
   return html + escapeHtml(text.slice(position));
 }
 
-// Enhance standalone Google Maps place links; other Markdown uses the normal renderer.
+// Enhance standalone Google Maps place/address links; other Markdown stays unchanged.
 export function renderMapLink(paragraph) {
   const match = paragraph.match(/^\[([^\]]+)\]\((https:\/\/[^\s)]+)\)$/);
   if (!match) return null;
   let url;
   try { url = new URL(match[2]); } catch { return null; }
-  if (url.origin !== 'https://www.google.com' || !url.pathname.startsWith('/maps/place/')) return null;
-  const coordinates = url.pathname.match(/!3d(-?[\d.]+)!4d(-?[\d.]+)/);
-  if (!coordinates) return null;
-  const [latitude, longitude] = coordinates.slice(1).map(Number);
-  if (!Number.isFinite(latitude) || !Number.isFinite(longitude) || Math.abs(latitude) > 90 || Math.abs(longitude) > 180) return null;
-  const destination = `${latitude},${longitude}`;
+  if (url.origin !== 'https://www.google.com') return null;
+  let destination;
+  if (url.pathname.startsWith('/maps/place/')) {
+    const coordinates = url.pathname.match(/!3d(-?[\d.]+)!4d(-?[\d.]+)/);
+    if (!coordinates) return null;
+    const [latitude, longitude] = coordinates.slice(1).map(Number);
+    if (!Number.isFinite(latitude) || !Number.isFinite(longitude) || Math.abs(latitude) > 90 || Math.abs(longitude) > 180) return null;
+    destination = `${latitude},${longitude}`;
+  } else if (/^\/maps\/search\/?$/.test(url.pathname) && url.searchParams.get('api') === '1') {
+    const address = url.searchParams.get('query')?.trim();
+    if (!address) return null;
+    destination = encodeURIComponent(address);
+  } else return null;
   const embed = `https://maps.google.com/maps?q=${destination}&z=17&output=embed`;
   const directions = `https://www.google.com/maps/dir/?api=1&destination=${destination}`;
   return `<aside class="location-card" aria-label="${escapeHtml(match[1])}">

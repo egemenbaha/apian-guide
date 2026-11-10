@@ -11,7 +11,7 @@ const faq = parseFaq(source);
 const searchIndex = createSearchIndex(topics, faq.questions);
 
 test('all reviewed questions, sources and pending items survive the Markdown import', () => {
-  assert.equal(faq.questions.length, 151);
+  assert.equal(faq.questions.length, 156);
   assert.equal(faq.openQuestions.length, 2);
   assert.match(faq.openQuestions[0], /^\*\*Boya:/);
   assert.match(faq.openQuestions[1], /Apian 1 oda ölçüleri/);
@@ -127,6 +127,23 @@ test('Rathaus link renders a map with the supplied pin and a directions fallback
   assert.ok(!renderAnswer('[x](https://example.com/maps/place/x/!3d48!4d11)').includes('<iframe'));
   assert.ok(!renderAnswer('[x](https://www.google.com/maps/place/x/!3d999!4d11)').includes('<iframe'));
   assert.ok(!renderAnswer('[<script>](https://www.google.com/maps/place/x/!3d48!4d11)').includes('<script>'));
+});
+
+test('address maps encode the destination and reject unsupported map URLs', () => {
+  const address = 'dm Maria-Nindl-Platz 2, München & Umgebung';
+  const html = renderAnswer(`[dm](https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)})`);
+  assert.match(html, /class="location-card"/);
+  assert.ok(html.includes(`q=${encodeURIComponent(address)}&amp;z=17`));
+  assert.ok(html.includes(`destination=${encodeURIComponent(address)}`));
+  for (const url of [
+    'https://www.google.com/maps/search/?api=1&query=',
+    'https://www.google.com/maps/search/?api=1&query=%20',
+    'https://www.google.com/maps/search/?query=Munich',
+    'https://www.google.com/maps/search/extra?api=1&query=Munich',
+    'https://www.google.com.evil.test/maps/search/?api=1&query=Munich'
+  ]) assert.doesNotMatch(renderAnswer(`[x](${url})`), /<iframe/);
+  const unsafe = renderAnswer('[<script>](https://www.google.com/maps/search/?api=1&query=%22%3E%3Cscript%3E)');
+  assert.doesNotMatch(unsafe, /<script>|q="/);
 });
 
 test('pharmacy comes first in the shopping topic without mixing Sunday market hours', () => {
