@@ -54,7 +54,7 @@ Sinekliğin kenarlarında açıklık bırakma; küçük boşluklar da böcekleri
 
 ### 9. Odadaki mobilyaları çıkarabilir miyim?
 
-Kendi eşyanı getirmek istiyorsan önce ofisle konuş. Yurda ait mobilyaların depolanması her zaman mümkün olmuyor ve çıkışta teslim aldığın eşyaları geri vermen bekleniyor. Özellikle masa, sandalye veya yatağı elden çıkarmadan önce yazılı onay al.
+**Apian’ın verdiği yatak veya şilte, eski olsa da odada kalmalı; elden çıkarma.** Kendi eşyanı getirmek istiyorsan önce ofisle konuş. Yurda ait mobilyaların depolanması her zaman mümkün olmuyor ve çıkışta teslim aldığın eşyaları geri vermen bekleniyor. Masa veya sandalye gibi diğer mobilyaları elden çıkarmadan önce yazılı onay al.
 
 ### 10. Taşındığımda odada hasar veya kir görürsem ne yapmalıyım?
 
@@ -160,7 +160,7 @@ Böcekler için [Böcekler ve korunma](https://apianwiki.space/#bocekler) sayfas
 
 ### 32. Büyük eşyaları ve eski şilteyi normal çöpe atabilir miyim?
 
-Büyük eşyaları normal konteynerlere veya koridorlara bırakma. Kendi eski şilteni **Wertstoffhof Unterföhring, Birkenhofstraße 12** adresine götürebilirsin. [Yatak ve şilte teslimi](https://apianwiki.space/#geri-donusum/soru-152) · [Çalışma saatleri ve harita](https://apianwiki.space/#geri-donusum/soru-155)
+Büyük eşyaları normal konteynerlere veya koridorlara bırakma. **Apian’ın verdiği yatak veya şilte, eski olsa da odada kalmalı.** Kendi aldığın eski şilteni ise **Wertstoffhof Unterföhring, Birkenhofstraße 12** adresine götürebilirsin. [Yatak ve şilte teslimi](https://apianwiki.space/#geri-donusum/soru-152) · [Çalışma saatleri ve harita](https://apianwiki.space/#geri-donusum/soru-155)
 
 Elektronik eşya ve pillerin teslim yolları ayrı: [Elektronik eşyalar](https://apianwiki.space/#geri-donusum/soru-153) · [Pil ve batarya](https://apianwiki.space/#geri-donusum/soru-154)
 
@@ -997,11 +997,11 @@ Priz, lamba veya boru geçişi çevresinde açıklık varsa **kendin söküp sil
 
 ### 152. Eski yatağımı, şiltemi veya bazamı nereye verebilirim?
 
-**Eski yatağını veya şilteni normal çöpe atma; kendi eşyanı Wertstoffhof Unterföhring’e götürebilirsin.** Şilte, **Sperrmüll** yani büyük eşya atığı olarak kabul ediliyor; ahşap ve metal parçaları görevlinin gösterdiği bölümlere ayır. **Büyük eşya ve ahşap için sınır 2 m³.** [Belediyenin kabul koşulları](https://www.unterfoehring.de/mobilitaet-umwelt/ver-und-entsorgung/abfallentsorgung.html) · [Adres, saatler ve harita](https://apianwiki.space/#geri-donusum/soru-155)
+**Yatağı veya şilteyi Apian verdiyse, eski olsa da odada bırak. Apian bu eşyaların odada kalmasını istiyor; atma veya geri dönüşüme götürme.** [Odadaki mobilyalar](https://apianwiki.space/#oda-donanimi/soru-9)
+
+**Aşağıdaki teslim seçenekleri yalnızca kendi aldığın yatak, şilte veya baza için.** Normal çöpe atma; Wertstoffhof Unterföhring’e götürebilirsin. Şilte, **Sperrmüll** yani büyük eşya atığı olarak kabul ediliyor; ahşap ve metal parçaları görevlinin gösterdiği bölümlere ayır. **Büyük eşya ve ahşap için sınır 2 m³.** [Belediyenin kabul koşulları](https://www.unterfoehring.de/mobilitaet-umwelt/ver-und-entsorgung/abfallentsorgung.html) · [Adres, saatler ve harita](https://apianwiki.space/#geri-donusum/soru-155)
 
 Taşıyacak aracın yoksa belediyenin yıllık **Sperrmüllabholung** hizmetini sorabilirsin; önceden kayıt gerekiyor. Tarih ve kayıt için **abfall@unterfoehring.de** veya [089 950 81 358](tel:+498995081358). Bu toplama elektronik eşyaları kapsamıyor. [Büyük eşya toplama bilgileri](https://www.unterfoehring.de/mobilitaet-umwelt/ver-und-entsorgung/abfallentsorgung.html)
-
-**Apian’ın verdiği yatağı veya mobilyayı kendin elden çıkarma; önce ofisten yazılı onay al.** [Odadaki mobilyalar](https://apianwiki.space/#oda-donanimi/soru-9)
 
 ### 153. Bozulan elektrikli aletleri ve eski elektronik eşyaları nereye bırakabilirim?
 
