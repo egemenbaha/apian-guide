@@ -9,12 +9,22 @@ main{min-width:0}h1,h2{font-family:'Linux Libertine',Georgia,'Times New Roman',s
 @media(max-width:900px){.site-header{flex-wrap:wrap;padding:15px 22px;gap:15px}.brand strong{font-size:23px}.brand-mark{width:40px;height:40px}.global-search{flex:1;margin-left:12px}.header-note{display:none}.layout,:root[data-width="wide"] .layout{display:block;padding:20px 28px 0}.sidebar{display:none;position:static;max-height:none;margin-bottom:25px}.sidebar.is-open{display:block}.portal-grid{gap:12px}.site-subtitle{margin-bottom:20px}}
 @media(max-width:600px){.site-header{padding:14px 18px;gap:12px}.brand small{font-size:11px}.global-search{flex-basis:100%;margin:0}.layout{padding:10px 18px 0}h1{font-size:27px}.portal-grid{grid-template-columns:1fr}.topic-group:nth-child(3){grid-column:auto}.topic-group:nth-child(3) ul{columns:1}.welcome{padding:20px 12px}.welcome h2{font-size:24px}.page-tabs{gap:16px}.page-tabs .language{display:none}.article-pagination{font-size:12px}.notice{padding:10px 12px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
-.memorial{display:flex;align-items:center;gap:14px;margin:0 0 24px;padding:16px;border:1px solid var(--subtle);background:var(--panel)}
-.memorial-ribbon{display:block;flex:0 0 28px;width:28px;height:40px;fill:#202122;stroke:var(--muted);stroke-width:.75;stroke-linejoin:round}
-.memorial>div{min-width:0}
-.memorial h2{font-family:inherit;font-size:16px;font-weight:600;border:0;margin:0 0 5px;padding:0}
-.memorial-years{white-space:nowrap}
-.memorial p{font-size:14px;line-height:1.6;margin:0}
+.memorial-banner{display:flex;align-items:center;width:100%;background:#17191c;color:#f8f9fa;border-bottom:1px solid #40464d;font-size:14px;line-height:1.5}
+.memorial-window{flex:1;min-width:0;overflow:hidden}
+.memorial-track{display:flex}
+.memorial-group{display:flex;flex-shrink:0;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 20px;width:100%;padding:10px 24px;text-align:center}
+.memorial-group[aria-hidden="true"]{display:none}
+.memorial-ribbon{display:block;flex:0 0 16px;width:16px;height:24px;fill:#17191c;stroke:#c8ccd1;stroke-width:1;stroke-linejoin:round}
+.memorial-toggle{align-self:stretch;flex:0 0 44px;width:44px;min-height:44px;border:0;border-left:1px solid #40464d;background:#17191c;color:#f8f9fa;font-size:17px}
+.memorial-toggle:hover{background:#30343a}
+.memorial-toggle:focus-visible{outline:2px solid #f8f9fa;outline-offset:-4px}
+@media(prefers-reduced-motion:no-preference){
+  .memorial-banner[data-ready] .memorial-track{width:max-content;animation:memorial-scroll 32s linear infinite}
+  .memorial-banner[data-ready] .memorial-group{display:flex;flex-wrap:nowrap;width:auto;min-width:calc(100vw - 44px);white-space:nowrap}
+  .memorial-banner[data-paused="true"] .memorial-track{animation-play-state:paused}
+}
+@media(prefers-reduced-motion:reduce){.memorial-toggle{display:none}}
+@keyframes memorial-scroll{to{transform:translateX(-50%)}}
 /* AnimateIcons Book Open Check, adapted to CSS; see icon-licenses.txt. */
 .brand-mark{color:var(--ink);flex-shrink:0;overflow:visible;transform-origin:center}
 .brand-book{transform-box:view-box;transform-origin:center}
