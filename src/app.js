@@ -10,20 +10,22 @@ import { mountSearch } from './search-ui.js';
 import { startAnalytics } from './analytics.js';
 const analytics = startAnalytics(umamiWebsiteId);
 const memorial = document.querySelector('.memorial-banner');
-const memorialCopy = memorial.querySelector('.memorial-group').cloneNode(true);
-memorialCopy.setAttribute('aria-hidden', 'true');
-memorial.querySelector('.memorial-track').append(memorialCopy);
-memorial.dataset.ready = 'true';
-const memorialToggle = memorial.querySelector('.memorial-toggle');
-memorialToggle.hidden = false;
-memorialToggle.addEventListener('click', () => {
-  const paused = memorial.dataset.paused !== 'true';
-  memorial.dataset.paused = String(paused);
-  const label = paused ? 'Kayan yazıyı sürdür' : 'Kayan yazıyı duraklat';
-  memorialToggle.setAttribute('aria-label', label);
-  memorialToggle.title = label;
-  memorialToggle.querySelector('span').textContent = paused ? '▶' : 'Ⅱ';
-});
+if (memorial) {
+  const memorialCopy = memorial.querySelector('.memorial-group').cloneNode(true);
+  memorialCopy.setAttribute('aria-hidden', 'true');
+  memorial.querySelector('.memorial-track').append(memorialCopy);
+  memorial.dataset.ready = 'true';
+  const memorialToggle = memorial.querySelector('.memorial-toggle');
+  memorialToggle.hidden = false;
+  memorialToggle.addEventListener('click', () => {
+    const paused = memorial.dataset.paused !== 'true';
+    memorial.dataset.paused = String(paused);
+    const label = paused ? 'Kayan yazıyı sürdür' : 'Kayan yazıyı duraklat';
+    memorialToggle.setAttribute('aria-label', label);
+    memorialToggle.title = label;
+    memorialToggle.querySelector('span').textContent = paused ? '▶' : 'Ⅱ';
+  });
+}
 const questionsById = new Map(faq.questions.map(question => [question.id, question]));
 const content = document.querySelector('#page-content');
 const nav = document.querySelector('#topic-nav');
@@ -89,9 +91,7 @@ function setColorTheme(color, save = true) {
     catch { /* Theme switching also works when browser storage is unavailable. */ }
   }
 }
-let savedTheme = 'light';
-try { savedTheme = localStorage.getItem('apian-color-theme') || 'light'; } catch { /* Use the default theme. */ }
-setColorTheme(savedTheme, false);
+setColorTheme(document.documentElement.dataset.color, false);
 themeToggle.hidden = false;
 themeToggle.addEventListener('click', () => {
   setColorTheme(document.documentElement.dataset.color === 'dark' ? 'light' : 'dark');

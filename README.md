@@ -40,6 +40,8 @@ Resmî tatiller bölümünde 2026 sonundaki kapanışlar ve 2027 takvimi yer al�
 
 Açık/koyu mod düğmesi üst çubukta masaüstü ve telefonda görünür. Tema tercihi tarayıcıda hatırlanır ve sağdaki görünüm ayarlarıyla eşzamanlı çalışır. Rathaus konum bağlantısı açılır harita ve yol tarifiyle gösterilir; acil yardım numaraları telefonda aranabilir bağlantılardır.
 
+Yenilemede beyaz parlama olmaması için `index.html` içindeki küçük tema başlangıcı, kaydedilmiş tercihi stil dosyası ve uygulama yüklenmeden önce uygular. İlk arka plan ve tarayıcı tema rengi de burada belirlenir; uygulama bu seçimi devralır. Depolama engellendiğinde veya kayıt geçersizse açık tema kullanılır, tema düğmesi çalışmaya devam eder.
+
 ## Taşınma listesi ve bilgi düzeltmeleri
 
 [Yanımda ne getireyim?](https://apianwiki.space/#tasinma-listesi) sayfasında “Yanında getir”, “Odada bulunanlar” ve “Yerleştikten sonra al” grupları bulunur. Liste maddeleri FAQ 113–115 içindeki Markdown `- [ ]` satırlarından üretilir. İşaretler yalnızca ziyaretçinin tarayıcısında saklanır; depolama engellenirse aynı oturumda çalışır ve durum açıkça belirtilir. Kimlikler soru numarası ve madde metninden oluşur; madde metni değişirse o maddenin işareti sıfırlanır. “İşaretleri temizle” mevcut listeyi sıfırlar.

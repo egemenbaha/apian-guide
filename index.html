@@ -9,6 +9,17 @@
 <meta property="og:title" content="Apian Wiki — Apian’da yaşam rehberi">
 <meta property="og:description" content="Apian sakinleri ve yeni taşınacak Türk öğrenciler için bilgi rehberi.">
 <meta name="theme-color" content="#ffffff"><title>Apian Wiki — Apian’da yaşam rehberi</title>
+<script id="theme-init">
+(() => {
+  let color = 'light';
+  try {
+    if (localStorage.getItem('apian-color-theme') === 'dark') color = 'dark';
+  } catch { /* Keep the default theme when storage is unavailable. */ }
+  document.documentElement.dataset.color = color;
+  document.querySelector('meta[name="theme-color"]').content = color === 'dark' ? '#101418' : '#ffffff';
+})();
+</script>
+<style id="theme-background">:root{background:#fff;color-scheme:light}:root[data-color="dark"]{background:#101418;color-scheme:dark}</style>
 <link rel="icon" type="image/svg+xml" href="./src/forum-logo.svg">
 <link rel="stylesheet" href="./src/styles.css"><script type="module" src="./src/app.js"></script>
 </head>
