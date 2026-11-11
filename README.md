@@ -12,6 +12,8 @@ Ana alan adı `apianwiki.space`, Vercel’deki `ApianS / apian-guide` projesinin
 
 Arda’nın Wikipedia tarzı düzeni korunarak 156 soruluk FAQ, kaynak bağlantıları ve açık sorular 27 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
 
+Ana sayfadaki hoş geldiniz kutusunun hemen altında Atatürk anma kartı bulunur: “Mustafa Kemal Atatürk · 1881–1938 — Cumhuriyetimizin kurucusunu saygı, özlem ve minnetle anıyoruz.” Kart `src/app.js` içinde, görünümü `src/styles.css` içindedir; küçük kurdele dekoratiftir ve açık/koyu temayla uyumludur.
+
 [Atık ve geri dönüşüm](https://apianwiki.space/#geri-donusum), “Günlük yaşam” altında yatak/şilte, elektronik eşya ve pil/batarya teslimini ayrı başlıklarda anlatır. Wertstoffhof Unterföhring ile Feringastraße ve Maria-Nindl-Platz dm şubeleri adres, saat, açılır harita ve yol tarifiyle gösterilir. Bakım ve alışveriş yanıtlarından da erişilir. Harita kartları, koordinat içeren yer bağlantılarının yanında `https://www.google.com/maps/search/?api=1&query=...` biçimindeki tam adres bağlantılarını destekler.
 
 [Böcekler ve korunma](https://apianwiki.space/#bocekler), “Günlük yaşam” altında sonbaharda içeri giren türleri, sinekliği, silverfish/kâğıt böceği ayrımını, ev çıyanını, tuzakları ve Apian’a bildirim adımlarını anlatır. Bakım ve sineklik yanıtlarından da erişilir. Türler fotoğrafsız kesinleştirilmez; genel bölge bilgisi binada doğrulanmış bir istila gibi sunulmaz.

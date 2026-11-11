@@ -37,6 +37,14 @@ function home() {
   document.title = 'Apian Wiki — Apian’da yaşam rehberi';
   content.innerHTML = `<h1>Ana sayfa</h1>${tabs('Ana sayfa')}<p class="site-subtitle">Apian Wiki, Apian’da yaşam rehberi.</p>
   <section class="welcome" aria-labelledby="welcome-title"><h2 id="welcome-title"><strong>Apian Wiki</strong>’ye hoş geldiniz</h2><p>Apian sakinleri ve yeni taşınacak Türk öğrenciler için bilgi rehberi.</p><p class="welcome-meta">Apian 1 · Apian 2 · <a href="#konular">${topics.length} konu başlığı</a> · <a href="#acik-sorular">Açık sorular ve öneriler</a></p></section>
+  <aside class="memorial" aria-labelledby="memorial-title">
+    <svg class="memorial-ribbon" viewBox="0 0 32 44" aria-hidden="true" focusable="false">
+      <path d="M16 3C9 3 6 8 8 14c1 3 4 7 8 12 4-5 7-9 8-12 2-6-1-11-8-11Zm0 5c3 0 4 2 3 5-.5 2-1.5 4-3 6-1.5-2-2.5-4-3-6-1-3 0-5 3-5Z" fill-rule="evenodd"/>
+      <path d="m20 16-17 23 7-2 3 5 11-23Z"/>
+      <path d="m8 14 11 28 3-5 7 2-17-23Z"/>
+    </svg>
+    <div><h2 id="memorial-title">Mustafa Kemal Atatürk <span class="memorial-years">· 1881–1938</span></h2><p>Cumhuriyetimizin kurucusunu saygı, özlem ve minnetle anıyoruz.</p></div>
+  </aside>
   <section id="konular" class="directory"><h2>Rehber konuları</h2><div class="portal-grid">${groups.map(group => `<section class="topic-group" data-group="${escapeHtml(group)}"><h3>${group}</h3><ul>${topics.filter(topic => topic.group === group).map(card).join('')}</ul></section>`).join('')}</div></section>
   ${forumEnabled === true ? '<section id="topluluk" class="about"><h2>Topluluk forumu</h2><p>Rehbere katkı sunmak, bilgi paylaşmak veya bir konuyu birlikte değerlendirmek için <a href="/forum/index.php?title=Talk:Forum">Apian Wiki forumuna katıl</a>. Konu açmak ve yanıt yazmak için giriş yapman gerekiyor.</p></section>' : ''}
   <section id="hakkinda" class="about"><h2>Rehber hakkında</h2><p>Apian’da yerleşme, günlük yaşam ve resmî işlemlere yönelik bağımsız bir bilgi rehberidir. Konulara soldaki içindekiler bölümünden veya arama alanından ulaşabilirsin.</p><p>Apian 1 ve Apian 2 bilgileri ayrı tutulur; kaynak bağlantıları ilgili yanıtların yanında yer alır. Bu proje yurt yönetiminin resmî yayını değildir.</p>
