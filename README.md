@@ -8,9 +8,9 @@ Ana alan adı `apianwiki.space`, Vercel’deki `ApianS / apian-guide` projesinin
 
 `www.apianwiki.space` ve önceki `apian-guide.vercel.app` adresi, Vercel üzerinden **308 kalıcı yönlendirmeyle** ana domaine gider. Eski soru ve bölüm bağlantıları aynı hash rotalarını kullanmaya devam eder.
 
-[Proje açıklaması ve 156 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
+[Proje açıklaması ve 159 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
-Arda’nın Wikipedia tarzı düzeni korunarak 156 soruluk FAQ, kaynak bağlantıları ve açık sorular 27 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+Arda’nın Wikipedia tarzı düzeni korunarak 159 soruluk FAQ, kaynak bağlantıları ve açık sorular 28 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
 
 Atatürk anma şeridi, tüm konu sayfalarında site başlığının üstünde tam genişlikte görünür: “Mustafa Kemal Atatürk · 1881–1938 — Cumhuriyetimizin kurucusunu saygı, özlem ve minnetle anıyoruz.” Metin `index.html` içinde, kayan görünüm `src/styles.css` içindedir. `src/app.js` kesintisiz döngü için ekran okuyuculardan gizlenen bir kopya oluşturur ve duraklat/sürdür düğmesini bağlar. Şerit açık/koyu temada okunur; azaltılmış hareket tercihinde veya JavaScript kapalıyken metin sabit ve satırlara bölünmüş gösterilir.
 
