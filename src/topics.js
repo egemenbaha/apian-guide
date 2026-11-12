@@ -1,6 +1,7 @@
 // Question numbers refer to PROJECT_DESCRIPTION.md; keep each answer in one section.
 export const topics = [
   { id: 'acil-yardim', title: 'Acil yardım numaraları', group: 'Başlangıç', sections: ['Hangi numarayı aramalıyım?'], questionIds: [[104]] },
+  { id: 'studierendenwerk', title: 'Studierendenwerk devlet yurtları', group: 'Başlangıç', sections: ['Kimler başvurabilir?', 'Başvuru ve tarihler', 'Bekleme süresi ve PDF', 'Başvuru takibi ve yer teklifi'], questionIds: [[161], [162], [163], [164]] },
   { id: 'yerlesme', title: 'Yerleşme ve teslim', group: 'Başlangıç', sections: ['Ofis ve iletişim', 'Anahtar teslimi', 'Sözleşme ve öğrenci belgeleri', 'Oda teslim tutanağı'], questionIds: [[1], [2, 134], [3, 4, 135], [10]] },
   { id: 'tasinma-listesi', title: 'Yanımda ne getireyim?', group: 'Başlangıç', sections: ['Yanında getir', 'Odada bulunanlar', 'Yerleştikten sonra al'], questionIds: [[113], [114], [115]], checklist: true },
   { id: 'oda-donanimi', title: 'Odada neler var?', group: 'Başlangıç', sections: ['Yatak ve tekstil', 'Mutfak ve ocak', 'Pencereler, sineklik ve perde', 'Mobilyalar', 'Banyo', 'Kapılar ve kalorifer', 'Prizler', 'Apian 1 oda ölçüleri'], questionIds: [[5, 6], [7, 105], [8, 110], [9, 106], [107], [108, 109], [112], [141]] },

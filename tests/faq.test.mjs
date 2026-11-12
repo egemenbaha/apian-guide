@@ -11,11 +11,11 @@ const faq = parseFaq(source);
 const searchIndex = createSearchIndex(topics, faq.questions);
 
 test('all reviewed questions, sources and pending items survive the Markdown import', () => {
-  assert.equal(faq.questions.length, 160);
+  assert.equal(faq.questions.length, 164);
   assert.equal(faq.openQuestions.length, 2);
   assert.match(faq.openQuestions[0], /^\*\*Boya:/);
   assert.match(faq.openQuestions[1], /Apian 1 oda ölçüleri/);
-  assert.equal(faq.updatedAt, '11 Kasım 2026');
+  assert.equal(faq.updatedAt, '13 Kasım 2026');
   assert.match(faq.questions[36].answer, /açık bırakıldı/);
   const sourceLinks = [...source.split('### 1.')[1].matchAll(/\]\((https?:\/\/[^)]+)\)/g)].map(match => match[1]);
   const importedCopy = [...faq.questions.map(question => question.answer), ...faq.openQuestions].join('\n');

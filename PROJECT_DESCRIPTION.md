@@ -1,6 +1,6 @@
 # Apian Wiki — Proje açıklaması ve FAQ
 
-Son güncelleme: **11 Kasım 2026**
+Son güncelleme: **13 Kasım 2026**
 
 Apian Wiki, Apian sakinlerinin ve yeni taşınacak Türk öğrencilerin günlük yaşam sorularına samimi, anlaşılır Türkçeyle cevap veren bir bilgi rehberi projesidir. Aşağıdaki FAQ, Wikipedia tarzındaki rehberin içerik kaynağıdır. Çevre rehberi Apianstraße, 85774 Unterföhring başlangıç alınarak hazırlanmıştır; öneriler kullanım amacına göre seçilmiştir.
 
@@ -1082,6 +1082,50 @@ Topluluktan gelen döner önerileri:
 | **BLN Döner** | [Haritada ara](https://www.google.com/maps/search/?api=1&query=BLN+D%C3%B6ner+M%C3%BCnchen) |
 | **Sendlinger Spezial** | [Haritada ara](https://www.google.com/maps/search/?api=1&query=Sendlinger+Spezial+M%C3%BCnchen) |
 | **Nara Döner** | [Haritada ara](https://www.google.com/maps/search/?api=1&query=Nara+D%C3%B6ner+M%C3%BCnchen) |
+
+### 161. Münih’te Studierendenwerk devlet yurtlarına kimler başvurabilir?
+
+**Studierendenwerk München Oberbayern**, Münih ve çevresinde uygun fiyatlı öğrenci yurtları işletiyor. TUM, LMU ve HM dahil kurumun hizmet verdiği üniversitelerin öğrencileri başvurabiliyor. Gelir sınırı ve öğrenim durumuna ilişkin koşullar var; doktora ve ikinci lisans gibi bazı durumlar kapsam dışında. Lisans sonrası yüksek lisans için başvuru mümkün. [Uygunluk koşulları ve istisnalar](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/faqs/)
+
+**Oda tipine dikkat et:** WG odasında mutfak ve banyo ortak; **Teilapartment**’ta banyo sana ait, mutfak ortak; **Einzelapartment**’ta mutfak ve banyo sana ait. Kira ve bekleme süresi bu seçime göre değişiyor. [Oda tipleri ve kira bilgileri](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/miete-wartezeit/)
+
+### 162. Studierendenwerk yurtlarına nasıl ve ne zaman başvurulur?
+
+**Başvuru internetten yapılıyor:** [Resmî online başvuru sayfasını aç](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/bewerbung/online-bewerbung/) ve “Online-Bewerbung starten” bağlantısından ilerle. Öğrenim yerin için **en fazla üç yurt** seçebilirsin; seçim sırası öncelik sırası sayılmıyor.
+
+| Durum | Başvuru başlangıcı |
+| --- | --- |
+| Kış döneminde öğrenime başlayacaksan | Aynı yıl **15 Mayıs** |
+| Yaz döneminde öğrenime başlayacaksan | Önceki yıl **15 Kasım** |
+| Münih, Freising veya Rosenheim’da zaten okuyorsan | **Yıl boyunca** |
+
+Bunlar başvurunun açıldığı tarihler. Örneğin **2027 yaz dönemi için 15 Kasım 2026**, **2027/28 kış dönemi için 15 Mayıs 2027**. [Resmî tarihler](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/bewerbung/online-bewerbung/)
+
+Kimlik/pasaport veya oturum belgeni hazırla. İlk kez üniversiteye başlayacaklar, üniversiteye giriş yeterlilik belgesi ve kabul belgesini mevcutsa ekleyebiliyor. Hâlihazırda öğrencilerden öğrenci/kabul belgesi, üniversiteye giriş yeterlilik belgesi ve varsa önceki öğrenimin mezuniyet belgesi isteniyor. **Kendi durumuna ait belge listesini kontrol et.** [Belgeler ve başvuru koşulları](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/bewerbung/)
+
+**Tek başvuru yap.** Bilgi veya yurt tercihi değiştirmek için yeniden başvurmak yerine **wohnen-bewerbung@stwm.de** adresine yaz. [Başvuru uyarıları](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/bewerbung/online-bewerbung/)
+
+### 163. Yurt ne kadar sürede çıkar? Wartezeit PDF’i nerede?
+
+**Hemen oda çıkacağını varsayma.** Kurum genel olarak **1–7 dönem** bekleme süresi belirtiyor; bu yaklaşık **6 ay–3,5 yıl** demek. Beklerken başka konaklama seçeneklerini de ara. [Resmî yurt bilgileri](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/)
+
+[Bekleme süreleri ve kiralar PDF’i — Wartezeit und Miete](https://www.studierendenwerk-muenchen-oberbayern.de/fileadmin/studierendenwerk-muenchen-oberbayern/bereiche/wohnen/wohnheime/00_dateien/Wartezeiten_Mietpreisliste_deutsch.pdf) her yurt ve oda tipi için tahmini süreyi ve aylık **Warmmiete** tutarını gösteriyor. PDF’in **Ekim 2026 (2)** sürümünden örnekler:
+
+| Yurt / oda tipi | Yaklaşık bekleme |
+| --- | --- |
+| Chiemgaustraße — WG odası | 1–2 dönem |
+| Garching I — WG odası | 3 dönem |
+| Garching II — tek kişilik apartman | 5 dönem |
+| Olympisches Dorf — tek kişilik apartman | 4–5 dönem |
+| Studentenstadt — WG odası | 3–4 dönem |
+
+**Süre başvuru gününden başlıyor; tabloda yazan süre yerleşme garantisi değil.** Kurum sıradaki yerini bildirmiyor. PDF’in güncel sürümüne [kira ve bekleme süresi sayfasından](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/miete-wartezeit/) da ulaşabilirsin. [Bekleme listesinin işleyişi](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/bewerbung/bewerbungsprozess/)
+
+### 164. Beklerken başvurumu nasıl aktif tutarım, teklif gelince ne yapmalıyım?
+
+**Her dönem güncel öğrenci belgeni (Immatrikulationsbescheinigung) yükle:** kış dönemi için **1 Kasım**, yaz dönemi için **1 Mayıs** son tarih. Bunlar yeni başvuru başlangıçlarından farklı. Belge yüklenmezse başvuru pasifleşiyor. [Öğrenci belgesi yükleme](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/mein-account/immatrikulation/) · [Resmî süreç ve tarihler](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/bewerbung/bewerbungsprozess/)
+
+Yer teklifi genellikle kira başlangıcından **3–8 hafta önce e-postayla** geliyor; spam klasörünü de kontrol et. **Kesin teklifi (Festanschreiben) belirtilen sürede kabul etmezsen başvurun siliniyor; yeniden başvuruda bekleme baştan başlıyor.** Hızlı toplu tekliflerde (**Schnellanschreiben**) ise yanıt vermemek sıranı kaybettirmiyor. [Teklif zamanı](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/bewerbung/) · [Kabul ve süreyi kaçırma kuralları](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/bewerbung/bewerbungsprozess/)
 
 <a id="acik-sorular"></a>
 

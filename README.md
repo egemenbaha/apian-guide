@@ -8,9 +8,9 @@ Ana alan adı `apianwiki.space`, Vercel’deki `ApianS / apian-guide` projesinin
 
 `www.apianwiki.space` ve önceki `apian-guide.vercel.app` adresi, Vercel üzerinden **308 kalıcı yönlendirmeyle** ana domaine gider. Eski soru ve bölüm bağlantıları aynı hash rotalarını kullanmaya devam eder.
 
-[Proje açıklaması ve 160 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
+[Proje açıklaması ve 164 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
 
-Arda’nın Wikipedia tarzı düzeni korunarak 160 soruluk FAQ, kaynak bağlantıları ve açık sorular 28 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+Arda’nın Wikipedia tarzı düzeni korunarak 164 soruluk FAQ, kaynak bağlantıları ve açık sorular 29 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
 
 Atatürk anma şeridi, tüm konu sayfalarında site başlığının üstünde tam genişlikte görünür: “Mustafa Kemal Atatürk · 1881–1938 — Cumhuriyetimizin kurucusunu saygı, özlem ve minnetle anıyoruz.” Metin `index.html` içinde, kayan görünüm `src/styles.css` içindedir. `src/app.js` kesintisiz döngü için ekran okuyuculardan gizlenen bir kopya oluşturur ve duraklat/sürdür düğmesini bağlar. Şerit açık/koyu temada okunur; azaltılmış hareket tercihinde veya JavaScript kapalıyken metin sabit ve satırlara bölünmüş gösterilir.
 
@@ -41,6 +41,8 @@ Resmî tatiller bölümünde 2026 sonundaki kapanışlar ve 2027 takvimi yer al�
 Açık/koyu mod düğmesi üst çubukta masaüstü ve telefonda görünür. Tema tercihi tarayıcıda hatırlanır ve sağdaki görünüm ayarlarıyla eşzamanlı çalışır. Rathaus konum bağlantısı açılır harita ve yol tarifiyle gösterilir; acil yardım numaraları telefonda aranabilir bağlantılardır.
 
 Yenilemede beyaz parlama olmaması için `index.html` içindeki küçük tema başlangıcı, kaydedilmiş tercihi stil dosyası ve uygulama yüklenmeden önce uygular. İlk arka plan ve tarayıcı tema rengi de burada belirlenir; uygulama bu seçimi devralır. Depolama engellendiğinde veya kayıt geçersizse açık tema kullanılır, tema düğmesi çalışmaya devam eder.
+
+[Studierendenwerk devlet yurtları](https://apianwiki.space/#studierendenwerk), başvuru koşullarını, dönemlere göre başlangıç tarihlerini, bekleme süresi ve kira PDF’ini, öğrenci belgesi yükleme tarihlerini ve yer teklifinin takibini özetler.
 
 ## Taşınma listesi ve bilgi düzeltmeleri
 
