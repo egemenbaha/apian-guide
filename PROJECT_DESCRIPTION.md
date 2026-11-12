@@ -1073,6 +1073,16 @@ Ev yemeği özleyenler için topluluktan gelen öneriler aşağıda. Lezzet yoru
 | --- | --- | --- | --- |
 | **Simitçi Cafe München (Milbertshofen)** | Grupça Türk kahvaltısı için öneriliyor. | Bertholdstraße 29, 80809 München | [Paylaşılan konum](https://maps.app.goo.gl/fNPpCkYnbwFCPn9i6) · [Menü](https://www.simitcicaf-mnchen.de/) |
 
+### 160. Münih’te döner için nerelere gidebilirim?
+
+Topluluktan gelen döner önerileri:
+
+| Mekan | Bağlantı |
+| --- | --- |
+| **BLN Döner** | [Haritada ara](https://www.google.com/maps/search/?api=1&query=BLN+D%C3%B6ner+M%C3%BCnchen) |
+| **Sendlinger Spezial** | [Haritada ara](https://www.google.com/maps/search/?api=1&query=Sendlinger+Spezial+M%C3%BCnchen) |
+| **Nara Döner** | [Haritada ara](https://www.google.com/maps/search/?api=1&query=Nara+D%C3%B6ner+M%C3%BCnchen) |
+
 <a id="acik-sorular"></a>
 
 ## Açık kalan sorular
