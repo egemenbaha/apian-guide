@@ -1052,21 +1052,26 @@ Apian’a ait buzdolabı, ocak veya başka bir cihaz bozulduysa atmak yerine [of
 
 Ev yemeği özleyenler için topluluktan gelen öneriler aşağıda. Lezzet yorumları kişisel deneyimlere dayanıyor.
 
-- **Lezizel Mantı:** Özellikle mantısı öneriliyor. Farklı şubeleri var; sana uygun şubeyi seçebilirsin. [Menü ve şubeler](https://lezizel.de/)
-- **Mama's Küche:** Ev yemeği arayanlara önerilen mekanlardan. [İşletmenin yemek ve catering bilgileri](https://halalcateringmuenchen.de/) · [Haritada ara](https://www.google.com/maps/search/?api=1&query=Mamas+K%C3%BCche+M%C3%BCnchen)
-- **Anne's:** Ev yemekleri için öneriliyor; haritada **Anne's Haus “mama's” kost** adıyla da listeleniyor. **Hotterstraße 16, 80331 München.** [Mekan bilgileri](https://joinhalal.com/locations/restaurant/annes-haus-mamas-kost-5432/) · [Haritada aç](https://www.google.com/maps/search/?api=1&query=Annes+Hotterstra%C3%9Fe+16+M%C3%BCnchen)
-- **Altın Dilim Antep Sofrası:** Türk mutfağı için gelen önerilerden. [İşletmenin sitesi](https://altindilim.de/) · [Haritada ara](https://www.google.com/maps/search/?api=1&query=Alt%C4%B1n+Dilim+Antep+Sofras%C4%B1+M%C3%BCnchen)
-- **Burak Gurme:** Ev yemeği arayanlara önerilen bir diğer mekan. **Bertholdstraße 31, 80809 München.** [Menü ve iletişim](https://www.burakgurme-mnchen.de/contact) · [Haritada aç](https://www.google.com/maps/search/?api=1&query=Burak+Gurme+Bertholdstra%C3%9Fe+31+M%C3%BCnchen)
+| Mekan | Ne için öneriliyor? | Konum | Bağlantılar |
+| --- | --- | --- | --- |
+| **Lezizel Mantı** | Mantısı öneriliyor. | Farklı şubeleri var. | [Menü ve şubeler](https://lezizel.de/) |
+| **Mama's Küche** | Ev yemeği için öneriliyor. | Haritadan mekan seçebilirsin. | [İşletmenin yemek ve catering bilgileri](https://halalcateringmuenchen.de/) · [Haritada ara](https://www.google.com/maps/search/?api=1&query=Mamas+K%C3%BCche+M%C3%BCnchen) |
+| **Anne's** | Ev yemekleri; Anne's Haus “mama's” kost adıyla da listeleniyor. | Hotterstraße 16, 80331 München | [Mekan bilgileri](https://joinhalal.com/locations/restaurant/annes-haus-mamas-kost-5432/) · [Haritada aç](https://www.google.com/maps/search/?api=1&query=Annes+Hotterstra%C3%9Fe+16+M%C3%BCnchen) |
+| **Altın Dilim Antep Sofrası** | Türk mutfağı için öneriliyor. | Harita bağlantısından bakabilirsin. | [İşletmenin sitesi](https://altindilim.de/) · [Haritada ara](https://www.google.com/maps/search/?api=1&query=Alt%C4%B1n+Dilim+Antep+Sofras%C4%B1+M%C3%BCnchen) |
+| **Burak Gurme** | Ev yemeği için öneriliyor. | Bertholdstraße 31, 80809 München | [Menü ve iletişim](https://www.burakgurme-mnchen.de/contact) · [Haritada aç](https://www.google.com/maps/search/?api=1&query=Burak+Gurme+Bertholdstra%C3%9Fe+31+M%C3%BCnchen) |
 
 ### 158. Pilav, pide veya çorba için önerilen yerler nereler?
 
-**Opa's Pilav:** Pilav ağırlıklı, daha dar bir menüsü var. Toplulukta hem yemekleri hem çorbaları beğeniliyor. **Berg-am-Laim-Straße 82a, 81673 München.** [Menü](https://opaspilav.com/) · [Haritada aç](https://www.google.com/maps/search/?api=1&query=Opas+Pilav+Berg-am-Laim-Stra%C3%9Fe+82a+M%C3%BCnchen)
-
-**Kapadokya Pide - Grill:** Pideci olarak öneriliyor; çorbaları da beğenilmiş. Öneri tek ziyaret deneyimine dayanıyor. **Schleißheimer Straße 442, 80935 München.** [Paylaşılan konum](https://maps.app.goo.gl/4cQ8Y6eRyuTn1gGP7)
+| Mekan | Ne için öneriliyor? | Konum | Bağlantılar |
+| --- | --- | --- | --- |
+| **Opa's Pilav** | Pilav ağırlıklı, daha dar bir menü; yemekleri ve çorbaları beğeniliyor. | Berg-am-Laim-Straße 82a, 81673 München | [Menü](https://opaspilav.com/) · [Haritada aç](https://www.google.com/maps/search/?api=1&query=Opas+Pilav+Berg-am-Laim-Stra%C3%9Fe+82a+M%C3%BCnchen) |
+| **Kapadokya Pide - Grill** | Pide ve çorba önerisi; tek ziyaret deneyimine dayanıyor. | Schleißheimer Straße 442, 80935 München | [Paylaşılan konum](https://maps.app.goo.gl/4cQ8Y6eRyuTn1gGP7) |
 
 ### 159. Arkadaş grubuyla Türk kahvaltısı için nereye gidebiliriz?
 
-**Simitçi Cafe München (Milbertshofen)**, toplulukta grupça kahvaltıya gitmek için öneriliyor. **Bertholdstraße 29, 80809 München.** Ev yemeği önerilerine kahvaltı alternatifi olarak eklenmiş. [Paylaşılan konum](https://maps.app.goo.gl/fNPpCkYnbwFCPn9i6) · [Menü](https://www.simitcicaf-mnchen.de/)
+| Mekan | Ne için öneriliyor? | Konum | Bağlantılar |
+| --- | --- | --- | --- |
+| **Simitçi Cafe München (Milbertshofen)** | Grupça Türk kahvaltısı için öneriliyor. | Bertholdstraße 29, 80809 München | [Paylaşılan konum](https://maps.app.goo.gl/fNPpCkYnbwFCPn9i6) · [Menü](https://www.simitcicaf-mnchen.de/) |
 
 <a id="acik-sorular"></a>
 
