@@ -1048,7 +1048,7 @@ Apian’a ait buzdolabı, ocak veya başka bir cihaz bozulduysa atmak yerine [of
 
 [dm Prinz-Eugen-Park — pil ve küçük elektronik teslimi](https://www.google.com/maps/search/?api=1&query=dm-drogerie+markt+Maria-Nindl-Platz+2+81927+M%C3%BCnchen)
 
-### 157. Münih’te ev yemekleri veya mantı için nerelere gidebilirim?
+### 157. Münih’te ev yemekleri için nerelere gidebilirim?
 
 Ev yemeği özleyenler için topluluktan gelen öneriler aşağıda. Lezzet yorumları kişisel deneyimlere dayanıyor.
 
