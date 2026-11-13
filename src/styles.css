@@ -121,3 +121,16 @@ main{min-width:0}h1,h2{font-family:'Linux Libertine',Georgia,'Times New Roman',s
 .topic-group[data-group="Çevre rehberi"] .topic-card{min-width:0;overflow-wrap:anywhere}
 .topic-group[data-group="Çevre rehberi"] .topic-card>a{display:inline-block;padding:5px 0}
 @media(max-width:600px){.topic-group[data-group="Çevre rehberi"] ul{grid-template-columns:minmax(0,1fr);gap:4px}.topic-group[data-group="Çevre rehberi"] .topic-card>a{padding:10px 0 4px}.topic-group[data-group="Çevre rehberi"] .card-sections{font-size:13px}}
+
+/* Compact month widget, inspired by Wikipedia's Calendar template. */
+.holiday-section{width:320px;max-width:100%;border:1px solid var(--border);background:var(--bg);padding:10px;margin:18px 0 24px}
+.holiday-section h2{font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:600;margin:0;border:0;padding:0}
+.holiday-section .holiday-intro,.holiday-section .holiday-footer{font-size:11px;line-height:1.5;margin:7px 0}
+.calendar-toolbar{gap:3px;margin:8px 0 3px;background:var(--panel)}
+.calendar-toolbar h3{font-size:13px}.calendar-toolbar button{min-height:30px;padding:3px 7px;font-size:12px;border:0;background:transparent}
+.holiday-calendar th{padding:4px 0;font-size:11px}.holiday-calendar td{height:32px;border:0;text-align:center}.calendar-empty{background:transparent}
+.holiday-calendar .calendar-day,.calendar-event-day{min-height:32px;height:32px;width:100%;padding:5px 0;font-size:12px;line-height:22px}
+.calendar-event-day{position:relative;border:0;background:transparent;color:var(--link);font-weight:700;text-decoration:underline;text-underline-offset:2px}
+.calendar-event-day:hover,.calendar-event-day[aria-expanded="true"]{background:var(--subtle)}
+.calendar-dot{position:absolute;width:3px;height:3px;border-radius:50%;background:var(--link);bottom:2px;left:calc(50% - 1.5px)}
+.calendar-events{margin:8px 0 0;border-top:1px solid var(--border)}.calendar-events li{padding:8px 0}.calendar-events li:last-child{border-bottom:0}.calendar-events li>div{font-size:13px}.calendar-events .holiday-date,.calendar-events p{font-size:11px}

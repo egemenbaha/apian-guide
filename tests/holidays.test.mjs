@@ -41,3 +41,10 @@ test('calendar shows coverage warning, today and both days of Christmas', () => 
   assert.match(html, /data-calendar-day="2026-12-26"/);
   assert.doesNotMatch(renderHolidayCalendar('2027-02-01'), /data-calendar-day=/);
 });
+
+test('compact calendar keeps event details hidden until a date is selected', () => {
+  const html = renderHolidayCalendar('2026-12-01');
+  assert.match(html, /id="calendar-details" aria-live="polite" hidden/);
+  assert.match(html, /data-calendar-day="2026-12-25" aria-expanded="false"/);
+  assert.match(html, /data-event-start="2026-12-25" data-event-end="2026-12-26" hidden/);
+});

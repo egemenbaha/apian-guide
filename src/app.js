@@ -166,9 +166,15 @@ content.addEventListener('click', event => {
   const day = event.target.closest('[data-calendar-day]');
   if (day) {
     event.preventDefault();
-    const target = document.getElementById(day.getAttribute('href').slice(1));
-    target?.focus({ preventScroll: true });
-    target?.scrollIntoView({ block: 'nearest' });
+    const section = day.closest('.holiday-section');
+    const selected = day.getAttribute('aria-expanded') !== 'true';
+    section.querySelectorAll('[data-calendar-day]').forEach(button => button.setAttribute('aria-expanded', 'false'));
+    day.setAttribute('aria-expanded', String(selected));
+    const details = section.querySelector('#calendar-details');
+    details.hidden = !selected;
+    details.querySelectorAll('li').forEach(item => {
+      item.hidden = !selected || item.dataset.eventStart > day.dataset.calendarDay || item.dataset.eventEnd < day.dataset.calendarDay;
+    });
     return;
   }
   const button = event.target.closest('[data-calendar-action]');

@@ -82,20 +82,19 @@ export function renderHolidayCalendar(today = berlinDate(), month = today.slice(
       if (!day) return '<td class="calendar-empty"></td>';
       const matches = events.filter(event => event.start <= day && event.end >= day);
       const number = Number(day.slice(-2));
-      const marker = matches.some(event => event.region.includes('DE')) ? 'DE' : 'TR';
       const current = day === today ? ' aria-current="date"' : '';
       return `<td class="${day === today ? 'calendar-today' : ''}">${matches.length
-        ? `<a href="#calendar-event-${events.indexOf(matches[0])}" data-calendar-day="${day}"${current} aria-label="${escapeHtml(dateLabel(day) + ': ' + matches.map(event => event.title).join(', '))}"><span>${number}</span><small>${marker}${matches.some(event => event.region.includes('TR')) && marker === 'DE' ? ' · TR' : ''}</small></a>`
+        ? `<button type="button" class="calendar-event-day" data-calendar-day="${day}" aria-expanded="false" aria-controls="calendar-details"${current} aria-label="${escapeHtml(dateLabel(day) + ': ' + matches.map(event => event.title).join(', '))}">${number}<span class="calendar-dot" aria-hidden="true"></span></button>`
         : `<span class="calendar-day"${current}>${number}</span>`}</td>`;
     }).join('')}</tr>`);
   }
   return `<section class="holiday-section" data-month="${month}" aria-labelledby="holiday-title">
     <h2 id="holiday-title">Tatil takvimi</h2>
-    <p class="holiday-intro">Bavyera (Münih / Unterföhring) resmî tatilleri ve Türkiye’nin millî bayramları ve anma günleri.</p>
+    <p class="holiday-intro">Bavyera tatilleri · Türkiye millî günleri</p>
     <div class="calendar-toolbar"><button type="button" data-calendar-action="prev" aria-label="Önceki ay">←</button><h3 aria-live="polite" id="calendar-month">${escapeHtml(monthTitle)}</h3><button type="button" data-calendar-action="next" aria-label="Sonraki ay">→</button><button type="button" data-calendar-action="today">Bugün</button></div>
     <table class="holiday-calendar" aria-labelledby="calendar-month"><thead><tr>${['Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt', 'Paz'].map(day => `<th scope="col">${day}</th>`).join('')}</tr></thead><tbody>${rows.join('')}</tbody></table>
-    <p class="holiday-intro">DE: Bavyera’da resmî tatil · TR: Türkiye’ye ait gün. Ayrıntılar için işaretli güne tıkla.</p>
-    ${!supported ? '<p>Bu ayın tatil verileri henüz eklenmedi. Güncel tarihler için resmî kaynaklara bakabilirsin.</p>' : events.length ? `<ul class="calendar-events">${events.map((event, index) => `<li id="calendar-event-${index}" tabindex="-1"><span class="holiday-date">${escapeHtml(dateLabel(event.start))}${event.end !== event.start ? ` – ${escapeHtml(dateLabel(event.end))}` : ''}</span><div><span class="holiday-region">${event.region}</span> <a href="${escapeHtml(event.source)}">${escapeHtml(event.title)}</a></div><p>${escapeHtml(event.note)}</p></li>`).join('')}</ul>` : '<p>Bu ay listelenen bir tatil veya anma günü yok.</p>'}
-    <p class="holiday-footer"><a href="#tatiller">Alışveriş ve tatil rehberi</a> · <a href="${deSource}">Bavyera takvimi</a> · <a href="${trSource}">Türkiye resmî tatilleri</a><span>Takvim: 2026–2027</span></p>
+    <p class="holiday-intro">İşaretli günlere tıklayarak etkinlikleri gör.</p>
+    ${!supported ? '<p>Bu ayın tatil verileri henüz eklenmedi. Güncel tarihler için resmî kaynaklara bakabilirsin.</p>' : events.length ? `<ul class="calendar-events" id="calendar-details" aria-live="polite" hidden>${events.map((event, index) => `<li id="calendar-event-${index}" data-event-start="${event.start}" data-event-end="${event.end}" hidden><span class="holiday-date">${escapeHtml(dateLabel(event.start))}${event.end !== event.start ? ` – ${escapeHtml(dateLabel(event.end))}` : ''}</span><div><span class="holiday-region">${event.region}</span> <a href="${escapeHtml(event.source)}">${escapeHtml(event.title)}</a></div><p>${escapeHtml(event.note)}</p></li>`).join('')}</ul>` : '<p>Bu ay listelenen bir tatil veya anma günü yok.</p>'}
+    <p class="holiday-footer"><a href="#tatiller">Alışveriş ve tatil rehberi</a> · <a href="${deSource}">Bavyera takvimi</a> · <a href="${trSource}">Türkiye resmî tatilleri</a></p>
   </section>`;
 }
