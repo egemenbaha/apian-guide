@@ -7,6 +7,7 @@ import { escapeHtml, renderInline, renderAnswer } from './faq.js';
 import { checklistToolbar, mountChecklist } from './checklist.js';
 import { renderCorrection, topicSuggestionUrl } from './corrections.js';
 import { mountSearch } from './search-ui.js';
+import { renderHolidayTimeline, berlinDate } from './holidays.js';
 import { startAnalytics } from './analytics.js';
 const analytics = startAnalytics(umamiWebsiteId);
 const memorial = document.querySelector('.memorial-banner');
@@ -54,6 +55,7 @@ function home() {
   document.title = 'Apian Wiki — Apian’da yaşam rehberi';
   content.innerHTML = `<h1>Ana sayfa</h1>${tabs('Ana sayfa')}<p class="site-subtitle">Apian Wiki, Apian’da yaşam rehberi.</p>
   <section class="welcome" aria-labelledby="welcome-title"><h2 id="welcome-title"><strong>Apian Wiki</strong>’ye hoş geldiniz</h2><p>Apian sakinleri ve yeni taşınacak Türk öğrenciler için bilgi rehberi.</p><p class="welcome-meta">Apian 1 · Apian 2 · <a href="#konular">${topics.length} konu başlığı</a> · <a href="#acik-sorular">Açık sorular ve öneriler</a></p></section>
+  ${renderHolidayTimeline()}
   <section id="konular" class="directory"><h2>Rehber konuları</h2><div class="portal-grid">${groups.map(group => `<section class="topic-group" data-group="${escapeHtml(group)}"><h3>${group}</h3><ul>${topics.filter(topic => topic.group === group).map(card).join('')}</ul></section>`).join('')}</div></section>
   ${forumEnabled === true ? '<section id="topluluk" class="about"><h2>Topluluk forumu</h2><p>Rehbere katkı sunmak, bilgi paylaşmak veya bir konuyu birlikte değerlendirmek için <a href="/forum/index.php?title=Talk:Forum">Apian Wiki forumuna katıl</a>. Konu açmak ve yanıt yazmak için giriş yapman gerekiyor.</p></section>' : ''}
   <section id="hakkinda" class="about"><h2>Rehber hakkında</h2><p>Apian’da yerleşme, günlük yaşam ve resmî işlemlere yönelik bağımsız bir bilgi rehberidir. Konulara soldaki içindekiler bölümünden veya arama alanından ulaşabilirsin.</p><p>Apian 1 ve Apian 2 bilgileri ayrı tutulur; kaynak bağlantıları ilgili yanıtların yanında yer alır. Bu proje yurt yönetiminin resmî yayını değildir.</p>
@@ -145,3 +147,17 @@ function render() {
 }
 window.addEventListener('hashchange', render);
 render();
+
+// Refresh only the calendar when an open page crosses midnight in Munich.
+let holidayDate = berlinDate();
+function refreshHolidayTimeline() {
+  const today = berlinDate();
+  if (today === holidayDate) return;
+  holidayDate = today;
+  const section = document.querySelector('.holiday-section');
+  if (section) section.outerHTML = renderHolidayTimeline(today);
+}
+setInterval(refreshHolidayTimeline, 60_000);
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden) refreshHolidayTimeline();
+});
