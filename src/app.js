@@ -16,16 +16,7 @@ if (memorial) {
   memorialCopy.setAttribute('aria-hidden', 'true');
   memorial.querySelector('.memorial-track').append(memorialCopy);
   memorial.dataset.ready = 'true';
-  const memorialToggle = memorial.querySelector('.memorial-toggle');
-  memorialToggle.hidden = false;
-  memorialToggle.addEventListener('click', () => {
-    const paused = memorial.dataset.paused !== 'true';
-    memorial.dataset.paused = String(paused);
-    const label = paused ? 'Kayan yazıyı sürdür' : 'Kayan yazıyı duraklat';
-    memorialToggle.setAttribute('aria-label', label);
-    memorialToggle.title = label;
-    memorialToggle.querySelector('span').textContent = paused ? '▶' : 'Ⅱ';
-  });
+
 }
 const questionsById = new Map(faq.questions.map(question => [question.id, question]));
 const content = document.querySelector('#page-content');

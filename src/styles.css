@@ -15,15 +15,10 @@ main{min-width:0}h1,h2{font-family:'Linux Libertine',Georgia,'Times New Roman',s
 .memorial-group{display:flex;flex-shrink:0;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 20px;width:100%;padding:10px 24px;text-align:center}
 .memorial-group[aria-hidden="true"]{display:none}
 .memorial-ribbon{display:block;flex:0 0 16px;width:16px;height:24px;fill:#17191c;stroke:#c8ccd1;stroke-width:1;stroke-linejoin:round}
-.memorial-toggle{align-self:stretch;flex:0 0 44px;width:44px;min-height:44px;border:0;border-left:1px solid #40464d;background:#17191c;color:#f8f9fa;font-size:17px}
-.memorial-toggle:hover{background:#30343a}
-.memorial-toggle:focus-visible{outline:2px solid #f8f9fa;outline-offset:-4px}
 @media(prefers-reduced-motion:no-preference){
   .memorial-banner[data-ready] .memorial-track{width:max-content;animation:memorial-scroll 32s linear infinite}
-  .memorial-banner[data-ready] .memorial-group{display:flex;flex-wrap:nowrap;width:auto;min-width:calc(100vw - 44px);white-space:nowrap}
-  .memorial-banner[data-paused="true"] .memorial-track{animation-play-state:paused}
+  .memorial-banner[data-ready] .memorial-group{display:flex;flex-wrap:nowrap;width:auto;min-width:100vw;white-space:nowrap}
 }
-@media(prefers-reduced-motion:reduce){.memorial-toggle{display:none}}
 @keyframes memorial-scroll{to{transform:translateX(-50%)}}
 /* AnimateIcons Book Open Check, adapted to CSS; see icon-licenses.txt. */
 .brand-mark{color:var(--ink);flex-shrink:0;overflow:visible;transform-origin:center}
