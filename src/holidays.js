@@ -54,16 +54,48 @@ const dateLabel = date => new Intl.DateTimeFormat('tr-TR', {
   day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC'
 }).format(new Date(`${date}T12:00:00Z`));
 
-export function renderHolidayTimeline(today = berlinDate()) {
-  const events = upcomingHolidays(today);
-  return `<section class="holiday-section" aria-labelledby="holiday-title">
-    <h2 id="holiday-title">Yaklaşan tatiller ve önemli günler</h2>
+export function shiftMonth(month, offset) {
+  const [year, number] = month.split('-').map(Number);
+  return new Date(Date.UTC(year, number - 1 + offset, 1)).toISOString().slice(0, 7);
+}
+
+export function monthDays(month) {
+  const [year, number] = month.split('-').map(Number);
+  const first = new Date(Date.UTC(year, number - 1, 1));
+  const offset = (first.getUTCDay() + 6) % 7;
+  const count = new Date(Date.UTC(year, number, 0)).getUTCDate();
+  return Array.from({ length: Math.ceil((offset + count) / 7) * 7 }, (_, index) => {
+    const day = index - offset + 1;
+    return day < 1 || day > count ? null : `${month}-${String(day).padStart(2, '0')}`;
+  });
+}
+
+export function renderHolidayCalendar(today = berlinDate(), month = today.slice(0, 7)) {
+  const days = monthDays(month);
+  const events = holidays.filter(event => event.start <= `${month}-31` && event.end >= `${month}-01`);
+  const supported = month >= '2026-01' && month <= calendarEnd.slice(0, 7);
+  const monthTitle = new Intl.DateTimeFormat('tr-TR', { month: 'long', year: 'numeric', timeZone: 'UTC' })
+    .format(new Date(`${month}-01T12:00:00Z`));
+  const rows = [];
+  for (let i = 0; i < days.length; i += 7) {
+    rows.push(`<tr>${days.slice(i, i + 7).map(day => {
+      if (!day) return '<td class="calendar-empty"></td>';
+      const matches = events.filter(event => event.start <= day && event.end >= day);
+      const number = Number(day.slice(-2));
+      const marker = matches.some(event => event.region.includes('DE')) ? 'DE' : 'TR';
+      const current = day === today ? ' aria-current="date"' : '';
+      return `<td class="${day === today ? 'calendar-today' : ''}">${matches.length
+        ? `<a href="#calendar-event-${events.indexOf(matches[0])}" data-calendar-day="${day}"${current} aria-label="${escapeHtml(dateLabel(day) + ': ' + matches.map(event => event.title).join(', '))}"><span>${number}</span><small>${marker}${matches.some(event => event.region.includes('TR')) && marker === 'DE' ? ' · TR' : ''}</small></a>`
+        : `<span class="calendar-day"${current}>${number}</span>`}</td>`;
+    }).join('')}</tr>`);
+  }
+  return `<section class="holiday-section" data-month="${month}" aria-labelledby="holiday-title">
+    <h2 id="holiday-title">Tatil takvimi</h2>
     <p class="holiday-intro">Bavyera (Münih / Unterföhring) resmî tatilleri ve Türkiye’nin millî bayramları ve anma günleri.</p>
-    ${events.length ? `<ol class="holiday-timeline">${events.map(event => {
-      const ongoing = event.start <= today;
-      const dates = `<time datetime="${event.start}">${escapeHtml(dateLabel(event.start))}</time>${event.end !== event.start ? ` – <time datetime="${event.end}">${escapeHtml(dateLabel(event.end))}</time>` : ''}`;
-      return `<li${ongoing ? ' class="holiday-current"' : ''}><div class="holiday-date">${dates}${ongoing ? ' <span class="holiday-status">Bugün / devam ediyor</span>' : ''}</div><div class="holiday-heading"><span class="holiday-region">${event.region}</span><a href="${escapeHtml(event.source)}">${escapeHtml(event.title)}</a></div><p>${escapeHtml(event.note)}</p></li>`;
-    }).join('')}</ol>` : '<p>Yeni dönem takvimi henüz eklenmedi. Güncel tarihler için resmî kaynaklara bakabilirsin.</p>'}
-    <p class="holiday-footer"><a href="#tatiller">Alışveriş ve tatil rehberi</a> · <a href="${deSource}">Bavyera takvimi</a> · <a href="${trSource}">Türkiye resmî tatilleri</a>${today > calendarEnd ? '' : ' <span>Takvim: 2026–2027</span>'}</p>
+    <div class="calendar-toolbar"><button type="button" data-calendar-action="prev" aria-label="Önceki ay">←</button><h3 aria-live="polite" id="calendar-month">${escapeHtml(monthTitle)}</h3><button type="button" data-calendar-action="next" aria-label="Sonraki ay">→</button><button type="button" data-calendar-action="today">Bugün</button></div>
+    <table class="holiday-calendar" aria-labelledby="calendar-month"><thead><tr>${['Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt', 'Paz'].map(day => `<th scope="col">${day}</th>`).join('')}</tr></thead><tbody>${rows.join('')}</tbody></table>
+    <p class="holiday-intro">DE: Bavyera’da resmî tatil · TR: Türkiye’ye ait gün. Ayrıntılar için işaretli güne tıkla.</p>
+    ${!supported ? '<p>Bu ayın tatil verileri henüz eklenmedi. Güncel tarihler için resmî kaynaklara bakabilirsin.</p>' : events.length ? `<ul class="calendar-events">${events.map((event, index) => `<li id="calendar-event-${index}" tabindex="-1"><span class="holiday-date">${escapeHtml(dateLabel(event.start))}${event.end !== event.start ? ` – ${escapeHtml(dateLabel(event.end))}` : ''}</span><div><span class="holiday-region">${event.region}</span> <a href="${escapeHtml(event.source)}">${escapeHtml(event.title)}</a></div><p>${escapeHtml(event.note)}</p></li>`).join('')}</ul>` : '<p>Bu ay listelenen bir tatil veya anma günü yok.</p>'}
+    <p class="holiday-footer"><a href="#tatiller">Alışveriş ve tatil rehberi</a> · <a href="${deSource}">Bavyera takvimi</a> · <a href="${trSource}">Türkiye resmî tatilleri</a><span>Takvim: 2026–2027</span></p>
   </section>`;
 }

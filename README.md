@@ -164,8 +164,8 @@ Apian Wiki [MIT lisansı](LICENSE) altında açık kaynaktır. `@egemenbaha` ve 
 
 Katkı adımları, içerik ilkeleri ve ana dal kuralları için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasına bak. Dış kaynak bağlantıları, kaynakların kendi lisans ve kullanım koşullarını değiştirmez.
 
-## Ana sayfa tatil çizelgesi
+## Ana sayfa tatil takvimi
 
-Hoş geldiniz bölümünün altındaki çizelge, Berlin saatine göre yaklaşan veya devam eden beş etkinliği gösterir. `src/holidays.js` içindeki kaynaklı 2026–2027 takvimi Bavyera/Unterföhring resmî tatillerini ve Türkiye’nin millî bayramlarını ve anma günlerini içerir. Türkiye’ye ait dinî bayram ve günler dahil değildir. Almanya için yalnızca Unterföhring’de geçerli Bavyera resmî tatilleri listelenir. Noel ve Cumhuriyet Bayramı tek satırdır; 28 Ekim yarım gün tatili açıklamada belirtilir. Türkiye günleri Almanya’da market kapanışı olarak gösterilmez.
+Hoş geldiniz bölümünün altındaki aylık takvim Berlin saatine göre bugünü işaretler. Önceki/sonraki ay ve Bugün düğmeleriyle gezinilir. İşaretli günler aynı ayın açıklamasına gider. `src/holidays.js` kaynaklı 2026–2027 Bavyera/Unterföhring resmî tatillerini ve Türkiye’nin millî bayramları ve anma günlerini içerir. Türkiye’nin dinî günleri dahil değildir. Noel ve Cumhuriyet Bayramı tüm günlerinde işaretlenir.
 
-Yeni yılın Türkiye resmî tatilleri ve Bavyera tatilleri doğrulandıktan sonra veri listeleri ve `calendarEnd` birlikte genişletilmelidir. Veri bitince eski tarihler tekrarlanmaz; resmî kaynak bağlantıları ve güncelleme mesajı gösterilir. Açık sayfa gece yarısında ve sekmeye geri dönüldüğünde takvimi yeniler.
+Veri kapsamı dışındaki aylar tatilsizmiş gibi sunulmaz; güncelleme mesajı gösterilir. Yeni yıllar için kaynaklar doğrulanıp veri listeleri ve `calendarEnd` birlikte genişletilmelidir. Açık sayfa gece yarısında ve sekmeye dönüldüğünde bugün işaretini günceller, görüntülenen ayı korur.

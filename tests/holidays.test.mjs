@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { holidays, berlinDate, upcomingHolidays, renderHolidayTimeline } from '../src/holidays.js';
+import { holidays, berlinDate, upcomingHolidays, renderHolidayCalendar, monthDays, shiftMonth } from '../src/holidays.js';
 
 test('upcoming list crosses the year with five events and no expired dates', () => {
   const events = upcomingHolidays('2026-11-13');
@@ -26,10 +26,18 @@ test('scope excludes Turkish religious days and retains local statutory holidays
   assert.equal(holidays.filter(e => e.region.includes('DE') && e.start.startsWith('2027')).length, 12);
   assert.ok(!holidays.some(e => /Friedensfest|Buß|Reformation/.test(e.title)));
 });
-test('calendar expiry does not fabricate dates and rendering has five semantic rows', () => {
-  assert.deepEqual(upcomingHolidays('2028-01-01'), []);
-  assert.match(renderHolidayTimeline('2028-01-01'), /Yeni dönem takvimi henüz eklenmedi/);
-  const html = renderHolidayTimeline('2026-11-13');
-  assert.equal((html.match(/<li[ >]/g) || []).length, 5);
-  assert.match(html, /<time datetime="2027-01-01"/);
+test('month layout starts Monday, handles leap years and year navigation', () => {
+  assert.equal(monthDays('2027-02').filter(Boolean).length, 28);
+  assert.equal(monthDays('2028-02').filter(Boolean).length, 29);
+  assert.equal(monthDays('2026-11')[6], '2026-11-01');
+  assert.equal(shiftMonth('2026-12', 1), '2027-01');
+  assert.equal(shiftMonth('2027-01', -1), '2026-12');
+});
+test('calendar shows coverage warning, today and both days of Christmas', () => {
+  assert.match(renderHolidayCalendar('2028-01-01'), /Bu ayın tatil verileri henüz eklenmedi/);
+  const html = renderHolidayCalendar('2026-12-25');
+  assert.match(html, /aria-current="date"/);
+  assert.match(html, /data-calendar-day="2026-12-25"/);
+  assert.match(html, /data-calendar-day="2026-12-26"/);
+  assert.doesNotMatch(renderHolidayCalendar('2027-02-01'), /data-calendar-day=/);
 });
