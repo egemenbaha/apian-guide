@@ -43,6 +43,19 @@ export const holidays = [2026, 2027].flatMap(year => {
   return events;
 }).sort((a, b) => a.start.localeCompare(b.start) || a.title.localeCompare(b.title, 'tr'));
 
+// Shopping notes are clickable calendar dates, not additional public holidays.
+export const shoppingNotes = [2026, 2027].map(year => ({
+  start: `${year}-12-24`, end: `${year}-12-24`, region: 'DE',
+  title: 'Noel arifesi · Marketler en geç 14.00’te kapanır',
+  note: 'Tam gün resmî tatil değil. Normal marketler en geç 14.00’te kapanır; şuben daha erken kapatabilir. Noel alışverişini önceden tamamla.',
+  source: 'https://www.gesetze-bayern.de/Content/Document/BayLadSchlG-2'
+})).concat([{
+  start: '2026-12-27', end: '2026-12-27', region: 'DE',
+  title: 'Noel sonrası pazar · Marketler kapalı',
+  note: '27 Aralık ayrı bir resmî tatil değil; pazar kapanışı geçerli. 25–27 Aralık boyunca normal marketler üç gün üst üste kapalı. 28 Aralık Pazartesi normal açılış düzenine dönülür; şube saatini kontrol et.',
+  source: 'https://www.gesetze-bayern.de/Content/Document/BayLadSchlG-2'
+}]);
+
 export function berlinDate(now = new Date()) {
   const parts = new Intl.DateTimeFormat('en-GB', {
     timeZone: 'Europe/Berlin', year: 'numeric', month: '2-digit', day: '2-digit'
@@ -76,7 +89,9 @@ export function monthDays(month) {
 export function renderHolidayCalendar(today = berlinDate(), month = today.slice(0, 7)) {
   const days = monthDays(month);
   const upcoming = upcomingHolidays(today, 3);
-  const events = holidays.filter(event => event.start <= `${month}-31` && event.end >= `${month}-01`);
+  const events = [...holidays, ...shoppingNotes]
+    .filter(event => event.start <= `${month}-31` && event.end >= `${month}-01`)
+    .sort((a, b) => a.start.localeCompare(b.start));
   const supported = month >= '2026-01' && month <= calendarEnd.slice(0, 7);
   const monthTitle = new Intl.DateTimeFormat('tr-TR', { month: 'long', year: 'numeric', timeZone: 'UTC' })
     .format(new Date(`${month}-01T12:00:00Z`));

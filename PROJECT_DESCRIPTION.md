@@ -464,7 +464,17 @@ Tarihleri [resmî tatiller bölümünde](https://apianwiki.space/#tatiller), ila
 
 ### 95. 2026’nın sonunda alışveriş için hangi günlere dikkat edeyim?
 
-**Noel alışverişini son güne bırakma:** 24 Aralık Perşembe normal marketler en geç 14.00’te kapanır. Ardından **25 Aralık Cuma ve 26 Aralık Cumartesi Noel tatili**, **27 Aralık ise pazar**; normal marketler üç gün üst üste kapalı olur.
+**Noel notu — 2026 market kapanışları:**
+
+| Tarih | Normal marketler |
+| --- | --- |
+| **24 Aralık Perşembe** | En geç **14.00’te kapanır**; şube daha erken kapatabilir. Tam gün resmî tatil değildir. |
+| **25 Aralık Cuma** | Noel’in birinci günü: **kapalı**. |
+| **26 Aralık Cumartesi** | Noel’in ikinci günü: **kapalı**. |
+| **27 Aralık Pazar** | Pazar kapanışı nedeniyle **kapalı**; ayrı bir resmî tatil değildir. |
+| **28 Aralık Pazartesi** | Normal açılış düzenine dönülür; şubenin saatini kontrol et. |
+
+**25–27 Aralık boyunca üç gün üst üste kapanış var; öncesinde 24 Aralık’ta erken kapanış uygulanıyor.** Alışverişini buna göre planla. [Bavyera mağaza kapanış kuralları](https://www.gesetze-bayern.de/Content/Document/BayLadSchlG-2)
 
 **31 Aralık Perşembe** şubenin özel kapanış saatini kontrol et. **1 Ocak 2027 Cuma yılbaşı tatili** olduğu için o gün de normal marketler kapalı. [2026–2027 tatil takvimi](https://www.muenchen.de/aktuell/feiertage-bayern-2026-und-2027) · [Mağaza kapanış kuralları](https://www.gesetze-bayern.de/Content/Document/BayLadSchlG-2)
 

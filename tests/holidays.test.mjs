@@ -58,3 +58,12 @@ test('calendar sidebar shows the next three events independently of the browsed 
   assert.ok(sidebar.indexOf(titles[1]) < sidebar.indexOf(titles[2]));
   assert.match(renderHolidayCalendar('2028-01-01'), /Yeni dönem takvimi henüz eklenmedi/);
 });
+
+test('Christmas shopping notes mark early closure and Sunday without inventing public holidays', () => {
+  const html = renderHolidayCalendar('2026-12-01');
+  assert.match(html, /data-calendar-day="2026-12-24"/);
+  assert.match(html, /data-calendar-day="2026-12-27"/);
+  assert.match(html, /27 Aralık ayrı bir resmî tatil değil/);
+  assert.doesNotMatch(renderHolidayCalendar('2027-12-01'), /data-calendar-day="2027-12-27"/);
+  assert.ok(!holidays.some(event => event.start === '2026-12-27'));
+});
