@@ -166,6 +166,6 @@ Katkı adımları, içerik ilkeleri ve ana dal kuralları için [CONTRIBUTING.md
 
 ## Ana sayfa tatil çizelgesi
 
-Hoş geldiniz bölümünün altındaki çizelge, Berlin saatine göre yaklaşan veya devam eden beş etkinliği gösterir. `src/holidays.js` içindeki kaynaklı 2026–2027 takvimi Bavyera/Unterföhring resmî tatillerini ve seçilen Türkiye bayramları, anma günleri ve dinî günlerini içerir; Aşure Günü dahil değildir. Noel ve çok günlük bayramlar tek satırdır; arife başlangıcı açıklamada belirtilir. Türkiye günleri Almanya’da market kapanışı olarak gösterilmez.
+Hoş geldiniz bölümünün altındaki çizelge, Berlin saatine göre yaklaşan veya devam eden beş etkinliği gösterir. `src/holidays.js` içindeki kaynaklı 2026–2027 takvimi Bavyera/Unterföhring resmî tatillerini ve Türkiye’nin millî bayramlarını ve anma günlerini içerir. Türkiye’ye ait dinî bayram ve günler dahil değildir. Almanya için yalnızca Unterföhring’de geçerli Bavyera resmî tatilleri listelenir. Noel ve Cumhuriyet Bayramı tek satırdır; 28 Ekim yarım gün tatili açıklamada belirtilir. Türkiye günleri Almanya’da market kapanışı olarak gösterilmez.
 
-Dinî tarihler tahmin edilmez. Yeni yılın Diyanet takvimi ve Bavyera tatilleri doğrulandıktan sonra veri listeleri ve `calendarEnd` birlikte genişletilmelidir. Veri bitince eski tarihler tekrarlanmaz; resmî kaynak bağlantıları ve güncelleme mesajı gösterilir. Açık sayfa gece yarısında ve sekmeye geri dönüldüğünde takvimi yeniler.
+Yeni yılın Türkiye resmî tatilleri ve Bavyera tatilleri doğrulandıktan sonra veri listeleri ve `calendarEnd` birlikte genişletilmelidir. Veri bitince eski tarihler tekrarlanmaz; resmî kaynak bağlantıları ve güncelleme mesajı gösterilir. Açık sayfa gece yarısında ve sekmeye geri dönüldüğünde takvimi yeniler.

@@ -1,31 +1,12 @@
 import { escapeHtml } from './faq.js';
 
 // Fixed dates: Diyanet official holidays; German scope: Bavaria, including Unterföhring.
-// Religious dates are explicit, not extrapolated from a lunar calendar.
+// Only local statutory German holidays and Turkish civic holidays / memorial days.
 export const calendarEnd = '2027-12-31';
 const deSource = 'https://www.stmi.bayern.de/staat-und-verfassung/feiertage/';
 const trSource = 'https://vakithesaplama.diyanet.gov.tr/icerik.php?icerik=159';
 const memorialSource = 'https://www.tavas.gov.tr/belirli-gun-ve-haftalar';
-const religiousSources = {
-  2026: 'https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2026',
-  2027: 'https://vakithesaplama.diyanet.gov.tr/icerik.php?icerik=154'
-};
-const closed = 'Münih / Unterföhring · Normal marketler kapalı';
-const religious = {
-  2026: [
-    ['01-15', 'Miraç Kandili'], ['02-02', 'Berat Kandili'], ['02-19', 'Ramazan başlangıcı'],
-    ['03-16', 'Kadir Gecesi'], ['03-19', 'Ramazan Bayramı', '03-22'],
-    ['05-26', 'Kurban Bayramı', '05-30'], ['06-16', 'Hicri yılbaşı'],
-    ['08-24', 'Mevlid Kandili'], ['12-10', 'Üç ayların başlangıcı ve Regaib Kandili']
-  ],
-  2027: [
-    ['01-04', 'Miraç Kandili'], ['01-22', 'Berat Kandili'], ['02-08', 'Ramazan başlangıcı'],
-    ['03-05', 'Kadir Gecesi'], ['03-08', 'Ramazan Bayramı', '03-11'],
-    ['05-15', 'Kurban Bayramı', '05-19'], ['06-06', 'Hicri yılbaşı'],
-    ['08-13', 'Mevlid Kandili'], ['11-29', 'Üç ayların başlangıcı'],
-    ['12-02', 'Regaib Kandili'], ['12-24', 'Miraç Kandili']
-  ]
-};
+const closed = 'Bavyera · Münih / Unterföhring · Normal marketler kapalı';
 const movableGerman = {
   2026: ['04-03', '04-06', '05-14', '05-25', '06-04'],
   2027: ['03-26', '03-29', '05-06', '05-17', '05-27']
@@ -56,11 +37,6 @@ export const holidays = [2026, 2027].flatMap(year => {
     ['03-12', 'İstiklal Marşı’nın Kabulü ve Mehmet Akif Ersoy’u Anma Günü'],
     ['03-18', 'Çanakkale Zaferi ve Şehitleri Anma Günü'], ['11-10', 'Atatürk’ü Anma Günü']
   ]) add(day, title, 'TR', 'Anma günü · Resmî tatil değil', memorialSource);
-  for (const [day, title, end] of religious[year]) {
-    add(day, title, 'TR', end
-      ? `Türkiye’de dinî bayram · İlk tarih arife (13.00’ten itibaren tatil); bayram ertesi gün başlar`
-      : 'Dinî gün · Resmî tatil değil', religiousSources[year], end);
-  }
   return events;
 }).sort((a, b) => a.start.localeCompare(b.start) || a.title.localeCompare(b.title, 'tr'));
 
@@ -82,12 +58,12 @@ export function renderHolidayTimeline(today = berlinDate()) {
   const events = upcomingHolidays(today);
   return `<section class="holiday-section" aria-labelledby="holiday-title">
     <h2 id="holiday-title">Yaklaşan tatiller ve önemli günler</h2>
-    <p class="holiday-intro">Münih / Unterföhring resmî tatilleri ve Türkiye’den önemli günler.</p>
+    <p class="holiday-intro">Bavyera (Münih / Unterföhring) resmî tatilleri ve Türkiye’nin millî bayramları ve anma günleri.</p>
     ${events.length ? `<ol class="holiday-timeline">${events.map(event => {
       const ongoing = event.start <= today;
       const dates = `<time datetime="${event.start}">${escapeHtml(dateLabel(event.start))}</time>${event.end !== event.start ? ` – <time datetime="${event.end}">${escapeHtml(dateLabel(event.end))}</time>` : ''}`;
       return `<li${ongoing ? ' class="holiday-current"' : ''}><div class="holiday-date">${dates}${ongoing ? ' <span class="holiday-status">Bugün / devam ediyor</span>' : ''}</div><div class="holiday-heading"><span class="holiday-region">${event.region}</span><a href="${escapeHtml(event.source)}">${escapeHtml(event.title)}</a></div><p>${escapeHtml(event.note)}</p></li>`;
     }).join('')}</ol>` : '<p>Yeni dönem takvimi henüz eklenmedi. Güncel tarihler için resmî kaynaklara bakabilirsin.</p>'}
-    <p class="holiday-footer"><a href="#tatiller">Alışveriş ve tatil rehberi</a> · <a href="${deSource}">Bavyera takvimi</a> · <a href="${religiousSources[2027]}">Diyanet takvimi</a>${today > calendarEnd ? '' : ' <span>Takvim: 2026–2027</span>'}</p>
+    <p class="holiday-footer"><a href="#tatiller">Alışveriş ve tatil rehberi</a> · <a href="${deSource}">Bavyera takvimi</a> · <a href="${trSource}">Türkiye resmî tatilleri</a>${today > calendarEnd ? '' : ' <span>Takvim: 2026–2027</span>'}</p>
   </section>`;
 }
