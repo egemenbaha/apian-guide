@@ -86,6 +86,13 @@ export function monthDays(month) {
   });
 }
 
+function regionFlags(region) {
+  return region.split(' · ').map(code => {
+    const [flag, label] = code === 'DE' ? ['🇩🇪', 'Almanya · Bavyera'] : ['🇹🇷', 'Türkiye'];
+    return `<span class="holiday-region" role="img" aria-label="${label}" title="${label}">${flag}</span>`;
+  }).join(' ');
+}
+
 export function renderHolidayCalendar(today = berlinDate(), month = today.slice(0, 7)) {
   const days = monthDays(month);
   const upcoming = upcomingHolidays(today, 3);
@@ -114,11 +121,11 @@ export function renderHolidayCalendar(today = berlinDate(), month = today.slice(
     <div class="calendar-toolbar"><button type="button" data-calendar-action="prev" aria-label="Önceki ay">←</button><h3 aria-live="polite" id="calendar-month">${escapeHtml(monthTitle)}</h3><button type="button" data-calendar-action="next" aria-label="Sonraki ay">→</button><button type="button" data-calendar-action="today">Bugün</button></div>
     <table class="holiday-calendar" aria-labelledby="calendar-month"><thead><tr>${['Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt', 'Paz'].map(day => `<th scope="col">${day}</th>`).join('')}</tr></thead><tbody>${rows.join('')}</tbody></table>
     <p class="holiday-intro">İşaretli günlere tıklayarak etkinlikleri gör.</p>
-    ${!supported ? '<p>Bu ayın tatil verileri henüz eklenmedi. Güncel tarihler için resmî kaynaklara bakabilirsin.</p>' : events.length ? `<ul class="calendar-events" id="calendar-details" aria-live="polite" hidden>${events.map((event, index) => `<li id="calendar-event-${index}" data-event-start="${event.start}" data-event-end="${event.end}" hidden><span class="holiday-date">${escapeHtml(dateLabel(event.start))}${event.end !== event.start ? ` – ${escapeHtml(dateLabel(event.end))}` : ''}</span><div><span class="holiday-region">${event.region}</span> <a href="${escapeHtml(event.source)}">${escapeHtml(event.title)}</a></div><p>${escapeHtml(event.note)}</p></li>`).join('')}</ul>` : '<p>Bu ay listelenen bir tatil veya anma günü yok.</p>'}
+    ${!supported ? '<p>Bu ayın tatil verileri henüz eklenmedi. Güncel tarihler için resmî kaynaklara bakabilirsin.</p>' : events.length ? `<ul class="calendar-events" id="calendar-details" aria-live="polite" hidden>${events.map((event, index) => `<li id="calendar-event-${index}" data-event-start="${event.start}" data-event-end="${event.end}" hidden><span class="holiday-date">${escapeHtml(dateLabel(event.start))}${event.end !== event.start ? ` – ${escapeHtml(dateLabel(event.end))}` : ''}</span><div>${regionFlags(event.region)} <a href="${escapeHtml(event.source)}">${escapeHtml(event.title)}</a></div><p>${escapeHtml(event.note)}</p></li>`).join('')}</ul>` : '<p>Bu ay listelenen bir tatil veya anma günü yok.</p>'}
     <p class="holiday-footer"><a href="#tatiller">Alışveriş ve tatil rehberi</a> · <a href="${deSource}">Bavyera takvimi</a> · <a href="${trSource}">Türkiye resmî tatilleri</a></p>
     </div>
     <aside class="holiday-upcoming" aria-labelledby="upcoming-title"><h3 id="upcoming-title">Yaklaşan 3 tatil</h3>
-    ${upcoming.length ? `<ol>${upcoming.map(event => `<li><span class="holiday-date">${escapeHtml(dateLabel(event.start))}${event.end !== event.start ? ` – ${escapeHtml(dateLabel(event.end))}` : ''}</span><div><span class="holiday-region">${event.region}</span> <a href="${escapeHtml(event.source)}">${escapeHtml(event.title)}</a></div><p>${escapeHtml(event.note)}</p>${event.start <= today ? '<span class="holiday-date">Bugün / devam ediyor</span>' : ''}</li>`).join('')}</ol>` : '<p>Yeni dönem takvimi henüz eklenmedi.</p>'}
+    ${upcoming.length ? `<ol>${upcoming.map(event => `<li><span class="holiday-date">${escapeHtml(dateLabel(event.start))}${event.end !== event.start ? ` – ${escapeHtml(dateLabel(event.end))}` : ''}</span><div>${regionFlags(event.region)} <a href="${escapeHtml(event.source)}">${escapeHtml(event.title)}</a></div><p>${escapeHtml(event.note)}</p>${event.start <= today ? '<span class="holiday-date">Bugün / devam ediyor</span>' : ''}</li>`).join('')}</ol>` : '<p>Yeni dönem takvimi henüz eklenmedi.</p>'}
     </aside>
   </section>`;
 }

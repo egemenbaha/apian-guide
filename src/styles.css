@@ -142,3 +142,6 @@ main{min-width:0}h1,h2{font-family:'Linux Libertine',Georgia,'Times New Roman',s
 .holiday-upcoming ol{list-style:none;margin:0;padding:0}.holiday-upcoming li{padding:0 0 14px;margin:0 0 14px;border-bottom:1px solid var(--subtle)}.holiday-upcoming li:last-child{border:0;margin:0;padding:0}
 .holiday-upcoming li>div{font-size:14px;margin-top:3px}.holiday-upcoming li a{font-weight:600}.holiday-upcoming p{font-size:12px;color:var(--muted);margin:4px 0 0}
 @media(max-width:700px){.holiday-section{grid-template-columns:minmax(0,1fr);gap:18px}.calendar-panel{width:320px;max-width:100%}.holiday-upcoming{max-width:100%}}
+
+.holiday-region{display:inline-block;border:0;padding:0;font-size:17px;line-height:1.2;vertical-align:baseline}
+@media(max-width:700px){.calendar-panel{justify-self:center}.holiday-upcoming{width:320px;max-width:100%;justify-self:center}}
