@@ -27,7 +27,10 @@ export const holidays = [2026, 2027].flatMap(year => {
     ['10-03', 'Alman Birliği Günü', 'DE'], ['11-01', 'Azizler Günü · Allerheiligen', 'DE']
   ]) add(day, title, region, closed, deSource);
   movableGerman[year].forEach((day, i) => add(day, movableNames[i], 'DE', closed, deSource));
-  add('12-25', 'Noel · Weihnachten', 'DE', `${closed}. 24 Aralık’ta normal mağazalar 14.00’te kapanır.`, deSource, '12-26');
+  const christmasNote = year === 2026
+    ? '24 Aralık Perşembe en geç 14.00’te kapanış. 25–26 Aralık Noel tatili, 27 Aralık pazar: normal marketler üç gün üst üste kapalı. 28 Aralık Pazartesi yeniden açılır; şube saatini kontrol et.'
+    : '24 Aralık Cuma en geç 14.00’te kapanış. 25–26 Aralık Noel tatili: normal marketler kapalı. 27 Aralık Pazartesi yeniden açılır; şube saatini kontrol et.';
+  add('12-25', 'Noel · Weihnachten', 'DE', christmasNote, 'https://www.gesetze-bayern.de/Content/Document/BayLadSchlG-2', '12-26');
   for (const [day, title] of [
     ['04-23', 'Ulusal Egemenlik ve Çocuk Bayramı'], ['05-19', 'Atatürk’ü Anma, Gençlik ve Spor Bayramı'],
     ['07-15', 'Demokrasi ve Millî Birlik Günü'], ['08-30', 'Zafer Bayramı']
