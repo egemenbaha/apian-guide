@@ -72,6 +72,7 @@ export function monthDays(month) {
 
 export function renderHolidayCalendar(today = berlinDate(), month = today.slice(0, 7)) {
   const days = monthDays(month);
+  const upcoming = upcomingHolidays(today, 3);
   const events = holidays.filter(event => event.start <= `${month}-31` && event.end >= `${month}-01`);
   const supported = month >= '2026-01' && month <= calendarEnd.slice(0, 7);
   const monthTitle = new Intl.DateTimeFormat('tr-TR', { month: 'long', year: 'numeric', timeZone: 'UTC' })
@@ -89,6 +90,7 @@ export function renderHolidayCalendar(today = berlinDate(), month = today.slice(
     }).join('')}</tr>`);
   }
   return `<section class="holiday-section" data-month="${month}" aria-labelledby="holiday-title">
+    <div class="calendar-panel">
     <h2 id="holiday-title">Tatil takvimi</h2>
     <p class="holiday-intro">Bavyera tatilleri · Türkiye millî günleri</p>
     <div class="calendar-toolbar"><button type="button" data-calendar-action="prev" aria-label="Önceki ay">←</button><h3 aria-live="polite" id="calendar-month">${escapeHtml(monthTitle)}</h3><button type="button" data-calendar-action="next" aria-label="Sonraki ay">→</button><button type="button" data-calendar-action="today">Bugün</button></div>
@@ -96,5 +98,9 @@ export function renderHolidayCalendar(today = berlinDate(), month = today.slice(
     <p class="holiday-intro">İşaretli günlere tıklayarak etkinlikleri gör.</p>
     ${!supported ? '<p>Bu ayın tatil verileri henüz eklenmedi. Güncel tarihler için resmî kaynaklara bakabilirsin.</p>' : events.length ? `<ul class="calendar-events" id="calendar-details" aria-live="polite" hidden>${events.map((event, index) => `<li id="calendar-event-${index}" data-event-start="${event.start}" data-event-end="${event.end}" hidden><span class="holiday-date">${escapeHtml(dateLabel(event.start))}${event.end !== event.start ? ` – ${escapeHtml(dateLabel(event.end))}` : ''}</span><div><span class="holiday-region">${event.region}</span> <a href="${escapeHtml(event.source)}">${escapeHtml(event.title)}</a></div><p>${escapeHtml(event.note)}</p></li>`).join('')}</ul>` : '<p>Bu ay listelenen bir tatil veya anma günü yok.</p>'}
     <p class="holiday-footer"><a href="#tatiller">Alışveriş ve tatil rehberi</a> · <a href="${deSource}">Bavyera takvimi</a> · <a href="${trSource}">Türkiye resmî tatilleri</a></p>
+    </div>
+    <aside class="holiday-upcoming" aria-labelledby="upcoming-title"><h3 id="upcoming-title">Yaklaşan 3 tatil</h3>
+    ${upcoming.length ? `<ol>${upcoming.map(event => `<li><span class="holiday-date">${escapeHtml(dateLabel(event.start))}${event.end !== event.start ? ` – ${escapeHtml(dateLabel(event.end))}` : ''}</span><div><span class="holiday-region">${event.region}</span> <a href="${escapeHtml(event.source)}">${escapeHtml(event.title)}</a></div><p>${escapeHtml(event.note)}</p>${event.start <= today ? '<span class="holiday-date">Bugün / devam ediyor</span>' : ''}</li>`).join('')}</ol>` : '<p>Yeni dönem takvimi henüz eklenmedi.</p>'}
+    </aside>
   </section>`;
 }

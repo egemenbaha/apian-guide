@@ -134,3 +134,11 @@ main{min-width:0}h1,h2{font-family:'Linux Libertine',Georgia,'Times New Roman',s
 .calendar-event-day:hover,.calendar-event-day[aria-expanded="true"]{background:var(--subtle)}
 .calendar-dot{position:absolute;width:3px;height:3px;border-radius:50%;background:var(--link);bottom:2px;left:calc(50% - 1.5px)}
 .calendar-events{margin:8px 0 0;border-top:1px solid var(--border)}.calendar-events li{padding:8px 0}.calendar-events li:last-child{border-bottom:0}.calendar-events li>div{font-size:13px}.calendar-events .holiday-date,.calendar-events p{font-size:11px}
+
+/* Keep the compact calendar beside the next three dates. */
+.holiday-section{display:grid;grid-template-columns:320px minmax(0,1fr);gap:24px;width:100%;border:0;padding:0;background:transparent;align-items:start}
+.calendar-panel{min-width:0;border:1px solid var(--border);background:var(--bg);padding:10px}
+.holiday-upcoming{min-width:0}.holiday-upcoming h3{font-size:15px;margin:0 0 12px;padding-bottom:8px;border-bottom:1px solid var(--subtle)}
+.holiday-upcoming ol{list-style:none;margin:0;padding:0}.holiday-upcoming li{padding:0 0 14px;margin:0 0 14px;border-bottom:1px solid var(--subtle)}.holiday-upcoming li:last-child{border:0;margin:0;padding:0}
+.holiday-upcoming li>div{font-size:14px;margin-top:3px}.holiday-upcoming li a{font-weight:600}.holiday-upcoming p{font-size:12px;color:var(--muted);margin:4px 0 0}
+@media(max-width:700px){.holiday-section{grid-template-columns:minmax(0,1fr);gap:18px}.calendar-panel{width:320px;max-width:100%}.holiday-upcoming{max-width:100%}}

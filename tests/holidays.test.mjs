@@ -48,3 +48,13 @@ test('compact calendar keeps event details hidden until a date is selected', () 
   assert.match(html, /data-calendar-day="2026-12-25" aria-expanded="false"/);
   assert.match(html, /data-event-start="2026-12-25" data-event-end="2026-12-26" hidden/);
 });
+
+test('calendar sidebar shows the next three events independently of the browsed month', () => {
+  const html = renderHolidayCalendar('2026-11-13', '2027-06');
+  const sidebar = html.split('<aside class="holiday-upcoming"')[1];
+  assert.equal((sidebar.match(/<li>/g) || []).length, 3);
+  const titles = ['Noel · Weihnachten', 'Yılbaşı · Neujahr', 'Üç Krallar Günü'];
+  assert.ok(sidebar.indexOf(titles[0]) < sidebar.indexOf(titles[1]));
+  assert.ok(sidebar.indexOf(titles[1]) < sidebar.indexOf(titles[2]));
+  assert.match(renderHolidayCalendar('2028-01-01'), /Yeni dönem takvimi henüz eklenmedi/);
+});
