@@ -111,7 +111,7 @@ test('night assistance and confirmed Apian 2 door hours are distinguished from A
   assert.match(faq.questions[19].answer, /Apian 2/);
   assert.match(faq.questions[19].answer, /21\.00–06\.00/);
   assert.match(faq.questions[19].answer, /10 €/);
-  assert.match(faq.questions[19].answer, /2025/);
+  assert.doesNotMatch(faq.questions[19].answer, /Temmuz 2025/);
   assert.match(faq.questions[17].answer, /Apian 2’nin dış kapısı akşam 21\.00’de kilitleniyor, sabah 06\.00’da açılıyor/);
   assert.doesNotMatch(faq.questions[17].answer, /açık bırakıldı|yanıtı eklenecek/);
 });

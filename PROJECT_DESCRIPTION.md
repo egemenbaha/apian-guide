@@ -98,7 +98,7 @@ Apian 1’de çamaşırhane şimdilik gece de kullanılabiliyor. **Apian 2’nin
 
 ### 20. Anahtar içeride kaldı, kapıda kaldım. Ne yapmalıyım?
 
-Ofis açıksa ilk olarak oraya git. **Apian 2’de gece görevlisi 21.00–06.00 arasında** ofiste veya Apian arazisinde devriyede bulunuyor. Ofis ya da gece görevlisi kapı açma hizmeti verebiliyor. Kapı açma bedeli **10 €** (**Temmuz 2025** bilgisi); işlem öncesinde güncel tutarı teyit et.
+Ofis açıksa ilk olarak oraya git. **Gece bekçisi her gece 21.00’de geliyor.** Apian 2’de **21.00–06.00 arasında** ofiste veya Apian arazisinde devriyede bulunuyor. Kapıda kalırsan bekçi kapını **10 €** karşılığında açabiliyor. **Anahtarın kapının iç tarafında kilide takılı olması da engel değil.** Başka sorunların için de bekçiye danışabilirsin.
 
 Dışarıdan çilingir çağırman gerekirse kilit sistemine aşina firma **Gmeineder**, telefon **08022 75228**. Dışarıdan aldığın hizmetin tüm masrafları sana ait. Bu numara gece görevlisinin numarası değil.
 
@@ -116,7 +116,7 @@ Kısa süreli misafir kabul edilebiliyor. Şimdilik **üç günü aşan konaklam
 
 Apian 1’de çalışma odası ikinci, müzik odası üçüncü katta; müzik odasında piyano da bulunuyor.
 
-**Anahtarı ofis saatlerinde alabilirsin:** pazartesi–perşembe **07.00–12.00 ve 13.00–16.00**, cuma **07.00–12.00**. İşin bitince **anahtarı bekçiye geri bırakabilirsin**. Akşam bekçisi **21.00’de geliyor**.
+**Anahtarı ofis saatlerinde alabilirsin:** pazartesi–perşembe **07.00–12.00 ve 13.00–16.00**, cuma **07.00–12.00**. İşin bitince **anahtarı bekçiye geri bırakabilirsin**.
 
 **Hafta sonu kullanım mümkün değil; ofis kapalı olduğu için anahtar alınamıyor.**
 
