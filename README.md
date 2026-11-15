@@ -1,8 +1,22 @@
 # Apian Wiki
 
-Apian sakinleri ve yeni taşınacak Türk öğrenciler için bilgi rehberi.
+Apian Wiki, Münih / Unterföhring’deki Apian öğrenci yurtlarında yaşayan veya buraya taşınmayı planlayan Türk öğrenciler için hazırlanmış, topluluk katkılarıyla geliştirilen bağımsız bir bilgi rehberidir. Yerleşme, oda donanımı, günlük yaşam, ulaşım, çevredeki hizmetler ve resmî işlemler hakkında pratik bilgileri tek yerde toplar.
+
+İçerik, sakinlerin deneyimleri ve ölçümleri ile bağlantı verilen kaynaklardan derlenir. Proje, Türkçe arama ve konu sayfaları olan açık kaynaklı bir statik web sitesidir.
 
 **Rehberi aç: [apianwiki.space](https://apianwiki.space/)**
+
+## Bağımsızlık, bilgi doğruluğu ve sorumluluk
+
+**Apian Wiki, yurt yönetiminin, Studierendenwerk’in, üniversitelerin veya kamu kurumlarının resmî yayını değildir; bu kurumlar adına açıklama yapmaz.** Rehberdeki bilgiler genel bilgilendirme amaçlıdır. Kira sözleşmesinin, yurt kurallarının, yetkili kurumların açıklamalarının veya hukuki, mali ve tıbbi danışmanlığın yerine geçmez.
+
+**Bilgilerin doğruluğu, eksiksizliği, güncelliği veya belirli bir ihtiyaca uygunluğu garanti edilmez.** Hatalar, eksikler ve güncelliğini yitirmiş bilgiler bulunabilir. Özellikle ücretler, çalışma saatleri, başvuru tarihleri ve uygulamalar değişebilir. Bir işlem yapmadan veya masrafa girmeden önce ilgili bilgiyi yurt yönetiminden, hizmet sağlayıcısından ya da yetkili kurumdan doğrula.
+
+**Yürürlükteki hukukun izin verdiği ölçüde, proje sahipleri, yöneticileri ve katkıda bulunanlar, rehberdeki hata veya eksikliklerden ya da bilgilere güvenilerek yapılan işlemlerden doğan zararlar için sorumluluk kabul etmez.** Bu açıklama, kanunen kaldırılamayan veya sınırlandırılamayan sorumlulukları ortadan kaldırmaz. Kasıt, ağır ihmal ve yaşam, beden veya sağlık zararları bakımından zorunlu yasal sorumluluklar saklıdır. İlgili yasal sınırlar için [BGB § 276](https://www.gesetze-im-internet.de/bgb/__276.html) ve [BGB § 309 no. 7](https://www.gesetze-im-internet.de/bgb/__309.html) hükümlerine bakılabilir.
+
+Dış bağlantılar bilgiye ulaşmayı kolaylaştırmak için verilir; bağlantı verilmesi, ilgili hizmetin onaylandığı veya içeriğinin doğruluğunun garanti edildiği anlamına gelmez. Üçüncü taraf sitelerin içerikleri ve koşulları değişebilir. Bir hata fark edersen ilgili cevaptaki **Düzeltme öner** bağlantısını veya [GitHub Issues](https://github.com/egemenbaha/apian-guide/issues) bölümünü kullanabilirsin.
+
+## Yayın ve proje yapısı
 
 Ana alan adı `apianwiki.space`, Vercel’deki `ApianS / apian-guide` projesinin Production ortamına bağlıdır. Rehber içi bağlantılar, GitHub bilgi düzeltme taslakları ve sayfanın canonical/Open Graph adresi bu alan adını kullanır. Alan adı ayarları Vercel proje panelinden yönetilir; DNS veya sertifika bilgileri kaynak kodda tutulmaz.
 
