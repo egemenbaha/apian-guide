@@ -997,6 +997,8 @@ Fotoğraf: [Bruce Marlin / Wikimedia Commons](https://commons.wikimedia.org/wiki
 
 **Böcek spreyi:** Odayı düzenli aralıklarla rastgele ilaçlamak yerine önce neyle karşılaştığını netleştir. Spreyi çoğaltmak, giriş noktasını veya nem sorununu çözmez; kimyasallar oda tozunda ve yüzeylerde kalabilir. Bir ürün kullanacaksan etiketindeki hedef tür, iç mekân kullanımı ve güvenlik talimatlarına uy. **Lamba veya priz içine sprey sıkma.** Sorun sürüyorsa ofisten profesyonel müdahale iste. [Evde kimyasal kullanım ve uzman desteği](https://www.umweltbundesamt.de/system/files/medien/3521/dokumente/pan_flyer_schaedlingsbekaempfung_0.pdf) · [İç ortamda böcek ilaçları](https://presse.dguv.de/ifa/praxishilfen/innenraumarbeitsplaetze/chemische-einwirkungen/insektizide/index.jsp)
 
+**GEROBUG Protect Silberfisch-Spray:** Gümüş ve kâğıt böcekleri için bir sprey seçeneği. **Üretici, Protect modelini öldürücü değil, uzaklaştırıcı olarak tanımlıyor.** Etiketini oku; spreyi soluma, yatağa, kumaşa veya gıda yüzeylerine sıkma. Uygulamadan sonra yüzeyler kuruyana kadar odayı iyice havalandır. [Ürün ve kullanım bilgileri](https://gerobug.de/products/silberfisch-spray-protect)
+
 ### 151. Böcekler tekrar çıkıyorsa Apian’a nasıl bildireyim?
 
 **Aynı yerden tekrar çıkıyorsa, sayı artıyorsa veya eşyalarda zarar görüyorsan ofise bildir.** Apian 1/2 bilgisini, oda numaranı, ne zamandır gördüğünü ve yerini yaz; net fotoğraf ekle. Ofisten **Reparaturzettel** alabilir veya **info@apian-aparthaus.de** adresine yazabilirsin. [Arıza bildirim adımları](https://apianwiki.space/#bakim/soru-28) · [Apian iletişim](https://www.apian-aparthaus.de/)
