@@ -107,7 +107,29 @@ Forum entegrasyonunu doğrulamak için `python3 scripts/check-forum.py` çalış
 - Kişisel sağlık ve hukuki olaylar yayımlanacak içeriğe taşınmaz.
 - Bu proje yurt yönetiminin resmî yayını değildir.
 
-## Açık kaynak ve katkı
+## Nasıl katkıda bulunabilirsin?
+
+Katkı vermek için kod bilmen gerekmiyor. Yanlış bir bilgiyi düzeltebilir, eksik bir konuyu önerebilir veya sitenin geliştirilmesine yardımcı olabilirsin.
+
+### Bilgi düzeltmek veya konu önermek
+
+1. Rehberde ilgili cevabın altındaki **Düzeltme öner** bağlantısını kullan veya [GitHub bildirimleri](https://github.com/egemenbaha/apian-guide/issues) bölümünde yeni bir bildirim aç. Göndermek için GitHub hesabınla giriş yapman gerekir.
+2. Hangi sayfa veya cevabı kastettiğini, neyin yanlış ya da eksik olduğunu ve önerdiğin değişikliği yaz. Yeni bir konu öneriyorsan hangi sorunun yanıtlanmasını istediğini belirt.
+3. Varsa resmî kaynak bağlantısını ekle. Kendi deneyimini veya ölçümünü paylaşıyorsan hangi binayla ilgili olduğunu ve bilginin hangi döneme ait olduğunu belirt.
+
+Öneriler proje sorumluları tarafından incelenir; gönderilen bilgiler otomatik olarak rehbere eklenmez. Bildirimler herkese açıktır. Özel yazışma, kişisel iletişim bilgisi, kişi–oda eşleştirmesi, parola veya gizli anahtar paylaşma.
+
+### İçerik veya kod değişikliği göndermek
+
+1. [Depoyu](https://github.com/egemenbaha/apian-guide) kendi GitHub hesabına çatalla (**Fork**), bilgisayarına kopyala ve değişikliğin için ayrı bir dal oluştur.
+2. Soru ve cevapları `PROJECT_DESCRIPTION.md` içinde düzenle. Yeni bir soru ekliyorsan `src/topics.js` dosyasındaki konu eşlemesini de güncelle. Otomatik üretilen `src/faq-data.js` ve `dist/` dosyalarını düzenleme veya gönderme.
+3. Türkçe anlatımı, mevcut wiki tasarımını ve Apian 1 / Apian 2 ayrımını koru. Yalnızca paylaşma hakkına sahip olduğun içerikleri kullan.
+4. `npm test` ve `npm run build` komutlarını çalıştır. Arayüz değişikliği yaptıysan `npm run dev` ile siteyi açıp masaüstü ve mobil görünümü kontrol et.
+5. Değişikliklerini kendi dalına kaydedip gönder ve bu deponun `main` dalına bir birleştirme isteği (**Pull request**) aç. Neyi değiştirdiğini ve nasıl kontrol ettiğini kısaca yaz; görsel değişikliklerde ekran görüntüsü ekle.
+
+Depoya yazma yetkisi bulunan `@ardatas` ve `@egemenbaha`, güncel `main` değişikliklerini aldıktan ve kontrolleri tamamladıktan sonra doğrudan ana dala gönderebilir. Ayrıntılar için [katkı rehberine](CONTRIBUTING.md) bak.
+
+## Açık kaynak ve lisans
 
 Kitap ve onay işaretli logo, [AnimateIcons](https://github.com/Avijit07x/animateicons) / Avijit Dey’in Book Open Check animasyonundan ve [Lucide](https://github.com/lucide-icons/lucide) ikonundan uyarlanmıştır. Başlıktaki SVG, CSS ile üzerine gelindiğinde veya klavyeyle odaklandığında bir kez oynar; hareket azaltma ayarında sabit kalır. Ek çalışma zamanı bağımlılığı gerektirmez. Sekme simgesi ve isteğe bağlı forum aynı statik SVG’yi kullanır. MIT/ISC atıfları ve lisans metinleri [src/icon-licenses.txt](src/icon-licenses.txt) içinde, yayın çıktısına da dahil edilir.
 
