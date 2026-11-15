@@ -989,15 +989,19 @@ Fotoğraf: [Bruce Marlin / Wikimedia Commons](https://commons.wikimedia.org/wiki
 
 Çıplak elle tutmaya çalışma. Sürekli aynı duvar, süpürgelik veya priz çevresinden çıktığını görüyorsan yerini fotoğraflayıp teknik ekibin kontrol etmesini iste. Priz kapağını sökme veya elektrik boşluklarına sprey sıkma. [Apian’a bildirim ve Almanca mesaj](https://apianwiki.space/#bocekler/soru-151)
 
-### 150. Lavanta, yapışkan tuzak veya böcek ilacı kullanmalı mıyım?
+### 150. Böcekler için hangi ürünleri kullanabilirim?
 
-**Yapışkan tuzak (*Klebefalle*):** İnce, yürüyen böceklerin nerede ve ne sıklıkta çıktığını takip etmene yardımcı olabilir. Aldığın ürünün üzerinde hedef türü ve kullanım yerini kontrol et; **insektizidfrei**, böcek öldürücü kimyasal içermediğini belirtir. Tuzakta böcek yakalanması, odadaki sorunun tamamen bittiğini göstermez. Mağazada “Silberfischchen-Klebefalle” diye sorabilirsin. [dm: silverfish için önlemler ve tuzaklar](https://www.dm.de/tipps-und-trends/haushaltstipps/ungeziefer/silberfische-409974) · [Yakındaki iki dm şubesi](https://apianwiki.space/#alisveris/soru-131)
+| Kategori | Seçenek ve kısa bilgi |
+| --- | --- |
+| Yapışkan tuzaklar | Klebefalle: Böceklerin nerede ve ne sıklıkta çıktığını takip etmek için. [dm’de tuzak bilgileri](https://www.dm.de/tipps-und-trends/haushaltstipps/ungeziefer/silberfische-409974) |
+| Uzaklaştırıcı spreyler | [Gerobug Protect](https://gerobug.de/products/silberfisch-spray-protect): Gümüş ve kâğıt böcekleri için. Üreticiye göre uzaklaştırır; öldürücü değildir. |
+| Kokulu ürünler | Lavanta yağı, kokulu temizleyici: Tek başına kalıcı çözüm sayma. [Türü belirleme ve mücadele](https://www.umweltbundesamt.de/themen/motten-schaben-silberfischchen) |
 
-**Lavanta:** Lavanta yağı veya kokulu temizleyiciyi tek başına kalıcı çözüm sayma. Türü belirlemek, nemi ve saklanma alanlarını kontrol etmek daha önemli. Özellikle kâğıt böceğinde profesyonel değerlendirme gerekebilir. [Umweltbundesamt: türü belirleme ve mücadele](https://www.umweltbundesamt.de/themen/motten-schaben-silberfischchen)
+**Tuzak seçerken:** Etiketteki hedef türü ve kullanım yerini kontrol et. **İnsektizidfrei**, böcek öldürücü kimyasal içermediğini belirtir. Mağazada “Silberfischchen-Klebefalle” diye sorabilirsin. Tuzakta böcek yakalanması, sorunun tamamen bittiğini göstermez. [Yakındaki iki dm şubesi](https://apianwiki.space/#alisveris/soru-131)
 
-**Böcek spreyi:** Odayı düzenli aralıklarla rastgele ilaçlamak yerine önce neyle karşılaştığını netleştir. Spreyi çoğaltmak, giriş noktasını veya nem sorununu çözmez; kimyasallar oda tozunda ve yüzeylerde kalabilir. Bir ürün kullanacaksan etiketindeki hedef tür, iç mekân kullanımı ve güvenlik talimatlarına uy. **Lamba veya priz içine sprey sıkma.** Sorun sürüyorsa ofisten profesyonel müdahale iste. [Evde kimyasal kullanım ve uzman desteği](https://www.umweltbundesamt.de/system/files/medien/3521/dokumente/pan_flyer_schaedlingsbekaempfung_0.pdf) · [İç ortamda böcek ilaçları](https://presse.dguv.de/ifa/praxishilfen/innenraumarbeitsplaetze/chemische-einwirkungen/insektizide/index.jsp)
+**Sprey kullanırken:** Etiketteki iç mekân kullanımı ve güvenlik talimatlarına uy. **Lamba veya priz içine sprey sıkma.** Protect kullanacaksan spreyi soluma; yatağa, kumaşa veya gıda yüzeylerine sıkma ve yüzeyler kuruyana kadar odayı iyice havalandır. Kullanım talimatları tablodaki ürün bağlantısında.
 
-**GEROBUG Protect Silberfisch-Spray:** Gümüş ve kâğıt böcekleri için bir sprey seçeneği. **Üretici, Protect modelini öldürücü değil, uzaklaştırıcı olarak tanımlıyor.** Etiketini oku; spreyi soluma, yatağa, kumaşa veya gıda yüzeylerine sıkma. Uygulamadan sonra yüzeyler kuruyana kadar odayı iyice havalandır. [Ürün ve kullanım bilgileri](https://gerobug.de/products/silberfisch-spray-protect)
+Odayı tekrar tekrar ilaçlamak giriş noktasını veya nem sorununu çözmez; kimyasallar oda tozunda ve yüzeylerde kalabilir. Sorun sürüyorsa, özellikle kâğıt böceğinde, ofisten profesyonel kontrol iste. [Evde kimyasal kullanım ve uzman desteği](https://www.umweltbundesamt.de/system/files/medien/3521/dokumente/pan_flyer_schaedlingsbekaempfung_0.pdf) · [İç ortamda böcek ilaçları](https://presse.dguv.de/ifa/praxishilfen/innenraumarbeitsplaetze/chemische-einwirkungen/insektizide/index.jsp)
 
 ### 151. Böcekler tekrar çıkıyorsa Apian’a nasıl bildireyim?
 
