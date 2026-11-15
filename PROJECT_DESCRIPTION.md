@@ -116,7 +116,7 @@ Kısa süreli misafir kabul edilebiliyor. Şimdilik **üç günü aşan konaklam
 
 Apian 1’de çalışma odası ikinci, müzik odası üçüncü katta; müzik odasında piyano da bulunuyor.
 
-**Anahtarı ofis saatlerinde alabilirsin:** pazartesi–perşembe **07.00–12.00 ve 13.00–16.00**, cuma **07.00–12.00**. İşin bitince **anahtarı bekçiye geri bırakabilirsin**.
+**Anahtarı ofis saatlerinde alabilirsin:** pazartesi–perşembe **07.00–12.00 ve 13.00–16.00**, cuma **07.00–12.00**. İşin bitince **anahtarı bekçiye geri bırakabilirsin**. Akşam bekçisi **21.00’de geliyor**.
 
 **Hafta sonu kullanım mümkün değil; ofis kapalı olduğu için anahtar alınamıyor.**
 
