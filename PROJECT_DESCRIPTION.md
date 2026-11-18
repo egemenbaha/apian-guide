@@ -50,7 +50,7 @@ Apian 1’in üst katlarındaki uzun pencerelerde sineklik için şimdilik **90 
 
 **Apian 2 için Amazon seçeneği:** [120 × 110 cm sinekliğe buradan bakabilirsin](https://www.amazon.de/dp/B0C2JDVS55). Sipariş ekranında seçili ölçünün **120 × 110 cm** olduğunu kontrol et.
 
-Sinekliğin kenarlarında açıklık bırakma; küçük boşluklar da böceklerin içeri girmesine yetebilir. [Böceklerden korunma ve sineklik kullanımı](https://apianwiki.space/#bocekler/soru-147)
+Sinekliğin kenarlarında açıklık bırakma; küçük boşluklar da böceklerin içeri girmesine yetebilir. [Böceklerden korunma ve sineklik kullanımı](https://apianwiki.space/#bocekler/soru-148)
 
 ### 9. Odadaki mobilyaları çıkarabilir miyim?
 
@@ -160,9 +160,9 @@ Böcekler için [Böcekler ve korunma](https://apianwiki.space/#bocekler) sayfas
 
 ### 32. Büyük eşyaları ve eski şilteyi normal çöpe atabilir miyim?
 
-Büyük eşyaları normal konteynerlere veya koridorlara bırakma. **Apian’ın verdiği yatak veya şilte, eski olsa da odada kalmalı.** Kendi aldığın eski şilteni ise **Wertstoffhof Unterföhring, Birkenhofstraße 12** adresine götürebilirsin. [Yatak ve şilte teslimi](https://apianwiki.space/#geri-donusum/soru-152) · [Çalışma saatleri ve harita](https://apianwiki.space/#geri-donusum/soru-155)
+Büyük eşyaları normal konteynerlere veya koridorlara bırakma. **Apian’ın verdiği yatak veya şilte, eski olsa da odada kalmalı.** Kendi aldığın eski şilteni ise **Wertstoffhof Unterföhring, Birkenhofstraße 12** adresine götürebilirsin. [Yatak ve şilte teslimi](https://apianwiki.space/#geri-donusum/soru-153) · [Çalışma saatleri ve harita](https://apianwiki.space/#geri-donusum/soru-156)
 
-Elektronik eşya ve pillerin teslim yolları ayrı: [Elektronik eşyalar](https://apianwiki.space/#geri-donusum/soru-153) · [Pil ve batarya](https://apianwiki.space/#geri-donusum/soru-154)
+Elektronik eşya ve pillerin teslim yolları ayrı: [Elektronik eşyalar](https://apianwiki.space/#geri-donusum/soru-154) · [Pil ve batarya](https://apianwiki.space/#geri-donusum/soru-155)
 
 ### 33. Vorabnahme nedir? Anahtar teslimiyle aynı şey mi?
 
@@ -256,7 +256,7 @@ Geçimini nasıl sağladığını yeniden belgelemen istenebilir; kullanılabile
 
 **Üç aylık ödeme düzeninde SEPA otomatik ödeme talimatı verdiysen, tutar 3 ayda bir hesabından otomatik çekilir.** Talimat vermediysen ödemeyi kendin yapman gerekir. Kendi adına gelen yazıyı bekletmeden kaydını ve ödeme yöntemini kontrol et; her ödeme için yeni bir hatırlatma gelmesini bekleme. [Otomatik ödeme ve havale bilgileri](https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/informationen/zahlung)
 
-**Önceki kiracı adına mektup geldiyse zarfı açma.** Açılmamış hâliyle postacıya geri verebilirsin. [İade için yazabileceğin Almanca not ve açıklama](https://apianwiki.space/#kargo/soru-145)
+**Önceki kiracı adına mektup geldiyse zarfı açma.** Açılmamış hâliyle postacıya geri verebilirsin. [İade için yazabileceğin Almanca not ve açıklama](https://apianwiki.space/#kargo/soru-146)
 
 ### 53. AT11, M10 ve Alman sağlık sigortası aynı şey mi?
 
@@ -837,7 +837,7 @@ Kabul saatini önceden öğren ve olası sıra için zaman ayır. **Pasaport ba�
 
 Fotoğraf veya evrak işin de varsa iki şubede de **biyometrik fotoğraf ve fotokopi hizmeti** bulunuyor. [Fotoğraf bilgileri](https://apianwiki.space/#resmi-islemler/soru-50) · [Çıktı, fotokopi ve tarama](https://apianwiki.space/#resmi-islemler/soru-126)
 
-Bitmiş pillerini ve kabul ölçüsündeki küçük elektroniklerini de götürebilirsin. [Ücretsiz teslim koşulları ve şube haritaları](https://apianwiki.space/#geri-donusum/soru-156)
+Bitmiş pillerini ve kabul ölçüsündeki küçük elektroniklerini de götürebilirsin. [Ücretsiz teslim koşulları ve şube haritaları](https://apianwiki.space/#geri-donusum/soru-157)
 
 ### 132. Yakında içecek marketi (Getränkemarkt) var mı?
 
@@ -921,15 +921,27 @@ Bu bölüm genel bilgilendirme amaçlıdır; sigorta veya ürün tavsiyesi içer
 
 Dolayısıyla bir Haftpflicht poliçesinin bulunması, ayrıca Glasversicherung olduğu anlamına gelmez. Cam sigortasının bulunması da bütün cam eşyaların ve her tür cam hasarının karşılanacağı anlamına gelmez.
 
-### 144. Misafirler araçlarını nereye park edebilir?
+### 144. Feringasee’de hangi sosyal aktiviteler var?
+
+**Feringasee**, arkadaşlarla yüzme, piknik ve göl çevresinde yürüyüş için bir seçenek. [Apian’dan yol tarifi](https://www.google.com/maps/dir/?api=1&origin=Apianstrasse+7+85774+Unterfoehring&destination=Feringasee+Unterfoehring&travelmode=bicycling)
+
+**Spor ve açık hava:** İki sahalı **beach voleybol alanı**, güneşlenme çayırları ve su kenarında kumluk alanlar var. Gölün bir bölümü sörf için ayrılmış; kuzey kıyısında doğal yaşam alanı bulunuyor. Göl çevresinde tuvaletler de var. [Göl ve tesis bilgileri](https://www.landkreis-muenchen.de/themen/freizeit-kultur-sport/badeseen-und-badegewaesser/feringasee/)
+
+**Açık havada mangal:** Yalnızca tabelalarla işaretlenmiş **Grillzone** alanlarında, küçük taşınabilir mangallarla yapılabiliyor. Yerde mangal yakmak ve kamp ateşi yasak. Alanın yerini resmî sayfadaki **Grillzone Feringasee** planından kontrol edebilirsin.
+
+**Ayrı FKK bölgesi:** Yarımadada çıplak güneşlenme ve yüzme için ayrılmış bir **FKK alanı** var; gölün tamamı FKK bölgesi değil.
+
+**Yeme içme:** FERINGAS restoranı, Seegarten/Biergarten, Beach Club ve büfeler bulunuyor. Restoran **4 Ekim 2026’dan itibaren kış arasında**; normal sezonun **25 Mart 2027’de** yeniden başlaması planlanıyor. Seegarten güzel havalarda hafta sonları açılıyor. Gitmeden sezon ve hava durumuna bağlı açılış bilgisini kontrol et. [FERINGAS güncel duyuruları ve menüler](https://feringa-see.de/)
+
+### 145. Misafirler araçlarını nereye park edebilir?
 
 Misafirler araçlarını **yol kenarındaki park şeritlerine** park edebilir.
 
-### 145. Önceki kiracı adına mektup geldi. Ne yapmalıyım?
+### 146. Önceki kiracı adına mektup geldi. Ne yapmalıyım?
 
 **Zarfı açma; mektubu açılmamış hâliyle postacıya geri verebilirsin.** Üzerine **“Empfänger verzogen – zurück an den Absender”** yazabilirsin; “Alıcı taşındı, gönderene iade” demek. Önceki kiracı adına gelen Rundfunkbeitrag mektubu için de bu yolu kullanabilirsin; Beitragsservice’e ayrıca gitmen gerekmiyor. [Deutsche Post: yanlış teslim edilen mektuplar](https://www.deutschepost.de/de/hilfe-kundenservice/empfangen/zustellung.html) · [Mektup gizliliği: §202 StGB](https://www.gesetze-im-internet.de/stgb/__202.html)
 
-### 146. Münih çevresinde sonbaharda pencereden giren böcekler ne olabilir?
+### 147. Münih çevresinde sonbaharda pencereden giren böcekler ne olabilir?
 
 **Sonbaharda bazı böcekler kışlayacak yer ararken evlere giriyor.** Kahverengi, kanatlı bir böcek bir kokarca türü (*Stinkwanze / Baumwanze*) olabilir. Bavyera Tarım Enstitüsünün tanıttığı kahverengi kokarca (*Marmorierte Baumwanze*) da kışı korunaklı yerlerde, sıkça binalarda geçiriyor. Ancak yalnızca renk veya uçuş sesinden türünü kesinleştiremeyiz. [Bavyera: kokarca türleri ve fotoğrafları](https://www.lfl.bayern.de/ips/gartenbau/382754/index.php)
 
@@ -948,7 +960,7 @@ Fotoğraf: [Amada44 / Wikimedia Commons](https://commons.wikimedia.org/wiki/File
 
 Kokarca olduğunu ayırt ettiğin tek bir böceği **bardak ve kartonla yakalayıp dışarı bırakabilirsin**. Ezmek veya elle sıkıştırmak kötü koku bırakmasına neden olabilir; bunun için odayı ilaçlamana gerek yok. [Umweltbundesamt: kokarcalar ve evden çıkarma](https://www.umweltbundesamt.de/wanzen)
 
-### 147. Pencereden böcek girmesini nasıl azaltabilirim?
+### 148. Pencereden böcek girmesini nasıl azaltabilirim?
 
 **İlk iş sinekliğin kenarlarını kontrol et.** Tül sağlam olsa bile çerçeveyle arasında açıklık kalmışsa böcek geçebilir. Açılıp kapanan veya mıknatıslı kısımların tam kapandığından emin ol. Üst katlarda da pencereye sineklik takmak işe yarar. [İlaçsız önlemler ve pencere sinekliği](https://www.umweltbundesamt.de/system/files/medien/3521/dokumente/pan_flyer_schaedlingsbekaempfung_0.pdf)
 
@@ -956,7 +968,7 @@ Kokarca olduğunu ayırt ettiğin tek bir böceği **bardak ve kartonla yakalay�
 
 Odayı havalandırmaya devam et; sineklik bunu böcek girişini azaltarak yapmana yardımcı olur. Pencere contası veya çerçevesinde açıklık varsa fotoğrafını çekip ofisten onarım iste. [Arıza bildirimi](https://apianwiki.space/#bakim/soru-28)
 
-### 148. İnce ve hızlı böcekler silverfish mi, ne yapmalıyım?
+### 149. İnce ve hızlı böcekler silverfish mi, ne yapmalıyım?
 
 **Silverfish, yani gümüş böceği (Silberfischchen), kâğıt böceğine (Papierfischchen) çok benzer.** Yalnızca hızlı koşmasına veya duvarda görünmesine bakarak kesin tür söylemek zor. Yakından, mümkünse yanına boyutunu gösterecek bir nesne koyarak fotoğrafını çek. [LAVES: benzer türleri ayırmak](https://www.laves.niedersachsen.de/startseite/tiere/schadlingsbekampfung/lastlinge/silberfischchen-oder-nicht-211033.html)
 
@@ -978,7 +990,7 @@ Bu tablo bir ilk ayrım; kesin teşhis yerine geçmez. Gümüş böceği fazla n
 
 **Lavabo altını, buzdolabı çevresini, süpürgelikleri ve yatak altını kontrol et.** Kırıntı, toz ve ölü böcekleri temizle; yiyecekleri kapalı kaplarda tut. Islak yüzeyleri kurula, sızıntıyı bildir ve düzenli kısa havalandırma yap. Kargo kutularını uzun süre odada tutma. Tekrarlayan görülmelerde veya kâğıtlarda hasar varsa ofisten tür tespiti ve profesyonel kontrol iste. [Kalıcı çözüm için ortam ve giriş noktaları](https://www.umweltbundesamt.de/silber-ofen-papierfischchen)
 
-### 149. Çok bacaklı, hızla koşan şey ev çıyanı olabilir mi?
+### 150. Çok bacaklı, hızla koşan şey ev çıyanı olabilir mi?
 
 **Uzun bacakları iki yana belirgin biçimde açılıyorsa ev çıyanı (Spinnenläufer) olasılığı da var.** Gümüş böceğiyle aynı hayvan değil. Spinnenläufer gündüz çatlaklarda saklanıp gece başka böcekleri ve örümcekleri avlayabiliyor. Fotoğrafını görmeden kesin tür söylemek doğru olmaz. [Naturkundemuseum Karlsruhe: ev çıyanı](https://wunderkammer.naturkundemuseum-karlsruhe.de/de/objekt/langen-beinen-unterwegs)
 
@@ -987,9 +999,9 @@ Bu tablo bir ilk ayrım; kesin teşhis yerine geçmez. Gümüş böceği fazla n
 *Scutigera coleoptrata*
 Fotoğraf: [Bruce Marlin / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Scutigera_coleoptrata.JPG) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
-Çıplak elle tutmaya çalışma. Sürekli aynı duvar, süpürgelik veya priz çevresinden çıktığını görüyorsan yerini fotoğraflayıp teknik ekibin kontrol etmesini iste. Priz kapağını sökme veya elektrik boşluklarına sprey sıkma. [Apian’a bildirim ve Almanca mesaj](https://apianwiki.space/#bocekler/soru-151)
+Çıplak elle tutmaya çalışma. Sürekli aynı duvar, süpürgelik veya priz çevresinden çıktığını görüyorsan yerini fotoğraflayıp teknik ekibin kontrol etmesini iste. Priz kapağını sökme veya elektrik boşluklarına sprey sıkma. [Apian’a bildirim ve Almanca mesaj](https://apianwiki.space/#bocekler/soru-152)
 
-### 150. Böcekler için hangi ürünleri kullanabilirim?
+### 151. Böcekler için hangi ürünleri kullanabilirim?
 
 | Kategori | Seçenek ve kısa bilgi |
 | --- | --- |
@@ -1003,7 +1015,7 @@ Fotoğraf: [Bruce Marlin / Wikimedia Commons](https://commons.wikimedia.org/wiki
 
 Odayı tekrar tekrar ilaçlamak giriş noktasını veya nem sorununu çözmez; kimyasallar oda tozunda ve yüzeylerde kalabilir. Sorun sürüyorsa, özellikle kâğıt böceğinde, ofisten profesyonel kontrol iste. [Evde kimyasal kullanım ve uzman desteği](https://www.umweltbundesamt.de/system/files/medien/3521/dokumente/pan_flyer_schaedlingsbekaempfung_0.pdf) · [İç ortamda böcek ilaçları](https://presse.dguv.de/ifa/praxishilfen/innenraumarbeitsplaetze/chemische-einwirkungen/insektizide/index.jsp)
 
-### 151. Böcekler tekrar çıkıyorsa Apian’a nasıl bildireyim?
+### 152. Böcekler tekrar çıkıyorsa Apian’a nasıl bildireyim?
 
 **Aynı yerden tekrar çıkıyorsa, sayı artıyorsa veya eşyalarda zarar görüyorsan ofise bildir.** Apian 1/2 bilgisini, oda numaranı, ne zamandır gördüğünü ve yerini yaz; net fotoğraf ekle. Ofisten **Reparaturzettel** alabilir veya **info@apian-aparthaus.de** adresine yazabilirsin. [Arıza bildirim adımları](https://apianwiki.space/#bakim/soru-28) · [Apian iletişim](https://www.apian-aparthaus.de/)
 
@@ -1011,33 +1023,33 @@ Odayı tekrar tekrar ilaçlamak giriş noktasını veya nem sorununu çözmez; k
 
 Priz, lamba veya boru geçişi çevresinde açıklık varsa **kendin söküp silikonla doldurmak yerine teknik ekibin incelemesini iste**. Havalandırma açıklıklarını kapatma. Yeni taşındığında duvarlarda böcek izleri veya hasar görürsen bunları da teslim fotoğraflarına ekle. [Oda teslim tutanağı](https://apianwiki.space/#yerlesme/soru-10)
 
-### 152. Eski yatağımı, şiltemi veya bazamı nereye verebilirim?
+### 153. Eski yatağımı, şiltemi veya bazamı nereye verebilirim?
 
 **Yatağı veya şilteyi Apian verdiyse, eski olsa da odada bırak. Apian bu eşyaların odada kalmasını istiyor; atma veya geri dönüşüme götürme.** [Odadaki mobilyalar](https://apianwiki.space/#oda-donanimi/soru-9)
 
-**Aşağıdaki teslim seçenekleri yalnızca kendi aldığın yatak, şilte veya baza için.** Normal çöpe atma; Wertstoffhof Unterföhring’e götürebilirsin. Şilte, **Sperrmüll** yani büyük eşya atığı olarak kabul ediliyor; ahşap ve metal parçaları görevlinin gösterdiği bölümlere ayır. **Büyük eşya ve ahşap için sınır 2 m³.** [Belediyenin kabul koşulları](https://www.unterfoehring.de/mobilitaet-umwelt/ver-und-entsorgung/abfallentsorgung.html) · [Adres, saatler ve harita](https://apianwiki.space/#geri-donusum/soru-155)
+**Aşağıdaki teslim seçenekleri yalnızca kendi aldığın yatak, şilte veya baza için.** Normal çöpe atma; Wertstoffhof Unterföhring’e götürebilirsin. Şilte, **Sperrmüll** yani büyük eşya atığı olarak kabul ediliyor; ahşap ve metal parçaları görevlinin gösterdiği bölümlere ayır. **Büyük eşya ve ahşap için sınır 2 m³.** [Belediyenin kabul koşulları](https://www.unterfoehring.de/mobilitaet-umwelt/ver-und-entsorgung/abfallentsorgung.html) · [Adres, saatler ve harita](https://apianwiki.space/#geri-donusum/soru-156)
 
 Taşıyacak aracın yoksa belediyenin yıllık **Sperrmüllabholung** hizmetini sorabilirsin; önceden kayıt gerekiyor. Tarih ve kayıt için **abfall@unterfoehring.de** veya [089 950 81 358](tel:+498995081358). Bu toplama elektronik eşyaları kapsamıyor. [Büyük eşya toplama bilgileri](https://www.unterfoehring.de/mobilitaet-umwelt/ver-und-entsorgung/abfallentsorgung.html)
 
-### 153. Bozulan elektrikli aletleri ve eski elektronik eşyaları nereye bırakabilirim?
+### 154. Bozulan elektrikli aletleri ve eski elektronik eşyaları nereye bırakabilirim?
 
-**Küçük cihazlar için dm pratik bir seçenek.** Eski telefon, şarj adaptörü veya elektrikli diş fırçası gibi cihazları **hiçbir dış ölçüsü 25 cm’yi aşmıyorsa** kasaya ücretsiz teslim edebilirsin. **Alışveriş şartı yok; aynı cihaz türünden en fazla üç adet** kabul ediliyor. [dm kabul koşulları](https://www.dm.de/elektro-altgeraeteentsorgung-995460) · [Yakındaki iki dm ve haritaları](https://apianwiki.space/#geri-donusum/soru-156)
+**Küçük cihazlar için dm pratik bir seçenek.** Eski telefon, şarj adaptörü veya elektrikli diş fırçası gibi cihazları **hiçbir dış ölçüsü 25 cm’yi aşmıyorsa** kasaya ücretsiz teslim edebilirsin. **Alışveriş şartı yok; aynı cihaz türünden en fazla üç adet** kabul ediliyor. [dm kabul koşulları](https://www.dm.de/elektro-altgeraeteentsorgung-995460) · [Yakındaki iki dm ve haritaları](https://apianwiki.space/#geri-donusum/soru-157)
 
-**Daha büyük cihazlar için Wertstoffhof’a git.** Elektrik süpürgesi, monitör ve büyük mutfak aletleri elektronik atık olarak teslim edilebilir. Normal çöp konteynerine atma veya büyük eşya toplama gününde dışarı bırakma. [Belediyenin elektronik atık bilgileri](https://www.unterfoehring.de/mobilitaet-umwelt/ver-und-entsorgung/abfallentsorgung.html) · [Wertstoffhof konumu](https://apianwiki.space/#geri-donusum/soru-155)
+**Daha büyük cihazlar için Wertstoffhof’a git.** Elektrik süpürgesi, monitör ve büyük mutfak aletleri elektronik atık olarak teslim edilebilir. Normal çöp konteynerine atma veya büyük eşya toplama gününde dışarı bırakma. [Belediyenin elektronik atık bilgileri](https://www.unterfoehring.de/mobilitaet-umwelt/ver-und-entsorgung/abfallentsorgung.html) · [Wertstoffhof konumu](https://apianwiki.space/#geri-donusum/soru-156)
 
 Teslimden önce telefondaki/bilgisayardaki kişisel verilerini sil. **Kolayca ve zarar vermeden çıkarılabilen pili ayrı teslim et; gömülü bataryayı sökmeye çalışma.** [dm teslim hazırlığı](https://www.dm.de/elektro-altgeraeteentsorgung-995460)
 
 Apian’a ait buzdolabı, ocak veya başka bir cihaz bozulduysa atmak yerine [ofise arıza bildir](https://apianwiki.space/#bakim/soru-28).
 
-### 154. Bitmiş pilleri, şarjlı pilleri ve bataryaları nereye atmalıyım?
+### 155. Bitmiş pilleri, şarjlı pilleri ve bataryaları nereye atmalıyım?
 
-**Pilleri normal çöpe veya sarı ambalaj kutusuna atma.** Kumanda pili, AA/AAA kalem pil ve düğme pil gibi ev tipi pilleri **dm’deki pil toplama kutusuna** ücretsiz bırakabilirsin. Kutuyu göremezsen kasaya sor. Evde biriken olağan miktarlar ve mağazanın sattığı pil türleri kabul ediliyor. [dm pil teslimi](https://www.dm.de/elektro-altgeraeteentsorgung-995460) · [Mağazalardaki toplama kutuları](https://www.dm.de/services/services-im-markt) · [Yakındaki dm konumları](https://apianwiki.space/#geri-donusum/soru-156)
+**Pilleri normal çöpe veya sarı ambalaj kutusuna atma.** Kumanda pili, AA/AAA kalem pil ve düğme pil gibi ev tipi pilleri **dm’deki pil toplama kutusuna** ücretsiz bırakabilirsin. Kutuyu göremezsen kasaya sor. Evde biriken olağan miktarlar ve mağazanın sattığı pil türleri kabul ediliyor. [dm pil teslimi](https://www.dm.de/elektro-altgeraeteentsorgung-995460) · [Mağazalardaki toplama kutuları](https://www.dm.de/services/services-im-markt) · [Yakındaki dm konumları](https://apianwiki.space/#geri-donusum/soru-157)
 
 **Lityum pil ve bataryaların açık kutuplarını teslimden önce bantla.** Şişmiş, hasarlı veya sızdıran bataryayı kullanma, şarj etme ya da açmaya çalışma; toplama kutusuna bırakmak yerine görevliye durumunu söyleyerek teslim et. [Umweltbundesamt: güvenli batarya teslimi](https://www.umweltbundesamt.de/en/umwelttipps-fuer-den-alltag/proper-handling-of-lithium-batteries-rechargeable)
 
 **Elektrikli bisiklet ve scooter bataryası**, küçük ev tipi pil kutusuna uygun değil. Bu tür batarya satan bir mağazayla görüş; Wertstoffhof’a götüreceksen önce kabul edip etmediklerini sor. [Büyük bataryalar için teslim noktaları](https://www.umweltbundesamt.de/en/umwelttipps-fuer-den-alltag/proper-handling-of-lithium-batteries-rechargeable)
 
-### 155. Wertstoffhof nerede, hangi saatlerde gidebilirim?
+### 156. Wertstoffhof nerede, hangi saatlerde gidebilirim?
 
 **Wertstoffhof Unterföhring — Birkenhofstraße 12, 85774 Unterföhring.** Unterföhring sakinleri için kabul kapsamındaki evsel eşyaların teslimi ücretsiz.
 
@@ -1052,9 +1064,9 @@ Apian’a ait buzdolabı, ocak veya başka bir cihaz bozulduysa atmak yerine [of
 
 [Wertstoffhof Unterföhring — yatak ve elektronik teslimi](https://www.google.com/maps/search/?api=1&query=Wertstoffhof+Unterf%C3%B6hring+Birkenhofstra%C3%9Fe+12+85774+Unterf%C3%B6hring)
 
-### 156. Pil ve küçük elektronik teslimi için yakındaki dm şubeleri nerede?
+### 157. Pil ve küçük elektronik teslimi için yakındaki dm şubeleri nerede?
 
-**İki şubeyi de kullanabilirsin; normal açılış saatleri pazartesi–cumartesi 07.00–20.00, pazar kapalı.** Küçük elektroniği kasaya, ev tipi pili pil toplama kutusuna bırak. [Elektronik kabul ölçüsü ve adet sınırı](https://apianwiki.space/#geri-donusum/soru-153) · [Pil ve batarya teslimi](https://apianwiki.space/#geri-donusum/soru-154)
+**İki şubeyi de kullanabilirsin; normal açılış saatleri pazartesi–cumartesi 07.00–20.00, pazar kapalı.** Küçük elektroniği kasaya, ev tipi pili pil toplama kutusuna bırak. [Elektronik kabul ölçüsü ve adet sınırı](https://apianwiki.space/#geri-donusum/soru-154) · [Pil ve batarya teslimi](https://apianwiki.space/#geri-donusum/soru-155)
 
 **dm Feringastraße — Feringastraße 4, 85774 Unterföhring.** [Resmî şube bilgileri](https://www.dm.de/store/d0kl/unterfoehring/feringastrasse-4)
 
@@ -1064,7 +1076,7 @@ Apian’a ait buzdolabı, ocak veya başka bir cihaz bozulduysa atmak yerine [of
 
 [dm Prinz-Eugen-Park — pil ve küçük elektronik teslimi](https://www.google.com/maps/search/?api=1&query=dm-drogerie+markt+Maria-Nindl-Platz+2+81927+M%C3%BCnchen)
 
-### 157. Münih’te ev yemekleri için nerelere gidebilirim?
+### 158. Münih’te ev yemekleri için nerelere gidebilirim?
 
 Ev yemeği özleyenler için topluluktan gelen öneriler aşağıda. Lezzet yorumları kişisel deneyimlere dayanıyor.
 
@@ -1076,20 +1088,20 @@ Ev yemeği özleyenler için topluluktan gelen öneriler aşağıda. Lezzet yoru
 | **Altın Dilim Antep Sofrası** | Türk mutfağı için öneriliyor. | Harita bağlantısından bakabilirsin. | [İşletmenin sitesi](https://altindilim.de/) · [Haritada ara](https://www.google.com/maps/search/?api=1&query=Alt%C4%B1n+Dilim+Antep+Sofras%C4%B1+M%C3%BCnchen) |
 | **Burak Gurme** | Ev yemeği için öneriliyor. | Bertholdstraße 31, 80809 München | [Menü ve iletişim](https://www.burakgurme-mnchen.de/contact) · [Haritada aç](https://www.google.com/maps/search/?api=1&query=Burak+Gurme+Bertholdstra%C3%9Fe+31+M%C3%BCnchen) |
 
-### 158. Pilav, pide veya çorba için önerilen yerler nereler?
+### 159. Pilav, pide veya çorba için önerilen yerler nereler?
 
 | Mekan | Ne için öneriliyor? | Konum | Bağlantılar |
 | --- | --- | --- | --- |
 | **Opa's Pilav** | Pilav ağırlıklı, daha dar bir menü; yemekleri ve çorbaları beğeniliyor. | Berg-am-Laim-Straße 82a, 81673 München | [Menü](https://opaspilav.com/) · [Haritada aç](https://www.google.com/maps/search/?api=1&query=Opas+Pilav+Berg-am-Laim-Stra%C3%9Fe+82a+M%C3%BCnchen) |
 | **Kapadokya Pide - Grill** | Pide ve çorba önerisi; tek ziyaret deneyimine dayanıyor. | Schleißheimer Straße 442, 80935 München | [Paylaşılan konum](https://maps.app.goo.gl/4cQ8Y6eRyuTn1gGP7) |
 
-### 159. Arkadaş grubuyla Türk kahvaltısı için nereye gidebiliriz?
+### 160. Arkadaş grubuyla Türk kahvaltısı için nereye gidebiliriz?
 
 | Mekan | Ne için öneriliyor? | Konum | Bağlantılar |
 | --- | --- | --- | --- |
 | **Simitçi Cafe München (Milbertshofen)** | Grupça Türk kahvaltısı için öneriliyor. | Bertholdstraße 29, 80809 München | [Paylaşılan konum](https://maps.app.goo.gl/fNPpCkYnbwFCPn9i6) · [Menü](https://www.simitcicaf-mnchen.de/) |
 
-### 160. Münih’te döner için nerelere gidebilirim?
+### 161. Münih’te döner için nerelere gidebilirim?
 
 Topluluktan gelen döner önerileri:
 
@@ -1099,13 +1111,13 @@ Topluluktan gelen döner önerileri:
 | **Sendlinger Spezial** | [Haritada ara](https://www.google.com/maps/search/?api=1&query=Sendlinger+Spezial+M%C3%BCnchen) |
 | **Nara Döner** | [Haritada ara](https://www.google.com/maps/search/?api=1&query=Nara+D%C3%B6ner+M%C3%BCnchen) |
 
-### 161. Münih’te Studierendenwerk devlet yurtlarına kimler başvurabilir?
+### 162. Münih’te Studierendenwerk devlet yurtlarına kimler başvurabilir?
 
 **Studierendenwerk München Oberbayern**, Münih ve çevresinde uygun fiyatlı öğrenci yurtları işletiyor. TUM, LMU ve HM dahil kurumun hizmet verdiği üniversitelerin öğrencileri başvurabiliyor. Gelir sınırı ve öğrenim durumuna ilişkin koşullar var; doktora ve ikinci lisans gibi bazı durumlar kapsam dışında. Lisans sonrası yüksek lisans için başvuru mümkün. [Uygunluk koşulları ve istisnalar](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/faqs/)
 
 **Oda tipine dikkat et:** WG odasında mutfak ve banyo ortak; **Teilapartment**’ta banyo sana ait, mutfak ortak; **Einzelapartment**’ta mutfak ve banyo sana ait. Kira ve bekleme süresi bu seçime göre değişiyor. [Oda tipleri ve kira bilgileri](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/miete-wartezeit/)
 
-### 162. Studierendenwerk yurtlarına nasıl ve ne zaman başvurulur?
+### 163. Studierendenwerk yurtlarına nasıl ve ne zaman başvurulur?
 
 **Başvuru internetten yapılıyor:** [Resmî online başvuru sayfasını aç](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/bewerbung/online-bewerbung/) ve “Online-Bewerbung starten” bağlantısından ilerle. Öğrenim yerin için **en fazla üç yurt** seçebilirsin; seçim sırası öncelik sırası sayılmıyor.
 
@@ -1121,7 +1133,7 @@ Kimlik/pasaport veya oturum belgeni hazırla. İlk kez üniversiteye başlayacak
 
 **Tek başvuru yap.** Bilgi veya yurt tercihi değiştirmek için yeniden başvurmak yerine **wohnen-bewerbung@stwm.de** adresine yaz. [Başvuru uyarıları](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/bewerbung/online-bewerbung/)
 
-### 163. Yurt ne kadar sürede çıkar? Wartezeit PDF’i nerede?
+### 164. Yurt ne kadar sürede çıkar? Wartezeit PDF’i nerede?
 
 **Hemen oda çıkacağını varsayma.** Kurum genel olarak **1–7 dönem** bekleme süresi belirtiyor; bu yaklaşık **6 ay–3,5 yıl** demek. Beklerken başka konaklama seçeneklerini de ara. [Resmî yurt bilgileri](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/)
 
@@ -1137,7 +1149,7 @@ Kimlik/pasaport veya oturum belgeni hazırla. İlk kez üniversiteye başlayacak
 
 **Süre başvuru gününden başlıyor; tabloda yazan süre yerleşme garantisi değil.** Kurum sıradaki yerini bildirmiyor. PDF’in güncel sürümüne [kira ve bekleme süresi sayfasından](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/miete-wartezeit/) da ulaşabilirsin. [Bekleme listesinin işleyişi](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/bewerbung/bewerbungsprozess/)
 
-### 164. Beklerken başvurumu nasıl aktif tutarım, teklif gelince ne yapmalıyım?
+### 165. Beklerken başvurumu nasıl aktif tutarım, teklif gelince ne yapmalıyım?
 
 **Her dönem güncel öğrenci belgeni (Immatrikulationsbescheinigung) yükle:** kış dönemi için **1 Kasım**, yaz dönemi için **1 Mayıs** son tarih. Bunlar yeni başvuru başlangıçlarından farklı. Belge yüklenmezse başvuru pasifleşiyor. [Öğrenci belgesi yükleme](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/mein-account/immatrikulation/) · [Resmî süreç ve tarihler](https://www.studierendenwerk-muenchen-oberbayern.de/wohnheime/bewerbung/bewerbungsprozess/)
 

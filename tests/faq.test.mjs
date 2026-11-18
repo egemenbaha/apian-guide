@@ -11,7 +11,7 @@ const faq = parseFaq(source);
 const searchIndex = createSearchIndex(topics, faq.questions);
 
 test('all reviewed questions, sources and pending items survive the Markdown import', () => {
-  assert.equal(faq.questions.length, 164);
+  assert.equal(faq.questions.length, 165);
   assert.equal(faq.openQuestions.length, 2);
   assert.match(faq.openQuestions[0], /^\*\*Boya:/);
   assert.match(faq.openQuestions[1], /Apian 1 oda ölçüleri/);
@@ -77,7 +77,7 @@ test('photo rendering rejects external images, executable URLs and paths outside
 
 test('published insect galleries include packaged images and keep file paths out of search excerpts', async () => {
   const images = [];
-  for (const id of [146, 148, 149]) {
+  for (const id of [147, 149, 150]) {
     const answer = faq.questions.find(question => question.id === id).answer;
     for (const match of answer.matchAll(/!\[[^\]]+\]\((src\/images\/[^)]+)\)/g)) {
       images.push(match[1]);
@@ -87,7 +87,7 @@ test('published insect galleries include packaged images and keep file paths out
   }
   assert.equal(images.length, 5);
   const matches = findMatches('Lepisma saccharina', searchIndex);
-  assert.ok(matches.some(match => match.href === '#bocekler/soru-148'));
+  assert.ok(matches.some(match => match.href === '#bocekler/soru-149'));
   assert.doesNotMatch(JSON.stringify(matches), /src\/images\/|!\[/);
 });
 
