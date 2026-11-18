@@ -1,42 +1,39 @@
 # Apian Wiki
 
-Apian sakinleri ve yeni taşınacak Türk öğrenciler için bilgi rehberi.
+Apian Wiki, Münih / Unterföhring’deki Apian öğrenci yurtlarında yaşayan veya buraya taşınmayı planlayan Türk öğrenciler için hazırlanmış, topluluk katkılarıyla geliştirilen bağımsız bir bilgi rehberidir. Yerleşme, oda donanımı, günlük yaşam, ulaşım, çevredeki hizmetler ve resmî işlemler hakkında pratik bilgileri tek yerde toplar.
+
+İçerik, sakinlerin deneyimleri ve ölçümleri ile bağlantı verilen kaynaklardan derlenir. Proje, Türkçe arama ve konu sayfaları olan açık kaynaklı bir statik web sitesidir.
 
 **Rehberi aç: [apianwiki.space](https://apianwiki.space/)**
+
+## Bağımsızlık, bilgi doğruluğu ve sorumluluk
+
+**Apian Wiki, yurt yönetiminin, Studierendenwerk’in, üniversitelerin veya kamu kurumlarının resmî yayını değildir; bu kurumlar adına açıklama yapmaz.** Rehberdeki bilgiler genel bilgilendirme amaçlıdır. Kira sözleşmesinin, yurt kurallarının, yetkili kurumların açıklamalarının veya hukuki, mali ve tıbbi danışmanlığın yerine geçmez.
+
+**Bilgilerin doğruluğu, eksiksizliği, güncelliği veya belirli bir ihtiyaca uygunluğu garanti edilmez.** Hatalar, eksikler ve güncelliğini yitirmiş bilgiler bulunabilir. Özellikle ücretler, çalışma saatleri, başvuru tarihleri ve uygulamalar değişebilir. Bir işlem yapmadan veya masrafa girmeden önce ilgili bilgiyi yurt yönetiminden, hizmet sağlayıcısından ya da yetkili kurumdan doğrula.
+
+**Yürürlükteki hukukun izin verdiği ölçüde, proje sahipleri, yöneticileri ve katkıda bulunanlar, rehberdeki hata veya eksikliklerden ya da bilgilere güvenilerek yapılan işlemlerden doğan zararlar için sorumluluk kabul etmez.** Bu açıklama, kanunen kaldırılamayan veya sınırlandırılamayan sorumlulukları ortadan kaldırmaz. Kasıt, ağır ihmal ve yaşam, beden veya sağlık zararları bakımından zorunlu yasal sorumluluklar saklıdır. İlgili yasal sınırlar için [BGB § 276](https://www.gesetze-im-internet.de/bgb/__276.html) ve [BGB § 309 no. 7](https://www.gesetze-im-internet.de/bgb/__309.html) hükümlerine bakılabilir.
+
+Dış bağlantılar bilgiye ulaşmayı kolaylaştırmak için verilir; bağlantı verilmesi, ilgili hizmetin onaylandığı veya içeriğinin doğruluğunun garanti edildiği anlamına gelmez. Üçüncü taraf sitelerin içerikleri ve koşulları değişebilir. Bir hata fark edersen ilgili cevaptaki **Düzeltme öner** bağlantısını veya [GitHub Issues](https://github.com/egemenbaha/apian-guide/issues) bölümünü kullanabilirsin.
+
+## Yayın ve proje yapısı
 
 Ana alan adı `apianwiki.space`, Vercel’deki `ApianS / apian-guide` projesinin Production ortamına bağlıdır. Rehber içi bağlantılar, GitHub bilgi düzeltme taslakları ve sayfanın canonical/Open Graph adresi bu alan adını kullanır. Alan adı ayarları Vercel proje panelinden yönetilir; DNS veya sertifika bilgileri kaynak kodda tutulmaz.
 
 `www.apianwiki.space` ve önceki `apian-guide.vercel.app` adresi, Vercel üzerinden **308 kalıcı yönlendirmeyle** ana domaine gider. Eski soru ve bölüm bağlantıları aynı hash rotalarını kullanmaya devam eder.
 
-[Proje açıklaması ve 144 soruluk FAQ](PROJECT_DESCRIPTION.md) · [Tamamlanacak sorular](PROJECT_DESCRIPTION.md#acik-sorular)
+Rehberin içerik kaynağı [PROJECT_DESCRIPTION.md](PROJECT_DESCRIPTION.md) dosyasıdır. Konu başlıkları ve soru eşlemeleri `src/topics.js` içinde tutulur. Üretilen FAQ verisi ve yayın çıktısı doğrudan düzenlenmez.
 
-Arda’nın Wikipedia tarzı düzeni korunarak 144 soruluk FAQ, kaynak bağlantıları ve açık sorular 25 konu başlığına entegre edildi. İçerik `PROJECT_DESCRIPTION.md` dosyasından üretilir; cevapları güncellemek için bu dosyayı düzenle.
+## Ziyaret istatistikleri
 
-Arama soru, cevap ve bölüm başlıklarını ilgililiğe göre sıralar; Türkçe karakterleri, bazı Türkçe ekleri, yaygın Türkçe/Almanca/İngilizce karşılıkları ve küçük yazım hatalarını destekler. Örneğin `wifi çalışmıyor`, `pazar günü nereler açık`, `Apian2 sineklik`, `Kaution` veya `sineklki` yazabilirsin. Sonuçlarda bölüm adı, cevaptan kısa alıntı ve eşleşen kelimeler görünür. İlk sekiz sonuçtan sonra tümünü açabilirsin; ↑/↓ ile gezin, Enter ile aç, Escape ile kapat. Aramalar kaydedilmez veya bir servise gönderilmez; yeni cevap üretilmez, rehberdeki metinler aranır.
+Umami Cloud'un ücretsiz Hobby planında ziyaretçi ve görüntüleme sayıları, en çok okunan konular, yönlendiren siteler, ülkeler ve cihazlar izlenebilir. Kurulum için:
 
-Arama mantığı ve sözcük karşılıkları `src/search.js`, arayüzü `src/search-ui.js` içindedir. Dizin sayfa yüklenirken bir kez hazırlanır. Kısa banka adları ve sayılar yaklaşık eşleştirilmez; yazım toleransı yalnızca doğrudan eşleşme bulunmayan kelimelerde uygulanır. Davranış ve sıralama örnekleri `tests/search.test.mjs` ile kontrol edilir.
+1. [Umami Cloud](https://cloud.umami.is/) hesabında Hobby planını seç. **Websites** bölümünde `apianwiki.space` alan adı için **Apian Wiki** sitesini ekle veya mevcut kaydı aç. Sitenin **Website ID** değerini kopyala.
+2. Vercel’de **ApianS → apian-guide → Settings → Environment Variables** bölümüne git. **Production** için `UMAMI_WEBSITE_ID` değişkenini bu herkese açık kimliğe ayarla ve güncel `main` sürümünü yeniden dağıt. Kimlik tanımlanana kadar ölçüm kapalıdır.
+3. `https://apianwiki.space/` adresini aç, ardından Çamaşırhane konusuna ve konu içindeki bir soruya git. Umami’de **Realtime** bölümünde ana sayfa (`/`) ve konu (`/konu/camasirhane`) için birer görüntüleme beklenir. Aynı konudaki soruya geçmek yeni görüntüleme oluşturmaz.
+4. Aramadan bir sonuç aç. **Events** bölümündeki `search-result-opened` sayacı bu seçimi gösterir. Arama metni, soru numarası ve taşınma listesi seçimleri gönderilmez. Ölçüm yalnızca ana alan adında çalışır ve tarayıcının Do Not Track veya Global Privacy Control tercihini dikkate alır.
 
-[Orterer içecek marketi](https://apianwiki.space/#alisveris/soru-132) ve [Kistenpfennig fırını](https://apianwiki.space/#alisveris/soru-133), “Eczane, market ve fırın” bölümünde adres, açılış saatleri, telefon ve yürüyüş rotasıyla yer alır. Kistenpfennig’in pazar saatleri, pazar alışverişi yanıtlarında da gösterilir.
-
-[Yakındaki dm şubeleri](https://apianwiki.space/#alisveris/soru-131), alışveriş bölümünde Feringastraße 4 ile Maria-Nindl-Platz 2’yi adres, saat ve yol tarifleriyle karşılaştırır. Maria-Nindl-Platz şubesi, [para çekme yanıtında](https://apianwiki.space/#bankalar/soru-92) da Feringastraße’ye alternatif olarak gösterilir.
-
-[Türk Konsolosluğu, Eğitim Ataşeliği ve askerlik](https://apianwiki.space/#resmi-islemler/bolum-7) bölümünde iletişim/ulaşım, yurt dışı adres beyanı, özel öğrenci dosyası belgeleri ve tecil takibi bulunur. Adres beyanı için 2023 tarihli duyuruya, güncel randevu açıklamasına ve kabul saatini sorabileceğin telefon numarasına ulaşabilirsin. Öğrenci fişi, tamamlanmış askerlik ertelemesi olarak sunulmaz.
-
-[Fotokopi, çıktı ve tarama](https://apianwiki.space/#resmi-islemler/soru-126), Feringastraße 4 ve Maria-Nindl-Platz 2’deki dm şubelerini, dosya hazırlığını, A4 ücretlerini ve Feringastraße şubesinin ciltleme seçeneğini anlatır. [Biyometrik fotoğraf yanıtında](https://apianwiki.space/#resmi-islemler/soru-50) her iki şubenin adresini ve Landkreis München’in oturum kartı için istediği fotoğrafın koşullarını bulabilirsin.
-
-[Üyelikler ve abonelikler](https://apianwiki.space/#abonelikler), Deutschlandticket’in standart/öğrenci tarifelerini ve iptal adımlarını; Clever fit, Cosimawellenbad, ZHS, Scheck Club ve belediyenin spor seçeneklerini içerir. Fiyatlar ve koşullar ilgili yanıtın resmî kaynak bağlantılarıyla birlikte tutulur. ZHS dönemlik katkı payı ile kurs ücreti, havuz girişi ile sauna bileti ayrı anlatılır. Fiyat değişikliklerinin yürürlük tarihleri içerikte korunur.
-
-Apian 2’de ölçülüp paylaşılan sineklik, mutfak, mobilya, banyo, kapı, kalorifer ve perde ölçüleri “Odada neler var?” bölümündedir. [Apian 2 oda ölçüleri](https://apianwiki.space/#apian-2-oda-olculeri) sayfası bunları 7 priz bilgisiyle birlikte tek tabloda toplar. Apian 1’de henüz ölçüm yapılmadığı açıkça belirtilir. Perde takılacak alanın eni, tek bir perdenin kumaş eni olarak yorumlanmaz.
-
-Resmî tatiller bölümünde 2026 sonundaki kapanışlar ve 2027 takvimi yer alır. Marketlerin pazar/tatil saatleri ve Unterföhring’in güncel nöbetçi eczane listesine bağlantı ilgili konulardadır; değişen nöbet listeleri siteye sabit olarak kopyalanmaz. [Bakım bölümünde](https://apianwiki.space/#bakim/soru-97) tamir ekibi gelmeden önce ofisle neleri netleştirebileceğini bulabilirsin.
-
-Açık/koyu mod düğmesi üst çubukta masaüstü ve telefonda görünür. Tema tercihi tarayıcıda hatırlanır ve sağdaki görünüm ayarlarıyla eşzamanlı çalışır. Rathaus konum bağlantısı açılır harita ve yol tarifiyle gösterilir; acil yardım numaraları telefonda aranabilir bağlantılardır.
-
-## Taşınma listesi ve bilgi düzeltmeleri
-
-[Yanımda ne getireyim?](https://apianwiki.space/#tasinma-listesi) sayfasında “Yanında getir”, “Odada bulunanlar” ve “Yerleştikten sonra al” grupları bulunur. Liste maddeleri FAQ 113–115 içindeki Markdown `- [ ]` satırlarından üretilir. İşaretler yalnızca ziyaretçinin tarayıcısında saklanır; depolama engellenirse aynı oturumda çalışır ve durum açıkça belirtilir. Kimlikler soru numarası ve madde metninden oluşur; madde metni değişirse o maddenin işareti sıfırlanır. “İşaretleri temizle” mevcut listeyi sıfırlar.
-
-Her FAQ yanıtındaki **Düzeltme öner** alanı, ilgili sorunun bağlantısını ve başlığını içeren bir GitHub öneri taslağı açar. Ziyaretçi GitHub hesabıyla giriş yapıp açıklamasını kendisi gönderir. Öneriler herkese açıktır ve Egemen veya Arda tarafından incelenip içerik düzenlenerek rehbere alınır; otomatik içerik değişikliği veya otomatik gönderim yapılmaz. Gönderiler [deponun Issues bölümünde](https://github.com/egemenbaha/apian-guide/issues) takip edilir. Bu akış forumu etkinleştirmez ve sunucuda gizli anahtar gerektirmez.
+Günlük veya haftalık değişimi görmek için Umami’de **Apian Wiki** sitesini açıp tarih aralığını seç. **Pages** konu görüntülemelerini, **Referrers** dış trafik kaynaklarını gösterir. Ölçümü kapatmak için Vercel’de değişkeni kaldırıp yeniden dağıt.
 
 ## Yerel geliştirme
 
@@ -98,25 +95,6 @@ Forum entegrasyonunu doğrulamak için `python3 scripts/check-forum.py` çalış
 
 [agent.md](agent.md), dosya haritası ve doğrulama adımlarını içerir. `AGENTS.md` bu rehberin ajanlar tarafından bulunmasını sağlar.
 
-## İçerik kapsamı
-
-- Yerleşme ve odadaki eşyalar
-- Acil yardım numaraları, yakındaki Pharao eczanesi ve pazar günü açık marketler
-- [İlk doktor randevusu](https://apianwiki.space/#doktor-randevusu), Unterföhring’de aile ve diş hekimleri, Türkçe seçenekler ve ilk ziyaret için belgeler
-- İnternet ve çamaşırhane
-- Anahtar, ortak alanlar ve kargo
-- Arızalar ve günlük yaşam
-- Çıkış, boya ve depozito
-- Ödemeler ve resmî işlemlere yönlendirme
-- Feringastraße marketleri, eczaneler ve DHL Packstation
-- Yakındaki duraklar; TUM Garching, TUM Stammgelände ve LMU ulaşımı
-- Dream-Bowl Palace ve tesisteki eğlence seçenekleri
-- 14 banka/yerel banka için ayrı yanıtlar; TEB–Deutsche Bank ATM iş birliği ve Türkiye banka kartları
-- dm’de alışveriş sırasında 200 €’ya kadar nakit çekme
-- Çamaşırhane için banknotu madeni paraya çevirme
-
-Çevre rehberindeki öneriler Apianstraße başlangıç alınarak kullanım amacına göre seçilir. Adresler kaynaklarla, yollar harita bağlantılarıyla verilir; süreler için canlı yolculuk planlayıcı kullanılır. Bankalarda para çekme, yatırma ve bozuk para edinme ayrı ele alınır; kart türü, kendi banka müşterisi olma koşulu ve uygulamadaki katılımcı mağaza bilgisi korunur. Yeni konum eklerken yalnızca adresi değil, önerilen hizmeti de kaynağından doğrula.
-
 ## İçerik ilkeleri
 
 - Apian 1 ve Apian 2 bilgileri ayrı tutulur.
@@ -129,11 +107,29 @@ Forum entegrasyonunu doğrulamak için `python3 scripts/check-forum.py` çalış
 - Kişisel sağlık ve hukuki olaylar yayımlanacak içeriğe taşınmaz.
 - Bu proje yurt yönetiminin resmî yayını değildir.
 
-## Sonraki adım
+## Nasıl katkıda bulunabilirsin?
 
-[Açık kalan sorular](https://apianwiki.space/#acik-sorular) bölümünde boya kodları ve Apian 1 oda ölçüleri yer alıyor. Bir ölçü paylaşmak için ilgili sorudaki **Düzeltme öner** bağlantısını, rehberde eksik bir konuyu önermek için **Yeni başlık öner** bağlantısını kullanabilirsin.
+Katkı vermek için kod bilmen gerekmiyor. Yanlış bir bilgiyi düzeltebilir, eksik bir konuyu önerebilir veya sitenin geliştirilmesine yardımcı olabilirsin.
 
-## Açık kaynak ve katkı
+### Bilgi düzeltmek veya konu önermek
+
+1. Rehberde ilgili cevabın altındaki **Düzeltme öner** bağlantısını kullan veya [GitHub bildirimleri](https://github.com/egemenbaha/apian-guide/issues) bölümünde yeni bir bildirim aç. Göndermek için GitHub hesabınla giriş yapman gerekir.
+2. Hangi sayfa veya cevabı kastettiğini, neyin yanlış ya da eksik olduğunu ve önerdiğin değişikliği yaz. Yeni bir konu öneriyorsan hangi sorunun yanıtlanmasını istediğini belirt.
+3. Varsa resmî kaynak bağlantısını ekle. Kendi deneyimini veya ölçümünü paylaşıyorsan hangi binayla ilgili olduğunu ve bilginin hangi döneme ait olduğunu belirt.
+
+Öneriler proje sorumluları tarafından incelenir; gönderilen bilgiler otomatik olarak rehbere eklenmez. Bildirimler herkese açıktır. Özel yazışma, kişisel iletişim bilgisi, kişi–oda eşleştirmesi, parola veya gizli anahtar paylaşma.
+
+### İçerik veya kod değişikliği göndermek
+
+1. [Depoyu](https://github.com/egemenbaha/apian-guide) kendi GitHub hesabına çatalla (**Fork**), bilgisayarına kopyala ve değişikliğin için ayrı bir dal oluştur.
+2. Soru ve cevapları `PROJECT_DESCRIPTION.md` içinde düzenle. Yeni bir soru ekliyorsan `src/topics.js` dosyasındaki konu eşlemesini de güncelle. Otomatik üretilen `src/faq-data.js` ve `dist/` dosyalarını düzenleme veya gönderme.
+3. Türkçe anlatımı, mevcut wiki tasarımını ve Apian 1 / Apian 2 ayrımını koru. Yalnızca paylaşma hakkına sahip olduğun içerikleri kullan.
+4. `npm test` ve `npm run build` komutlarını çalıştır. Arayüz değişikliği yaptıysan `npm run dev` ile siteyi açıp masaüstü ve mobil görünümü kontrol et.
+5. Değişikliklerini kendi dalına kaydedip gönder ve bu deponun `main` dalına bir birleştirme isteği (**Pull request**) aç. Neyi değiştirdiğini ve nasıl kontrol ettiğini kısaca yaz; görsel değişikliklerde ekran görüntüsü ekle.
+
+Depoya yazma yetkisi bulunan `@ardatas` ve `@egemenbaha`, güncel `main` değişikliklerini aldıktan ve kontrolleri tamamladıktan sonra doğrudan ana dala gönderebilir. Ayrıntılar için [katkı rehberine](CONTRIBUTING.md) bak.
+
+## Açık kaynak ve lisans
 
 Kitap ve onay işaretli logo, [AnimateIcons](https://github.com/Avijit07x/animateicons) / Avijit Dey’in Book Open Check animasyonundan ve [Lucide](https://github.com/lucide-icons/lucide) ikonundan uyarlanmıştır. Başlıktaki SVG, CSS ile üzerine gelindiğinde veya klavyeyle odaklandığında bir kez oynar; hareket azaltma ayarında sabit kalır. Ek çalışma zamanı bağımlılığı gerektirmez. Sekme simgesi ve isteğe bağlı forum aynı statik SVG’yi kullanır. MIT/ISC atıfları ve lisans metinleri [src/icon-licenses.txt](src/icon-licenses.txt) içinde, yayın çıktısına da dahil edilir.
 

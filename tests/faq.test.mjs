@@ -11,11 +11,11 @@ const faq = parseFaq(source);
 const searchIndex = createSearchIndex(topics, faq.questions);
 
 test('all reviewed questions, sources and pending items survive the Markdown import', () => {
-  assert.equal(faq.questions.length, 144);
+  assert.equal(faq.questions.length, 165);
   assert.equal(faq.openQuestions.length, 2);
   assert.match(faq.openQuestions[0], /^\*\*Boya:/);
   assert.match(faq.openQuestions[1], /Apian 1 oda ölçüleri/);
-  assert.equal(faq.updatedAt, '5 Kasım 2026');
+  assert.equal(faq.updatedAt, '13 Kasım 2026');
   assert.match(faq.questions[36].answer, /açık bırakıldı/);
   const sourceLinks = [...source.split('### 1.')[1].matchAll(/\]\((https?:\/\/[^)]+)\)/g)].map(match => match[1]);
   const importedCopy = [...faq.questions.map(question => question.answer), ...faq.openQuestions].join('\n');
@@ -52,6 +52,45 @@ test('Markdown formatting preserves sources without allowing raw HTML or unsafe 
   assert.equal((html.match(/<p>/g) || []).length, 2);
 });
 
+test('local photo galleries preserve accessible captions, credits and enlargement links', () => {
+  const html = renderAnswer('Örnekler\n\n![Gümüş böceği "yakın" <görünüm>](src/images/bugs/gumus-bocegi.webp)\n**Gümüş böceği**\n[Fotoğrafçı](https://example.com/author) · [Lisans](https://example.com/license)\n![Kâğıt böceği](src/images/bugs/kagit-bocegi.webp)\n<script>alert(1)</script>\n\nSon not.');
+  assert.equal((html.match(/<figure /g) || []).length, 2);
+  assert.equal((html.match(/<p>/g) || []).length, 2);
+  assert.match(html, /alt="Gümüş böceği &quot;yakın&quot; &lt;görünüm&gt;"/);
+  assert.match(html, /href="src\/images\/bugs\/gumus-bocegi.webp" target="_blank" rel="noopener noreferrer"/);
+  assert.match(html, /loading="lazy" decoding="async"/);
+  assert.match(html, /<figcaption><strong>Gümüş böceği<\/strong><br><a href="https:\/\/example.com\/author"/);
+  assert.match(html, /href="https:\/\/example.com\/license"/);
+  assert.doesNotMatch(html, /<script>/);
+  assert.match(renderAnswer('![Ev çıyanı](src/images/bugs/ev-ciyani.webp)'), /<figcaption>Ev çıyanı<\/figcaption>/);
+});
+
+test('photo rendering rejects external images, executable URLs and paths outside the image directory', () => {
+  for (const path of [
+    'https://example.com/tracker.png', '//example.com/tracker.png',
+    'javascript:alert(1)', 'data:image/svg+xml,<svg>',
+    'src/images/../private.png', 'src/images/%2e%2e/private.png',
+    'src/images/bugs/a.svg', 'src/images/a.webp?track=1',
+    'src/images/a.webp"onerror="alert(1)'
+  ]) assert.doesNotMatch(renderAnswer(`![Örnek](${path})`), /<img|<figure/);
+});
+
+test('published insect galleries include packaged images and keep file paths out of search excerpts', async () => {
+  const images = [];
+  for (const id of [147, 149, 150]) {
+    const answer = faq.questions.find(question => question.id === id).answer;
+    for (const match of answer.matchAll(/!\[[^\]]+\]\((src\/images\/[^)]+)\)/g)) {
+      images.push(match[1]);
+      const bytes = await readFile(new URL(`../${match[1]}`, import.meta.url));
+      assert.equal(bytes.toString('ascii', 8, 12), 'WEBP');
+    }
+  }
+  assert.equal(images.length, 5);
+  const matches = findMatches('Lepisma saccharina', searchIndex);
+  assert.ok(matches.some(match => match.href === '#bocekler/soru-149'));
+  assert.doesNotMatch(JSON.stringify(matches), /src\/images\/|!\[/);
+});
+
 test('tables keep column and row headings, inline formatting and escaped cell content', () => {
   const html = renderAnswer('Ölçüler\n\n| Eşya | Ölçü |\n| --- | --- |\n| <img src=x onerror=alert(1)> | **7 adet** |\n| Perde | [Kaynak](https://example.com) [x](javascript:alert(1)) |\n\nSon not.');
   assert.match(html, /<th scope="col">Eşya<\/th>/);
@@ -72,7 +111,7 @@ test('night assistance and confirmed Apian 2 door hours are distinguished from A
   assert.match(faq.questions[19].answer, /Apian 2/);
   assert.match(faq.questions[19].answer, /21\.00–06\.00/);
   assert.match(faq.questions[19].answer, /10 €/);
-  assert.match(faq.questions[19].answer, /2025/);
+  assert.doesNotMatch(faq.questions[19].answer, /Temmuz 2025/);
   assert.match(faq.questions[17].answer, /Apian 2’nin dış kapısı akşam 21\.00’de kilitleniyor, sabah 06\.00’da açılıyor/);
   assert.doesNotMatch(faq.questions[17].answer, /açık bırakıldı|yanıtı eklenecek/);
 });
@@ -88,6 +127,23 @@ test('Rathaus link renders a map with the supplied pin and a directions fallback
   assert.ok(!renderAnswer('[x](https://example.com/maps/place/x/!3d48!4d11)').includes('<iframe'));
   assert.ok(!renderAnswer('[x](https://www.google.com/maps/place/x/!3d999!4d11)').includes('<iframe'));
   assert.ok(!renderAnswer('[<script>](https://www.google.com/maps/place/x/!3d48!4d11)').includes('<script>'));
+});
+
+test('address maps encode the destination and reject unsupported map URLs', () => {
+  const address = 'dm Maria-Nindl-Platz 2, München & Umgebung';
+  const html = renderAnswer(`[dm](https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)})`);
+  assert.match(html, /class="location-card"/);
+  assert.ok(html.includes(`q=${encodeURIComponent(address)}&amp;z=17`));
+  assert.ok(html.includes(`destination=${encodeURIComponent(address)}`));
+  for (const url of [
+    'https://www.google.com/maps/search/?api=1&query=',
+    'https://www.google.com/maps/search/?api=1&query=%20',
+    'https://www.google.com/maps/search/?query=Munich',
+    'https://www.google.com/maps/search/extra?api=1&query=Munich',
+    'https://www.google.com.evil.test/maps/search/?api=1&query=Munich'
+  ]) assert.doesNotMatch(renderAnswer(`[x](${url})`), /<iframe/);
+  const unsafe = renderAnswer('[<script>](https://www.google.com/maps/search/?api=1&query=%22%3E%3Cscript%3E)');
+  assert.doesNotMatch(unsafe, /<script>|q="/);
 });
 
 test('pharmacy comes first in the shopping topic without mixing Sunday market hours', () => {

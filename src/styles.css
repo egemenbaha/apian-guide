@@ -9,6 +9,17 @@ main{min-width:0}h1,h2{font-family:'Linux Libertine',Georgia,'Times New Roman',s
 @media(max-width:900px){.site-header{flex-wrap:wrap;padding:15px 22px;gap:15px}.brand strong{font-size:23px}.brand-mark{width:40px;height:40px}.global-search{flex:1;margin-left:12px}.header-note{display:none}.layout,:root[data-width="wide"] .layout{display:block;padding:20px 28px 0}.sidebar{display:none;position:static;max-height:none;margin-bottom:25px}.sidebar.is-open{display:block}.portal-grid{gap:12px}.site-subtitle{margin-bottom:20px}}
 @media(max-width:600px){.site-header{padding:14px 18px;gap:12px}.brand small{font-size:11px}.global-search{flex-basis:100%;margin:0}.layout{padding:10px 18px 0}h1{font-size:27px}.portal-grid{grid-template-columns:1fr}.topic-group:nth-child(3){grid-column:auto}.topic-group:nth-child(3) ul{columns:1}.welcome{padding:20px 12px}.welcome h2{font-size:24px}.page-tabs{gap:16px}.page-tabs .language{display:none}.article-pagination{font-size:12px}.notice{padding:10px 12px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+.memorial-banner{display:flex;align-items:center;width:100%;background:#17191c;color:#f8f9fa;border-bottom:1px solid #40464d;font-size:14px;line-height:1.5}
+.memorial-window{flex:1;min-width:0;overflow:hidden}
+.memorial-track{display:flex}
+.memorial-group{display:flex;flex-shrink:0;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 20px;width:100%;padding:10px 24px;text-align:center}
+.memorial-group[aria-hidden="true"]{display:none}
+.memorial-ribbon{display:block;flex:0 0 16px;width:16px;height:24px;fill:#17191c;stroke:#c8ccd1;stroke-width:1;stroke-linejoin:round}
+@media(prefers-reduced-motion:no-preference){
+  .memorial-banner[data-ready] .memorial-track{width:max-content;animation:memorial-scroll 32s linear infinite}
+  .memorial-banner[data-ready] .memorial-group{display:flex;flex-wrap:nowrap;width:auto;min-width:100vw;white-space:nowrap}
+}
+@keyframes memorial-scroll{to{transform:translateX(-50%)}}
 /* AnimateIcons Book Open Check, adapted to CSS; see icon-licenses.txt. */
 .brand-mark{color:var(--ink);flex-shrink:0;overflow:visible;transform-origin:center}
 .brand-book{transform-box:view-box;transform-origin:center}
@@ -37,6 +48,16 @@ main{min-width:0}h1,h2{font-family:'Linux Libertine',Georgia,'Times New Roman',s
 .faq-table thead{background:var(--panel);border-bottom:2px solid var(--border)}
 .faq-table th{font-weight:600}.faq-table th:first-child{width:45%}
 .faq-table tbody tr:nth-child(even){background:var(--panel)}
+.faq-photo-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:20px 0}
+.faq-photo{min-width:0;margin:0;border:1px solid var(--border);background:var(--panel)}
+.faq-photo:only-child{grid-column:1/-1;max-width:560px;width:100%}
+.faq-photo-link{display:block;position:relative;background:#fff}
+.faq-photo-link img{display:block;width:100%;height:260px;object-fit:contain}
+.faq-photo-link:focus-visible{outline:3px solid var(--link);outline-offset:3px}
+.faq-photo-zoom{display:block;padding:5px 10px;border-top:1px solid var(--subtle);background:var(--panel);font-size:12px}
+.faq-photo figcaption{padding:10px 12px;font-size:13px;line-height:1.65}
+.faq-photo figcaption strong{font-size:14px}
+@media(max-width:600px){.faq-photo-gallery{grid-template-columns:1fr}.faq-photo-link img{height:230px}}
 @media(max-width:600px){.faq-table th,.faq-table td{padding:10px 9px}}
 .theme-toggle{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex-shrink:0;min-height:44px;min-width:44px;padding:6px 12px;border:1px solid var(--border);border-radius:3px;background:var(--panel);color:var(--ink);font-size:13px;font-weight:600;white-space:nowrap;margin-left:auto}.theme-toggle:hover{border-color:var(--link);color:var(--link)}.theme-icon{font-size:22px;line-height:1}.theme-toggle+.header-note{margin-left:0}
 @media(max-width:900px){.global-search{order:1;flex-basis:100%;margin-left:0}}
@@ -85,3 +106,37 @@ main{min-width:0}h1,h2{font-family:'Linux Libertine',Georgia,'Times New Roman',s
 :root[data-color="dark"] .topic-group[data-group="Çevre rehberi"] h3 {
   background: #503b20;
 }
+
+/* Monthly calendar uses the existing wiki colors and typography. */
+.holiday-section{margin:24px 0 30px}.holiday-intro,.holiday-footer{font-size:.875rem;color:var(--muted)}.holiday-footer span{display:block;font-size:.75rem;margin-top:4px}.calendar-toolbar{display:flex;align-items:center;gap:10px;margin:16px 0}.calendar-toolbar h3{margin:0;flex:1;text-align:center;text-transform:capitalize}.calendar-toolbar button{background:var(--panel);color:var(--ink);border:1px solid var(--border);padding:5px 12px;min-height:40px}.calendar-toolbar button:hover{background:var(--subtle)}.holiday-calendar{width:100%;table-layout:fixed;border-collapse:collapse}.holiday-calendar th{font-size:.8125rem;font-weight:600;color:var(--muted);background:var(--panel);padding:8px 0}.holiday-calendar td{border:1px solid var(--subtle);padding:0;vertical-align:top;height:70px}.holiday-calendar td>a,.calendar-day{display:flex;flex-direction:column;padding:8px;min-height:70px}.holiday-calendar td>a{background:var(--panel);font-weight:600}.holiday-calendar small{font-size:.6875rem;margin-top:3px;white-space:nowrap}.holiday-calendar .calendar-today{outline:2px solid var(--link);outline-offset:-2px}.calendar-empty{background:var(--panel)}.calendar-events{list-style:none;padding:0;margin:18px 0}.calendar-events li{border-bottom:1px solid var(--subtle);padding:10px 0}.calendar-events li:focus{outline:2px solid var(--link);outline-offset:4px}.calendar-events p{font-size:.8125rem;color:var(--muted);margin:3px 0}.holiday-date{font-size:.8125rem;color:var(--muted)}.holiday-region{font-size:.6875rem;border:1px solid var(--border);padding:1px 4px;color:var(--muted);white-space:nowrap}@media(max-width:600px){.holiday-calendar td,.holiday-calendar td>a,.calendar-day{min-height:54px;height:54px}.holiday-calendar td>a,.calendar-day{padding:5px}.calendar-toolbar{gap:6px}.calendar-toolbar button{padding:5px 9px}.holiday-calendar small{font-size:.6rem}}
+
+/* Let the local guide use the full directory width, with readable mobile rows. */
+.topic-group[data-group="Çevre rehberi"]{grid-column:1 / -1;min-width:0}
+.topic-group[data-group="Çevre rehberi"] ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:8px 28px;padding-left:22px}
+.topic-group[data-group="Çevre rehberi"] .topic-card{min-width:0;overflow-wrap:anywhere}
+.topic-group[data-group="Çevre rehberi"] .topic-card>a{display:inline-block;padding:5px 0}
+@media(max-width:600px){.topic-group[data-group="Çevre rehberi"] ul{grid-template-columns:minmax(0,1fr);gap:4px}.topic-group[data-group="Çevre rehberi"] .topic-card>a{padding:10px 0 4px}.topic-group[data-group="Çevre rehberi"] .card-sections{font-size:13px}}
+
+/* Compact month widget, inspired by Wikipedia's Calendar template. */
+.holiday-section{width:320px;max-width:100%;border:1px solid var(--border);background:var(--bg);padding:10px;margin:18px 0 24px}
+.holiday-section h2{font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:600;margin:0;border:0;padding:0}
+.holiday-section .holiday-intro,.holiday-section .holiday-footer{font-size:11px;line-height:1.5;margin:7px 0}
+.calendar-toolbar{gap:3px;margin:8px 0 3px;background:var(--panel)}
+.calendar-toolbar h3{font-size:13px}.calendar-toolbar button{min-height:30px;padding:3px 7px;font-size:12px;border:0;background:transparent}
+.holiday-calendar th{padding:4px 0;font-size:11px}.holiday-calendar td{height:32px;border:0;text-align:center}.calendar-empty{background:transparent}
+.holiday-calendar .calendar-day,.calendar-event-day{min-height:32px;height:32px;width:100%;padding:5px 0;font-size:12px;line-height:22px}
+.calendar-event-day{position:relative;border:0;background:transparent;color:var(--link);font-weight:700;text-decoration:underline;text-underline-offset:2px}
+.calendar-event-day:hover,.calendar-event-day[aria-expanded="true"]{background:var(--subtle)}
+.calendar-dot{position:absolute;width:3px;height:3px;border-radius:50%;background:var(--link);bottom:2px;left:calc(50% - 1.5px)}
+.calendar-events{margin:8px 0 0;border-top:1px solid var(--border)}.calendar-events li{padding:8px 0}.calendar-events li:last-child{border-bottom:0}.calendar-events li>div{font-size:13px}.calendar-events .holiday-date,.calendar-events p{font-size:11px}
+
+/* Keep the compact calendar beside the next three dates. */
+.holiday-section{display:grid;grid-template-columns:320px minmax(0,1fr);gap:24px;width:100%;border:0;padding:0;background:transparent;align-items:start}
+.calendar-panel{min-width:0;border:1px solid var(--border);background:var(--bg);padding:10px}
+.holiday-upcoming{min-width:0}.holiday-upcoming h3{font-size:15px;margin:0 0 12px;padding-bottom:8px;border-bottom:1px solid var(--subtle)}
+.holiday-upcoming ol{list-style:none;margin:0;padding:0}.holiday-upcoming li{padding:0 0 14px;margin:0 0 14px;border-bottom:1px solid var(--subtle)}.holiday-upcoming li:last-child{border:0;margin:0;padding:0}
+.holiday-upcoming li>div{font-size:14px;margin-top:3px}.holiday-upcoming li a{font-weight:600}.holiday-upcoming p{font-size:12px;color:var(--muted);margin:4px 0 0}
+@media(max-width:700px){.holiday-section{grid-template-columns:minmax(0,1fr);gap:18px}.calendar-panel{width:320px;max-width:100%}.holiday-upcoming{max-width:100%}}
+
+.holiday-region{display:inline-block;border:0;padding:0;font-size:17px;line-height:1.2;vertical-align:baseline}
+@media(max-width:700px){.calendar-panel{justify-self:center}.holiday-upcoming{width:320px;max-width:100%;justify-self:center}}

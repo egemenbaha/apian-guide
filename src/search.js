@@ -21,7 +21,7 @@ export function normalize(text) {
 }
 
 function plainText(markdown) {
-  return markdown.replace(/\[([^\]]+)\]\([^\s)]+\)/g, '$1')
+  return markdown.replace(/!?\[([^\]]+)\]\([^\s)]+\)/g, '$1')
     .replace(/https?:\/\/\S+/g, '').replace(/^\|[\s|:-]+\|$/gm, '')
     .replace(/^- \[ \] /gm, '').replace(/[*_`#]/g, '').replace(/\|/g, ' · ')
     .replace(/\s+/g, ' ').replace(/(?:\s*·\s*){2,}/g, ' · ').trim();

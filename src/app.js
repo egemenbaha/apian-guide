@@ -1,5 +1,5 @@
-// One shared switch controls forum navigation and the local server route.
-const { forumEnabled = false } = await fetch(new URL('./features.json', import.meta.url)).then(response => response.json()).catch(() => ({}));
+// The build optionally adds the public Umami website ID to the feature settings.
+const { forumEnabled = false, umamiWebsiteId } = await fetch(new URL('./features.json', import.meta.url)).then(response => response.json()).catch(() => ({}));
 document.querySelector('.forum-link').hidden = forumEnabled !== true;
 import { topics, sectionQuestionIds } from './topics.js';
 import { faq } from './faq-data.js';
@@ -7,6 +7,17 @@ import { escapeHtml, renderInline, renderAnswer } from './faq.js';
 import { checklistToolbar, mountChecklist } from './checklist.js';
 import { renderCorrection, topicSuggestionUrl } from './corrections.js';
 import { mountSearch } from './search-ui.js';
+import { renderHolidayCalendar, berlinDate, shiftMonth } from './holidays.js';
+import { startAnalytics } from './analytics.js';
+const analytics = startAnalytics(umamiWebsiteId);
+const memorial = document.querySelector('.memorial-banner');
+if (memorial) {
+  const memorialCopy = memorial.querySelector('.memorial-group').cloneNode(true);
+  memorialCopy.setAttribute('aria-hidden', 'true');
+  memorial.querySelector('.memorial-track').append(memorialCopy);
+  memorial.dataset.ready = 'true';
+
+}
 const questionsById = new Map(faq.questions.map(question => [question.id, question]));
 const content = document.querySelector('#page-content');
 const nav = document.querySelector('#topic-nav');
@@ -35,9 +46,11 @@ function home() {
   document.title = 'Apian Wiki — Apian’da yaşam rehberi';
   content.innerHTML = `<h1>Ana sayfa</h1>${tabs('Ana sayfa')}<p class="site-subtitle">Apian Wiki, Apian’da yaşam rehberi.</p>
   <section class="welcome" aria-labelledby="welcome-title"><h2 id="welcome-title"><strong>Apian Wiki</strong>’ye hoş geldiniz</h2><p>Apian sakinleri ve yeni taşınacak Türk öğrenciler için bilgi rehberi.</p><p class="welcome-meta">Apian 1 · Apian 2 · <a href="#konular">${topics.length} konu başlığı</a> · <a href="#acik-sorular">Açık sorular ve öneriler</a></p></section>
+  ${renderHolidayCalendar()}
   <section id="konular" class="directory"><h2>Rehber konuları</h2><div class="portal-grid">${groups.map(group => `<section class="topic-group" data-group="${escapeHtml(group)}"><h3>${group}</h3><ul>${topics.filter(topic => topic.group === group).map(card).join('')}</ul></section>`).join('')}</div></section>
   ${forumEnabled === true ? '<section id="topluluk" class="about"><h2>Topluluk forumu</h2><p>Rehbere katkı sunmak, bilgi paylaşmak veya bir konuyu birlikte değerlendirmek için <a href="/forum/index.php?title=Talk:Forum">Apian Wiki forumuna katıl</a>. Konu açmak ve yanıt yazmak için giriş yapman gerekiyor.</p></section>' : ''}
-  <section id="hakkinda" class="about"><h2>Rehber hakkında</h2><p>Apian’da yerleşme, günlük yaşam ve resmî işlemlere yönelik bağımsız bir bilgi rehberidir. Konulara soldaki içindekiler bölümünden veya arama alanından ulaşabilirsin.</p><p>Apian 1 ve Apian 2 bilgileri ayrı tutulur; kaynak bağlantıları ilgili yanıtların yanında yer alır. Bu proje yurt yönetiminin resmî yayını değildir.</p></section>
+  <section id="hakkinda" class="about"><h2>Rehber hakkında</h2><p>Apian’da yerleşme, günlük yaşam ve resmî işlemlere yönelik bağımsız bir bilgi rehberidir. Konulara soldaki içindekiler bölümünden veya arama alanından ulaşabilirsin.</p><p>Apian 1 ve Apian 2 bilgileri ayrı tutulur; kaynak bağlantıları ilgili yanıtların yanında yer alır. Bu proje yurt yönetiminin resmî yayını değildir.</p>
+  ${umamiWebsiteId ? '<p>Hangi konuların okunduğunu ve arama sonuçlarının kaç kez açıldığını Umami ile sayıyoruz. Aradığın kelimeler ve taşınma listesindeki işaretlerin tarayıcında kalır. Tarayıcında Do Not Track veya Global Privacy Control açıksa ziyaretin ölçüme katılmaz.</p>' : ''}</section>
   <section id="acik-sorular" class="about">
     <h2>${faq.openQuestions.length === 1 ? 'Açık kalan soru' : 'Açık kalan sorular'}</h2>
     ${faq.openQuestions.length ? `<ul>${faq.openQuestions.map(question => `<li>${renderInline(question)}</li>`).join('')}</ul>` : '<p>Açık kalan soru bulunmuyor.</p>'}
@@ -49,6 +62,7 @@ function home() {
 const guideSearch = mountSearch({
   root: document.querySelector('.global-search'), topics, questions: faq.questions,
   onSelect: match => {
+    analytics?.searchResult();
     if (location.hash === match.href) render();
     document.querySelector('main').focus({ preventScroll: true });
   },
@@ -70,9 +84,7 @@ function setColorTheme(color, save = true) {
     catch { /* Theme switching also works when browser storage is unavailable. */ }
   }
 }
-let savedTheme = 'light';
-try { savedTheme = localStorage.getItem('apian-color-theme') || 'light'; } catch { /* Use the default theme. */ }
-setColorTheme(savedTheme, false);
+setColorTheme(document.documentElement.dataset.color, false);
 themeToggle.hidden = false;
 themeToggle.addEventListener('click', () => {
   setColorTheme(document.documentElement.dataset.color === 'dark' ? 'light' : 'dark');
@@ -109,6 +121,7 @@ function render() {
     topic ? article(topic) : home();
     if (topic?.checklist) mountChecklist(content);
     currentTopic = route;
+    analytics?.view(topic);
     window.scrollTo(0, 0);
     if (document.activeElement !== document.body) document.querySelector('main').focus({ preventScroll: true });
   }
@@ -125,3 +138,42 @@ function render() {
 }
 window.addEventListener('hashchange', render);
 render();
+
+// Refresh only the calendar when an open page crosses midnight in Munich.
+let holidayDate = berlinDate();
+function refreshHolidayTimeline() {
+  const today = berlinDate();
+  if (today === holidayDate) return;
+  holidayDate = today;
+  const section = document.querySelector('.holiday-section');
+  if (section) section.outerHTML = renderHolidayCalendar(today, section.dataset.month);
+}
+setInterval(refreshHolidayTimeline, 60_000);
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden) refreshHolidayTimeline();
+});
+
+content.addEventListener('click', event => {
+  const day = event.target.closest('[data-calendar-day]');
+  if (day) {
+    event.preventDefault();
+    const section = day.closest('.holiday-section');
+    const selected = day.getAttribute('aria-expanded') !== 'true';
+    section.querySelectorAll('[data-calendar-day]').forEach(button => button.setAttribute('aria-expanded', 'false'));
+    day.setAttribute('aria-expanded', String(selected));
+    const details = section.querySelector('#calendar-details');
+    details.hidden = !selected;
+    details.querySelectorAll('li').forEach(item => {
+      item.hidden = !selected || item.dataset.eventStart > day.dataset.calendarDay || item.dataset.eventEnd < day.dataset.calendarDay;
+    });
+    return;
+  }
+  const button = event.target.closest('[data-calendar-action]');
+  if (!button) return;
+  const section = button.closest('.holiday-section');
+  const action = button.dataset.calendarAction;
+  const today = berlinDate();
+  const month = action === 'today' ? today.slice(0, 7) : shiftMonth(section.dataset.month, action === 'prev' ? -1 : 1);
+  section.outerHTML = renderHolidayCalendar(today, month);
+  content.querySelector(`[data-calendar-action="${action}"]`)?.focus({ preventScroll: true });
+});

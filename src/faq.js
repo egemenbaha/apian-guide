@@ -19,18 +19,25 @@ export function renderInline(text) {
   return html + escapeHtml(text.slice(position));
 }
 
-// Enhance standalone Google Maps place links; other Markdown uses the normal renderer.
+// Enhance standalone Google Maps place/address links; other Markdown stays unchanged.
 export function renderMapLink(paragraph) {
   const match = paragraph.match(/^\[([^\]]+)\]\((https:\/\/[^\s)]+)\)$/);
   if (!match) return null;
   let url;
   try { url = new URL(match[2]); } catch { return null; }
-  if (url.origin !== 'https://www.google.com' || !url.pathname.startsWith('/maps/place/')) return null;
-  const coordinates = url.pathname.match(/!3d(-?[\d.]+)!4d(-?[\d.]+)/);
-  if (!coordinates) return null;
-  const [latitude, longitude] = coordinates.slice(1).map(Number);
-  if (!Number.isFinite(latitude) || !Number.isFinite(longitude) || Math.abs(latitude) > 90 || Math.abs(longitude) > 180) return null;
-  const destination = `${latitude},${longitude}`;
+  if (url.origin !== 'https://www.google.com') return null;
+  let destination;
+  if (url.pathname.startsWith('/maps/place/')) {
+    const coordinates = url.pathname.match(/!3d(-?[\d.]+)!4d(-?[\d.]+)/);
+    if (!coordinates) return null;
+    const [latitude, longitude] = coordinates.slice(1).map(Number);
+    if (!Number.isFinite(latitude) || !Number.isFinite(longitude) || Math.abs(latitude) > 90 || Math.abs(longitude) > 180) return null;
+    destination = `${latitude},${longitude}`;
+  } else if (/^\/maps\/search\/?$/.test(url.pathname) && url.searchParams.get('api') === '1') {
+    const address = url.searchParams.get('query')?.trim();
+    if (!address) return null;
+    destination = encodeURIComponent(address);
+  } else return null;
   const embed = `https://maps.google.com/maps?q=${destination}&z=17&output=embed`;
   const directions = `https://www.google.com/maps/dir/?api=1&destination=${destination}`;
   return `<aside class="location-card" aria-label="${escapeHtml(match[1])}">
@@ -63,6 +70,25 @@ function renderChecklist(paragraph, prefix) {
   }).join('')}</ul>`;
 }
 
+// Consecutive local Markdown images and their caption lines form a photo gallery.
+function renderPhotoGallery(paragraph) {
+  const photos = paragraph.trim().split(/\n(?=!\[)/).map(block => {
+    const [image, ...caption] = block.split('\n');
+    const match = image.match(/^!\[([^\]\n]+)\]\((src\/images\/(?:[a-z0-9-]+\/)*[a-z0-9-]+\.(?:webp|jpe?g|png))\)$/);
+    if (!match) return null;
+    const [, alt, source] = match;
+    return `<figure class="faq-photo">
+      <a class="faq-photo-link" href="${source}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(alt)} — fotoğrafı büyüt (yeni sekme)">
+        <img src="${source}" alt="${escapeHtml(alt)}" loading="lazy" decoding="async">
+        <span class="faq-photo-zoom" aria-hidden="true">Fotoğrafı büyüt ↗</span>
+      </a>
+      <figcaption>${caption.length ? caption.map(renderInline).join('<br>') : escapeHtml(alt)}</figcaption>
+    </figure>`;
+  });
+  if (photos.some(photo => photo === null)) return null;
+  return `<div class="faq-photo-gallery">${photos.join('')}</div>`;
+}
+
 export function renderAnswer(answer, { checklistPrefix = '' } = {}) {
-  return answer.split(/\n\s*\n/).map(paragraph => renderChecklist(paragraph, checklistPrefix) ?? renderTable(paragraph) ?? renderMapLink(paragraph) ?? `<p>${renderInline(paragraph)}</p>`).join('');
+  return answer.split(/\n\s*\n/).map(paragraph => renderChecklist(paragraph, checklistPrefix) ?? renderTable(paragraph) ?? renderMapLink(paragraph) ?? renderPhotoGallery(paragraph) ?? `<p>${renderInline(paragraph)}</p>`).join('');
 }
